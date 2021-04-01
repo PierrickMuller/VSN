@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<rmdb version="1.0" toprunnables="directed">
+  <!-- ============== -->
+  <!-- DIRECTED TESTS -->
+  <!-- ============== -->
+  <runnable name="directed" type="group">
+    <parameters>
+      <parameter name="ucdbfile">../(%INSTANCE%).ucdb</parameter>
+      <parameter name="mergefile">(%DATADIR%)/merge.ucdb</parameter>
+      <parameter name="tplanfile">(%RMDBDIR%)/morse_burst_emitter.xml</parameter>
+      <parameter name="tplanoptions">-format Excel</parameter>
+    </parameters>
+    <members>
+      <member>test0</member>
+      <member>testerrno0</member>
+      <member>testerrno1</member>
+      <member>testerrno2</member>
+      <member>testerrno3</member>
+      <member>testerrno4</member>
+      <member>testerrno5</member>
+      <member>testerrno6</member>
+      <member>testerrno7</member>
+      <member>testerrno8</member>
+      <member>testerrno9</member>
+      <member>testerrno10</member>
+      <member>testerrno11</member>
+      <member>testerrno12</member>
+      <member>testerrno13</member>
+      <member>testerrno14</member>
+      <member>testerrno15</member>
+      <member>testerrno16</member>
+      <member>testerrno17</member>
+    </members>
+
+    <execScript>
+      <command>file delete -force work</command>
+      <command>set Path_DUV "(%RMDBDIR%)/src"</command>
+      <command>set Path_TB  "(%RMDBDIR%)/src_tb"</command>
+      <command>global Path_DUV</command>
+      <command>global Path_TB</command>
+      <command>vlib tlmvm</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/heartbeat_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/heartbeat_env_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/objection_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/objection_env_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/simulation_end_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/tlm_fifo_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/tlm_unbounded_fifo_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/tlm_fifo_array_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/tlm_unbounded_fifo_array_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/memory_object_pkg.vhd</command>
+      <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/tlmvm_context.vhd</command>
+
+
+      <command>vlib common_lib</command>
+      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd</command>
+      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/comparator_pkg.vhd</command>
+      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/complex_comparator_pkg.vhd</command>
+      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/common_ctx.vhd</command>
+
+      <command>vcom -work project_lib -2008 $Path_TB/project_logger_pkg.vhd</command>
+      <command>vcom -work project_lib -2008 $Path_TB/project_ctx.vhd</command>
+
+      <command>vlib morse</command>
+      <command>vcom -2008 -work morse $Path_DUV/morse_pkg.vhd</command>
+      <command>vcom -2008 -work morse $Path_DUV/morse_burst_emitter_pkg.vhd</command>
+      <command>vlib work</command>
+      <command>vcom -2008 -work work $Path_DUV/fifo.vhd</command>
+      <command>vcom -2008 -work work $Path_DUV/morse_char_emitter.vhd</command>
+      <command>vcom -2008 -work work $Path_DUV/morse_burst_emitter.vhd</command>
+
+
+      <command>vcom -2008 $Path_TB/transactions_pkg.vhd</command>
+      <command>vcom -2008 $Path_TB/input_agent/input_agent_driver.vhd</command>
+      <command>vcom -2008 $Path_TB/input_agent/input_agent_monitor.vhd</command>
+      <command>vcom -2008 $Path_TB/input_agent/input_agent_sequencer.vhd</command>
+      <command>vcom -2008 $Path_TB/input_agent/input_agent.vhd</command>
+      <command>vcom -2008 $Path_TB/output_agent/output_agent_monitor.vhd</command>
+      <command>vcom -2008 $Path_TB/output_agent/output_agent.vhd</command>
+      <command>vcom -2008 $Path_TB/scoreboard.vhd</command>
+      <command>vcom -2008 $Path_TB/morse_burst_emitter_tb.vhd</command>
+
+      <command>vsim -coverage -t 10ps -GFIFOSIZE=(%FIFOSIZE%) -GTESTCASE=(%TESTCASE%) -GERRNO=(%ERRNO%) work.morse_burst_emitter_tb</command>
+      <command>set StdArithNoWarnings 1</command>
+      <command>set NumericStdNoWarnings 1</command>
+      <command>run 2 ns</command>
+      <command>set StdArithNoWarnings 0</command>
+      <command>set NumericStdNoWarnings 0</command>
+      <command>run -all</command>
+      <command>coverage attribute -name TESTNAME -value (%INSTANCE%)</command>
+      <command>coverage save (%ucdbfile%)</command>
+    </execScript>
+  </runnable>
+  <runnable name="test0" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno0" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno1" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">1</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno2" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">2</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno3" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">3</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno4" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">4</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno5" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">5</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno6" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">6</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno7" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">7</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno8" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">8</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno9" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">9</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno10" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">10</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno11" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">11</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno12" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">12</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno13" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">13</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno14" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">14</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno15" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">15</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno16" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">16</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno17" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">17</parameter>
+    </parameters>
+  </runnable>
+</rmdb>
