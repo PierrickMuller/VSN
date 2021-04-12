@@ -1,0 +1,84 @@
+20210321T142733 selects {I /directed}
+20210321T142733 options -mseed 0
+20210321T142733 vrundir /home/reds/vsn21_student/labo2/code
+20210321T142733 vrmdata /home/reds/vsn21_student/labo2/code/VRMDATA
+20210321T142733 logfile /home/reds/vsn21_student/labo2/code/VRMDATA/logs/210321_142733.rmev
+20210321T142733 begin 40989@reds2021 /home/reds/vsn21_student/labo2/code/default.rmdb /home/reds/vsn21_student/labo2/code/VRMDATA
+20210321T142733 eligible directed/preScript {}
+20210321T142734 done directed/preScript empty
+20210321T142734 eligible directed/test0/execScript {}
+20210321T142734 eligible directed/testerrno0/execScript {}
+20210321T142734 eligible directed/testerrno1/execScript {}
+20210321T142734 eligible directed/testerrno2/execScript {}
+20210321T142734 eligible directed/testerrno3/execScript {}
+20210321T142734 eligible directed/testerrno4/execScript {}
+20210321T142734 eligible directed/testerrno5/execScript {}
+20210321T142734 eligible directed/testerrno6/execScript {}
+20210321T142734 eligible directed/testerrno7/execScript {}
+20210321T142734 eligible directed/testerrno8/execScript {}
+20210321T142734 launched directed/test0/execScript
+20210321T142734 launched directed/testerrno0/execScript
+20210321T142734 launched directed/testerrno1/execScript
+20210321T142734 launched directed/testerrno2/execScript
+20210321T142734 launched directed/testerrno3/execScript
+20210321T142734 launched directed/testerrno4/execScript
+20210321T142734 launched directed/testerrno5/execScript
+20210321T142734 launched directed/testerrno6/execScript
+20210321T142734 launched directed/testerrno7/execScript
+20210321T142734 launched directed/testerrno8/execScript
+20210321T142738 running directed/test0/execScript reds2021
+20210321T142738 running directed/testerrno2/execScript reds2021
+20210321T142739 running directed/testerrno0/execScript reds2021
+20210321T142739 running directed/testerrno6/execScript reds2021
+20210321T142739 running directed/testerrno4/execScript reds2021
+20210321T142739 running directed/testerrno8/execScript reds2021
+20210321T142739 running directed/testerrno3/execScript reds2021
+20210321T142740 running directed/testerrno7/execScript reds2021
+20210321T142740 running directed/testerrno1/execScript reds2021
+20210321T142740 running directed/testerrno5/execScript reds2021
+20210321T142741 done directed/test0/execScript failed/script reds2021 directed/test0.ucdb {} {} {} {} {}
+20210321T142741 eligible directed/test0/deleteScript {}
+20210321T142741 done directed/testerrno2/execScript failed/script reds2021 directed/testerrno2.ucdb {} {} {} {} {}
+20210321T142741 eligible directed/testerrno2/deleteScript {}
+20210321T142742 done directed/testerrno0/execScript failed/script reds2021 directed/testerrno0.ucdb {} {} {} {} {}
+20210321T142742 eligible directed/testerrno0/deleteScript {}
+20210321T142742 done directed/testerrno6/execScript failed/script reds2021 directed/testerrno6.ucdb {} {} {} {} {}
+20210321T142742 eligible directed/testerrno6/deleteScript {}
+20210321T142742 done directed/testerrno8/execScript failed/script reds2021 directed/testerrno8.ucdb {} {} {} {} {}
+20210321T142742 eligible directed/testerrno8/deleteScript {}
+20210321T142742 done directed/testerrno7/execScript failed/script reds2021 directed/testerrno7.ucdb {} {} {} {} {}
+20210321T142742 eligible directed/testerrno7/deleteScript {}
+20210321T142742 done directed/testerrno3/execScript failed/script reds2021 directed/testerrno3.ucdb {} {} {} {} {}
+20210321T142742 eligible directed/testerrno3/deleteScript {}
+20210321T142742 done directed/testerrno4/execScript failed/script reds2021 directed/testerrno4.ucdb {} {} {} {} {}
+20210321T142742 eligible directed/testerrno4/deleteScript {}
+20210321T142742 done directed/testerrno1/execScript failed/script reds2021 directed/testerrno1.ucdb {} {} {} {} {}
+20210321T142742 eligible directed/testerrno1/deleteScript {}
+20210321T142743 done directed/testerrno5/execScript failed/script reds2021 directed/testerrno5.ucdb {} {} {} {} {}
+20210321T142743 eligible directed/testerrno5/deleteScript {}
+20210321T142743 eligible directed/postScript {}
+20210321T142743 done directed/postScript empty
+20210321T142743 eligible directed/deleteScript {}
+20210321T142746 running directed/test0/deleteScript reds2021
+20210321T142746 done directed/test0/deleteScript skipped
+20210321T142746 running directed/testerrno2/deleteScript reds2021
+20210321T142746 done directed/testerrno2/deleteScript skipped
+20210321T142747 running directed/testerrno0/deleteScript reds2021
+20210321T142747 done directed/testerrno0/deleteScript skipped
+20210321T142747 running directed/testerrno6/deleteScript reds2021
+20210321T142747 done directed/testerrno6/deleteScript skipped
+20210321T142747 running directed/testerrno8/deleteScript reds2021
+20210321T142747 done directed/testerrno8/deleteScript skipped
+20210321T142747 running directed/testerrno7/deleteScript reds2021
+20210321T142747 done directed/testerrno7/deleteScript skipped
+20210321T142747 running directed/testerrno3/deleteScript reds2021
+20210321T142747 done directed/testerrno3/deleteScript skipped
+20210321T142747 running directed/testerrno4/deleteScript reds2021
+20210321T142747 done directed/testerrno4/deleteScript skipped
+20210321T142747 running directed/testerrno1/deleteScript reds2021
+20210321T142747 done directed/testerrno1/deleteScript skipped
+20210321T142748 running directed/testerrno5/deleteScript reds2021
+20210321T142748 done directed/testerrno5/deleteScript skipped
+20210321T142748 running directed/deleteScript reds2021
+20210321T142748 done directed/deleteScript skipped
+20210321T142748 end

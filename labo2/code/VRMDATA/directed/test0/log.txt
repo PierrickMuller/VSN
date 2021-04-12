@@ -1,0 +1,10769 @@
+Running TESTCASE 0
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 5
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 2
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 3
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 5
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 7
+sun_i  (hex) : 7
+rain_i       : '1'
+wind_i       : '1'
+
+TOTAL ERRORS : 0
+TOTAL WARNINGS : 0

@@ -1,0 +1,37 @@
+20210316T181539 selects {I /directed}
+20210316T181539 options -mseed 0
+20210316T181539 vrundir /home/reds/vsn21_student/ex1_uart_spec/code
+20210316T181539 vrmdata /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA
+20210316T181539 logfile /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/logs/210316_181539.rmev
+20210316T181539 begin 35849@reds2021 /home/reds/vsn21_student/ex1_uart_spec/code/default.rmdb /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA
+20210316T181539 eligible directed/preScript {}
+20210316T181539 done directed/preScript empty
+20210316T181539 eligible directed/test0/execScript {}
+20210316T181539 eligible directed/test1/execScript {}
+20210316T181539 launched directed/test0/execScript
+20210316T181539 launched directed/test1/execScript
+20210316T181541 running directed/test1/execScript reds2021
+20210316T181541 running directed/test0/execScript reds2021
+20210316T181543 done directed/test0/execScript passed/ok reds2021 directed/test0.ucdb ok 0 6.44 {} 2
+20210316T181543 eligible directed/test0/tplanScript {}
+20210316T181543 launched directed/test0/tplanScript
+20210316T181543 done directed/test1/execScript failed/error reds2021 directed/test1.ucdb error 0 6.75 {} {}
+20210316T181543 eligible directed/test1/deleteScript {}
+20210316T181545 running directed/test0/tplanScript reds2021
+20210316T181545 done directed/test0/tplanScript passed reds2021 merge_uart_testplan.ucdb {} {} 0.00 {} {}
+20210316T181548 running directed/test1/deleteScript reds2021
+20210316T181548 done directed/test1/deleteScript skipped
+20210316T181615 eligible directed/test0/mergeScript {}
+20210316T181616 launched directed/test0/mergeScript
+20210316T181618 running directed/test0/mergeScript reds2021
+20210316T181618 merge directed/test0/tplanScript directed/test0/mergeScript /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb {} {}
+20210316T181618 done directed/test0/mergeScript passed reds2021 merge.ucdb {} {} 6.44 4.74 {}
+20210316T181618 eligible directed/postScript {}
+20210316T181618 eligible directed/test0/deleteScript {}
+20210316T181619 done directed/postScript empty
+20210316T181619 eligible directed/deleteScript {}
+20210316T181623 running directed/test0/deleteScript reds2021
+20210316T181623 done directed/test0/deleteScript skipped
+20210316T181624 running directed/deleteScript reds2021
+20210316T181624 done directed/deleteScript skipped
+20210316T181624 end

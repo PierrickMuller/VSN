@@ -1,0 +1,11 @@
+20210316T181539 begin 35849@reds2021 /home/reds/vsn21_student/ex1_uart_spec/code/default.rmdb /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA
+20210316T181624 done directed/deleteScript skipped {} {} {} {}
+20210316T181619 done directed/postScript empty {} {} {} {}
+20210316T181539 done directed/preScript empty {} {} {} {}
+20210316T181623 done directed/test0/deleteScript skipped {} {} {} {}
+20210316T181543 done directed/test0/execScript passed/ok reds2021 directed/test0.ucdb ok 0 6.44 {} 3
+20210316T181618 done directed/test0/mergeScript passed reds2021 merge.ucdb {} {} 6.44 4.74 {}
+20210316T181545 done directed/test0/tplanScript passed reds2021 merge_uart_testplan.ucdb {} {} 0.00 {} {}
+20210316T181548 done directed/test1/deleteScript skipped {} {} {} {}
+20210316T181543 done directed/test1/execScript failed/error reds2021 directed/test1.ucdb error 0 6.75 {} {}
+20210316T181627 end

@@ -50,12 +50,15 @@ begin
 
         variable trans1_v : transaction_t;
         variable trans2_v : transaction_t;
+
+        variable file_status : FILE_OPEN_STATUS;
+
     begin
 
-        logger.log_error;
-
+        -- logger initialisation (Verbosity, file name)
+        logger.define_verbosity(ERROR);
+        file_status := logger.init("Log.txt");
         wait for 20 us;
-
 
         compare(logger, a_v, b_v);
 
@@ -82,6 +85,12 @@ begin
 
         work.transaction_comparator_pkg.compare(logger, trans1_v, trans2_v);
         work.transaction_lazy_comparator_pkg.compare(logger, trans1_v, trans2_v);
+
+        -- Logger test verbosity level
+        logger.log_note("My note");
+        logger.log_warning("My warning");
+        logger.log_error("My error");
+        logger.log_failure("My failure");
 
         logger.final_report;
 

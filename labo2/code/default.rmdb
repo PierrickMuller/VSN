@@ -21,6 +21,20 @@
       <member>testerrno6</member>
       <member>testerrno7</member>
       <member>testerrno8</member>
+      <member>test_complet_N3</member>
+      <member>test_complet_N4</member>
+      <member>test_complet_N5</member>
+      <member>test_complet_N6</member>
+      <member>test_aleatoire_N4</member>
+      <member>test_aleatoire_N5</member>
+      <member>test_aleatoire_N10</member>
+      <member>test_aleatoire_N20</member>
+      <member>test_aleatoire_N32</member>
+      <member>test_limite_N4</member>
+      <member>test_limite_N5</member>
+      <member>test_limite_N10</member>
+      <member>test_limite_N20</member>
+      <member>test_limite_N32</member>
     </members>
 
     <execScript>
@@ -30,9 +44,15 @@
       <command>global Path_DUV</command>
       <command>global Path_TB</command>
       <command>vlib work</command>
-      <command>vcom +cover -2008 $Path_DUV/com_store_velux.vhdp</command>
-      <command>vcom +cover -2008 $Path_TB/com_store_velux_tb.vhd</command>
-      <command>vsim -coverage -t 10ps -GN=(%N%) -GTESTCASE=(%TESTCASE%) -GERRNO=(%ERRNO%) work.com_store_velux_tb</command>
+      <command>vcom +cover -work project_lib -2008 $Path_DUV/com_store_velux.vhdp</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/comparator_pkg.vhd</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/complex_comparator_pkg.vhd</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/common_ctx.vhd</command>
+      <command>vcom +cover -work project_lib -2008 $Path_TB/project_logger_pkg.vhd</command>
+      <command>vcom +cover -work project_lib -2008 $Path_TB/projet_ctx.vhd</command>
+      <command>vcom +cover -work project_lib -2008 $Path_TB/com_store_velux_tb.vhd</command>
+      <command>vsim -coverage -t 10ps -GN=(%N%) -GTESTCASE=(%TESTCASE%) -GERRNO=(%ERRNO%) project_lib.com_store_velux_tb</command>
       <command>set StdArithNoWarnings 1</command>
       <command>set NumericStdNoWarnings 1</command>
       <command>run 2 ns</command>
@@ -111,6 +131,104 @@
       <parameter name="TESTCASE">0</parameter>
       <parameter name="N">3</parameter>
       <parameter name="ERRNO">8</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_complet_N3" type="task">
+    <parameters>
+      <parameter name="TESTCASE">1</parameter>
+      <parameter name="N">3</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_complet_N4" type="task">
+    <parameters>
+      <parameter name="TESTCASE">1</parameter>
+      <parameter name="N">4</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_complet_N5" type="task">
+    <parameters>
+      <parameter name="TESTCASE">1</parameter>
+      <parameter name="N">5</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_complet_N6" type="task">
+    <parameters>
+      <parameter name="TESTCASE">1</parameter>
+      <parameter name="N">6</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_aleatoire_N4" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="N">4</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_aleatoire_N5" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="N">5</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_aleatoire_N10" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="N">10</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_aleatoire_N20" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="N">20</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_aleatoire_N32" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="N">32</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_limite_N4" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="N">4</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_limite_N5" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="N">5</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_limite_N10" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="N">10</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_limite_N20" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="N">20</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="test_limite_N32" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="N">32</parameter>
+      <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
 </rmdb>

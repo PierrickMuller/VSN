@@ -1,0 +1,55 @@
+# set mergefile /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb
+# /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb
+# set cmd [list vcover merge  -out $mergefile]
+# vcover merge -out /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb
+# if {[file readable $mergefile]} {lappend cmd $mergefile}
+# eval $cmd -inputs /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/directed/test0/mergeScript.files
+# QuestaSim-64 vcover 2020.1_1 Coverage Utility 2020.03 Mar  4 2020
+# Start time: 18:16:18 on Mar 16,2021
+# vcover merge -out /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb -inputs /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/directed/test0/mergeScript.files 
+# QuestaSim-64 vcover 2020.1_1 Coverage Utility 2020.03 Mar  4 2020
+# Merging file /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge_uart_testplan.ucdb
+# Merging file /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/directed/test0.ucdb
+# Writing merged result to /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb
+# 
+# Applying tag commands ...
+# ===== Testplan item: /testplan/Initialization/Reset
+# (Tag command: -tagname testplan.1.1 -testrecord testreset )
+# Warning: Potential test record "testreset" created!
+# ===== Testplan item: /testplan/Standard usage Send/Send
+# (Tag command: -tagname testplan.2.1 -testrecord send )
+# Warning: Potential test record "send" created!
+# ===== Testplan item: /testplan/Standard usage Send/Don’t Send
+# (Tag command: -tagname testplan.2.2 -testrecord dontsend )
+# Warning: Potential test record "dontsend" created!
+# ===== Testplan item: /testplan/Standard usage Send/Parity Send
+# (Tag command: -tagname testplan.2.3 -testrecord paritysend )
+# Warning: Potential test record "paritysend" created!
+# ===== Testplan item: /testplan/Standard usage Send/Nb Stop Send
+# (Tag command: -tagname testplan.2.4 -testrecord nbstopsend )
+# Warning: Potential test record "nbstopsend" created!
+# ===== Testplan item: /testplan/Standard usage Send/Clk Per Bit Send
+# (Tag command: -tagname testplan.2.5 -testrecord clkperbitsend )
+# Warning: Potential test record "clkperbitsend" created!
+# ===== Testplan item: /testplan/Standard usage Receive/Receive Valid
+# (Tag command: -tagname testplan.3.1 -testrecord receivevalid )
+# Warning: Potential test record "receivevalid" created!
+# ===== Testplan item: /testplan/Standard usage Receive/Error Out
+# (Tag command: -tagname testplan.3.2 -testrecord errorout )
+# Warning: Potential test record "errorout" created!
+# ===== Testplan item: /testplan/Standard usage Receive/Parity Receive
+# (Tag command: -tagname testplan.3.3 -testrecord parityreceive )
+# Warning: Potential test record "parityreceive" created!
+# ===== Testplan item: /testplan/Standard usage Receive/Nb Stop Receive
+# (Tag command: -tagname testplan.3.4 -testrecord nbstopreceive )
+# Warning: Potential test record "nbstopreceive" created!
+# ===== Testplan item: /testplan/Standard usage Receive/Clk Per Bit Receive
+# (Tag command: -tagname testplan.3.5 -testrecord clkperbitreceive )
+# Warning: Potential test record "clkperbitreceive" created!
+# ===== Testplan item: /testplan/Errors/Error 1
+# (Tag command: -tagname testplan.5.1 -testrecord errorone )
+# Warning: Potential test record "errorone" created!
+# All tags are applied successfully.
+# End time: 18:16:18 on Mar 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# quit -f

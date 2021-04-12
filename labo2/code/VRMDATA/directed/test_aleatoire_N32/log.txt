@@ -1,0 +1,1875 @@
+Running TESTCASE 2
+OK
+Stimulus :
+temp_i (hex) : 1FFFFF4E
+sun_i  (hex) : 1FFFFF4E
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1F2F43C4
+sun_i  (hex) : 1F2F43C4
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 14B8302A
+sun_i  (hex) : 14B8302A
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0AA8A31C
+sun_i  (hex) : 0AA8A31C
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 012EA652
+sun_i  (hex) : 212EA652
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 052CBE5F
+sun_i  (hex) : 252CBE5F
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1544C5A3
+sun_i  (hex) : 3544C5A3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 02B5A3E1
+sun_i  (hex) : 22B5A3E1
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0688490D
+sun_i  (hex) : 4688490D
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 055A9410
+sun_i  (hex) : 455A9410
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 14F5692A
+sun_i  (hex) : 54F5692A
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 041F4307
+sun_i  (hex) : 441F4307
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1D1F63AB
+sun_i  (hex) : 7D1F63AB
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 03932DEC
+sun_i  (hex) : 63932DEC
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 099194D7
+sun_i  (hex) : 699194D7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 087E8BBB
+sun_i  (hex) : 687E8BBB
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1664F5D2
+sun_i  (hex) : 9664F5D2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1E68B681
+sun_i  (hex) : 9E68B681
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 02F01CFC
+sun_i  (hex) : 82F01CFC
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1CDFFB35
+sun_i  (hex) : 9CDFFB35
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1EB5C0D7
+sun_i  (hex) : BEB5C0D7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1D477A36
+sun_i  (hex) : BD477A36
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 0E1E239F
+sun_i  (hex) : AE1E239F
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 025A8205
+sun_i  (hex) : A25A8205
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1D9459EE
+sun_i  (hex) : DD9459EE
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 02D29EC1
+sun_i  (hex) : C2D29EC1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 1D0FCB12
+sun_i  (hex) : DD0FCB12
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 0B976B00
+sun_i  (hex) : CB976B00
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 04BA061A
+sun_i  (hex) : E4BA061A
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 1C2021C7
+sun_i  (hex) : FC2021C7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 002C7240
+sun_i  (hex) : E02C7240
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 071892E0
+sun_i  (hex) : E71892E0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3F5EE796
+sun_i  (hex) : 1F5EE796
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3A907A3C
+sun_i  (hex) : 1A907A3C
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 202B1038
+sun_i  (hex) : 002B1038
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 27E1C072
+sun_i  (hex) : 07E1C072
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 39065C05
+sun_i  (hex) : 39065C05
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2AE71368
+sun_i  (hex) : 2AE71368
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2EC05CA4
+sun_i  (hex) : 2EC05CA4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 30A35249
+sun_i  (hex) : 30A35249
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 25250EBF
+sun_i  (hex) : 45250EBF
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3F2FC218
+sun_i  (hex) : 5F2FC218
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2056F9BB
+sun_i  (hex) : 4056F9BB
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2D415DF6
+sun_i  (hex) : 4D415DF6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 27742E25
+sun_i  (hex) : 67742E25
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 31C40F98
+sun_i  (hex) : 71C40F98
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 294BBC2A
+sun_i  (hex) : 694BBC2A
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 26933E26
+sun_i  (hex) : 66933E26
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 31F628B7
+sun_i  (hex) : 91F628B7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 3951E4BE
+sun_i  (hex) : 9951E4BE
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 289ABAD2
+sun_i  (hex) : 889ABAD2
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2AB254FC
+sun_i  (hex) : 8AB254FC
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 28E4C4D0
+sun_i  (hex) : A8E4C4D0
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 393BA15B
+sun_i  (hex) : B93BA15B
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3622CDCF
+sun_i  (hex) : B622CDCF
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 37959869
+sun_i  (hex) : B7959869
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 27ED3142
+sun_i  (hex) : C7ED3142
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2E681565
+sun_i  (hex) : CE681565
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 2B9FF541
+sun_i  (hex) : CB9FF541
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2BCEC383
+sun_i  (hex) : CBCEC383
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 302ABAA6
+sun_i  (hex) : F02ABAA6
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 30F01110
+sun_i  (hex) : F0F01110
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 3C145BA3
+sun_i  (hex) : FC145BA3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 2EE22075
+sun_i  (hex) : EEE22075
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 59C97735
+sun_i  (hex) : 19C97735
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4106EB86
+sun_i  (hex) : 0106EB86
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4D2506D8
+sun_i  (hex) : 0D2506D8
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5F6FA159
+sun_i  (hex) : 1F6FA159
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 55F0E7A1
+sun_i  (hex) : 35F0E7A1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4E4B5794
+sun_i  (hex) : 2E4B5794
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4A5BE307
+sun_i  (hex) : 2A5BE307
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5F75B153
+sun_i  (hex) : 3F75B153
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 577FBF46
+sun_i  (hex) : 577FBF46
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 514078A2
+sun_i  (hex) : 514078A2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 45339C24
+sun_i  (hex) : 45339C24
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 58AC6AC6
+sun_i  (hex) : 58AC6AC6
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4C0C2962
+sun_i  (hex) : 6C0C2962
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5E8B9E8C
+sun_i  (hex) : 7E8B9E8C
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4F41C30F
+sun_i  (hex) : 6F41C30F
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 461711D0
+sun_i  (hex) : 661711D0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 55620493
+sun_i  (hex) : 95620493
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 43755374
+sun_i  (hex) : 83755374
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 498289C7
+sun_i  (hex) : 898289C7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4820803D
+sun_i  (hex) : 8820803D
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 57B5AE79
+sun_i  (hex) : B7B5AE79
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4A84B61E
+sun_i  (hex) : AA84B61E
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4B0A7364
+sun_i  (hex) : AB0A7364
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4210D5BE
+sun_i  (hex) : A210D5BE
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 40EB7515
+sun_i  (hex) : C0EB7515
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4FF8331E
+sun_i  (hex) : CFF8331E
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 523F12A1
+sun_i  (hex) : D23F12A1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 55DA3077
+sun_i  (hex) : D5DA3077
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 4CAE9E71
+sun_i  (hex) : ECAE9E71
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 5A99F0B8
+sun_i  (hex) : FA99F0B8
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 425A799E
+sun_i  (hex) : E25A799E
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 4EDCA612
+sun_i  (hex) : EEDCA612
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6ECA6ADD
+sun_i  (hex) : 0ECA6ADD
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6DEC9447
+sun_i  (hex) : 0DEC9447
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 742B4816
+sun_i  (hex) : 142B4816
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 70618E52
+sun_i  (hex) : 10618E52
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 79D5FD37
+sun_i  (hex) : 39D5FD37
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6CB5F945
+sun_i  (hex) : 2CB5F945
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6B8CCBC8
+sun_i  (hex) : 2B8CCBC8
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 70B604DB
+sun_i  (hex) : 30B604DB
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 681BE171
+sun_i  (hex) : 481BE171
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 6ADA9EA9
+sun_i  (hex) : 4ADA9EA9
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 60CDD927
+sun_i  (hex) : 40CDD927
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 638B289D
+sun_i  (hex) : 438B289D
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 66EA53D7
+sun_i  (hex) : 66EA53D7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 60B61204
+sun_i  (hex) : 60B61204
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 6B63FC74
+sun_i  (hex) : 6B63FC74
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 76292C76
+sun_i  (hex) : 76292C76
+rain_i       : '1'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 7864D072
+sun_i   (hex) : 9864D072
+rain_i        : '0'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 1
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 1
+store_o (hex) : 00
+
+Nb errors = 1
+
+OK
+Stimulus :
+temp_i (hex) : 76EDB884
+sun_i  (hex) : 96EDB884
+rain_i       : '0'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 61F09AC3
+sun_i   (hex) : 81F09AC3
+rain_i        : '1'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 0
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 0
+store_o (hex) : 00
+
+Nb errors = 2
+
+OK
+Stimulus :
+temp_i (hex) : 78F4C489
+sun_i  (hex) : 98F4C489
+rain_i       : '1'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 6A5B65C3
+sun_i   (hex) : AA5B65C3
+rain_i        : '0'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 1
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 1
+store_o (hex) : 00
+
+Nb errors = 3
+
+OK
+Stimulus :
+temp_i (hex) : 6E76023F
+sun_i  (hex) : AE76023F
+rain_i       : '0'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 77CA78E2
+sun_i   (hex) : B7CA78E2
+rain_i        : '1'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 0
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 0
+store_o (hex) : 00
+
+Nb errors = 4
+
+OK
+Stimulus :
+temp_i (hex) : 7A7D96E9
+sun_i  (hex) : BA7D96E9
+rain_i       : '1'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 64FF34B4
+sun_i   (hex) : C4FF34B4
+rain_i        : '0'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 1
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 1
+store_o (hex) : 00
+
+Nb errors = 5
+
+OK
+Stimulus :
+temp_i (hex) : 644301F2
+sun_i  (hex) : C44301F2
+rain_i       : '0'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 7168826C
+sun_i   (hex) : D168826C
+rain_i        : '1'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 0
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 0
+store_o (hex) : 00
+
+Nb errors = 6
+
+OK
+Stimulus :
+temp_i (hex) : 6C8C568F
+sun_i  (hex) : CC8C568F
+rain_i       : '1'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 6BD6C687
+sun_i   (hex) : EBD6C687
+rain_i        : '0'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 1
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 1
+store_o (hex) : 00
+
+Nb errors = 7
+
+OK
+Stimulus :
+temp_i (hex) : 79EAE8EC
+sun_i  (hex) : F9EAE8EC
+rain_i       : '0'
+wind_i       : '1'
+
+Error in check
+Stimulus :
+temp_i  (hex) : 7D1A3021
+sun_i   (hex) : FD1A3021
+rain_i        : '1'
+wind_i        : '0'
+
+Observed : 
+velux_o (hex) : 0
+store_o (hex) : 01
+
+Reference : 
+velux_o (hex) : 0
+store_o (hex) : 00
+
+Nb errors = 8
+
+OK
+Stimulus :
+temp_i (hex) : 69627D03
+sun_i  (hex) : E9627D03
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 97C95781
+sun_i  (hex) : 17C95781
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 9691DB08
+sun_i  (hex) : 1691DB08
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 93DFFEA3
+sun_i  (hex) : 13DFFEA3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 9B0BCB1A
+sun_i  (hex) : 1B0BCB1A
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 843611B5
+sun_i  (hex) : 243611B5
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 8133CFBF
+sun_i  (hex) : 2133CFBF
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 99F33EE1
+sun_i  (hex) : 39F33EE1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 8A7DC830
+sun_i  (hex) : 2A7DC830
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 998D5D77
+sun_i  (hex) : 598D5D77
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 81460F27
+sun_i  (hex) : 41460F27
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 8CBF6959
+sun_i  (hex) : 4CBF6959
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 886D6D6C
+sun_i  (hex) : 486D6D6C
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 82740648
+sun_i  (hex) : 62740648
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 94B36489
+sun_i  (hex) : 74B36489
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 80B4F43B
+sun_i  (hex) : 60B4F43B
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 873FD51E
+sun_i  (hex) : 673FD51E
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 8DC88F53
+sun_i  (hex) : 8DC88F53
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 9A2CCA54
+sun_i  (hex) : 9A2CCA54
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 8BC12D84
+sun_i  (hex) : 8BC12D84
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 861A38A8
+sun_i  (hex) : 861A38A8
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 9B0C674B
+sun_i  (hex) : BB0C674B
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 8CD5B6EF
+sun_i  (hex) : ACD5B6EF
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 8AEBF4C7
+sun_i  (hex) : AAEBF4C7
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 93F035D7
+sun_i  (hex) : B3F035D7
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 85D6FC99
+sun_i  (hex) : C5D6FC99
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 8E90C251
+sun_i  (hex) : CE90C251
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 8091A4AF
+sun_i  (hex) : C091A4AF
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 8245803C
+sun_i  (hex) : C245803C
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 860302E9
+sun_i  (hex) : E60302E9
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 9E45319B
+sun_i  (hex) : FE45319B
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : 998F7135
+sun_i  (hex) : F98F7135
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : 8BCC50BF
+sun_i  (hex) : EBCC50BF
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : BCA3E3BB
+sun_i  (hex) : 1CA3E3BB
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : BAC2B22B
+sun_i  (hex) : 1AC2B22B
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : AF67E521
+sun_i  (hex) : 0F67E521
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : B94E7E15
+sun_i  (hex) : 194E7E15
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : B771B9FA
+sun_i  (hex) : 3771B9FA
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : BDC6FB3B
+sun_i  (hex) : 3DC6FB3B
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : BF594A83
+sun_i  (hex) : 3F594A83
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : A63A99CF
+sun_i  (hex) : 263A99CF
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : AEACCCE9
+sun_i  (hex) : 4EACCCE9
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : A1E2E21D
+sun_i  (hex) : 41E2E21D
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : A8FB332F
+sun_i  (hex) : 48FB332F
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : AEB497B0
+sun_i  (hex) : 4EB497B0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : A732486A
+sun_i  (hex) : 6732486A
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : BE9EE978
+sun_i  (hex) : 7E9EE978
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : B7F3FBB4
+sun_i  (hex) : 77F3FBB4
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : AC52CB40
+sun_i  (hex) : 6C52CB40
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : B48F43DC
+sun_i  (hex) : 948F43DC
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : B8E696C9
+sun_i  (hex) : 98E696C9
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : A2D8D7F6
+sun_i  (hex) : 82D8D7F6
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : B97C43BB
+sun_i  (hex) : 997C43BB
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : A16EB05C
+sun_i  (hex) : A16EB05C
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : A44B0021
+sun_i  (hex) : A44B0021
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : A9CF9C7B
+sun_i  (hex) : A9CF9C7B
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : B85DC299
+sun_i  (hex) : B85DC299
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : B3E1A89E
+sun_i  (hex) : D3E1A89E
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : A301C79D
+sun_i  (hex) : C301C79D
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : B389A2C1
+sun_i  (hex) : D389A2C1
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : AE9EC828
+sun_i  (hex) : CE9EC828
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : A8C45A77
+sun_i  (hex) : E8C45A77
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : A31BA6D7
+sun_i  (hex) : E31BA6D7
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : B56CA75D
+sun_i  (hex) : F56CA75D
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : BB13F88B
+sun_i  (hex) : FB13F88B
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : C56E36F8
+sun_i  (hex) : 056E36F8
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : CC385695
+sun_i  (hex) : 0C385695
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : C6937CD9
+sun_i  (hex) : 06937CD9
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : DE5F9CEB
+sun_i  (hex) : 1E5F9CEB
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : C8596317
+sun_i  (hex) : 28596317
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : CCBE0D80
+sun_i  (hex) : 2CBE0D80
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : C1B8BEEE
+sun_i  (hex) : 21B8BEEE
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : D957748D
+sun_i  (hex) : 3957748D
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : C384F100
+sun_i  (hex) : 4384F100
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : D0AFBBE2
+sun_i  (hex) : 50AFBBE2
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D525D904
+sun_i  (hex) : 5525D904
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : C3D0F6E0
+sun_i  (hex) : 43D0F6E0
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : CB5B3958
+sun_i  (hex) : 6B5B3958
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : CFE1099D
+sun_i  (hex) : 6FE1099D
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : CC4A252D
+sun_i  (hex) : 6C4A252D
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : CE165416
+sun_i  (hex) : 6E165416
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D5E9FE26
+sun_i  (hex) : 95E9FE26
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : C4245FF3
+sun_i  (hex) : 84245FF3
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D94AE4D3
+sun_i  (hex) : 994AE4D3
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : DBC71C20
+sun_i  (hex) : 9BC71C20
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D7B2E2A7
+sun_i  (hex) : B7B2E2A7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : CA03B0EE
+sun_i  (hex) : AA03B0EE
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D84C5E3D
+sun_i  (hex) : B84C5E3D
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : C4D5E289
+sun_i  (hex) : A4D5E289
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : CA640FDE
+sun_i  (hex) : CA640FDE
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : DAEDDA0D
+sun_i  (hex) : DAEDDA0D
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D4DC088A
+sun_i  (hex) : D4DC088A
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : CC58A007
+sun_i  (hex) : CC58A007
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D2A925D4
+sun_i  (hex) : F2A925D4
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : C68D8F05
+sun_i  (hex) : E68D8F05
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : D327AD83
+sun_i  (hex) : F327AD83
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : CE92873E
+sun_i  (hex) : EE92873E
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : F50A9E7D
+sun_i  (hex) : 150A9E7D
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : E76D7836
+sun_i  (hex) : 076D7836
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : F98256D8
+sun_i  (hex) : 198256D8
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : E7A2BB42
+sun_i  (hex) : 07A2BB42
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : EEDD8A7F
+sun_i  (hex) : 2EDD8A7F
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : F176F458
+sun_i  (hex) : 3176F458
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : F9A20A32
+sun_i  (hex) : 39A20A32
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : E7EAF570
+sun_i  (hex) : 27EAF570
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : F6A08109
+sun_i  (hex) : 56A08109
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : F985E476
+sun_i  (hex) : 5985E476
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : EBB5BA3D
+sun_i  (hex) : 4BB5BA3D
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : F5727C63
+sun_i  (hex) : 55727C63
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : E78775F7
+sun_i  (hex) : 678775F7
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : F2571A3E
+sun_i  (hex) : 72571A3E
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : FDABA9A9
+sun_i  (hex) : 7DABA9A9
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : EA1F9EA4
+sun_i  (hex) : 6A1F9EA4
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : E0EFAFD1
+sun_i  (hex) : 80EFAFD1
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : E60385CB
+sun_i  (hex) : 860385CB
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : FAE7A9AD
+sun_i  (hex) : 9AE7A9AD
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : F996EB43
+sun_i  (hex) : 9996EB43
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : F1D7DF5B
+sun_i  (hex) : B1D7DF5B
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : E37409ED
+sun_i  (hex) : A37409ED
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : E6A3842A
+sun_i  (hex) : A6A3842A
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : E21F4782
+sun_i  (hex) : A21F4782
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : FEACC1BA
+sun_i  (hex) : DEACC1BA
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : F899576D
+sun_i  (hex) : D899576D
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : F12E18C0
+sun_i  (hex) : D12E18C0
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : F65E6AC8
+sun_i  (hex) : D65E6AC8
+rain_i       : '1'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : F2D806E2
+sun_i  (hex) : F2D806E2
+rain_i       : '0'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : EDC743A1
+sun_i  (hex) : EDC743A1
+rain_i       : '0'
+wind_i       : '1'
+
+OK
+Stimulus :
+temp_i (hex) : E3D71578
+sun_i  (hex) : E3D71578
+rain_i       : '1'
+wind_i       : '0'
+
+OK
+Stimulus :
+temp_i (hex) : E39CA9D6
+sun_i  (hex) : E39CA9D6
+rain_i       : '1'
+wind_i       : '1'
+
+TOTAL ERRORS : 8
+TOTAL WARNINGS : 0

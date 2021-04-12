@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<drill>
+  <sample type="vrm" version="3.0" timestamp="2021-03-11 13:22:14">
+    <table name="summary">
+      <row>
+        <logfile>/home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/logs/210311_132214.rmev</logfile>
+        <starttime>2021-03-11 13:22:14</starttime>
+        <endtime>2021-03-11 13:22:57</endtime>
+        <rmdb>/home/reds/vsn21_student/ex1_uart_spec/code/default.rmdb</rmdb>
+        <vrmdata>/home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA</vrmdata>
+        <actions>6</actions>
+        <options>-eventlog /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/logs/210311_132214.rmev -mseed 0 -rmdb /home/reds/vsn21_student/ex1_uart_spec/code/default.rmdb -vrmdata /home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA</options>
+        <passed>2</passed>
+        <failed>2</failed>
+        <notrun>0</notrun>
+        <coverage>6.44</coverage>
+        <tplancov>9.21</tplancov>
+      </row>
+    </table>
+    <table name="details">
+      <row>
+        <action>directed/preScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-03-11 13:22:14</datetime>
+        <elapsed></elapsed>
+        <event>20210311T132214 done directed/preScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-03-11 13:22:14</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/test0/execScript</action>
+        <coverage>6.44</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-03-11 13:22:17</datetime>
+        <elapsed>2</elapsed>
+        <event>20210311T132217 done directed/test0/execScript passed/ok reds2021 directed/test0.ucdb ok 0 6.44 {} 2</event>
+        <hostname>reds2021</hostname>
+        <queued>1</queued>
+        <status>passed/ok</status>
+        <reason></reason>
+        <seed>0</seed>
+        <simtime>1000.00</simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile>directed/test0.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-03-11 13:22:17</donetime>
+        <extstatus>ok</extstatus>
+        <launchtime>2021-03-11 13:22:14</launchtime>
+        <mergefile>/home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-03-11 13:22:15</starttime>
+        <testname>test0</testname>
+        <teststatus>ok</teststatus>
+        <timeunit>ps</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/test1/execScript</action>
+        <coverage>6.75</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-03-11 13:22:17</datetime>
+        <elapsed>2</elapsed>
+        <event>20210311T132217 done directed/test1/execScript failed/error reds2021 directed/test1.ucdb error 0 6.75 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>1</queued>
+        <status>failed/error</status>
+        <reason>Error in the DUV</reason>
+        <seed>0</seed>
+        <simtime>1000.00</simtime>
+        <tplancov></tplancov>
+        <tstime>0.00</tstime>
+        <ucdbfile>directed/test1.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-03-11 13:22:17</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-03-11 13:22:14</launchtime>
+        <mergefile>/home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-03-11 13:22:15</starttime>
+        <testname>test1</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ps</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/postScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-03-11 13:22:52</datetime>
+        <elapsed></elapsed>
+        <event>20210311T132252 done directed/postScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-03-11 13:22:52</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/ex1_uart_spec/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+    </table>
+  </sample>
+</drill>

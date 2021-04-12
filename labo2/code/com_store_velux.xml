@@ -15,10 +15,10 @@
   <RemovePersonalInformation/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>13095</WindowHeight>
-  <WindowWidth>-32026</WindowWidth>
-  <WindowTopX>0</WindowTopX>
-  <WindowTopY>0</WindowTopY>
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -162,7 +162,7 @@
    </Borders>
    <Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s80">
+  <Style ss:ID="s81">
    <Alignment ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -173,25 +173,55 @@
    <Interior/>
   </Style>
   <Style ss:ID="s82">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Liberation Sans" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
    <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Liberation Sans" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
-   <Interior/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s83">
-   <Alignment ss:Vertical="Top"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s84">
+  <Style ss:ID="s86">
    <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -201,53 +231,77 @@
    </Borders>
    <Interior/>
   </Style>
-  <Style ss:ID="s88">
+  <Style ss:ID="s90">
    <Interior ss:Color="#EBF1DE" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s89">
-   <Alignment ss:Vertical="Top"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
-  </Style>
   <Style ss:ID="s91">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
-  </Style>
-  <Style ss:ID="s92">
    <Alignment ss:Vertical="Top"/>
    <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
    </Borders>
-   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <Font ss:FontName="Liberation Sans" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
   </Style>
   <Style ss:ID="s93">
-   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Alignment ss:Vertical="Top"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
    <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Liberation Sans" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Liberation Sans" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="com_store_velux">
-  <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="24" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
+  <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="32" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="37.5"/>
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:StyleID="s62" ss:Width="136.5"/>
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="261"/>
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="146.25"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="63.75"/>
@@ -272,10 +326,10 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String">Owner</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Priority</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s65">
     <Cell ss:StyleID="s75"><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Some section title 1</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">TBD</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Fonctionnement Complet</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Tests permettant de vérifier le fonctionnement Complet du DUT en fonction de N</Data></Cell>
     <Cell ss:StyleID="s77"/>
     <Cell ss:StyleID="s78"/>
     <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
@@ -283,21 +337,54 @@
     <Cell ss:StyleID="s79"/>
     <Cell ss:StyleID="s79"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">1.1</Data></Cell>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s82"/>
-    <Cell ss:StyleID="s82"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25" ss:StyleID="s65">
+    <Cell ss:StyleID="s81"><Data ss:Type="String" x:Ticked="1">1.1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">DUT avec N = 3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, et ce pour toutes les valeurs possibles en entrée pour les 4 signaux d’entrées.&#10;&#10;N = 3&#10;&#10;Nombres de cas = 2³*2³*2¹*2¹ = 256 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_complet_N3</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:StyleID="s88">
+   <Row ss:AutoFitHeight="0" ss:Height="89.25" ss:StyleID="s65">
+    <Cell ss:StyleID="s81"><Data ss:Type="String" x:Ticked="1">1.2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">DUT avec N = 4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, et ce pour toutes les valeurs possibles en entrée pour les 4 signaux d’entrées.&#10;&#10;N = 4&#10;&#10;Nombres de cas = 2⁴*2⁴*2¹*2¹ = 1024 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_complet_N4</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25" ss:StyleID="s65">
+    <Cell ss:StyleID="s81"><Data ss:Type="String" x:Ticked="1">1.3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">DUT avec N = 5</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, et ce pour toutes les valeurs possibles en entrée pour les 4 signaux d’entrées.&#10;&#10;N = 5&#10;&#10;Nombres de cas = 2⁵*2⁵*2¹*2¹ = 4096 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_complet_N5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5" ss:StyleID="s65">
+    <Cell ss:StyleID="s81"><Data ss:Type="String" x:Ticked="1">1.4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">DUT avec N = 6</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i des valeurs aléatoires par pas de 2^(n-3) pour représenter l’ensemble des résultats possibles tel qu’exprimé dans la présentation du fonctionnement du système.&#10;&#10;N = 6&#10;&#10;Nombres de cas = 2⁶*2⁶*2¹*2¹ = 16384 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_complet_N6</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="30" ss:StyleID="s90">
     <Cell ss:StyleID="s75"><Data ss:Type="String" x:Ticked="1">2</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Some section title 2</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">TBD</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Fonctionnement «aléatoire»</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Tests permettant de vérifier le fonctionnement de cas aléatoires &quot;choisis&quot; par tranche de 2^N   </Data></Cell>
     <Cell ss:StyleID="s77"/>
     <Cell ss:StyleID="s78"/>
     <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
@@ -320,54 +407,65 @@
     <Cell ss:StyleID="s65"/>
     <Cell ss:StyleID="s65"/>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="String" x:Ticked="1">2.1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Une feature</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Un test qui passe</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">test0</Data></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75">
-    <Cell ss:StyleID="s89"><Data ss:Type="String" x:Ticked="1">2.2</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Une autre feature</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Un test qui ne passe pas</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">test1</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">2.1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 4, cas aléatoire controlé</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i des valeurs aléatoires par pas de 2^(n-3) pour représenter l’ensemble des résultats possibles tel qu’exprimé dans la présentation du fonctionnement du système.&#10;&#10;N = 4&#10;&#10;Nombres de cas = 2³*2³*2¹*2¹ = 256 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_aleatoire_N4</Data></Cell>
     <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="String" x:Ticked="1">2.3</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Coverage DUV</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Coverage des statements du DUV</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">/com_store_velux_tb/duv/#stmt#*</Data></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">Bin</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">2.2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 5, cas aléatoire controlé</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i des valeurs aléatoires par pas de 2^(n-3) pour représenter l’ensemble des résultats possibles tel qu’exprimé dans la présentation du fonctionnement du système.&#10;&#10;N = 5&#10;&#10;Nombres de cas = 2³*2³*2¹*2¹ = 256 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_aleatoire_N5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="String" x:Ticked="1">2.4</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">Coverage TB</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Coverage des statements du TB</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">/com_store_velux_tb/#stmt#*</Data></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">Bin</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">2</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">2.3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 10, cas aléatoire controlé</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i des valeurs aléatoires par pas de 2^(n-3) pour représenter l’ensemble des résultats possibles tel qu’exprimé dans la présentation du fonctionnement du système.&#10;&#10;N = 10&#10;&#10;Nombres de cas = 2³*2³*2¹*2¹ = 256 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_aleatoire_N10</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:StyleID="s88">
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">2.4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 20, cas aléatoire controlé</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i des valeurs aléatoires par pas de 2^(n-3) pour représenter l’ensemble des résultats possibles tel qu’exprimé dans la présentation du fonctionnement du système.&#10;&#10;N = 20&#10;&#10;Nombres de cas = 2³*2³*2¹*2¹ = 256 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_aleatoire_N20</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">2.5</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 32, cas aléatoire controlé</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i des valeurs aléatoires par pas de 2^(n-3) pour représenter l’ensemble des résultats possibles tel qu’exprimé dans la présentation du fonctionnement du système.&#10;&#10;N = 32&#10;&#10;Nombres de cas = 2³*2³*2¹*2¹ = 256 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_aleatoire_N32</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s90">
     <Cell ss:StyleID="s75"><Data ss:Type="String" x:Ticked="1">3</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Some section title 3</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">TBD</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Fonctionnement cas Limites</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Tests permettant de vérifier le fonctionnement de cas limites de conversion par tranche de 2^N   </Data></Cell>
     <Cell ss:StyleID="s77"/>
     <Cell ss:StyleID="s78"/>
     <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
@@ -391,31 +489,64 @@
     <Cell ss:StyleID="s65"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="String" x:Ticked="1">3.1</Data></Cell>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">3.1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">DUT avec N = 4, cas limites</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i les cas limites correspondant à la valeur maximale et la valeur minimale pouvant être convertie pour chacun des pas d’un système avec N=3.&#10;&#10;N = 4&#10;&#10;Nombre de cas = 2³*2³*2¹*2¹*2¹*2¹ = 1024 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_limite_N4</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="String" x:Ticked="1">3.2</Data></Cell>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">3.2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 5, cas limites</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i les cas limites correspondant à la valeur maximale et la valeur minimale pouvant être convertie pour chacun des pas d’un système avec N=3.&#10;&#10;N = 5&#10;&#10;Nombre de cas = 2³*2³*2¹*2¹*2¹*2¹ = 1024 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_limite_N5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:StyleID="s88">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">3.3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 10, cas limites</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i les cas limites correspondant à la valeur maximale et la valeur minimale pouvant être convertie pour chacun des pas d’un système avec N=3.&#10;&#10;N = 10&#10;&#10;Nombre de cas = 2³*2³*2¹*2¹*2¹*2¹ = 1024 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_limite_N10</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">3.4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 20, cas limites</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i les cas limites correspondant à la valeur maximale et la valeur minimale pouvant être convertie pour chacun des pas d’un système avec N=3.&#10;&#10;N = 20&#10;&#10;Nombre de cas = 2³*2³*2¹*2¹*2¹*2¹ = 1024 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_limite_N20</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">3.5</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">DUT avec N = 32, cas limites</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Vérifie que les résultats en sortie du DUT correspondent à la référence générée, en générant comme stimulis pour temp_i et sun_i les cas limites correspondant à la valeur maximale et la valeur minimale pouvant être convertie pour chacun des pas d’un système avec N=3.&#10;&#10;N = 32&#10;&#10;Nombre de cas = 2³*2³*2¹*2¹*2¹*2¹ = 1024 cas testés</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">test_limite_N32</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s90">
     <Cell ss:StyleID="s75"><Data ss:Type="String" x:Ticked="1">4</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">Some section title 4</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">TBD</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Coverage</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Couverture du code général</Data></Cell>
     <Cell ss:StyleID="s77"/>
     <Cell ss:StyleID="s78"/>
     <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
@@ -439,17 +570,28 @@
     <Cell ss:StyleID="s65"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="String" x:Ticked="1">4.1</Data></Cell>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">4.1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Coverage DUV</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Coverage des statements du DUV</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">/com_store_velux_tb/duv/#stmt#*</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Bin</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:StyleID="s88">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">4.2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Coverage TB</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Coverage des statements du TB</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">/com_store_velux_tb/#stmt#*</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Bin</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PM</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s90">
     <Cell ss:StyleID="s75"><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">ERRNO testing</Data></Cell>
     <Cell ss:StyleID="s77"><Data ss:Type="String">Test with various ERRNO</Data></Cell>
@@ -476,103 +618,103 @@
     <Cell ss:StyleID="s65"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.0999999999999996</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 0</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should be allright</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno0</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.0999999999999996</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 0</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should be allright</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno0</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.2</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 1</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should be allright</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno1</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.2</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 1</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should be allright</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.3</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 2</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should be allright</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno2</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should be allright</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno2</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.4</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 3</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should get an error</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno3</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.4</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 3</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should get an error</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno3</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.5</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 4</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should get an error</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno4</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 4</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should get an error</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno4</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.6</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 5</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should get an error</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno5</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.6</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 5</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should get an error</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.7</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 6</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should get an error</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno6</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.7</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 6</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should get an error</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno6</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.8</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 7</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should get an error</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno7</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.8</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 7</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should get an error</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno7</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">5.9</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="String">ERRNO = 8</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Should get an error</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">testerrno8</Data></Cell>
-    <Cell ss:StyleID="s93"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">5.9</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">ERRNO = 8</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Should get an error</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">testerrno8</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Test</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">3</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -590,12 +732,11 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Zoom>190</Zoom>
    <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>2</SplitHorizontal>
-   <TopRowBottomPane>8</TopRowBottomPane>
+   <TopRowBottomPane>11</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -613,7 +754,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveCol>9</ActiveCol>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -622,7 +764,7 @@
  </Worksheet>
  <Worksheet ss:Name="Sheet1">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0"/>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -638,7 +780,7 @@
  </Worksheet>
  <Worksheet ss:Name="Sheet2">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0"/>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -654,7 +796,7 @@
  </Worksheet>
  <Worksheet ss:Name="Sheet3">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0"/>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

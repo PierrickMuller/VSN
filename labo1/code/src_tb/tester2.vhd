@@ -15,7 +15,7 @@ begin
     begin
         for i in 0 to 999 loop
             wait for 10 ns;
-            logger.log_error;
+                logger.log_error;
         end loop;
 
         wait;

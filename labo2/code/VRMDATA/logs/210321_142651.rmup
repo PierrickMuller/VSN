@@ -1,0 +1,28 @@
+20210321T142651 begin 38799@reds2021 /home/reds/vsn21_student/labo2/code/default.rmdb /home/reds/vsn21_student/labo2/code/VRMDATA
+20210321T142704 done directed/deleteScript skipped {} {} {} {}
+20210321T142659 done directed/postScript empty {} {} {} {}
+20210321T142651 done directed/preScript empty {} {} {} {}
+20210321T142703 done directed/test0/deleteScript skipped {} {} {} {}
+20210321T142658 done directed/test0/execScript failed/script reds2021 directed/test0.ucdb {} 0 {} {} 5
+20210321T142346 done directed/test0/mergeScript passed reds2021 merge.ucdb {} {} 0.00 11.67 {}
+20210321T142310 done directed/test0/tplanScript failed/script reds2021 merge_com_store_velux.ucdb {} {} 0.00 {} {}
+20210321T142702 done directed/testerrno0/deleteScript skipped {} {} {} {}
+20210321T142657 done directed/testerrno0/execScript failed/script reds2021 directed/testerrno0.ucdb {} 0 {} {} 5
+20210321T142343 done directed/testerrno0/mergeScript passed reds2021 merge.ucdb {} {} 0.00 {} {}
+20210321T142703 done directed/testerrno1/deleteScript skipped {} {} {} {}
+20210321T142658 done directed/testerrno1/execScript failed/script reds2021 directed/testerrno1.ucdb {} 0 {} {} 5
+20210321T142704 done directed/testerrno2/deleteScript skipped {} {} {} {}
+20210321T142659 done directed/testerrno2/execScript failed/script reds2021 directed/testerrno2.ucdb {} 0 {} {} 6
+20210321T142703 done directed/testerrno3/deleteScript skipped {} {} {} {}
+20210321T142658 done directed/testerrno3/execScript failed/script reds2021 directed/testerrno3.ucdb {} 0 {} {} {}
+20210321T142703 done directed/testerrno4/deleteScript skipped {} {} {} {}
+20210321T142658 done directed/testerrno4/execScript failed/script reds2021 directed/testerrno4.ucdb {} 0 {} {} {}
+20210321T142704 done directed/testerrno5/deleteScript skipped {} {} {} {}
+20210321T142659 done directed/testerrno5/execScript failed/script reds2021 directed/testerrno5.ucdb {} 0 {} {} {}
+20210321T142704 done directed/testerrno6/deleteScript skipped {} {} {} {}
+20210321T142659 done directed/testerrno6/execScript failed/script reds2021 directed/testerrno6.ucdb {} 0 {} {} {}
+20210321T142704 done directed/testerrno7/deleteScript skipped {} {} {} {}
+20210321T142659 done directed/testerrno7/execScript failed/script reds2021 directed/testerrno7.ucdb {} 0 {} {} {}
+20210321T142704 done directed/testerrno8/deleteScript skipped {} {} {} {}
+20210321T142659 done directed/testerrno8/execScript failed/script reds2021 directed/testerrno8.ucdb {} 0 {} {} {}
+20210321T142706 end

@@ -1,0 +1,599 @@
+# do ../scripts/sim.do all 1 8 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work morse ../src/morse_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package morse_pkg
+# -- Compiling package body morse_pkg
+# -- Loading package morse_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work morse ../src/morse_burst_emitter_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package morse_burst_emitter_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work work ../src/fifo.vhd 
+# -- Loading package STANDARD
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work work ../src/morse_char_emitter.vhd 
+# -- Loading package STANDARD
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work work ../src/morse_burst_emitter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Compiling entity morse_burst_emitter
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/heartbeat_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package heartbeat_pkg
+# -- Compiling package body heartbeat_pkg
+# -- Loading package heartbeat_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/heartbeat_env_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package heartbeat_pkg
+# -- Compiling package heartbeat_env_pkg
+# -- Compiling package body heartbeat_env_pkg
+# -- Loading package heartbeat_env_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/objection_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package objection_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package body objection_pkg
+# -- Loading package objection_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/objection_env_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package objection_pkg
+# -- Compiling package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Compiling package body objection_env_pkg
+# -- Loading package objection_env_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/simulation_end_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ENV
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Compiling package simulation_end_pkg
+# -- Compiling package body simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Loading package simulation_end_pkg
+# -- Compiling entity simulation_monitor
+# -- Compiling architecture behave of simulation_monitor
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/tlm_fifo_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_pkg
+# -- Loading package tlm_fifo_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/tlm_unbounded_fifo_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/tlm_fifo_array_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package tlm_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_fifo_array_pkg
+# -- Loading package tlm_fifo_array_pkg
+# End time: 13:08:08 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:08 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/tlm_unbounded_fifo_array_pkg.vhd 
+# -- Loading package STANDARD
+# -- Compiling package tlm_unbounded_fifo_array_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Compiling package body tlm_unbounded_fifo_array_pkg
+# -- Loading package tlm_unbounded_fifo_array_pkg
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/memory_object_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package memory_object_pkg
+# -- Compiling package body memory_object_pkg
+# -- Loading context declaration IEEE_STD_CONTEXT
+# -- Loading package memory_object_pkg
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 -work tlmvm ../tlmvm/src/tlmvm_context.vhd 
+# -- Loading package STANDARD
+# -- Compiling context declaration tlmvm_context
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -work common_lib -2008 ../src_tb/common_lib/logger_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package logger_pkg
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -work common_lib -2008 ../src_tb/common_lib/comparator_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Compiling package comparator_pkg
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -work common_lib -2008 ../src_tb/common_lib/complex_comparator_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Compiling package complex_comparator_pkg
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -work common_lib -2008 ../src_tb/common_lib/common_ctx.vhd 
+# -- Loading package STANDARD
+# -- Compiling context declaration common_ctx
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -work project_lib -2008 ../src_tb/project_logger_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading context declaration common_ctx
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Compiling package project_logger_pkg
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -work project_lib -2008 ../src_tb/project_ctx.vhd 
+# -- Loading package STANDARD
+# -- Compiling context declaration project_ctx
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/transactions_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package transactions_pkg
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/input_agent/input_agent_driver.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent_driver
+# -- Compiling architecture testbench of input_agent_driver
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/input_agent/input_agent_monitor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent_monitor
+# -- Compiling architecture testbench of input_agent_monitor
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/input_agent/input_agent_sequencer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent_sequencer
+# -- Compiling architecture testbench of input_agent_sequencer
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/input_agent/input_agent.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent
+# -- Compiling architecture testbench of input_agent
+# -- Loading package body tlm_fifo_pkg
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent_sequencer
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent_driver
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent_monitor
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/output_agent/output_agent_monitor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity output_agent_monitor
+# -- Compiling architecture testbench of output_agent_monitor
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/output_agent/output_agent.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity output_agent
+# -- Compiling architecture testbench of output_agent
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading entity output_agent_monitor
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/scoreboard.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity scoreboard
+# -- Compiling architecture testbench of scoreboard
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 13:08:09 on Apr 01,2021
+# vcom -2008 ../src_tb/morse_burst_emitter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity morse_burst_emitter_tb
+# -- Compiling architecture testbench of morse_burst_emitter_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent
+# -- Loading context declaration tlmvm_context
+# -- Loading entity output_agent
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity scoreboard
+# End time: 13:08:09 on Apr 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -warning error -t 1ns work.morse_burst_emitter_tb -GTESTCASE=1 -GERRNO=0 -GFIFOSIZE=8 
+# Start time: 13:08:09 on Apr 01,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading ieee.std_logic_textio(body)
+# Loading project_lib.project_logger_pkg
+# Loading morse.morse_pkg(body)
+# Loading morse.morse_burst_emitter_pkg
+# Loading work.transactions_pkg
+# Loading work.morse_burst_emitter_tb(testbench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# Loading work.input_agent(testbench)#1
+# Loading work.input_agent_sequencer(testbench)#1
+# Loading work.input_agent_driver(testbench)#1
+# Loading work.input_agent_monitor(testbench)#1
+# Loading work.output_agent(testbench)#1
+# Loading work.output_agent_monitor(testbench)#1
+# Loading work.scoreboard(testbench)#1
+# ** Note: Scoreboard waiting for transaction number 0
+#    Time: 1 ns  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 0
+#    Time: 1 ns  Iteration: 0  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Sequencer : Sent transaction number 0
+#    Time: 1 ns  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 0
+#    Time: 40 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 0
+#    Time: 40 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 1
+#    Time: 41 ns  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Sequencer finished his job
+#    Time: 41 ns  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 1
+#    Time: 50 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 1
+#    Time: 50 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver waiting for transaction number 2
+#    Time: 60 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Output Monitor received transaction number 0
+# Value : 66
+# Size : 4
+#    Time: 135 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Monitor waiting for transaction number 1
+#    Time: 135 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 0
+#    Time: 136 ns  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 1
+#    Time: 136 ns  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Error: I expected a dot, but that's not what I got
+#    Time: 335 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Monitor waiting for transaction number 1
+#    Time: 335 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Finishing at time 100000 ns
+#    Time: 100 us  Iteration: 0  Instance: /morse_burst_emitter_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 100 us  Iteration: 0  Instance: /morse_burst_emitter_tb/monitor
+# ** Note: --------------------------------
+# FINAL report
+# Total number of warnings : 0
+# Total number of errors : 1
+# --------------------------------
+#    Time: 100 us  Iteration: 0  Instance: /morse_burst_emitter_tb/monitor
+# End time: 13:08:11 on Apr 01,2021, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0

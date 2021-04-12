@@ -1,0 +1,25 @@
+20210321T140215 begin 36107@reds2021 /home/reds/vsn21_student/labo2/code/default.rmdb /home/reds/vsn21_student/labo2/code/VRMDATA
+20210321T140227 done directed/deleteScript skipped {} {} {} {}
+20210321T140222 done directed/postScript empty {} {} {} {}
+20210321T140215 done directed/preScript empty {} {} {} {}
+20210321T140226 done directed/test0/deleteScript skipped {} {} {} {}
+20210321T140221 done directed/test0/execScript failed/script reds2021 directed/test0.ucdb {} {} {} {} {}
+20210321T140226 done directed/testerrno0/deleteScript skipped {} {} {} {}
+20210321T140221 done directed/testerrno0/execScript failed/script reds2021 directed/testerrno0.ucdb {} {} {} {} {}
+20210321T140227 done directed/testerrno1/deleteScript skipped {} {} {} {}
+20210321T140222 done directed/testerrno1/execScript failed/script reds2021 directed/testerrno1.ucdb {} {} {} {} {}
+20210321T140226 done directed/testerrno2/deleteScript skipped {} {} {} {}
+20210321T140221 done directed/testerrno2/execScript failed/script reds2021 directed/testerrno2.ucdb {} {} {} {} {}
+20210321T140226 done directed/testerrno3/deleteScript skipped {} {} {} {}
+20210321T140221 done directed/testerrno3/execScript failed/script reds2021 directed/testerrno3.ucdb {} {} {} {} {}
+20210321T140226 done directed/testerrno4/deleteScript skipped {} {} {} {}
+20210321T140221 done directed/testerrno4/execScript failed/script reds2021 directed/testerrno4.ucdb {} {} {} {} {}
+20210321T140226 done directed/testerrno5/deleteScript skipped {} {} {} {}
+20210321T140221 done directed/testerrno5/execScript failed/script reds2021 directed/testerrno5.ucdb {} {} {} {} {}
+20210321T140226 done directed/testerrno6/deleteScript skipped {} {} {} {}
+20210321T140221 done directed/testerrno6/execScript failed/script reds2021 directed/testerrno6.ucdb {} {} {} {} {}
+20210321T140227 done directed/testerrno7/deleteScript skipped {} {} {} {}
+20210321T140222 done directed/testerrno7/execScript failed/script reds2021 directed/testerrno7.ucdb {} {} {} {} {}
+20210321T140227 done directed/testerrno8/deleteScript skipped {} {} {} {}
+20210321T140222 done directed/testerrno8/execScript failed/script reds2021 directed/testerrno8.ucdb {} {} {} {} {}
+20210321T140229 end

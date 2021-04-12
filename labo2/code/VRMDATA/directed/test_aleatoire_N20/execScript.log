@@ -1,0 +1,2206 @@
+# file delete -force work
+# set Path_DUV "/home/reds/vsn21_student/labo2/code/src"
+# /home/reds/vsn21_student/labo2/code/src
+# set Path_TB  "/home/reds/vsn21_student/labo2/code/code3/src_tb"
+# /home/reds/vsn21_student/labo2/code/code3/src_tb
+# global Path_DUV
+# global Path_TB
+# vlib work
+# vcom +cover -work project_lib -2008 $Path_DUV/com_store_velux.vhdp
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:29:56 on Mar 31,2021
+# vcom "+cover" -work project_lib -2008 /home/reds/vsn21_student/labo2/code/src/com_store_velux.vhdp 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity com_store_velux
+# End time: 11:29:57 on Mar 31,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:29:57 on Mar 31,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo2/code/code3/src_tb/common_lib/logger_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package logger_pkg
+# -- Compiling package body logger_pkg
+# -- Loading package logger_pkg
+# End time: 11:29:58 on Mar 31,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/comparator_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:29:58 on Mar 31,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo2/code/code3/src_tb/common_lib/comparator_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package logger_pkg
+# -- Compiling package comparator_pkg
+# -- Compiling package body comparator_pkg
+# -- Loading package comparator_pkg
+# End time: 11:29:58 on Mar 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/complex_comparator_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:29:58 on Mar 31,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo2/code/code3/src_tb/common_lib/complex_comparator_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package logger_pkg
+# -- Compiling package complex_comparator_pkg
+# -- Compiling package body complex_comparator_pkg
+# -- Loading package complex_comparator_pkg
+# End time: 11:29:58 on Mar 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/common_ctx.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:29:58 on Mar 31,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo2/code/code3/src_tb/common_lib/common_ctx.vhd 
+# -- Loading package STANDARD
+# -- Compiling context declaration common_ctx
+# End time: 11:29:59 on Mar 31,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work project_lib -2008 $Path_TB/project_logger_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:29:59 on Mar 31,2021
+# vcom "+cover" -work project_lib -2008 /home/reds/vsn21_student/labo2/code/code3/src_tb/project_logger_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading context declaration common_ctx
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Compiling package project_logger_pkg
+# End time: 11:29:59 on Mar 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom +cover -work project_lib -2008 $Path_TB/projet_ctx.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:29:59 on Mar 31,2021
+# vcom "+cover" -work project_lib -2008 /home/reds/vsn21_student/labo2/code/code3/src_tb/projet_ctx.vhd 
+# -- Loading package STANDARD
+# -- Compiling context declaration project_ctx
+# End time: 11:30:00 on Mar 31,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work project_lib -2008 $Path_TB/com_store_velux_tb.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 11:30:00 on Mar 31,2021
+# vcom "+cover" -work project_lib -2008 /home/reds/vsn21_student/labo2/code/code3/src_tb/com_store_velux_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading context declaration project_ctx
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Compiling entity com_store_velux_tb
+# -- Compiling architecture testbench of com_store_velux_tb
+# End time: 11:30:00 on Mar 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -coverage -t 10ps -GN=20 -GTESTCASE=2 -GERRNO=0 project_lib.com_store_velux_tb
+# vsim -coverage -t 10ps project_lib.com_store_velux_tb -GTESTCASE=2 -GERRNO=0 -GN=20 
+# Start time: 11:30:00 on Mar 31,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading common_lib.logger_pkg(body)
+# Loading common_lib.comparator_pkg(body)
+# Loading common_lib.complex_comparator_pkg(body)
+# Loading work.project_logger_pkg
+# Loading work.com_store_velux_tb(testbench)#1
+# set StdArithNoWarnings 1
+# 1
+# set NumericStdNoWarnings 1
+# 1
+# run 2 ns
+# ** Note: Running TESTCASE 2
+#    Time: 0 ps  Iteration: 0  Instance: /com_store_velux_tb
+# set StdArithNoWarnings 0
+# 0
+# set NumericStdNoWarnings 0
+# 0
+# run -all
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1FFFE
+# sun_i  (hex) : 1FFFE
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 10 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1F2F3
+# sun_i  (hex) : 1F2F3
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 20 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 14B82
+# sun_i  (hex) : 14B82
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 30 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 0AA89
+# sun_i  (hex) : 0AA89
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 40 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 012EA
+# sun_i  (hex) : 212EA
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 50 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 052CB
+# sun_i  (hex) : 252CB
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 60 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1544B
+# sun_i  (hex) : 3544B
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 70 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 02B5A
+# sun_i  (hex) : 22B5A
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 80 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 06884
+# sun_i  (hex) : 46884
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 90 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 055A9
+# sun_i  (hex) : 455A9
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 100 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 14F55
+# sun_i  (hex) : 54F55
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 110 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 041F4
+# sun_i  (hex) : 441F4
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 120 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1D1F5
+# sun_i  (hex) : 7D1F5
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 130 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 03932
+# sun_i  (hex) : 63932
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 140 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 09919
+# sun_i  (hex) : 69919
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 150 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 087E8
+# sun_i  (hex) : 687E8
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 160 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1664E
+# sun_i  (hex) : 9664E
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 170 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1E68A
+# sun_i  (hex) : 9E68A
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 180 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 02F01
+# sun_i  (hex) : 82F01
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 190 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1CDFE
+# sun_i  (hex) : 9CDFE
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 200 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1EB5B
+# sun_i  (hex) : BEB5B
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 210 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1D476
+# sun_i  (hex) : BD476
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 220 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 0E1E1
+# sun_i  (hex) : AE1E1
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 230 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 025A8
+# sun_i  (hex) : A25A8
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 240 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1D944
+# sun_i  (hex) : DD944
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 250 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 02D29
+# sun_i  (hex) : C2D29
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 260 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1D0FB
+# sun_i  (hex) : DD0FB
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 270 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 0B976
+# sun_i  (hex) : CB976
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 280 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 04BA0
+# sun_i  (hex) : E4BA0
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 290 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 1C201
+# sun_i  (hex) : FC201
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 300 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 002C7
+# sun_i  (hex) : E02C7
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 310 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 07188
+# sun_i  (hex) : E7188
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 320 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 3F5ED
+# sun_i  (hex) : 1F5ED
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 330 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 3A906
+# sun_i  (hex) : 1A906
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 340 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 202B1
+# sun_i  (hex) : 002B1
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 350 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 27E1B
+# sun_i  (hex) : 07E1B
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 360 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 39064
+# sun_i  (hex) : 39064
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 370 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2AE70
+# sun_i  (hex) : 2AE70
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 380 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2EC05
+# sun_i  (hex) : 2EC05
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 390 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 30A34
+# sun_i  (hex) : 30A34
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 400 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 25250
+# sun_i  (hex) : 45250
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 410 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 3F2FB
+# sun_i  (hex) : 5F2FB
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 420 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2056F
+# sun_i  (hex) : 4056F
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 430 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2D415
+# sun_i  (hex) : 4D415
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 440 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 27742
+# sun_i  (hex) : 67742
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 450 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 31C40
+# sun_i  (hex) : 71C40
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 460 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 294BB
+# sun_i  (hex) : 694BB
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 470 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 26933
+# sun_i  (hex) : 66933
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 480 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 31F61
+# sun_i  (hex) : 91F61
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 490 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 3951D
+# sun_i  (hex) : 9951D
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 500 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 289AB
+# sun_i  (hex) : 889AB
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 510 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2AB24
+# sun_i  (hex) : 8AB24
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 520 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 28E4C
+# sun_i  (hex) : A8E4C
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 530 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 393B9
+# sun_i  (hex) : B93B9
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 540 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 3622C
+# sun_i  (hex) : B622C
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 550 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 37958
+# sun_i  (hex) : B7958
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 560 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 27ED2
+# sun_i  (hex) : C7ED2
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 570 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2E680
+# sun_i  (hex) : CE680
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 580 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2B9FE
+# sun_i  (hex) : CB9FE
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 590 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2BCEB
+# sun_i  (hex) : CBCEB
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 600 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 302AB
+# sun_i  (hex) : F02AB
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 610 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 30F00
+# sun_i  (hex) : F0F00
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 620 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 3C144
+# sun_i  (hex) : FC144
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 630 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 2EE21
+# sun_i  (hex) : EEE21
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 640 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 59C96
+# sun_i  (hex) : 19C96
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 650 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4106E
+# sun_i  (hex) : 0106E
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 660 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4D250
+# sun_i  (hex) : 0D250
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 670 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 5F6F9
+# sun_i  (hex) : 1F6F9
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 680 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 55F0D
+# sun_i  (hex) : 35F0D
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 690 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4E4B5
+# sun_i  (hex) : 2E4B5
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 700 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4A5BD
+# sun_i  (hex) : 2A5BD
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 710 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 5F75A
+# sun_i  (hex) : 3F75A
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 720 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 577FB
+# sun_i  (hex) : 577FB
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 730 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 51407
+# sun_i  (hex) : 51407
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 740 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 45339
+# sun_i  (hex) : 45339
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 750 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 58AC5
+# sun_i  (hex) : 58AC5
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 760 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4C0C2
+# sun_i  (hex) : 6C0C2
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 770 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 5E8B8
+# sun_i  (hex) : 7E8B8
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 780 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4F41B
+# sun_i  (hex) : 6F41B
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 790 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 46170
+# sun_i  (hex) : 66170
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 800 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 5561F
+# sun_i  (hex) : 9561F
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 810 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 43755
+# sun_i  (hex) : 83755
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 820 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 49828
+# sun_i  (hex) : 89828
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 830 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 48207
+# sun_i  (hex) : 88207
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 840 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 57B5A
+# sun_i  (hex) : B7B5A
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 850 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4A84B
+# sun_i  (hex) : AA84B
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 860 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4B0A6
+# sun_i  (hex) : AB0A6
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 870 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4210D
+# sun_i  (hex) : A210D
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 880 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 40EB7
+# sun_i  (hex) : C0EB7
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 890 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4FF82
+# sun_i  (hex) : CFF82
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 900 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 523F0
+# sun_i  (hex) : D23F0
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 910 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 55DA2
+# sun_i  (hex) : D5DA2
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 920 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4CAE9
+# sun_i  (hex) : ECAE9
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 930 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 5A99E
+# sun_i  (hex) : FA99E
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 940 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 425A7
+# sun_i  (hex) : E25A7
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 950 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 4EDC9
+# sun_i  (hex) : EEDC9
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 960 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6ECA6
+# sun_i  (hex) : 0ECA6
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 970 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6DEC8
+# sun_i  (hex) : 0DEC8
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 980 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 742B3
+# sun_i  (hex) : 142B3
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 990 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 70618
+# sun_i  (hex) : 10618
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1 us  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 79D5F
+# sun_i  (hex) : 39D5F
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1010 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6CB5F
+# sun_i  (hex) : 2CB5F
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1020 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6B8CC
+# sun_i  (hex) : 2B8CC
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1030 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 70B5F
+# sun_i  (hex) : 30B5F
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1040 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 681BD
+# sun_i  (hex) : 481BD
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1050 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6ADA9
+# sun_i  (hex) : 4ADA9
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1060 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 60CDD
+# sun_i  (hex) : 40CDD
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1070 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 638B2
+# sun_i  (hex) : 438B2
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1080 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 66EA5
+# sun_i  (hex) : 66EA5
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1090 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 60B61
+# sun_i  (hex) : 60B61
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1100 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6B63F
+# sun_i  (hex) : 6B63F
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1110 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 76292
+# sun_i  (hex) : 76292
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1120 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 7864C
+# sun_i  (hex) : 9864C
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1130 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 76EDA
+# sun_i  (hex) : 96EDA
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1140 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 61F09
+# sun_i  (hex) : 81F09
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1150 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 78F4B
+# sun_i  (hex) : 98F4B
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1160 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6A5B6
+# sun_i  (hex) : AA5B6
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1170 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6E75F
+# sun_i  (hex) : AE75F
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1180 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 77CA6
+# sun_i  (hex) : B7CA6
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1190 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 7A7D8
+# sun_i  (hex) : BA7D8
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1200 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 64FF3
+# sun_i  (hex) : C4FF3
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1210 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6442F
+# sun_i  (hex) : C442F
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1220 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 71687
+# sun_i  (hex) : D1687
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1230 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6C8C5
+# sun_i  (hex) : CC8C5
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1240 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 6BD6C
+# sun_i  (hex) : EBD6C
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1250 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 79EAD
+# sun_i  (hex) : F9EAD
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1260 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 7D1A2
+# sun_i  (hex) : FD1A2
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1270 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 69627
+# sun_i  (hex) : E9627
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1280 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 97C94
+# sun_i  (hex) : 17C94
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1290 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 9691C
+# sun_i  (hex) : 1691C
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1300 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 93DFF
+# sun_i  (hex) : 13DFF
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1310 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 9B0BB
+# sun_i  (hex) : 1B0BB
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1320 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 84360
+# sun_i  (hex) : 24360
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1330 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8133C
+# sun_i  (hex) : 2133C
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1340 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 99F33
+# sun_i  (hex) : 39F33
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1350 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8A7DC
+# sun_i  (hex) : 2A7DC
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1360 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 998D5
+# sun_i  (hex) : 598D5
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1370 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 81460
+# sun_i  (hex) : 41460
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1380 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8CBF6
+# sun_i  (hex) : 4CBF6
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1390 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 886D6
+# sun_i  (hex) : 486D6
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1400 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 82740
+# sun_i  (hex) : 62740
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1410 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 94B35
+# sun_i  (hex) : 74B35
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1420 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 80B4F
+# sun_i  (hex) : 60B4F
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1430 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 873FD
+# sun_i  (hex) : 673FD
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1440 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8DC88
+# sun_i  (hex) : 8DC88
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1450 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 9A2CB
+# sun_i  (hex) : 9A2CB
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1460 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8BC12
+# sun_i  (hex) : 8BC12
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1470 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 861A3
+# sun_i  (hex) : 861A3
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1480 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 9B0C5
+# sun_i  (hex) : BB0C5
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1490 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8CD5B
+# sun_i  (hex) : ACD5B
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1500 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8AEBE
+# sun_i  (hex) : AAEBE
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1510 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 93F02
+# sun_i  (hex) : B3F02
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1520 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 85D6F
+# sun_i  (hex) : C5D6F
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1530 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8E90B
+# sun_i  (hex) : CE90B
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1540 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8091A
+# sun_i  (hex) : C091A
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1550 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 82457
+# sun_i  (hex) : C2457
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1560 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8602F
+# sun_i  (hex) : E602F
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1570 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 9E452
+# sun_i  (hex) : FE452
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1580 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 998F6
+# sun_i  (hex) : F98F6
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1590 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : 8BCC4
+# sun_i  (hex) : EBCC4
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1600 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : BCA3D
+# sun_i  (hex) : 1CA3D
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1610 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : BAC2A
+# sun_i  (hex) : 1AC2A
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1620 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : AF67D
+# sun_i  (hex) : 0F67D
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1630 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B94E7
+# sun_i  (hex) : 194E7
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1640 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B771A
+# sun_i  (hex) : 3771A
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1650 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : BDC6E
+# sun_i  (hex) : 3DC6E
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1660 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : BF593
+# sun_i  (hex) : 3F593
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1670 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A63A9
+# sun_i  (hex) : 263A9
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1680 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : AEACC
+# sun_i  (hex) : 4EACC
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1690 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A1E2E
+# sun_i  (hex) : 41E2E
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1700 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A8FB2
+# sun_i  (hex) : 48FB2
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1710 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : AEB49
+# sun_i  (hex) : 4EB49
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1720 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A7324
+# sun_i  (hex) : 67324
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1730 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : BE9ED
+# sun_i  (hex) : 7E9ED
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1740 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B7F3E
+# sun_i  (hex) : 77F3E
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1750 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : AC52C
+# sun_i  (hex) : 6C52C
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1760 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B48F3
+# sun_i  (hex) : 948F3
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1770 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B8E68
+# sun_i  (hex) : 98E68
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1780 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A2D8D
+# sun_i  (hex) : 82D8D
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1790 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B97C3
+# sun_i  (hex) : 997C3
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1800 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A16EA
+# sun_i  (hex) : A16EA
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1810 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A44AF
+# sun_i  (hex) : A44AF
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1820 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A9CF9
+# sun_i  (hex) : A9CF9
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1830 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B85DB
+# sun_i  (hex) : B85DB
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1840 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B3E19
+# sun_i  (hex) : D3E19
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1850 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A301C
+# sun_i  (hex) : C301C
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1860 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B3899
+# sun_i  (hex) : D3899
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1870 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : AE9EC
+# sun_i  (hex) : CE9EC
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1880 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A8C45
+# sun_i  (hex) : E8C45
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1890 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : A31BA
+# sun_i  (hex) : E31BA
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1900 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : B56C9
+# sun_i  (hex) : F56C9
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1910 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : BB13E
+# sun_i  (hex) : FB13E
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1920 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C56E3
+# sun_i  (hex) : 056E3
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1930 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CC385
+# sun_i  (hex) : 0C385
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1940 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C6937
+# sun_i  (hex) : 06937
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1950 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : DE5F8
+# sun_i  (hex) : 1E5F8
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 1960 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C8595
+# sun_i  (hex) : 28595
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 1970 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CCBE0
+# sun_i  (hex) : 2CBE0
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 1980 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C1B8B
+# sun_i  (hex) : 21B8B
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 1990 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D9576
+# sun_i  (hex) : 39576
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2 us  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C384E
+# sun_i  (hex) : 4384E
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2010 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D0AFB
+# sun_i  (hex) : 50AFB
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2020 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D525C
+# sun_i  (hex) : 5525C
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2030 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C3D0F
+# sun_i  (hex) : 43D0F
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2040 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CB5B3
+# sun_i  (hex) : 6B5B3
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2050 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CFE10
+# sun_i  (hex) : 6FE10
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2060 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CC4A1
+# sun_i  (hex) : 6C4A1
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2070 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CE164
+# sun_i  (hex) : 6E164
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2080 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D5E9F
+# sun_i  (hex) : 95E9F
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2090 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C4245
+# sun_i  (hex) : 84245
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2100 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D94AD
+# sun_i  (hex) : 994AD
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2110 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : DBC70
+# sun_i  (hex) : 9BC70
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2120 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D7B2D
+# sun_i  (hex) : B7B2D
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2130 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CA03A
+# sun_i  (hex) : AA03A
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2140 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D84C5
+# sun_i  (hex) : B84C5
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2150 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C4D5E
+# sun_i  (hex) : A4D5E
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2160 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CA640
+# sun_i  (hex) : CA640
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2170 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : DAEDC
+# sun_i  (hex) : DAEDC
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2180 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D4DBF
+# sun_i  (hex) : D4DBF
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2190 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CC589
+# sun_i  (hex) : CC589
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2200 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D2A91
+# sun_i  (hex) : F2A91
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2210 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : C68D8
+# sun_i  (hex) : E68D8
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2220 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : D327A
+# sun_i  (hex) : F327A
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2230 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : CE927
+# sun_i  (hex) : EE927
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2240 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F50A9
+# sun_i  (hex) : 150A9
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2250 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E76D7
+# sun_i  (hex) : 076D7
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2260 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F9824
+# sun_i  (hex) : 19824
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2270 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E7A2B
+# sun_i  (hex) : 07A2B
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2280 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : EEDD8
+# sun_i  (hex) : 2EDD8
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2290 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F176E
+# sun_i  (hex) : 3176E
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2300 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F9A1F
+# sun_i  (hex) : 39A1F
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2310 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E7EAF
+# sun_i  (hex) : 27EAF
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2320 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F6A07
+# sun_i  (hex) : 56A07
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2330 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F985D
+# sun_i  (hex) : 5985D
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2340 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : EBB5B
+# sun_i  (hex) : 4BB5B
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2350 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F5727
+# sun_i  (hex) : 55727
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2360 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E7877
+# sun_i  (hex) : 67877
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2370 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F2571
+# sun_i  (hex) : 72571
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2380 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : FDAB9
+# sun_i  (hex) : 7DAB9
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2390 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : EA1F9
+# sun_i  (hex) : 6A1F9
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2400 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E0EFA
+# sun_i  (hex) : 80EFA
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2410 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E6038
+# sun_i  (hex) : 86038
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2420 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : FAE79
+# sun_i  (hex) : 9AE79
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2430 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F996D
+# sun_i  (hex) : 9996D
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2440 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F1D7D
+# sun_i  (hex) : B1D7D
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2450 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E3740
+# sun_i  (hex) : A3740
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2460 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E6A38
+# sun_i  (hex) : A6A38
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2470 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E21F4
+# sun_i  (hex) : A21F4
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2480 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : FEACB
+# sun_i  (hex) : DEACB
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2490 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F8994
+# sun_i  (hex) : D8994
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2500 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F12E1
+# sun_i  (hex) : D12E1
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2510 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F65E5
+# sun_i  (hex) : D65E5
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2520 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : F2D7F
+# sun_i  (hex) : F2D7F
+# rain_i       : '0'
+# wind_i       : '0'
+# 
+#    Time: 2530 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : EDC73
+# sun_i  (hex) : EDC73
+# rain_i       : '0'
+# wind_i       : '1'
+# 
+#    Time: 2540 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E3D71
+# sun_i  (hex) : E3D71
+# rain_i       : '1'
+# wind_i       : '0'
+# 
+#    Time: 2550 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: OK
+# Stimulus :
+# temp_i (hex) : E39CA
+# sun_i  (hex) : E39CA
+# rain_i       : '1'
+# wind_i       : '1'
+# 
+#    Time: 2560 ns  Iteration: 1  Instance: /com_store_velux_tb
+# ** Note: TOTAL ERRORS : 0
+#    Time: 2565 ns  Iteration: 0  Instance: /com_store_velux_tb
+# ** Note: TOTAL WARNINGS : 0
+#    Time: 2565 ns  Iteration: 0  Instance: /com_store_velux_tb
+# coverage attribute -name TESTNAME -value test_aleatoire_N20
+# coverage save ../test_aleatoire_N20.ucdb
+# quit -f

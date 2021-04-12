@@ -8,7 +8,9 @@ proc compile_duv { } {
   global Path_DUV
   puts "\nVHDL DUV compilation :"
 
-  vcom -2008 $Path_DUV/com_store_velux.vhdp
+  #vcom -2008 $Path_DUV/com_store_velux.vhdp
+  vcom -work project_lib -2008 $Path_DUV/com_store_velux.vhdp
+
 }
 
 #------------------------------------------------------------------------------
@@ -17,13 +19,21 @@ proc compile_tb { } {
   global Path_DUV
   puts "\nVHDL TB compilation :"
 
-  vcom -2008 $Path_TB/com_store_velux_tb.vhd
+  vcom -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd
+  vcom -work common_lib  -2008 $Path_TB/common_lib/comparator_pkg.vhd
+  vcom -work common_lib  -2008 $Path_TB/common_lib/complex_comparator_pkg.vhd
+  vcom -work common_lib  -2008 $Path_TB/common_lib/common_ctx.vhd
+
+  vcom -work project_lib -2008 $Path_TB/project_logger_pkg.vhd
+  vcom -work project_lib -2008 $Path_TB/projet_ctx.vhd
+  vcom -work project_lib -2008 $Path_TB/com_store_velux_tb.vhd
 }
 
 #------------------------------------------------------------------------------
 proc sim_start {TESTCASE N ERRNO} {
 
-  vsim -t 1ns -GN=$N -GERRNO=$ERRNO -GTESTCASE=$TESTCASE work.com_store_velux_tb
+  #vsim -t 1ns -GN=$N -GERRNO=$ERRNO -GTESTCASE=$TESTCASE work.com_store_velux_tb
+  vsim -t 1ns -GN=$N -GERRNO=$ERRNO -GTESTCASE=$TESTCASE project_lib.com_store_velux_tb
 #  do wave.do
   add wave -r *
   wave refresh
@@ -60,7 +70,8 @@ global Path_TB
 
 if {$argc>0} {
   if {[string compare $1 "all"] == 0} {
-    do_all 0 $2 $3
+    do_all $2 $3 $4 
+    #do_all 0 $2 $3 $4 
   } elseif {[string compare $1 "comp_duv"] == 0} {
     compile_duv
   } elseif {[string compare $1 "comp_tb"] == 0} {

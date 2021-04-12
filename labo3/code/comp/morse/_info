@@ -1,0 +1,78 @@
+m255
+K4
+z2
+!s11e vcom 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/vsn21_student/labo3/code/comp
+Pmorse_burst_emitter_pkg
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z4 w1617275120
+R0
+8../src/morse_burst_emitter_pkg.vhd
+F../src/morse_burst_emitter_pkg.vhd
+l0
+Z5 L34 1
+VWPeSLRBa@?O17>V[d@n_d1
+!s100 kPHAgWCffcUQmNPdDDW3R3
+Z6 OL;C;2020.1_1;71
+33
+Z7 !s110 1617275288
+!i10b 1
+Z8 !s108 1617275288.000000
+!s90 -2008|-work|morse|../src/morse_burst_emitter_pkg.vhd|
+!s107 ../src/morse_burst_emitter_pkg.vhd|
+!i113 0
+Z9 o-2008 -work morse
+Z10 tExplicit 1 CvgOpt 0
+Pmorse_pkg
+R1
+R2
+R3
+!i122 0
+R4
+R0
+Z11 8../src/morse_pkg.vhd
+Z12 F../src/morse_pkg.vhd
+l0
+R5
+VjX2h2Xl32`8lW8jC4RQ2g1
+!s100 hj=JPV[iNn15NB<nNhCi53
+R6
+33
+b1
+R7
+!i10b 1
+R8
+Z13 !s90 -2008|-work|morse|../src/morse_pkg.vhd|
+Z14 !s107 ../src/morse_pkg.vhd|
+!i113 0
+R9
+R10
+Bbody
+DPx4 work 9 morse_pkg 0 22 jX2h2Xl32`8lW8jC4RQ2g1
+R1
+R2
+R3
+!i122 0
+l0
+L124 1
+VOC^fUH:BfeO5Cnhoc@>9R2
+!s100 `F69;k:?gR5LB3W[d8aMN1
+R6
+33
+R7
+!i10b 1
+R8
+R13
+R14
+!i113 0
+R9
+R10

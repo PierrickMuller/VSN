@@ -1,0 +1,76 @@
+Run Monitor daemon listening on '33897@reds2021'...
+RegressionStarting: Regression started at Sun Mar 21 14:17:04 2021
+ActionStarted:   Action 'directed/testerrno2/execScript' has started at Sun Mar 21 14:17:09 2021
+ActionStarted:   Action 'directed/testerrno1/execScript' has started at Sun Mar 21 14:17:10 2021
+ActionStarted:   Action 'directed/testerrno8/execScript' has started at Sun Mar 21 14:17:10 2021
+ActionStarted:   Action 'directed/testerrno3/execScript' has started at Sun Mar 21 14:17:10 2021
+ActionStarted:   Action 'directed/testerrno0/execScript' has started at Sun Mar 21 14:17:10 2021
+ActionStarted:   Action 'directed/testerrno4/execScript' has started at Sun Mar 21 14:17:10 2021
+ActionStarted:   Action 'directed/test0/execScript' has started at Sun Mar 21 14:17:10 2021
+ActionStarted:   Action 'directed/testerrno6/execScript' has started at Sun Mar 21 14:17:11 2021
+ActionStarted:   Action 'directed/testerrno5/execScript' has started at Sun Mar 21 14:17:11 2021
+ActionStarted:   Action 'directed/testerrno7/execScript' has started at Sun Mar 21 14:17:11 2021
+Error: Action 'directed/testerrno2/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno2/execScript.log
+ActionCompleted: Action 'directed/testerrno2/execScript' failed at Sun Mar 21 14:17:15 2021
+Error: Action 'directed/testerrno8/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno8/execScript.log
+ActionCompleted: Action 'directed/testerrno8/execScript' failed at Sun Mar 21 14:17:15 2021
+Error: Action 'directed/testerrno3/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno3/execScript.log
+ActionCompleted: Action 'directed/testerrno3/execScript' failed at Sun Mar 21 14:17:15 2021
+Error: Action 'directed/testerrno0/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno0/execScript.log
+ActionCompleted: Action 'directed/testerrno0/execScript' failed at Sun Mar 21 14:17:15 2021
+Error: Action 'directed/test0/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/test0/execScript.log
+ActionCompleted: Action 'directed/test0/execScript' failed at Sun Mar 21 14:17:15 2021
+Error: Action 'directed/testerrno1/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno1/execScript.log
+ActionCompleted: Action 'directed/testerrno1/execScript' failed at Sun Mar 21 14:17:16 2021
+Error: Action 'directed/testerrno4/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno4/execScript.log
+ActionCompleted: Action 'directed/testerrno4/execScript' failed at Sun Mar 21 14:17:16 2021
+Error: Action 'directed/testerrno6/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno6/execScript.log
+ActionCompleted: Action 'directed/testerrno6/execScript' failed at Sun Mar 21 14:17:16 2021
+Error: Action 'directed/testerrno5/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno5/execScript.log
+ActionCompleted: Action 'directed/testerrno5/execScript' failed at Sun Mar 21 14:17:16 2021
+Error: Action 'directed/testerrno7/execScript' failed (failed/error):
+  details: UCDB status is 'Error'
+  logfile: /home/reds/vsn21_student/labo2/code/VRMDATA/directed/testerrno7/execScript.log
+ActionCompleted: Action 'directed/testerrno7/execScript' failed at Sun Mar 21 14:17:16 2021
+Action script execution status:
+  Total 10 scripts prepared: 10 OK, 0 failed
+  Total 10 scripts launched: 10 OK, 0 failed
+  Total 10 scripts finished: 10 OK, 0 failed
+Action script completion status:
+  Total 10 execScript actions: 10 failed
+  Total  1 postScript actions: 1 empty
+  Total  1  preScript actions: 1 empty
+Test (valid UCDB) status:
+  Ok              0
+  Warning         0
+  Error           10
+  Fatal           0
+  Missing         0
+  Merge Error     0
+  Unknown Error   0
+  UCDB Error      0
+  TOTAL           10
+Action script pass/fail status:
+  Passed          0    
+  Failed          10    (10 based on UCDB status)
+  TOTAL           10   
+RegressionCompleted: Regression finished at Sun Mar 21 14:17:22 2021
+VRM total elapsed time: 0m:18s

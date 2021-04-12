@@ -1,0 +1,109 @@
+m255
+K4
+z2
+!s11e vcom 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/vsn21_student/labo2/code/code1/comp
+T_opt
+!s110 1616066130
+VPb?^<0XaPKDA>T;mY8=3H0
+04 18 9 work com_store_velux_tb testbench 1
+=1-000ae431a4f1-60533652-1214c-7b1
+o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G ERRNO=0 -G N=3
+tCvgOpt 0
+n@_opt
+OL;O;2020.1_1;71
+Ecom_store_velux
+Z1 w1616066029
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8../../src/com_store_velux.vhdp
+Z6 F../../src/com_store_velux.vhdp
+l0
+L6 1
+VXMPclio_R=gn8^E15D3_a2
+!s100 bNLFM<VWWFH910>DjEAh<0
+Z7 OL;C;2020.1_1;71
+33
+Z8 !s110 1616066129
+!i10b 1
+Z9 !s108 1616066129.000000
+Z10 !s90 -2008|../../src/com_store_velux.vhdp|
+Z11 !s107 ../../src/com_store_velux.vhdp|
+!i113 0
+Z12 o-2008
+Z13 tExplicit 1 CvgOpt 0
+A5Z2Ssqg/IIX7deBT29lkJA==
+R2
+R3
+R4
+DEx4 work 15 com_store_velux 0 22 XMPclio_R=gn8^E15D3_a2
+!i122 0
+l54
+L37 18
+VO`d4>GaCK4KR;B?zfFkmQ2
+!s100 3LL:6nA_JBSNmliRfSjkd1
+R7
+!i119 1
+!i8a 1843603760
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n68be8c5
+Ecom_store_velux_tb
+R1
+R2
+R3
+R4
+!i122 1
+R0
+Z14 8../src_tb/com_store_velux_tb.vhd
+Z15 F../src_tb/com_store_velux_tb.vhd
+l0
+L33 1
+VdlE6kMVCRcIn1VVadWmN30
+!s100 FfMaQQ3XSAT4H3XkzIIc60
+R7
+33
+R8
+!i10b 1
+R9
+Z16 !s90 -2008|../src_tb/com_store_velux_tb.vhd|
+Z17 !s107 ../src_tb/com_store_velux_tb.vhd|
+!i113 0
+R12
+R13
+Atestbench
+R2
+R3
+R4
+DEx4 work 18 com_store_velux_tb 0 22 dlE6kMVCRcIn1VVadWmN30
+!i122 1
+l69
+L42 69
+VcX7FZHM5M>90WHPL5AM1l3
+!s100 LeAl;JZ0eThgih>2lo:ni2
+R7
+33
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 0
+R12
+R13

@@ -1,0 +1,5 @@
+# xml2ucdb -ucdbfilename /home/reds/vsn21_student/labo2/code/VRMDATA/merge_com_store_velux.ucdb -format Excel /home/reds/vsn21_student/labo2/code/com_store_velux.xml
+# Format 'Excel' read from parameter file.
+# 30 testplan section(s) added.
+# Database '/home/reds/vsn21_student/labo2/code/VRMDATA/merge_com_store_velux.ucdb' written.
+# quit -f
