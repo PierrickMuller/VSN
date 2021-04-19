@@ -85,6 +85,7 @@ package morse_pkg is
     -- A constant storing the internal Morse representation of the characters
     -- '0' to '9'
     constant number_conversion_c : ascii_letter_to_morse_array_t(0 to 9) := (
+    morse_char_t'(5, "11111"),
     morse_char_t'(5, "01111"),
     morse_char_t'(5, "00111"),
     morse_char_t'(5, "00011"),
@@ -93,8 +94,7 @@ package morse_pkg is
     morse_char_t'(5, "10000"),
     morse_char_t'(5, "11000"),
     morse_char_t'(5, "11100"),
-    morse_char_t'(5, "11110"),
-    morse_char_t'(5, "11111")
+    morse_char_t'(5, "11110")
     );
 
     -- A type embedding a Morse letter and an information about its validity.
