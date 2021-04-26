@@ -1,0 +1,209 @@
+20210424T131509 selects {I /directed}
+20210424T131509 options -mseed 0
+20210424T131509 vrundir /home/reds/vsn21_student/labo3/code
+20210424T131509 vrmdata /home/reds/vsn21_student/labo3/code/VRMDATA
+20210424T131509 logfile /home/reds/vsn21_student/labo3/code/VRMDATA/logs/210424_131509.rmev
+20210424T131509 begin 35503@reds2021 /home/reds/vsn21_student/labo3/code/default.rmdb /home/reds/vsn21_student/labo3/code/VRMDATA
+20210424T131509 eligible directed/preScript {}
+20210424T131509 done directed/preScript empty
+20210424T131509 eligible directed/hello_world_nburst/execScript {}
+20210424T131509 eligible directed/all_char_nburst/execScript {}
+20210424T131509 eligible directed/all_num_nburst/execScript {}
+20210424T131509 eligible directed/hello_world_burst/execScript {}
+20210424T131509 eligible directed/all_char_burst/execScript {}
+20210424T131509 eligible directed/all_num_burst/execScript {}
+20210424T131509 eligible directed/testerrno0/execScript {}
+20210424T131509 eligible directed/testerrno1/execScript {}
+20210424T131509 eligible directed/testerrno2/execScript {}
+20210424T131509 eligible directed/testerrno3/execScript {}
+20210424T131509 eligible directed/testerrno4/execScript {}
+20210424T131509 eligible directed/testerrno5/execScript {}
+20210424T131509 eligible directed/testerrno6/execScript {}
+20210424T131509 eligible directed/testerrno7/execScript {}
+20210424T131509 eligible directed/testerrno8/execScript {}
+20210424T131509 eligible directed/testerrno9/execScript {}
+20210424T131509 eligible directed/testerrno10/execScript {}
+20210424T131509 eligible directed/testerrno11/execScript {}
+20210424T131509 eligible directed/testerrno12/execScript {}
+20210424T131509 eligible directed/testerrno13/execScript {}
+20210424T131509 eligible directed/testerrno14/execScript {}
+20210424T131509 eligible directed/testerrno15/execScript {}
+20210424T131509 eligible directed/testerrno16/execScript {}
+20210424T131509 eligible directed/testerrno17/execScript {}
+20210424T131509 launched directed/hello_world_nburst/execScript
+20210424T131509 launched directed/all_char_nburst/execScript
+20210424T131510 launched directed/all_num_nburst/execScript
+20210424T131510 launched directed/hello_world_burst/execScript
+20210424T131510 launched directed/all_char_burst/execScript
+20210424T131510 launched directed/all_num_burst/execScript
+20210424T131510 launched directed/testerrno0/execScript
+20210424T131510 launched directed/testerrno1/execScript
+20210424T131510 launched directed/testerrno2/execScript
+20210424T131510 launched directed/testerrno3/execScript
+20210424T131510 launched directed/testerrno4/execScript
+20210424T131510 launched directed/testerrno5/execScript
+20210424T131510 launched directed/testerrno6/execScript
+20210424T131510 launched directed/testerrno7/execScript
+20210424T131510 launched directed/testerrno8/execScript
+20210424T131511 launched directed/testerrno9/execScript
+20210424T131511 launched directed/testerrno10/execScript
+20210424T131511 launched directed/testerrno11/execScript
+20210424T131511 launched directed/testerrno12/execScript
+20210424T131511 launched directed/testerrno13/execScript
+20210424T131511 launched directed/testerrno14/execScript
+20210424T131512 launched directed/testerrno15/execScript
+20210424T131512 launched directed/testerrno16/execScript
+20210424T131512 launched directed/testerrno17/execScript
+20210424T131516 running directed/hello_world_burst/execScript reds2021
+20210424T131516 running directed/all_char_nburst/execScript reds2021
+20210424T131517 running directed/hello_world_nburst/execScript reds2021
+20210424T131517 running directed/all_num_nburst/execScript reds2021
+20210424T131517 running directed/all_num_burst/execScript reds2021
+20210424T131517 running directed/all_char_burst/execScript reds2021
+20210424T131517 running directed/testerrno0/execScript reds2021
+20210424T131518 running directed/testerrno2/execScript reds2021
+20210424T131518 running directed/testerrno1/execScript reds2021
+20210424T131518 running directed/testerrno3/execScript reds2021
+20210424T131518 running directed/testerrno4/execScript reds2021
+20210424T131518 running directed/testerrno5/execScript reds2021
+20210424T131518 running directed/testerrno6/execScript reds2021
+20210424T131518 running directed/testerrno8/execScript reds2021
+20210424T131518 running directed/testerrno7/execScript reds2021
+20210424T131519 running directed/testerrno9/execScript reds2021
+20210424T131519 running directed/testerrno11/execScript reds2021
+20210424T131519 running directed/testerrno10/execScript reds2021
+20210424T131519 running directed/testerrno12/execScript reds2021
+20210424T131519 running directed/testerrno14/execScript reds2021
+20210424T131519 running directed/testerrno16/execScript reds2021
+20210424T131519 running directed/testerrno13/execScript reds2021
+20210424T131519 running directed/testerrno15/execScript reds2021
+20210424T131519 running directed/testerrno17/execScript reds2021
+20210424T131526 done directed/testerrno6/execScript failed/script reds2021 directed/testerrno6.ucdb {} {} {} {} {}
+20210424T131526 eligible directed/testerrno6/deleteScript {}
+20210424T131528 done directed/testerrno5/execScript failed/script reds2021 directed/testerrno5.ucdb {} {} {} {} {}
+20210424T131528 eligible directed/testerrno5/deleteScript {}
+20210424T131530 done directed/hello_world_burst/execScript passed/ok reds2021 directed/hello_world_burst.ucdb ok 0 0.00 {} 14
+20210424T131530 eligible directed/hello_world_burst/tplanScript {}
+20210424T131530 launched directed/hello_world_burst/tplanScript
+20210424T131531 done directed/testerrno0/execScript passed/ok reds2021 directed/testerrno0.ucdb ok 0 0.00 {} 14
+20210424T131531 running directed/testerrno6/deleteScript reds2021
+20210424T131531 done directed/testerrno6/deleteScript skipped
+20210424T131532 done directed/testerrno8/execScript failed/script reds2021 directed/testerrno8.ucdb {} {} {} {} {}
+20210424T131532 eligible directed/testerrno8/deleteScript {}
+20210424T131533 done directed/testerrno3/execScript failed/script reds2021 directed/testerrno3.ucdb {} {} {} {} {}
+20210424T131533 eligible directed/testerrno3/deleteScript {}
+20210424T131533 running directed/hello_world_burst/tplanScript reds2021
+20210424T131533 running directed/testerrno5/deleteScript reds2021
+20210424T131533 done directed/testerrno5/deleteScript skipped
+20210424T131533 done directed/hello_world_burst/tplanScript passed/warning reds2021 merge_morse_burst_emitter.ucdb warning {} 0.00 {} {}
+20210424T131534 done directed/all_char_burst/execScript failed/script reds2021 directed/all_char_burst.ucdb {} {} {} {} {}
+20210424T131534 eligible directed/all_char_burst/deleteScript {}
+20210424T131534 done directed/all_num_nburst/execScript failed/script reds2021 directed/all_num_nburst.ucdb {} {} {} {} {}
+20210424T131534 eligible directed/all_num_nburst/deleteScript {}
+20210424T131536 done directed/all_char_nburst/execScript passed/ok reds2021 directed/all_char_nburst.ucdb ok 0 0.00 {} 20
+20210424T131537 running directed/testerrno8/deleteScript reds2021
+20210424T131537 done directed/testerrno8/deleteScript skipped
+20210424T131538 done directed/testerrno10/execScript failed/error reds2021 directed/testerrno10.ucdb error 0 0.00 {} {}
+20210424T131538 eligible directed/testerrno10/deleteScript {}
+20210424T131538 running directed/testerrno3/deleteScript reds2021
+20210424T131538 done directed/testerrno3/deleteScript skipped
+20210424T131538 done directed/testerrno1/execScript failed/script reds2021 directed/testerrno1.ucdb {} {} {} {} {}
+20210424T131538 eligible directed/testerrno1/deleteScript {}
+20210424T131539 running directed/all_char_burst/deleteScript reds2021
+20210424T131539 done directed/all_char_burst/deleteScript skipped
+20210424T131539 running directed/all_num_nburst/deleteScript reds2021
+20210424T131539 done directed/all_num_nburst/deleteScript skipped
+20210424T131540 done directed/all_num_burst/execScript passed/ok reds2021 directed/all_num_burst.ucdb ok 0 0.00 {} 23
+20210424T131540 done directed/testerrno16/execScript passed/ok reds2021 directed/testerrno16.ucdb ok 0 0.00 {} 21
+20210424T131541 done directed/testerrno11/execScript failed/script reds2021 directed/testerrno11.ucdb {} {} {} {} {}
+20210424T131541 eligible directed/testerrno11/deleteScript {}
+20210424T131542 done directed/testerrno15/execScript failed/script reds2021 directed/testerrno15.ucdb {} {} {} {} {}
+20210424T131542 eligible directed/testerrno15/deleteScript {}
+20210424T131542 done directed/hello_world_nburst/execScript passed/ok reds2021 directed/hello_world_nburst.ucdb ok 0 0.00 {} 25
+20210424T131542 eligible directed/testerrno0/mergeScript {}
+20210424T131542 done directed/testerrno14/execScript failed/script reds2021 directed/testerrno14.ucdb {} {} {} {} {}
+20210424T131542 eligible directed/testerrno14/deleteScript {}
+20210424T131542 launched directed/testerrno0/mergeScript
+20210424T131543 running directed/testerrno10/deleteScript reds2021
+20210424T131543 done directed/testerrno10/deleteScript skipped
+20210424T131543 running directed/testerrno1/deleteScript reds2021
+20210424T131543 done directed/testerrno1/deleteScript skipped
+20210424T131544 done directed/testerrno12/execScript passed/ok reds2021 directed/testerrno12.ucdb ok 0 0.00 {} 25
+20210424T131545 done directed/testerrno4/execScript passed/ok reds2021 directed/testerrno4.ucdb ok 0 0.00 {} 27
+20210424T131546 running directed/testerrno0/mergeScript reds2021
+20210424T131546 merge directed/testerrno0/execScript directed/testerrno0/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131546 merge directed/all_char_nburst/execScript directed/testerrno0/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131546 merge directed/all_num_burst/execScript directed/testerrno0/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131546 merge directed/testerrno16/execScript directed/testerrno0/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131546 merge directed/hello_world_nburst/execScript directed/testerrno0/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131546 done directed/testerrno0/mergeScript passed reds2021 merge.ucdb {} {} 0.00 {} {}
+20210424T131546 running directed/testerrno11/deleteScript reds2021
+20210424T131546 done directed/testerrno11/deleteScript skipped
+20210424T131546 done directed/testerrno2/execScript failed/error reds2021 directed/testerrno2.ucdb error 0 0.00 {} {}
+20210424T131546 eligible directed/testerrno2/deleteScript {}
+20210424T131547 done directed/testerrno13/execScript failed/error reds2021 directed/testerrno13.ucdb error 0 0.00 {} {}
+20210424T131547 eligible directed/testerrno13/deleteScript {}
+20210424T131547 running directed/testerrno15/deleteScript reds2021
+20210424T131547 done directed/testerrno15/deleteScript skipped
+20210424T131547 done directed/testerrno9/execScript passed/ok reds2021 directed/testerrno9.ucdb ok 0 0.00 {} 28
+20210424T131547 running directed/testerrno14/deleteScript reds2021
+20210424T131547 done directed/testerrno14/deleteScript skipped
+20210424T131548 done directed/testerrno7/execScript passed/ok reds2021 directed/testerrno7.ucdb ok 0 0.00 {} 30
+20210424T131548 eligible directed/hello_world_burst/mergeScript {}
+20210424T131548 done directed/testerrno17/execScript passed/ok reds2021 directed/testerrno17.ucdb ok 0 0.00 {} 29
+20210424T131548 launched directed/hello_world_burst/mergeScript
+20210424T131550 running directed/hello_world_burst/mergeScript reds2021
+20210424T131550 merge directed/hello_world_burst/tplanScript directed/hello_world_burst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131550 merge directed/testerrno12/execScript directed/hello_world_burst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131550 merge directed/testerrno4/execScript directed/hello_world_burst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131550 merge directed/testerrno9/execScript directed/hello_world_burst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131550 merge directed/testerrno7/execScript directed/hello_world_burst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131550 done directed/hello_world_burst/mergeScript passed reds2021 merge.ucdb {} {} 0.00 30.00 {}
+20210424T131550 eligible directed/all_char_nburst/deleteScript {}
+20210424T131550 eligible directed/all_num_burst/deleteScript {}
+20210424T131550 eligible directed/hello_world_burst/deleteScript {}
+20210424T131550 eligible directed/hello_world_nburst/deleteScript {}
+20210424T131550 eligible directed/testerrno0/deleteScript {}
+20210424T131550 eligible directed/testerrno12/deleteScript {}
+20210424T131550 eligible directed/testerrno16/deleteScript {}
+20210424T131550 eligible directed/testerrno4/deleteScript {}
+20210424T131550 eligible directed/testerrno7/deleteScript {}
+20210424T131550 eligible directed/testerrno9/deleteScript {}
+20210424T131551 running directed/testerrno2/deleteScript reds2021
+20210424T131551 done directed/testerrno2/deleteScript skipped
+20210424T131552 running directed/testerrno13/deleteScript reds2021
+20210424T131552 done directed/testerrno13/deleteScript skipped
+20210424T131555 running directed/all_char_nburst/deleteScript reds2021
+20210424T131555 done directed/all_char_nburst/deleteScript skipped
+20210424T131555 running directed/all_num_burst/deleteScript reds2021
+20210424T131555 done directed/all_num_burst/deleteScript skipped
+20210424T131555 running directed/hello_world_burst/deleteScript reds2021
+20210424T131555 done directed/hello_world_burst/deleteScript skipped
+20210424T131555 running directed/hello_world_nburst/deleteScript reds2021
+20210424T131555 done directed/hello_world_nburst/deleteScript skipped
+20210424T131555 running directed/testerrno0/deleteScript reds2021
+20210424T131555 done directed/testerrno0/deleteScript skipped
+20210424T131555 running directed/testerrno12/deleteScript reds2021
+20210424T131555 done directed/testerrno12/deleteScript skipped
+20210424T131555 running directed/testerrno16/deleteScript reds2021
+20210424T131555 done directed/testerrno16/deleteScript skipped
+20210424T131555 running directed/testerrno4/deleteScript reds2021
+20210424T131555 done directed/testerrno4/deleteScript skipped
+20210424T131555 running directed/testerrno7/deleteScript reds2021
+20210424T131555 done directed/testerrno7/deleteScript skipped
+20210424T131555 running directed/testerrno9/deleteScript reds2021
+20210424T131555 done directed/testerrno9/deleteScript skipped
+20210424T131618 eligible directed/testerrno17/mergeScript {}
+20210424T131619 launched directed/testerrno17/mergeScript
+20210424T131620 running directed/testerrno17/mergeScript reds2021
+20210424T131621 merge directed/testerrno17/execScript directed/testerrno17/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210424T131621 done directed/testerrno17/mergeScript passed reds2021 merge.ucdb {} {} 0.00 31.11 {}
+20210424T131621 eligible directed/postScript {}
+20210424T131621 eligible directed/testerrno17/deleteScript {}
+20210424T131621 done directed/postScript empty
+20210424T131621 eligible directed/deleteScript {}
+20210424T131626 running directed/testerrno17/deleteScript reds2021
+20210424T131626 done directed/testerrno17/deleteScript skipped
+20210424T131626 running directed/deleteScript reds2021
+20210424T131626 done directed/deleteScript skipped
+20210424T131626 end

@@ -11,7 +11,12 @@
       <parameter name="tplanoptions">-format Excel</parameter>
     </parameters>
     <members>
-      <member>test0</member>
+      <member>hello_world_nburst</member>
+      <member>all_char_nburst</member>
+      <member>all_num_nburst</member>
+      <member>hello_world_burst</member>
+      <!-- <member>all_char_burst</member>
+      <member>all_num_burst</member> -->
       <member>testerrno0</member>
       <member>testerrno1</member>
       <member>testerrno2</member>
@@ -91,13 +96,48 @@
       <command>coverage save (%ucdbfile%)</command>
     </execScript>
   </runnable>
-  <runnable name="test0" type="task">
+  <runnable name="hello_world_nburst" type="task">
     <parameters>
-      <parameter name="TESTCASE">0</parameter>
+      <parameter name="TESTCASE">1</parameter>
       <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
+  <runnable name="all_char_nburst" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="all_num_nburst" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="hello_world_burst" type="task">
+    <parameters>
+      <parameter name="TESTCASE">4</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <!--<runnable name="all_char_burst" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="all_num_burst" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable> -->
   <runnable name="testerrno0" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>

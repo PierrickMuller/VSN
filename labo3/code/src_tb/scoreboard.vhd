@@ -79,6 +79,14 @@ begin
             raise_objection;
             if trans_output.valid = '1' then
                 logger.note("Scoreboard received transaction number " & integer'image(counter));
+                if(trans_output.char /= trans_input.char) then
+                    --logger.note(to_string(trans_output.char) & " " & to_string(trans_input.char));
+                    logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
+                    logger.error("Error ! Results don't match");
+                else 
+                    logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
+                    logger.note("Everything's fine !");
+                end if;
                 -- Check if everything goes well or not
             end if;
             counter := counter + 1;

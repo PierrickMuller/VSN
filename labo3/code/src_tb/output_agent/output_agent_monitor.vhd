@@ -65,52 +65,137 @@ begin
         variable up_counter   : integer;
         variable down_counter : integer;
         variable char_v       : morse_char_t;
+        variable size_char_v  : morse_char_length_t;
+        variable morse_val_v  : std_logic_vector(0 to 4);
     begin
 
         -- Waits for the logger initialization
         wait for resolution_limit;
 
         counter := 0;
+        down_counter := 0; 
+
         loop
             logger.note("Monitor waiting for transaction number " & integer'image(counter));
             ok := false;
 
             -- Example here, just detecting dots
             up_counter   := 0;
-            down_counter := 0;
+            --down_counter := 0;
             char_v.size  := 0;
             char_v.value := "-----";
-            wait until rising_edge(clk);
+            if down_counter = 0 then 
+                wait until rising_edge(clk);
+            end if;
             while port_output = '0' loop
+                -- to check wth objection
+                down_counter := down_counter + 1;
                 wait until rising_edge(clk);
             end loop;
 
             raise_objection;
 
-            up_counter   := 0;
-            down_counter := 0;
-
-            while port_output = '1' loop
-                up_counter := up_counter + 1;
-                wait until rising_edge(clk);
-            end loop;
-
-            if up_counter = dot_period then
-                -- Sounds good
-                char_v := letter_conversion_c(1); -- Arbitrarily say it's a B
+            -- That was a space beetwen words ! 
+            -- That's the basic value of char_v, so no need to convert
+            if down_counter >= (7 * dot_period) then
+                logger.note("VALUE : " & to_string(morse_val_v));
+                --char_v := morse_char_t'(size_char_v, morse_val_v);
                 morse_to_ascii_check(char_v, transaction.char, transaction.valid);
                 if transaction.valid = '0' then
                     logger.error("Output Monitor : Error in transaction number " & integer'image(counter) & 
                     ". Output got an invalid series of dots and dashes. Observed: " & morse_char_to_string(char_v));
                 end if;
+                
                 blocking_put(transaction);
+    
                 logger.note("Output Monitor received transaction number " & integer'image(counter) & LF &
-                "Value : " & integer'image(to_integer(unsigned(transaction.char))) & LF &
-                "Size : " & integer'image(char_v.size));
+                    "Value : " & integer'image(to_integer(unsigned(transaction.char))) & LF &
+                    "Size : " & integer'image(char_v.size) & LF & 
+                    "Char : " & morse_char_to_string(char_v));
                 counter := counter + 1;
-            else
-                logger.error("I expected a dot, but that's not what I got");
             end if;
+
+
+            up_counter   := 0;
+            down_counter := 0;
+            size_char_v  := 0;
+            morse_val_v  := (others => '-');
+            
+            -- work on one letter
+            while down_counter <= dot_period loop
+                down_counter := 0;
+                up_counter := 0;
+                while port_output = '1' loop
+                    up_counter := up_counter + 1;
+                    wait until rising_edge(clk);
+                end loop;
+                
+                if up_counter = dot_period then
+                    --logger.note("POINT");
+                    morse_val_v(size_char_v) := '0';
+                    size_char_v := size_char_v + 1;
+                elsif  up_counter = (dot_period * 3) then
+                    --logger.note("dash");
+                    morse_val_v(size_char_v) := '1';
+                    size_char_v := size_char_v + 1;
+                else
+                    size_char_v := size_char_v + 1;
+                    morse_val_v := morse_val_v(1 to 4) & 'X';
+                    logger.note(to_string(morse_val_v));
+                end if;
+                
+                while port_output = '0' and down_counter <= dot_period loop
+                    down_counter := down_counter + 1;
+                    wait until rising_edge(clk);
+                end loop;
+            end loop;
+            logger.note("VALUE : " & to_string(morse_val_v));
+            char_v := morse_char_t'(size_char_v, morse_val_v);
+            morse_to_ascii_check(char_v, transaction.char, transaction.valid);
+
+            if transaction.valid = '0' then
+                logger.error("Output Monitor : Error in transaction number " & integer'image(counter) & 
+                ". Output got an invalid series of dots and dashes. Observed: " & morse_char_to_string(char_v));
+            end if;
+            
+            blocking_put(transaction);
+
+            logger.note("Output Monitor received transaction number " & integer'image(counter) & LF &
+                "Value : " & integer'image(to_integer(unsigned(transaction.char))) & LF &
+                "Size : " & integer'image(char_v.size) & LF & 
+                "Char : " & morse_char_to_string(char_v));
+            counter := counter + 1;
+
+            -- We check for space here because we want to be inside the objection
+            -- so that no transactions are loose. Carefull ! If space bigger than
+            -- 7 * dot period, we can loose a transaction !!! 
+            while port_output = '0' and down_counter <= 7 * dot_period loop
+                -- to check wth objection
+                down_counter := down_counter + 1;
+                wait until rising_edge(clk);
+            end loop;
+
+            --while port_output = '1' loop
+            --    up_counter := up_counter + 1;
+            --    wait until rising_edge(clk);
+            --end loop;
+
+            --if up_counter = dot_period then
+                -- Sounds good
+            --    char_v := letter_conversion_c(1); -- Arbitrarily say it's a B
+            --    morse_to_ascii_check(char_v, transaction.char, transaction.valid);
+            --    if transaction.valid = '0' then
+            --        logger.error("Output Monitor : Error in transaction number " & integer'image(counter) & 
+            --        ". Output got an invalid series of dots and dashes. Observed: " & morse_char_to_string(char_v));
+            --    end if;
+            --    blocking_put(transaction);
+            --    logger.note("Output Monitor received transaction number " & integer'image(counter) & LF &
+            --    "Value : " & integer'image(to_integer(unsigned(transaction.char))) & LF &
+            --    "Size : " & integer'image(char_v.size));
+            --    counter := counter + 1;
+            --else
+            --    logger.error("I expected a dot, but that's not what I got");
+            --end if;
 
             drop_objection;
         end loop;

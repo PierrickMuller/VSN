@@ -10,140 +10,140 @@ z2
 cModel Technology
 Z0 d/home/reds/vsn21_student/labo2/code/code3/comp
 T_opt
-!s110 1617180578
-V4oJC5F0cm?LhORZNQfJb61
+!s110 1618244572
+VY5MKOP4jU8eKj9VUhZ@eH3
 Z1 04 18 9 work com_store_velux_tb testbench 1
-=1-000ae431a4f1-606437a2-85f85-18d9
-o-quiet -auto_acc_if_foreign -work project_lib -G TESTCASE=1 -G ERRNO=4 -G N=3
+=1-000ae431a4f1-607473da-ad353-998
+o-quiet -auto_acc_if_foreign -work project_lib -G TESTCASE=1 -G ERRNO=0 -G N=8
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.1_1;71
 R0
 T_opt1
-!s110 1617181243
-Vn4RzK`;6XQ=nabQ7E8Xz92
+Z4 !s110 1618244622
+V==gOji1=SgY16VEQ29oRn1
 R1
-=1-000ae431a4f1-60643a3b-37946-2294
-o-quiet -auto_acc_if_foreign -work project_lib -G TESTCASE=2 -G ERRNO=0 -G N=32
+=1-000ae431a4f1-6074740e-45a84-a86
+o-quiet -auto_acc_if_foreign -work project_lib -G TESTCASE=1 -G ERRNO=2 -G N=3
 R2
 n@_opt1
 R3
 T_opt2
-!s110 1617181226
-V:dQ_W`=<ECQG4gJ8SNKb@0
+!s110 1618244614
+VR6S5<WHL>CY:W9VdeUze?3
 R1
-=1-000ae431a4f1-60643a2a-62654-224b
-o-quiet -auto_acc_if_foreign -work project_lib -G TESTCASE=2 -G ERRNO=0 -G N=5
+=1-000ae431a4f1-60747405-ca457-9e4
+o-quiet -auto_acc_if_foreign -work project_lib -G TESTCASE=1 -G ERRNO=3 -G N=3
 R2
 n@_opt2
 R3
 R0
 Ecom_store_velux
-Z4 w1616066029
-Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 1516
+Z5 w1618244362
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1528
 R0
-Z8 8../../src/com_store_velux.vhdp
-Z9 F../../src/com_store_velux.vhdp
+Z9 8../../src/com_store_velux.vhdp
+Z10 F../../src/com_store_velux.vhdp
 l0
 L6 1
 VlUKVHf5U5dJ3@[0cFZL__0
 !s100 bNLFM<VWWFH910>DjEAh<0
-Z10 OL;C;2020.1_1;71
+Z11 OL;C;2020.1_1;71
 33
-Z11 !s110 1617181241
+Z12 !s110 1618244621
 !i10b 1
-Z12 !s108 1617181241.000000
-Z13 !s90 -work|project_lib|-2008|../../src/com_store_velux.vhdp|
-Z14 !s107 ../../src/com_store_velux.vhdp|
+Z13 !s108 1618244621.000000
+Z14 !s90 -work|project_lib|-2008|../../src/com_store_velux.vhdp|
+Z15 !s107 ../../src/com_store_velux.vhdp|
 !i113 0
-Z15 o-work project_lib -2008
-Z16 tExplicit 1 CvgOpt 0
-A3Dy/5rLvAfHkfaQgJkwI9g==
-R5
+Z16 o-work project_lib -2008
+Z17 tExplicit 1 CvgOpt 0
+AlROsHy+Hpzqf6m8ONuTqUQ==
 R6
 R7
+R8
 DEx4 work 15 com_store_velux 0 22 lUKVHf5U5dJ3@[0cFZL__0
-!i122 1516
+!i122 1528
 l54
 L37 18
 VM]SzA_l``2e`ZZfFVT5mP3
 !s100 3LL:6nA_JBSNmliRfSjkd1
-R10
-!i119 1
-!i8a 1210514352
-33
 R11
-!i10b 1
+!i119 1
+!i8a 68270720
+33
 R12
+!i10b 1
 R13
 R14
-!i113 0
 R15
+!i113 0
 R16
+R17
 n68be8c5
 Ecom_store_velux_tb
-Z17 w1617181219
-Z18 D^#x11 project_lib 11 project_ctx 0 22 >?W8Lg`:83FbjUjJbN[>G3
-Z19 D^#x10 common_lib 10 common_ctx 0 22 cTPYKY`A<[23d^?VR40RK3
-Z20 DPx10 common_lib 22 complex_comparator_pkg 0 22 SRj[hzXO[aIKfTYhb4f^X1
-Z21 DPx10 common_lib 14 comparator_pkg 0 22 NWKUAS5ae;5Hm]ggcC>ec2
-Z22 DPx10 common_lib 10 logger_pkg 0 22 V67H5GA>Hnkd7QhjP7bFZ2
-Z23 DPx11 project_lib 18 project_logger_pkg 0 22 nYL2gzM4BO7EZQV[3MSW41
-Z24 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
-R5
+Z18 w1618244554
+Z19 D^#x11 project_lib 11 project_ctx 0 22 >?W8Lg`:83FbjUjJbN[>G3
+Z20 D^#x10 common_lib 10 common_ctx 0 22 cTPYKY`A<[23d^?VR40RK3
+Z21 DPx10 common_lib 22 complex_comparator_pkg 0 22 SRj[hzXO[aIKfTYhb4f^X1
+Z22 DPx10 common_lib 14 comparator_pkg 0 22 NWKUAS5ae;5Hm]ggcC>ec2
+Z23 DPx10 common_lib 10 logger_pkg 0 22 V67H5GA>Hnkd7QhjP7bFZ2
+Z24 DPx11 project_lib 18 project_logger_pkg 0 22 nYL2gzM4BO7EZQV[3MSW41
+Z25 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
 R6
 R7
-!i122 1519
+R8
+!i122 1531
 R0
-Z25 8../src_tb/com_store_velux_tb.vhd
-Z26 F../src_tb/com_store_velux_tb.vhd
+Z26 8../src_tb/com_store_velux_tb.vhd
+Z27 F../src_tb/com_store_velux_tb.vhd
 l0
 L33 1
 VDGca?Lkneg68`^5mXj3S63
 !s100 b=2`CTRcE@=h443_jTNeK1
-R10
+R11
 33
-Z27 !s110 1617181242
+R4
 !i10b 1
-Z28 !s108 1617181242.000000
+Z28 !s108 1618244622.000000
 Z29 !s90 -work|project_lib|-2008|../src_tb/com_store_velux_tb.vhd|
 Z30 !s107 ../src_tb/com_store_velux_tb.vhd|
 !i113 0
-R15
 R16
+R17
 Atestbench
-R18
 R19
 R20
 R21
 R22
 R23
 R24
-R5
+R25
 R6
 R7
+R8
 DEx4 work 18 com_store_velux_tb 0 22 DGca?Lkneg68`^5mXj3S63
-!i122 1519
-l356
-L42 392
-V@7ogQnbZgZhA_@Gong=aL0
-!s100 e>a=K4H;^[;aL0l44TnUQ3
-R10
+!i122 1531
+l385
+L42 421
+VCIIL3cD_C12^gNK5`:;Fi1
+!s100 =HBYXJ_;c4023R9=_SEOi2
+R11
 33
-R27
+R4
 !i10b 1
 R28
 R29
 R30
 !i113 0
-R15
 R16
+R17
 ^#project_ctx
-w1616326707
-!i122 1518
+R18
+!i122 1530
 R0
 8../src_tb/projet_ctx.vhd
 F../src_tb/projet_ctx.vhd
@@ -151,27 +151,27 @@ l0
 L2 1
 V>?W8Lg`:83FbjUjJbN[>G3
 !s100 5OFYPB9VaCJIEC7fnK>JR1
-R10
+R11
 33
-R27
+R4
 !i10b 0
 R28
 !s90 -work|project_lib|-2008|../src_tb/projet_ctx.vhd|
 !s107 ../src_tb/projet_ctx.vhd|
 !i113 0
-R15
 R16
+R17
 Pproject_logger_pkg
-R19
 R20
 R21
 R22
-R24
-R5
+R23
+R25
 R6
 R7
-!i122 1517
-w1616321477
+R8
+!i122 1529
+R18
 R0
 8../src_tb/project_logger_pkg.vhd
 F../src_tb/project_logger_pkg.vhd
@@ -179,13 +179,13 @@ l0
 L5 1
 VnYL2gzM4BO7EZQV[3MSW41
 !s100 :g4KLh:R]_P1;T[=1KjIX3
-R10
+R11
 33
-R27
+R4
 !i10b 1
-R28
+R13
 !s90 -work|project_lib|-2008|../src_tb/project_logger_pkg.vhd|
 !s107 ../src_tb/project_logger_pkg.vhd|
 !i113 0
-R15
 R16
+R17
