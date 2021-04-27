@@ -3,6 +3,32 @@
   <!-- ============== -->
   <!-- DIRECTED TESTS -->
   <!-- ============== -->
+
+  <runnable name="Full" type="group">
+    <members>
+      <member>Full8</member>
+      <member>Full52</member>
+    </members>
+  </runnable>
+
+  <runnable name="Full52" type="group">
+    <parameters>
+      <parameter name="FIFOSIZE">52</parameter>
+    </parameters>
+    <members>
+      <member>directed</member>
+    </members>
+  </runnable> 
+
+  <runnable name="Full8" type="group">
+    <parameters>
+      <parameter name="FIFOSIZE">8</parameter>
+    </parameters>
+    <members>
+      <member>directed</member>
+    </members>
+  </runnable> 
+
   <runnable name="directed" type="group">
     <parameters>
       <parameter name="ucdbfile">../(%INSTANCE%).ucdb</parameter>
@@ -14,9 +40,18 @@
       <member>hello_world_nburst</member>
       <member>all_char_nburst</member>
       <member>all_num_nburst</member>
-      <member>hello_world_burst</member>
-      <!-- <member>all_char_burst</member>
-      <member>all_num_burst</member> -->
+      <member>hello_world_burst_fifo_full</member>
+      <member>all_char_burst_fifo_full</member>
+      <member>all_num_burst_fifo_full</member>
+      <member>hello_world_burst_fifo_nfull</member>
+      <member>all_char_burst_fifo_nfull</member>
+      <member>all_num_burst_fifo_nfull</member>
+      <member>1000_char_burst_fifo_nfull</member>
+      <member>nvalid_char_10trans</member>
+      <member>long_space_0_100</member>
+      <member>change_dot_period</member>
+      <member>word_size_0_1000</member>
+      <member>full_random</member>
       <member>testerrno0</member>
       <member>testerrno1</member>
       <member>testerrno2</member>
@@ -43,7 +78,7 @@
       <command>set Path_TB  "(%RMDBDIR%)/src_tb"</command>
       <command>global Path_DUV</command>
       <command>global Path_TB</command>
-      <command>vlib tlmvm</command>
+      <!--<command>vlib tlmvm</command>
       <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/heartbeat_pkg.vhd</command>
       <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/heartbeat_env_pkg.vhd</command>
       <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/objection_pkg.vhd</command>
@@ -55,7 +90,7 @@
       <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/tlm_unbounded_fifo_array_pkg.vhd</command>
       <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/memory_object_pkg.vhd</command>
       <command>vcom -2008 -work tlmvm (%RMDBDIR%)/tlmvm/src/tlmvm_context.vhd</command>
-
+-->
 
       <command>vlib common_lib</command>
       <command>vcom -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd</command>
@@ -117,150 +152,195 @@
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
-  <runnable name="hello_world_burst" type="task">
+  <runnable name="hello_world_burst_fifo_full" type="task">
     <parameters>
       <parameter name="TESTCASE">4</parameter>
+      <parameter name="FIFOSIZE">11</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="all_char_burst_fifo_full" type="task">
+    <parameters>
+      <parameter name="TESTCASE">5</parameter>
+      <parameter name="FIFOSIZE">52</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="all_num_burst_fifo_full" type="task">
+    <parameters>
+      <parameter name="TESTCASE">6</parameter>
+      <parameter name="FIFOSIZE">10</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="hello_world_burst_fifo_nfull" type="task">
+    <parameters>
+      <parameter name="TESTCASE">7</parameter>
       <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
-  <!--<runnable name="all_char_burst" type="task">
+  <runnable name="all_char_burst_fifo_nfull" type="task">
     <parameters>
-      <parameter name="TESTCASE">2</parameter>
+      <parameter name="TESTCASE">8</parameter>
       <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
-  <runnable name="all_num_burst" type="task">
+  <runnable name="all_num_burst_fifo_nfull" type="task">
     <parameters>
-      <parameter name="TESTCASE">3</parameter>
+      <parameter name="TESTCASE">9</parameter>
       <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">0</parameter>
     </parameters>
-  </runnable> -->
+  </runnable>
+  <runnable name="1000_char_burst_fifo_nfull" type="task">
+    <parameters>
+      <parameter name="TESTCASE">10</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="nvalid_char_10trans" type="task">
+    <parameters>
+      <parameter name="TESTCASE">11</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="long_space_0_100" type="task">
+    <parameters>
+      <parameter name="TESTCASE">12</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="change_dot_period" type="task">
+    <parameters>
+      <parameter name="TESTCASE">13</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="word_size_0_1000" type="task">
+    <parameters>
+      <parameter name="TESTCASE">14</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="full_random" type="task">
+    <parameters>
+      <parameter name="TESTCASE">16</parameter>
+      <parameter name="FIFOSIZE">8</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
   <runnable name="testerrno0" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno1" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">1</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno2" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">2</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno3" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">3</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno4" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">4</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno5" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">5</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno6" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">6</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno7" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">7</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno8" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">8</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno9" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">9</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno10" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">10</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno11" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">11</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno12" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">12</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno13" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">13</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno14" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">14</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno15" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">15</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno16" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">16</parameter>
     </parameters>
   </runnable>
   <runnable name="testerrno17" type="task">
     <parameters>
       <parameter name="TESTCASE">0</parameter>
-      <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">17</parameter>
     </parameters>
   </runnable>

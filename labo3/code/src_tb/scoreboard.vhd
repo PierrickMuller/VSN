@@ -74,21 +74,29 @@ begin
             if trans_input.command = nop then 
                 next;
             end if;
-            
-            blocking_get_output(trans_output);
-            raise_objection;
-            if trans_output.valid = '1' then
-                logger.note("Scoreboard received transaction number " & integer'image(counter));
-                if(trans_output.char /= trans_input.char) then
-                    --logger.note(to_string(trans_output.char) & " " & to_string(trans_input.char));
-                    logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
-                    logger.error("Error ! Results don't match");
-                else 
-                    logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
-                    logger.note("Everything's fine !");
-                end if;
-                -- Check if everything goes well or not
+
+            if(trans_input.valid) then
+                blocking_get_output(trans_output);
             end if;
+
+            raise_objection;
+            if trans_input.valid then
+                if trans_output.valid = '1' then
+                    logger.note("Scoreboard received transaction number " & integer'image(counter));
+                    if(ascii_to_morse(trans_output.char) /= ascii_to_morse(trans_input.char)) then
+                        logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
+                        logger.error("Error ! Results don't match");
+                    else 
+                        logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
+                        logger.note("Everything's fine !");
+                    end if;
+                else
+                    logger.error("Transaction output is not valid but transaction input is");
+                end if;
+            else 
+                logger.note("Transaction is not valid, but it was what we were looking for");
+            end if;
+            
             counter := counter + 1;
             drop_objection;
         end loop;

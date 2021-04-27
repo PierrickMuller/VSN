@@ -83,7 +83,7 @@ begin
                     port_input.char <= transaction.char;
                     port_input.dot_period <= transaction.dot_period;
                     port_input.load_char <= '1';
-                    while port_output.full = '1' loop
+                    while port_output.full = '1' and transaction.valid loop
                         wait until falling_edge(clk);
                     end loop;
                 when send =>

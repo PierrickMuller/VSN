@@ -67,6 +67,7 @@ begin
         variable char_v       : morse_char_t;
         variable size_char_v  : morse_char_length_t;
         variable morse_val_v  : std_logic_vector(0 to 4);
+        variable dot_period_v : integer;
     begin
 
         -- Waits for the logger initialization
@@ -89,15 +90,17 @@ begin
             end if;
             while port_output = '0' loop
                 -- to check wth objection
-                down_counter := down_counter + 1;
+                --down_counter := down_counter + 1;
                 wait until rising_edge(clk);
             end loop;
-
+            if down_counter = 0 then 
+                dot_period_v := dot_period;
+            end if;
             raise_objection;
 
             -- That was a space beetwen words ! 
             -- That's the basic value of char_v, so no need to convert
-            if down_counter >= (7 * dot_period) then
+            if down_counter >= (7 * dot_period_v) then
                 logger.note("VALUE : " & to_string(morse_val_v));
                 --char_v := morse_char_t'(size_char_v, morse_val_v);
                 morse_to_ascii_check(char_v, transaction.char, transaction.valid);
@@ -122,7 +125,7 @@ begin
             morse_val_v  := (others => '-');
             
             -- work on one letter
-            while down_counter <= dot_period loop
+            while down_counter <= dot_period_v loop
                 down_counter := 0;
                 up_counter := 0;
                 while port_output = '1' loop
@@ -130,11 +133,11 @@ begin
                     wait until rising_edge(clk);
                 end loop;
                 
-                if up_counter = dot_period then
+                if up_counter = dot_period_v then
                     --logger.note("POINT");
                     morse_val_v(size_char_v) := '0';
                     size_char_v := size_char_v + 1;
-                elsif  up_counter = (dot_period * 3) then
+                elsif  up_counter = (dot_period_v * 3) then
                     --logger.note("dash");
                     morse_val_v(size_char_v) := '1';
                     size_char_v := size_char_v + 1;
@@ -144,7 +147,7 @@ begin
                     logger.note(to_string(morse_val_v));
                 end if;
                 
-                while port_output = '0' and down_counter <= dot_period loop
+                while port_output = '0' and down_counter <= dot_period_v loop
                     down_counter := down_counter + 1;
                     wait until rising_edge(clk);
                 end loop;
@@ -169,7 +172,7 @@ begin
             -- We check for space here because we want to be inside the objection
             -- so that no transactions are loose. Carefull ! If space bigger than
             -- 7 * dot period, we can loose a transaction !!! 
-            while port_output = '0' and down_counter <= 7 * dot_period loop
+            while port_output = '0' and down_counter <= 7 * dot_period_v loop
                 -- to check wth objection
                 down_counter := down_counter + 1;
                 wait until rising_edge(clk);
