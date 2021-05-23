@@ -1,3 +1,20 @@
+
+/*
+Simple Wait request (sect. 3.5.1)
+
+"Quand le signal waitrequest est à 1, les données/contrôles envoyés par le maitre doivent rester stable"
+property waitrequest_1;
+   wait |-> $stable(exp);
+endproperty
+
+Attente Fixe (sect. 3.5.2)
+
+Pipeline (sect. 3.5.3)
+
+Burst (sect 3.5.4)
+
+*/
+
 module avalon_assertions #(
                            int AVALONMODE = 0,
                            int TESTCASE = 0,
@@ -31,7 +48,9 @@ module avalon_assertions #(
 
       if (AVALONMODE == 0)
         begin : assert_waitrequest
-           assert_waitreq1: assert property (!(read & write));
+           assert_waitreq1: assert property 
+              (waitrequest |-> ($stable(address) and $stable(byteenable) and
+                                 $stable(writedata) and $stable(read)));
         end
 
       if (AVALONMODE == 1)

@@ -1,0 +1,292 @@
+20210428T183933 selects {I /Full52}
+20210428T183933 options -mseed 0
+20210428T183933 vrundir /home/reds/vsn21_student/labo3/code
+20210428T183933 vrmdata /home/reds/vsn21_student/labo3/code/VRMDATA
+20210428T183933 logfile /home/reds/vsn21_student/labo3/code/VRMDATA/logs/210428_183933.rmev
+20210428T183933 begin 46803@reds2021 /home/reds/vsn21_student/labo3/code/default.rmdb /home/reds/vsn21_student/labo3/code/VRMDATA
+20210428T183933 eligible Full52/preScript {}
+20210428T183933 done Full52/preScript empty
+20210428T183933 eligible Full52/directed/preScript {}
+20210428T183933 done Full52/directed/preScript empty
+20210428T183933 eligible Full52/directed/hello_world_nburst/execScript {}
+20210428T183933 eligible Full52/directed/all_char_nburst/execScript {}
+20210428T183933 eligible Full52/directed/all_num_nburst/execScript {}
+20210428T183933 eligible Full52/directed/hello_world_burst_fifo_full/execScript {}
+20210428T183933 eligible Full52/directed/all_char_burst_fifo_full/execScript {}
+20210428T183933 eligible Full52/directed/all_num_burst_fifo_full/execScript {}
+20210428T183933 eligible Full52/directed/hello_world_burst_fifo_nfull/execScript {}
+20210428T183933 eligible Full52/directed/all_char_burst_fifo_nfull/execScript {}
+20210428T183933 eligible Full52/directed/all_num_burst_fifo_nfull/execScript {}
+20210428T183933 eligible Full52/directed/100_char_burst_fifo_nfull/execScript {}
+20210428T183933 eligible Full52/directed/nvalid_char_10trans/execScript {}
+20210428T183933 eligible Full52/directed/long_space_0_30/execScript {}
+20210428T183933 eligible Full52/directed/change_dot_period/execScript {}
+20210428T183933 eligible Full52/directed/word_size_0_100/execScript {}
+20210428T183933 eligible Full52/directed/full_random/execScript {}
+20210428T183933 eligible Full52/directed/testerrno0/execScript {}
+20210428T183933 eligible Full52/directed/testerrno1/execScript {}
+20210428T183933 eligible Full52/directed/testerrno2/execScript {}
+20210428T183933 eligible Full52/directed/testerrno3/execScript {}
+20210428T183933 eligible Full52/directed/testerrno4/execScript {}
+20210428T183933 eligible Full52/directed/testerrno5/execScript {}
+20210428T183933 eligible Full52/directed/testerrno6/execScript {}
+20210428T183933 eligible Full52/directed/testerrno7/execScript {}
+20210428T183933 eligible Full52/directed/testerrno8/execScript {}
+20210428T183933 eligible Full52/directed/testerrno9/execScript {}
+20210428T183933 eligible Full52/directed/testerrno10/execScript {}
+20210428T183933 eligible Full52/directed/testerrno11/execScript {}
+20210428T183933 eligible Full52/directed/testerrno12/execScript {}
+20210428T183933 eligible Full52/directed/testerrno13/execScript {}
+20210428T183933 eligible Full52/directed/testerrno14/execScript {}
+20210428T183933 eligible Full52/directed/testerrno15/execScript {}
+20210428T183933 eligible Full52/directed/testerrno16/execScript {}
+20210428T183933 eligible Full52/directed/testerrno17/execScript {}
+20210428T183933 launched Full52/directed/hello_world_nburst/execScript
+20210428T183933 launched Full52/directed/all_char_nburst/execScript
+20210428T183933 launched Full52/directed/all_num_nburst/execScript
+20210428T183933 launched Full52/directed/hello_world_burst_fifo_full/execScript
+20210428T183933 launched Full52/directed/all_char_burst_fifo_full/execScript
+20210428T183934 launched Full52/directed/all_num_burst_fifo_full/execScript
+20210428T183934 launched Full52/directed/hello_world_burst_fifo_nfull/execScript
+20210428T183934 launched Full52/directed/all_char_burst_fifo_nfull/execScript
+20210428T183934 launched Full52/directed/all_num_burst_fifo_nfull/execScript
+20210428T183934 launched Full52/directed/100_char_burst_fifo_nfull/execScript
+20210428T183934 launched Full52/directed/nvalid_char_10trans/execScript
+20210428T183934 launched Full52/directed/long_space_0_30/execScript
+20210428T183934 launched Full52/directed/change_dot_period/execScript
+20210428T183934 launched Full52/directed/word_size_0_100/execScript
+20210428T183935 launched Full52/directed/full_random/execScript
+20210428T183935 launched Full52/directed/testerrno0/execScript
+20210428T183935 launched Full52/directed/testerrno1/execScript
+20210428T183936 launched Full52/directed/testerrno2/execScript
+20210428T183936 launched Full52/directed/testerrno3/execScript
+20210428T183936 launched Full52/directed/testerrno4/execScript
+20210428T183936 launched Full52/directed/testerrno5/execScript
+20210428T183937 launched Full52/directed/testerrno6/execScript
+20210428T183937 launched Full52/directed/testerrno7/execScript
+20210428T183937 launched Full52/directed/testerrno8/execScript
+20210428T183937 launched Full52/directed/testerrno9/execScript
+20210428T183938 launched Full52/directed/testerrno10/execScript
+20210428T183938 launched Full52/directed/testerrno11/execScript
+20210428T183938 launched Full52/directed/testerrno12/execScript
+20210428T183939 launched Full52/directed/testerrno13/execScript
+20210428T183939 launched Full52/directed/testerrno14/execScript
+20210428T183939 running Full52/directed/all_num_nburst/execScript reds2021
+20210428T183940 launched Full52/directed/testerrno15/execScript
+20210428T183940 running Full52/directed/hello_world_nburst/execScript reds2021
+20210428T183940 launched Full52/directed/testerrno16/execScript
+20210428T183940 launched Full52/directed/testerrno17/execScript
+20210428T183943 running Full52/directed/all_char_nburst/execScript reds2021
+20210428T183943 running Full52/directed/all_num_burst_fifo_full/execScript reds2021
+20210428T183943 running Full52/directed/hello_world_burst_fifo_full/execScript reds2021
+20210428T183944 running Full52/directed/hello_world_burst_fifo_nfull/execScript reds2021
+20210428T183944 running Full52/directed/all_char_burst_fifo_full/execScript reds2021
+20210428T183945 running Full52/directed/full_random/execScript reds2021
+20210428T183946 running Full52/directed/100_char_burst_fifo_nfull/execScript reds2021
+20210428T183946 running Full52/directed/all_num_burst_fifo_nfull/execScript reds2021
+20210428T183946 running Full52/directed/all_char_burst_fifo_nfull/execScript reds2021
+20210428T183946 running Full52/directed/nvalid_char_10trans/execScript reds2021
+20210428T183946 running Full52/directed/testerrno0/execScript reds2021
+20210428T183946 running Full52/directed/long_space_0_30/execScript reds2021
+20210428T183948 running Full52/directed/testerrno1/execScript reds2021
+20210428T183948 running Full52/directed/testerrno4/execScript reds2021
+20210428T183949 running Full52/directed/change_dot_period/execScript reds2021
+20210428T183949 running Full52/directed/word_size_0_100/execScript reds2021
+20210428T183950 running Full52/directed/testerrno3/execScript reds2021
+20210428T183951 running Full52/directed/testerrno6/execScript reds2021
+20210428T183951 running Full52/directed/testerrno2/execScript reds2021
+20210428T183952 running Full52/directed/testerrno9/execScript reds2021
+20210428T183952 running Full52/directed/testerrno7/execScript reds2021
+20210428T183952 running Full52/directed/testerrno11/execScript reds2021
+20210428T183953 running Full52/directed/testerrno5/execScript reds2021
+20210428T183953 running Full52/directed/testerrno8/execScript reds2021
+20210428T183954 running Full52/directed/testerrno14/execScript reds2021
+20210428T183954 running Full52/directed/testerrno17/execScript reds2021
+20210428T183954 running Full52/directed/testerrno10/execScript reds2021
+20210428T183954 running Full52/directed/testerrno13/execScript reds2021
+20210428T183955 running Full52/directed/testerrno16/execScript reds2021
+20210428T183955 running Full52/directed/testerrno12/execScript reds2021
+20210428T183956 running Full52/directed/testerrno15/execScript reds2021
+20210428T184015 done Full52/directed/hello_world_nburst/execScript passed/ok reds2021 Full52/directed/hello_world_nburst.ucdb ok 0 42.02 {} 35
+20210428T184015 eligible Full52/directed/hello_world_nburst/tplanScript {}
+20210428T184016 launched Full52/directed/hello_world_nburst/tplanScript
+20210428T184019 done Full52/directed/all_num_nburst/execScript passed/ok reds2021 Full52/directed/all_num_nburst.ucdb ok 0 36.42 {} 40
+20210428T184022 done Full52/directed/all_char_nburst/execScript passed/ok reds2021 Full52/directed/all_char_nburst.ucdb ok 0 40.73 {} 39
+20210428T184022 done Full52/directed/hello_world_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/hello_world_burst_fifo_nfull.ucdb ok 0 41.63 {} 38
+20210428T184022 done Full52/directed/all_char_burst_fifo_full/execScript passed/ok reds2021 Full52/directed/all_char_burst_fifo_full.ucdb ok 0 39.31 {} 38
+20210428T184023 done Full52/directed/all_num_burst_fifo_full/execScript passed/ok reds2021 Full52/directed/all_num_burst_fifo_full.ucdb ok 0 35.74 {} 40
+20210428T184023 eligible Full52/directed/all_num_nburst/mergeScript {}
+20210428T184023 launched Full52/directed/all_num_nburst/mergeScript
+20210428T184024 done Full52/directed/100_char_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/100_char_burst_fifo_nfull.ucdb ok 0 39.05 {} 38
+20210428T184024 done Full52/directed/nvalid_char_10trans/execScript passed/ok reds2021 Full52/directed/nvalid_char_10trans.ucdb ok 0 20.30 {} 38
+20210428T184025 done Full52/directed/all_char_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/all_char_burst_fifo_nfull.ucdb ok 0 41.58 {} 39
+20210428T184025 done Full52/directed/hello_world_burst_fifo_full/execScript passed/ok reds2021 Full52/directed/hello_world_burst_fifo_full.ucdb ok 0 40.12 {} 42
+20210428T184026 done Full52/directed/all_num_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/all_num_burst_fifo_nfull.ucdb ok 0 37.34 {} 40
+20210428T184027 done Full52/directed/change_dot_period/execScript passed/ok reds2021 Full52/directed/change_dot_period.ucdb ok 0 42.45 {} 38
+20210428T184027 done Full52/directed/long_space_0_30/execScript passed/ok reds2021 Full52/directed/long_space_0_30.ucdb ok 0 39.66 {} 41
+20210428T184029 done Full52/directed/testerrno13/execScript failed/error reds2021 Full52/directed/testerrno13.ucdb error 0 27.01 {} {}
+20210428T184030 eligible Full52/directed/testerrno13/deleteScript {}
+20210428T184030 done Full52/directed/testerrno8/execScript failed/error reds2021 Full52/directed/testerrno8.ucdb error 0 14.46 {} {}
+20210428T184030 eligible Full52/directed/testerrno8/deleteScript {}
+20210428T184032 running Full52/directed/hello_world_nburst/tplanScript reds2021
+20210428T184033 done Full52/directed/hello_world_nburst/tplanScript passed reds2021 merge_morse_burst_emitter.ucdb {} {} 0.00 {} {}
+20210428T184034 done Full52/directed/testerrno10/execScript failed/error reds2021 Full52/directed/testerrno10.ucdb error 0 26.26 {} {}
+20210428T184034 eligible Full52/directed/testerrno10/deleteScript {}
+20210428T184034 done Full52/directed/testerrno17/execScript failed/error reds2021 Full52/directed/testerrno17.ucdb error 0 51.10 {} {}
+20210428T184034 eligible Full52/directed/testerrno17/deleteScript {}
+20210428T184035 running Full52/directed/testerrno13/deleteScript reds2021
+20210428T184035 done Full52/directed/testerrno13/deleteScript skipped
+20210428T184035 running Full52/directed/testerrno8/deleteScript reds2021
+20210428T184035 done Full52/directed/testerrno8/deleteScript skipped
+20210428T184038 running Full52/directed/all_num_nburst/mergeScript reds2021
+20210428T184038 merge Full52/directed/all_num_nburst/execScript Full52/directed/all_num_nburst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184038 merge Full52/directed/all_char_nburst/execScript Full52/directed/all_num_nburst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184038 merge Full52/directed/hello_world_burst_fifo_nfull/execScript Full52/directed/all_num_nburst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184038 merge Full52/directed/all_char_burst_fifo_full/execScript Full52/directed/all_num_nburst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184038 merge Full52/directed/all_num_burst_fifo_full/execScript Full52/directed/all_num_nburst/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184038 done Full52/directed/all_num_nburst/mergeScript passed reds2021 merge.ucdb {} {} 50.43 {} {}
+20210428T184039 eligible Full52/directed/100_char_burst_fifo_nfull/mergeScript {}
+20210428T184039 eligible Full52/directed/all_char_burst_fifo_full/deleteScript {}
+20210428T184039 eligible Full52/directed/all_char_nburst/deleteScript {}
+20210428T184039 eligible Full52/directed/all_num_burst_fifo_full/deleteScript {}
+20210428T184039 eligible Full52/directed/all_num_nburst/deleteScript {}
+20210428T184039 eligible Full52/directed/hello_world_burst_fifo_nfull/deleteScript {}
+20210428T184039 launched Full52/directed/100_char_burst_fifo_nfull/mergeScript
+20210428T184039 running Full52/directed/testerrno10/deleteScript reds2021
+20210428T184039 done Full52/directed/testerrno10/deleteScript skipped
+20210428T184039 running Full52/directed/testerrno17/deleteScript reds2021
+20210428T184039 done Full52/directed/testerrno17/deleteScript skipped
+20210428T184044 running Full52/directed/all_char_burst_fifo_full/deleteScript reds2021
+20210428T184044 done Full52/directed/all_char_burst_fifo_full/deleteScript skipped
+20210428T184044 running Full52/directed/all_char_nburst/deleteScript reds2021
+20210428T184044 done Full52/directed/all_char_nburst/deleteScript skipped
+20210428T184044 running Full52/directed/all_num_burst_fifo_full/deleteScript reds2021
+20210428T184044 done Full52/directed/all_num_burst_fifo_full/deleteScript skipped
+20210428T184044 running Full52/directed/all_num_nburst/deleteScript reds2021
+20210428T184044 done Full52/directed/all_num_nburst/deleteScript skipped
+20210428T184044 running Full52/directed/hello_world_burst_fifo_nfull/deleteScript reds2021
+20210428T184044 done Full52/directed/hello_world_burst_fifo_nfull/deleteScript skipped
+20210428T184048 running Full52/directed/100_char_burst_fifo_nfull/mergeScript reds2021
+20210428T184048 merge Full52/directed/100_char_burst_fifo_nfull/execScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 merge Full52/directed/nvalid_char_10trans/execScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 merge Full52/directed/all_char_burst_fifo_nfull/execScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 merge Full52/directed/hello_world_burst_fifo_full/execScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 merge Full52/directed/all_num_burst_fifo_nfull/execScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 merge Full52/directed/change_dot_period/execScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 merge Full52/directed/long_space_0_30/execScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 merge Full52/directed/hello_world_nburst/tplanScript Full52/directed/100_char_burst_fifo_nfull/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184048 done Full52/directed/100_char_burst_fifo_nfull/mergeScript passed reds2021 merge.ucdb {} {} 52.14 69.05 {}
+20210428T184048 eligible Full52/directed/100_char_burst_fifo_nfull/deleteScript {}
+20210428T184048 eligible Full52/directed/all_char_burst_fifo_nfull/deleteScript {}
+20210428T184048 eligible Full52/directed/all_num_burst_fifo_nfull/deleteScript {}
+20210428T184048 eligible Full52/directed/change_dot_period/deleteScript {}
+20210428T184048 eligible Full52/directed/hello_world_burst_fifo_full/deleteScript {}
+20210428T184048 eligible Full52/directed/hello_world_nburst/deleteScript {}
+20210428T184048 eligible Full52/directed/long_space_0_30/deleteScript {}
+20210428T184048 eligible Full52/directed/nvalid_char_10trans/deleteScript {}
+20210428T184049 done Full52/directed/testerrno7/execScript failed/error reds2021 Full52/directed/testerrno7.ucdb error 0 70.78 {} {}
+20210428T184049 eligible Full52/directed/testerrno7/deleteScript {}
+20210428T184053 running Full52/directed/100_char_burst_fifo_nfull/deleteScript reds2021
+20210428T184053 done Full52/directed/100_char_burst_fifo_nfull/deleteScript skipped
+20210428T184053 running Full52/directed/all_char_burst_fifo_nfull/deleteScript reds2021
+20210428T184053 done Full52/directed/all_char_burst_fifo_nfull/deleteScript skipped
+20210428T184053 running Full52/directed/all_num_burst_fifo_nfull/deleteScript reds2021
+20210428T184053 done Full52/directed/all_num_burst_fifo_nfull/deleteScript skipped
+20210428T184053 running Full52/directed/change_dot_period/deleteScript reds2021
+20210428T184053 done Full52/directed/change_dot_period/deleteScript skipped
+20210428T184053 running Full52/directed/hello_world_burst_fifo_full/deleteScript reds2021
+20210428T184053 done Full52/directed/hello_world_burst_fifo_full/deleteScript skipped
+20210428T184053 running Full52/directed/hello_world_nburst/deleteScript reds2021
+20210428T184053 done Full52/directed/hello_world_nburst/deleteScript skipped
+20210428T184053 running Full52/directed/long_space_0_30/deleteScript reds2021
+20210428T184053 done Full52/directed/long_space_0_30/deleteScript skipped
+20210428T184053 running Full52/directed/nvalid_char_10trans/deleteScript reds2021
+20210428T184053 done Full52/directed/nvalid_char_10trans/deleteScript skipped
+20210428T184054 running Full52/directed/testerrno7/deleteScript reds2021
+20210428T184054 done Full52/directed/testerrno7/deleteScript skipped
+20210428T184055 done Full52/directed/full_random/execScript passed/ok reds2021 Full52/directed/full_random.ucdb ok 0 48.26 {} 70
+20210428T184059 done Full52/directed/word_size_0_100/execScript passed/ok reds2021 Full52/directed/word_size_0_100.ucdb ok 0 42.98 {} 70
+20210428T184108 done Full52/directed/testerrno11/execScript failed/error reds2021 Full52/directed/testerrno11.ucdb error 0 52.64 {} {}
+20210428T184108 eligible Full52/directed/testerrno11/deleteScript {}
+20210428T184110 done Full52/directed/testerrno12/execScript failed/error reds2021 Full52/directed/testerrno12.ucdb error 0 73.54 {} {}
+20210428T184110 eligible Full52/directed/testerrno12/deleteScript {}
+20210428T184113 running Full52/directed/testerrno11/deleteScript reds2021
+20210428T184113 done Full52/directed/testerrno11/deleteScript skipped
+20210428T184115 running Full52/directed/testerrno12/deleteScript reds2021
+20210428T184115 done Full52/directed/testerrno12/deleteScript skipped
+20210428T184117 done Full52/directed/testerrno9/execScript passed/ok reds2021 Full52/directed/testerrno9.ucdb ok 0 71.30 {} 85
+20210428T184117 done Full52/directed/testerrno14/execScript failed/error reds2021 Full52/directed/testerrno14.ucdb error 0 72.48 {} {}
+20210428T184117 eligible Full52/directed/testerrno14/deleteScript {}
+20210428T184119 done Full52/directed/testerrno6/execScript failed/error reds2021 Full52/directed/testerrno6.ucdb error 0 72.10 {} {}
+20210428T184119 eligible Full52/directed/testerrno6/deleteScript {}
+20210428T184121 done Full52/directed/testerrno5/execScript failed/error reds2021 Full52/directed/testerrno5.ucdb error 0 72.17 {} {}
+20210428T184121 eligible Full52/directed/testerrno5/deleteScript {}
+20210428T184121 done Full52/directed/testerrno0/execScript passed/ok reds2021 Full52/directed/testerrno0.ucdb ok 0 71.73 {} 95
+20210428T184122 done Full52/directed/testerrno1/execScript failed/error reds2021 Full52/directed/testerrno1.ucdb error 0 72.10 {} {}
+20210428T184122 eligible Full52/directed/testerrno1/deleteScript {}
+20210428T184122 done Full52/directed/testerrno15/execScript passed/ok reds2021 Full52/directed/testerrno15.ucdb ok 0 71.73 {} 86
+20210428T184122 eligible Full52/directed/full_random/mergeScript {}
+20210428T184122 done Full52/directed/testerrno4/execScript passed/ok reds2021 Full52/directed/testerrno4.ucdb ok 0 71.73 {} 94
+20210428T184122 done Full52/directed/testerrno16/execScript passed/ok reds2021 Full52/directed/testerrno16.ucdb ok 0 71.43 {} 87
+20210428T184122 launched Full52/directed/full_random/mergeScript
+20210428T184122 done Full52/directed/testerrno2/execScript failed/error reds2021 Full52/directed/testerrno2.ucdb error 0 72.48 {} {}
+20210428T184122 eligible Full52/directed/testerrno2/deleteScript {}
+20210428T184122 running Full52/directed/testerrno14/deleteScript reds2021
+20210428T184122 done Full52/directed/testerrno14/deleteScript skipped
+20210428T184124 running Full52/directed/testerrno6/deleteScript reds2021
+20210428T184124 done Full52/directed/testerrno6/deleteScript skipped
+20210428T184124 running Full52/directed/full_random/mergeScript reds2021
+20210428T184125 done Full52/directed/testerrno3/execScript failed/error reds2021 Full52/directed/testerrno3.ucdb error 0 68.78 {} {}
+20210428T184125 eligible Full52/directed/testerrno3/deleteScript {}
+20210428T184125 merge Full52/directed/full_random/execScript Full52/directed/full_random/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184125 merge Full52/directed/word_size_0_100/execScript Full52/directed/full_random/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184125 merge Full52/directed/testerrno9/execScript Full52/directed/full_random/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184125 merge Full52/directed/testerrno0/execScript Full52/directed/full_random/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184125 merge Full52/directed/testerrno15/execScript Full52/directed/full_random/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184125 done Full52/directed/full_random/mergeScript passed reds2021 merge.ucdb {} {} 58.28 80.95 {}
+20210428T184125 eligible Full52/directed/full_random/deleteScript {}
+20210428T184125 eligible Full52/directed/testerrno0/deleteScript {}
+20210428T184125 eligible Full52/directed/testerrno15/deleteScript {}
+20210428T184125 eligible Full52/directed/testerrno9/deleteScript {}
+20210428T184125 eligible Full52/directed/word_size_0_100/deleteScript {}
+20210428T184126 running Full52/directed/testerrno5/deleteScript reds2021
+20210428T184126 done Full52/directed/testerrno5/deleteScript skipped
+20210428T184127 running Full52/directed/testerrno1/deleteScript reds2021
+20210428T184127 done Full52/directed/testerrno1/deleteScript skipped
+20210428T184127 running Full52/directed/testerrno2/deleteScript reds2021
+20210428T184127 done Full52/directed/testerrno2/deleteScript skipped
+20210428T184130 running Full52/directed/testerrno3/deleteScript reds2021
+20210428T184130 done Full52/directed/testerrno3/deleteScript skipped
+20210428T184130 running Full52/directed/full_random/deleteScript reds2021
+20210428T184130 done Full52/directed/full_random/deleteScript skipped
+20210428T184130 running Full52/directed/testerrno0/deleteScript reds2021
+20210428T184130 done Full52/directed/testerrno0/deleteScript skipped
+20210428T184130 running Full52/directed/testerrno15/deleteScript reds2021
+20210428T184130 done Full52/directed/testerrno15/deleteScript skipped
+20210428T184130 running Full52/directed/testerrno9/deleteScript reds2021
+20210428T184130 done Full52/directed/testerrno9/deleteScript skipped
+20210428T184130 running Full52/directed/word_size_0_100/deleteScript reds2021
+20210428T184130 done Full52/directed/word_size_0_100/deleteScript skipped
+20210428T184152 eligible Full52/directed/testerrno4/mergeScript {}
+20210428T184153 launched Full52/directed/testerrno4/mergeScript
+20210428T184155 running Full52/directed/testerrno4/mergeScript reds2021
+20210428T184155 merge Full52/directed/testerrno4/execScript Full52/directed/testerrno4/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184155 merge Full52/directed/testerrno16/execScript Full52/directed/testerrno4/mergeScript /home/reds/vsn21_student/labo3/code/VRMDATA/merge.ucdb {} {}
+20210428T184155 done Full52/directed/testerrno4/mergeScript passed reds2021 merge.ucdb {} {} 58.28 82.54 {}
+20210428T184155 eligible Full52/directed/postScript {}
+20210428T184155 eligible Full52/directed/testerrno16/deleteScript {}
+20210428T184155 eligible Full52/directed/testerrno4/deleteScript {}
+20210428T184156 done Full52/directed/postScript empty
+20210428T184156 eligible Full52/directed/deleteScript {}
+20210428T184156 eligible Full52/postScript {}
+20210428T184156 done Full52/postScript empty
+20210428T184156 eligible Full52/deleteScript {}
+20210428T184200 running Full52/directed/testerrno16/deleteScript reds2021
+20210428T184200 done Full52/directed/testerrno16/deleteScript skipped
+20210428T184200 running Full52/directed/testerrno4/deleteScript reds2021
+20210428T184200 done Full52/directed/testerrno4/deleteScript skipped
+20210428T184201 running Full52/directed/deleteScript reds2021
+20210428T184201 done Full52/directed/deleteScript skipped
+20210428T184201 running Full52/deleteScript reds2021
+20210428T184201 done Full52/deleteScript skipped
+20210428T184201 end

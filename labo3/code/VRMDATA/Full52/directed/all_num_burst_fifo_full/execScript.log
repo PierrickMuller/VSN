@@ -1,0 +1,692 @@
+# file delete -force work
+# set Path_DUV "/home/reds/vsn21_student/labo3/code/src"
+# /home/reds/vsn21_student/labo3/code/src
+# set Path_TB  "/home/reds/vsn21_student/labo3/code/src_tb"
+# /home/reds/vsn21_student/labo3/code/src_tb
+# global Path_DUV
+# global Path_TB
+# vlib common_lib
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:33 on Apr 28,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo3/code/src_tb/common_lib/logger_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling package logger_pkg
+# End time: 19:50:34 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/comparator_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:34 on Apr 28,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo3/code/src_tb/common_lib/comparator_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Compiling package comparator_pkg
+# End time: 19:50:35 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/complex_comparator_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:35 on Apr 28,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo3/code/src_tb/common_lib/complex_comparator_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Compiling package complex_comparator_pkg
+# End time: 19:50:36 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work common_lib  -2008 $Path_TB/common_lib/common_ctx.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:36 on Apr 28,2021
+# vcom "+cover" -work common_lib -2008 /home/reds/vsn21_student/labo3/code/src_tb/common_lib/common_ctx.vhd 
+# -- Loading package STANDARD
+# -- Compiling context declaration common_ctx
+# End time: 19:50:36 on Apr 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom +cover -work project_lib -2008 $Path_TB/project_logger_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:36 on Apr 28,2021
+# vcom "+cover" -work project_lib -2008 /home/reds/vsn21_student/labo3/code/src_tb/project_logger_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading context declaration common_ctx
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Compiling package project_logger_pkg
+# End time: 19:50:37 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -work project_lib -2008 $Path_TB/project_ctx.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:37 on Apr 28,2021
+# vcom "+cover" -work project_lib -2008 /home/reds/vsn21_student/labo3/code/src_tb/project_ctx.vhd 
+# -- Loading package STANDARD
+# -- Compiling context declaration project_ctx
+# End time: 19:50:37 on Apr 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib morse
+# vcom +cover -2008 -work morse $Path_DUV/morse_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:38 on Apr 28,2021
+# vcom "+cover" -2008 -work morse /home/reds/vsn21_student/labo3/code/src/morse_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package morse_pkg
+# -- Compiling package body morse_pkg
+# -- Loading package morse_pkg
+# End time: 19:50:38 on Apr 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 -work morse $Path_DUV/morse_burst_emitter_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:38 on Apr 28,2021
+# vcom "+cover" -2008 -work morse /home/reds/vsn21_student/labo3/code/src/morse_burst_emitter_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package morse_burst_emitter_pkg
+# End time: 19:50:39 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlib work
+# vcom +cover -2008 -work work $Path_DUV/fifo.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:39 on Apr 28,2021
+# vcom "+cover" -2008 -work work /home/reds/vsn21_student/labo3/code/src/fifo.vhd 
+# -- Loading package STANDARD
+# End time: 19:50:40 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 -work work $Path_DUV/morse_char_emitter.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:40 on Apr 28,2021
+# vcom "+cover" -2008 -work work /home/reds/vsn21_student/labo3/code/src/morse_char_emitter.vhd 
+# -- Loading package STANDARD
+# End time: 19:50:41 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 -work work $Path_DUV/morse_burst_emitter.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:41 on Apr 28,2021
+# vcom "+cover" -2008 -work work /home/reds/vsn21_student/labo3/code/src/morse_burst_emitter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Compiling entity morse_burst_emitter
+# End time: 19:50:43 on Apr 28,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/transactions_pkg.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:43 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/transactions_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package transactions_pkg
+# End time: 19:50:44 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/input_agent/input_agent_driver.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:44 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/input_agent/input_agent_driver.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent_driver
+# -- Compiling architecture testbench of input_agent_driver
+# End time: 19:50:45 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/input_agent/input_agent_monitor.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:45 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/input_agent/input_agent_monitor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent_monitor
+# -- Compiling architecture testbench of input_agent_monitor
+# End time: 19:50:46 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/input_agent/input_agent_sequencer.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:46 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/input_agent/input_agent_sequencer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent_sequencer
+# -- Compiling architecture testbench of input_agent_sequencer
+# End time: 19:50:47 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/input_agent/input_agent.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:47 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/input_agent/input_agent.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity input_agent
+# -- Compiling architecture testbench of input_agent
+# -- Loading package body tlm_fifo_pkg
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent_sequencer
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent_driver
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent_monitor
+# End time: 19:50:49 on Apr 28,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/output_agent/output_agent_monitor.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:49 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/output_agent/output_agent_monitor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity output_agent_monitor
+# -- Compiling architecture testbench of output_agent_monitor
+# End time: 19:50:50 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/output_agent/output_agent.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:50 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/output_agent/output_agent.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity output_agent
+# -- Compiling architecture testbench of output_agent
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading entity output_agent_monitor
+# End time: 19:50:51 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/scoreboard.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:51 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/scoreboard.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity scoreboard
+# -- Compiling architecture testbench of scoreboard
+# End time: 19:50:53 on Apr 28,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vcom +cover -2008 $Path_TB/morse_burst_emitter_tb.vhd
+# QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:53 on Apr 28,2021
+# vcom "+cover" -2008 /home/reds/vsn21_student/labo3/code/src_tb/morse_burst_emitter_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading context declaration tlmvm_context
+# -- Loading package heartbeat_pkg
+# -- Loading package heartbeat_env_pkg
+# -- Loading package objection_pkg
+# -- Loading package objection_env_pkg
+# -- Loading package ENV
+# -- Loading package simulation_end_pkg
+# -- Loading package tlm_fifo_pkg
+# -- Loading package tlm_unbounded_fifo_pkg
+# -- Loading context declaration project_ctx
+# -- Loading package MATH_REAL
+# -- Loading context declaration common_ctx
+# -- Loading package std_logic_textio
+# -- Loading package logger_pkg
+# -- Loading package comparator_pkg
+# -- Loading package complex_comparator_pkg
+# -- Loading package project_logger_pkg
+# -- Loading package morse_pkg
+# -- Loading package morse_burst_emitter_pkg
+# -- Loading package transactions_pkg
+# -- Compiling entity morse_burst_emitter_tb
+# -- Compiling architecture testbench of morse_burst_emitter_tb
+# -- Loading package body tlm_unbounded_fifo_pkg
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity input_agent
+# -- Loading context declaration tlmvm_context
+# -- Loading entity output_agent
+# -- Loading context declaration tlmvm_context
+# -- Loading context declaration project_ctx
+# -- Loading entity scoreboard
+# End time: 19:50:54 on Apr 28,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -coverage -t 10ps -GFIFOSIZE=10 -GTESTCASE=6 -GERRNO=0 work.morse_burst_emitter_tb
+# vsim -coverage -t 10ps work.morse_burst_emitter_tb -GTESTCASE=6 -GERRNO=0 -GFIFOSIZE=10 
+# Start time: 19:50:54 on Apr 28,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading tlmvm.heartbeat_pkg(body)
+# Loading tlmvm.heartbeat_env_pkg(body)
+# Loading tlmvm.objection_pkg(body)
+# Loading tlmvm.objection_env_pkg(body)
+# Loading std.env(body)
+# Loading tlmvm.simulation_end_pkg(body)
+# Loading tlmvm.tlm_fifo_pkg(body)
+# Loading tlmvm.tlm_unbounded_fifo_pkg(body)
+# Loading ieee.math_real(body)
+# Loading ieee.std_logic_textio(body)
+# Loading project_lib.project_logger_pkg
+# Loading morse.morse_pkg(body)
+# Loading morse.morse_burst_emitter_pkg
+# Loading work.transactions_pkg
+# Loading work.morse_burst_emitter_tb(testbench)#1
+# Loading tlmvm.simulation_monitor(behave)#1
+# Loading work.input_agent(testbench)#1
+# Loading work.input_agent_sequencer(testbench)#1
+# Loading work.input_agent_driver(testbench)#1
+# Loading work.input_agent_monitor(testbench)#1
+# Loading work.output_agent(testbench)#1
+# Loading work.output_agent_monitor(testbench)#1
+# Loading work.scoreboard(testbench)#1
+# set StdArithNoWarnings 1
+# 1
+# set NumericStdNoWarnings 1
+# 1
+# run 2 ns
+# ** Note: Scoreboard waiting for transaction number 0
+#    Time: 10 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 0
+#    Time: 10 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Sequencer : Sent transaction number 0
+#    Time: 10 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# set StdArithNoWarnings 0
+# 0
+# set NumericStdNoWarnings 0
+# 0
+# run -all
+# ** Note: Driver waiting for transaction number 0
+#    Time: 40 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 0
+#    Time: 40 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 1
+#    Time: 40010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 1
+#    Time: 50 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 1
+#    Time: 50 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 2
+#    Time: 50010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 2
+#    Time: 60 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 2
+#    Time: 60 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 3
+#    Time: 60010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 3
+#    Time: 70 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 3
+#    Time: 70 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 4
+#    Time: 70010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 4
+#    Time: 80 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 4
+#    Time: 80 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 5
+#    Time: 80010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 5
+#    Time: 90 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 5
+#    Time: 90 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 6
+#    Time: 90010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 6
+#    Time: 100 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 6
+#    Time: 100 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 7
+#    Time: 100010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 7
+#    Time: 110 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 7
+#    Time: 110 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 8
+#    Time: 110010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 8
+#    Time: 120 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 8
+#    Time: 120 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 9
+#    Time: 120010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 9
+#    Time: 130 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 9
+#    Time: 130 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Sequencer : Sent transaction number 10
+#    Time: 130010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Sequencer finished his job
+#    Time: 130010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/input_agent/input_agent_sequencer
+# ** Note: Driver waiting for transaction number 10
+#    Time: 140 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver received transaction number 10
+#    Time: 140 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Driver waiting for transaction number 11
+#    Time: 150 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/input_agent/input_agent_driver
+# ** Note: Output Monitor received transaction number 0
+# Value : 48
+# Size : 5
+# Char : -----
+#    Time: 1185 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 0
+#    Time: 1185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 0(Scoreboard)
+#    Time: 1185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 1
+#    Time: 1185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 1
+#    Time: 1275 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 1
+# Value : 49
+# Size : 5
+# Char : .----
+#    Time: 2185 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 1
+#    Time: 2185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 1(Scoreboard)
+#    Time: 2185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 2
+#    Time: 2185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 2
+#    Time: 2275 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 2
+# Value : 50
+# Size : 5
+# Char : ..---
+#    Time: 3085 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 2
+#    Time: 3085010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 2(Scoreboard)
+#    Time: 3085010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 3
+#    Time: 3085010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 3
+#    Time: 3175 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 3
+# Value : 51
+# Size : 5
+# Char : ...--
+#    Time: 3885 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 3
+#    Time: 3885010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 3(Scoreboard)
+#    Time: 3885010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 4
+#    Time: 3885010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 4
+#    Time: 3975 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 4
+# Value : 52
+# Size : 5
+# Char : ....-
+#    Time: 4585 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 4
+#    Time: 4585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 4(Scoreboard)
+#    Time: 4585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 5
+#    Time: 4585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 5
+#    Time: 4675 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 5
+# Value : 53
+# Size : 5
+# Char : .....
+#    Time: 5185 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 5
+#    Time: 5185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 5(Scoreboard)
+#    Time: 5185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 6
+#    Time: 5185010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 6
+#    Time: 5275 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 6
+# Value : 54
+# Size : 5
+# Char : -....
+#    Time: 5885 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 6
+#    Time: 5885010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 6(Scoreboard)
+#    Time: 5885010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 7
+#    Time: 5885010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 7
+#    Time: 5975 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 7
+# Value : 55
+# Size : 5
+# Char : --...
+#    Time: 6685 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 7
+#    Time: 6685010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 7(Scoreboard)
+#    Time: 6685010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 8
+#    Time: 6685010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 8
+#    Time: 6775 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 8
+# Value : 56
+# Size : 5
+# Char : ---..
+#    Time: 7585 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 8
+#    Time: 7585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 8(Scoreboard)
+#    Time: 7585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 9
+#    Time: 7585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 9
+#    Time: 7675 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Output Monitor received transaction number 9
+# Value : 57
+# Size : 5
+# Char : ----.
+#    Time: 8585 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Scoreboard received transaction number 9
+#    Time: 8585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Everything's fine for transaction number 9(Scoreboard)
+#    Time: 8585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Scoreboard waiting for transaction number 10
+#    Time: 8585010 ps  Iteration: 0  Instance: /morse_burst_emitter_tb/scoreboard_inst
+# ** Note: Monitor waiting for transaction number 10
+#    Time: 8885 ns  Iteration: 1  Instance: /morse_burst_emitter_tb/output_agent/output_agent_monitor
+# ** Note: Finishing at time 100000000 ps
+#    Time: 100 us  Iteration: 0  Instance: /morse_burst_emitter_tb/monitor
+# ** Note: Ending status: Because of no more objections
+#    Time: 100 us  Iteration: 0  Instance: /morse_burst_emitter_tb/monitor
+# ** Note: --------------------------------
+# FINAL report
+# Total number of warnings : 0
+# Total number of errors : 0
+# --------------------------------
+#    Time: 100 us  Iteration: 0  Instance: /morse_burst_emitter_tb/monitor
+# Break in Process monitor_proc at /home/reds/vsn21_student/labo3/code/comp/../tlmvm/src/simulation_end_pkg.vhd line 175
+# Stopped at /home/reds/vsn21_student/labo3/code/comp/../tlmvm/src/simulation_end_pkg.vhd line 175
+# coverage attribute -name TESTNAME -value all_num_burst_fifo_full
+# coverage save ../all_num_burst_fifo_full.ucdb
+# quit -f

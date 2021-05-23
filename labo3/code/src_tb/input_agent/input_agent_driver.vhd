@@ -25,6 +25,7 @@
 -- Modifications :
 -- Ver   Date        Person     Comments
 -- 0.1   31.03.2021  YTA        Initial version
+-- 0.2   14.04.2021  PM         Add validity check
 --------------------------------------------------------------------------------
 
 library ieee;
@@ -83,6 +84,7 @@ begin
                     port_input.char <= transaction.char;
                     port_input.dot_period <= transaction.dot_period;
                     port_input.load_char <= '1';
+                    -- we don't wait if transaction input is set to be not valid
                     while port_output.full = '1' and transaction.valid loop
                         wait until falling_edge(clk);
                     end loop;

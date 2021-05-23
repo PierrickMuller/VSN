@@ -24,6 +24,7 @@
 -- Modifications :
 -- Ver   Date        Person     Comments
 -- 0.1   31.03.2021  YTA        Initial version
+-- 0.2   14.04.2021  PM         Add support valid and comparison
 --------------------------------------------------------------------------------
 
 library ieee;
@@ -75,23 +76,39 @@ begin
                 next;
             end if;
 
+            -- If the input is not valid, we don't try to get the output
             if(trans_input.valid) then
                 blocking_get_output(trans_output);
             end if;
 
             raise_objection;
+            
+            -- Check validity for transaction input
             if trans_input.valid then
+                -- If transaction output is valid too, we check that character between input and output match
+                -- If not, we generate an error
                 if trans_output.valid = '1' then
                     logger.note("Scoreboard received transaction number " & integer'image(counter));
                     if(ascii_to_morse(trans_output.char) /= ascii_to_morse(trans_input.char)) then
-                        logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
-                        logger.error("Error ! Results don't match");
+                        logger.error("------------------------------" & LF &"Error (Scoreboard) ! Results don't match for transaction number " 
+                        & integer'image(counter) & LF 
+                        & "Char output : " & integer'image(to_integer(unsigned(trans_output.char))) & 
+                        " Char input : " & integer'image(to_integer(unsigned(trans_input.char))) & LF & "Valid output : " & 
+                        std_logic'image(trans_output.valid) & " Valid input : " &   boolean'image(trans_input.valid) & LF & 
+                        "Waiting time input : " & integer'image(trans_input.waiting_time) & LF & "Dot period input : " &
+                        integer'image(to_integer(unsigned(trans_input.dot_period))) & LF & "------------------------------");
                     else 
-                        logger.note(integer'image(to_integer(unsigned(trans_output.char))) & " " & integer'image(to_integer(unsigned(trans_input.char))));
-                        logger.note("Everything's fine !");
+                        logger.note("Everything's fine for transaction number " & integer'image(counter) & "(Scoreboard)");
                     end if;
                 else
-                    logger.error("Transaction output is not valid but transaction input is");
+                    -- If transaction output is not valid, we generate an error
+                    logger.error("------------------------------" & LF &"Error (Scoreboard) ! transaction output is not valid but transaction input" & 
+                     "is for transaction number " & integer'image(counter) & LF 
+                        & "Char output : " & integer'image(to_integer(unsigned(trans_output.char))) & 
+                        " Char input : " & integer'image(to_integer(unsigned(trans_input.char))) & LF & "Valid output : " & 
+                        std_logic'image(trans_output.valid) & " Valid input : " &   boolean'image(trans_input.valid) & LF & 
+                        "Waiting time input : " & integer'image(trans_input.waiting_time) & LF & "Dot period input : " &
+                        integer'image(to_integer(unsigned(trans_input.dot_period))) & LF & "------------------------------");
                 end if;
             else 
                 logger.note("Transaction is not valid, but it was what we were looking for");

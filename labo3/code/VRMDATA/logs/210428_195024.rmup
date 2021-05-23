@@ -1,0 +1,88 @@
+20210428T195024 begin 37581@reds2021 /home/reds/vsn21_student/labo3/code/default.rmdb /home/reds/vsn21_student/labo3/code/VRMDATA
+20210428T195232 done Full52/deleteScript skipped {} {} {} {}
+20210428T195130 done Full52/directed/100_char_burst_fifo_nfull/deleteScript skipped {} {} {} {}
+20210428T195110 done Full52/directed/100_char_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/100_char_burst_fifo_nfull.ucdb ok 0 39.05 {} 40
+20210428T184048 done Full52/directed/100_char_burst_fifo_nfull/mergeScript passed reds2021 merge.ucdb {} {} 52.14 69.05 {}
+20210428T195130 done Full52/directed/all_char_burst_fifo_full/deleteScript skipped {} {} {} {}
+20210428T195105 done Full52/directed/all_char_burst_fifo_full/execScript passed/ok reds2021 Full52/directed/all_char_burst_fifo_full.ucdb ok 0 39.31 {} 40
+20210428T195130 done Full52/directed/all_char_burst_fifo_nfull/deleteScript skipped {} {} {} {}
+20210428T195105 done Full52/directed/all_char_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/all_char_burst_fifo_nfull.ucdb ok 0 41.58 {} 40
+20210428T195119 done Full52/directed/all_char_nburst/deleteScript skipped {} {} {} {}
+20210428T195103 done Full52/directed/all_char_nburst/execScript passed/ok reds2021 Full52/directed/all_char_nburst.ucdb ok 0 40.73 {} 42
+20210428T195119 done Full52/directed/all_num_burst_fifo_full/deleteScript skipped {} {} {} {}
+20210428T195104 done Full52/directed/all_num_burst_fifo_full/execScript passed/ok reds2021 Full52/directed/all_num_burst_fifo_full.ucdb ok 0 35.74 {} 40
+20210428T195119 done Full52/directed/all_num_burst_fifo_nfull/deleteScript skipped {} {} {} {}
+20210428T195103 done Full52/directed/all_num_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/all_num_burst_fifo_nfull.ucdb ok 0 37.34 {} 43
+20210428T183213 done Full52/directed/all_num_burst_fifo_nfull/mergeScript passed reds2021 merge.ucdb {} {} 52.14 64.29 {}
+20210428T195130 done Full52/directed/all_num_nburst/deleteScript skipped {} {} {} {}
+20210428T195105 done Full52/directed/all_num_nburst/execScript passed/ok reds2021 Full52/directed/all_num_nburst.ucdb ok 0 36.42 {} 40
+20210428T195125 done Full52/directed/all_num_nburst/mergeScript passed reds2021 merge.ucdb {} {} 63.80 {} {}
+20210428T195130 done Full52/directed/change_dot_period/deleteScript skipped {} {} {} {}
+20210428T195107 done Full52/directed/change_dot_period/execScript passed/ok reds2021 Full52/directed/change_dot_period.ucdb ok 0 42.45 {} 38
+20210428T195232 done Full52/directed/deleteScript skipped {} {} {} {}
+20210428T195200 done Full52/directed/full_random/deleteScript skipped {} {} {} {}
+20210428T195135 done Full52/directed/full_random/execScript passed/ok reds2021 Full52/directed/full_random.ucdb ok 0 48.26 {} 70
+20210428T184125 done Full52/directed/full_random/mergeScript passed reds2021 merge.ucdb {} {} 58.28 80.95 {}
+20210428T195200 done Full52/directed/hello_world_burst_fifo_full/deleteScript skipped {} {} {} {}
+20210428T195100 done Full52/directed/hello_world_burst_fifo_full/execScript passed/ok reds2021 Full52/directed/hello_world_burst_fifo_full.ucdb ok 0 40.12 {} 42
+20210428T195155 done Full52/directed/hello_world_burst_fifo_full/mergeScript passed reds2021 merge.ucdb {} {} 57.51 80.16 {}
+20210428T195116 done Full52/directed/hello_world_burst_fifo_full/tplanScript passed reds2021 merge_morse_burst_emitter.ucdb {} {} 0.00 {} {}
+20210428T195119 done Full52/directed/hello_world_burst_fifo_nfull/deleteScript skipped {} {} {} {}
+20210428T195100 done Full52/directed/hello_world_burst_fifo_nfull/execScript passed/ok reds2021 Full52/directed/hello_world_burst_fifo_nfull.ucdb ok 0 41.63 {} 40
+20210428T195113 done Full52/directed/hello_world_burst_fifo_nfull/mergeScript passed reds2021 merge.ucdb {} {} 53.24 {} {}
+20210428T195119 done Full52/directed/hello_world_nburst/deleteScript skipped {} {} {} {}
+20210428T195103 done Full52/directed/hello_world_nburst/execScript passed/ok reds2021 Full52/directed/hello_world_nburst.ucdb ok 0 42.02 {} 39
+20210428T184033 done Full52/directed/hello_world_nburst/tplanScript passed reds2021 merge_morse_burst_emitter.ucdb {} {} 0.00 {} {}
+20210428T183209 done Full52/directed/long_space_0_100/deleteScript skipped
+20210428T183147 done Full52/directed/long_space_0_100/execScript passed/ok reds2021 Full52/directed/long_space_0_100.ucdb ok 0 39.66 {} 42
+20210428T195130 done Full52/directed/long_space_0_30/deleteScript skipped {} {} {} {}
+20210428T195107 done Full52/directed/long_space_0_30/execScript passed/ok reds2021 Full52/directed/long_space_0_30.ucdb ok 0 39.66 {} 41
+20210428T195130 done Full52/directed/nvalid_char_10trans/deleteScript skipped {} {} {} {}
+20210428T195110 done Full52/directed/nvalid_char_10trans/execScript passed/ok reds2021 Full52/directed/nvalid_char_10trans.ucdb ok 0 20.30 {} 42
+20210428T195226 done Full52/directed/postScript empty {} {} {} {}
+20210428T195025 done Full52/directed/preScript empty {} {} {} {}
+20210428T195200 done Full52/directed/testerrno0/deleteScript skipped {} {} {} {}
+20210428T195149 done Full52/directed/testerrno0/execScript passed/ok reds2021 Full52/directed/testerrno0.ucdb ok 0 71.73 {} 95
+20210428T195201 done Full52/directed/testerrno1/deleteScript skipped {} {} {} {}
+20210428T195156 done Full52/directed/testerrno1/execScript failed/error reds2021 Full52/directed/testerrno1.ucdb error 0 72.10 {} {}
+20210428T195115 done Full52/directed/testerrno10/deleteScript skipped {} {} {} {}
+20210428T195110 done Full52/directed/testerrno10/execScript failed/error reds2021 Full52/directed/testerrno10.ucdb error 0 26.26 {} {}
+20210428T195156 done Full52/directed/testerrno11/deleteScript skipped {} {} {} {}
+20210428T195151 done Full52/directed/testerrno11/execScript failed/error reds2021 Full52/directed/testerrno11.ucdb error 0 52.64 {} {}
+20210428T195143 done Full52/directed/testerrno12/deleteScript skipped {} {} {} {}
+20210428T195138 done Full52/directed/testerrno12/execScript failed/error reds2021 Full52/directed/testerrno12.ucdb error 0 73.54 {} {}
+20210428T195118 done Full52/directed/testerrno13/deleteScript skipped {} {} {} {}
+20210428T195113 done Full52/directed/testerrno13/execScript failed/error reds2021 Full52/directed/testerrno13.ucdb error 0 27.01 {} {}
+20210428T195200 done Full52/directed/testerrno14/deleteScript skipped {} {} {} {}
+20210428T195155 done Full52/directed/testerrno14/execScript failed/error reds2021 Full52/directed/testerrno14.ucdb error 0 72.48 {} {}
+20210428T195231 done Full52/directed/testerrno15/deleteScript skipped {} {} {} {}
+20210428T195154 done Full52/directed/testerrno15/execScript passed/ok reds2021 Full52/directed/testerrno15.ucdb ok 0 71.73 {} 86
+20210428T183312 done Full52/directed/testerrno15/mergeScript passed reds2021 merge.ucdb {} {} 58.28 77.78 {}
+20210428T195231 done Full52/directed/testerrno16/deleteScript skipped {} {} {} {}
+20210428T195153 done Full52/directed/testerrno16/execScript passed/ok reds2021 Full52/directed/testerrno16.ucdb ok 0 71.43 {} 87
+20210428T195116 done Full52/directed/testerrno17/deleteScript skipped {} {} {} {}
+20210428T195111 done Full52/directed/testerrno17/execScript failed/error reds2021 Full52/directed/testerrno17.ucdb error 0 51.10 {} {}
+20210428T195156 done Full52/directed/testerrno2/deleteScript skipped {} {} {} {}
+20210428T195151 done Full52/directed/testerrno2/execScript failed/error reds2021 Full52/directed/testerrno2.ucdb error 0 72.48 {} {}
+20210428T195203 done Full52/directed/testerrno3/deleteScript skipped {} {} {} {}
+20210428T195158 done Full52/directed/testerrno3/execScript failed/error reds2021 Full52/directed/testerrno3.ucdb error 0 68.78 {} {}
+20210428T195200 done Full52/directed/testerrno4/deleteScript skipped {} {} {} {}
+20210428T195144 done Full52/directed/testerrno4/execScript passed/ok reds2021 Full52/directed/testerrno4.ucdb ok 0 71.73 {} 94
+20210428T184155 done Full52/directed/testerrno4/mergeScript passed reds2021 merge.ucdb {} {} 58.28 82.54 {}
+20210428T195201 done Full52/directed/testerrno5/deleteScript skipped {} {} {} {}
+20210428T195156 done Full52/directed/testerrno5/execScript failed/error reds2021 Full52/directed/testerrno5.ucdb error 0 72.17 {} {}
+20210428T195200 done Full52/directed/testerrno6/deleteScript skipped {} {} {} {}
+20210428T195155 done Full52/directed/testerrno6/execScript failed/error reds2021 Full52/directed/testerrno6.ucdb error 0 72.10 {} {}
+20210428T195125 done Full52/directed/testerrno7/deleteScript skipped {} {} {} {}
+20210428T195120 done Full52/directed/testerrno7/execScript failed/error reds2021 Full52/directed/testerrno7.ucdb error 0 70.78 {} {}
+20210428T195116 done Full52/directed/testerrno8/deleteScript skipped {} {} {} {}
+20210428T195111 done Full52/directed/testerrno8/execScript failed/error reds2021 Full52/directed/testerrno8.ucdb error 0 14.46 {} {}
+20210428T195231 done Full52/directed/testerrno9/deleteScript skipped {} {} {} {}
+20210428T195151 done Full52/directed/testerrno9/execScript passed/ok reds2021 Full52/directed/testerrno9.ucdb ok 0 71.30 {} 86
+20210428T195226 done Full52/directed/testerrno9/mergeScript passed reds2021 merge.ucdb {} {} 58.28 82.54 {}
+20210428T195200 done Full52/directed/word_size_0_100/deleteScript skipped {} {} {} {}
+20210428T195127 done Full52/directed/word_size_0_100/execScript passed/ok reds2021 Full52/directed/word_size_0_100.ucdb ok 0 42.98 {} 70
+20210428T183240 done Full52/directed/word_size_0_100/mergeScript passed reds2021 merge.ucdb {} {} 58.28 76.19 {}
+20210428T195226 done Full52/postScript empty {} {} {} {}
+20210428T195024 done Full52/preScript empty {} {} {} {}
+20210428T195233 end

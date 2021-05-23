@@ -46,11 +46,11 @@
       <member>hello_world_burst_fifo_nfull</member>
       <member>all_char_burst_fifo_nfull</member>
       <member>all_num_burst_fifo_nfull</member>
-      <member>1000_char_burst_fifo_nfull</member>
+      <member>100_char_burst_fifo_nfull</member>
       <member>nvalid_char_10trans</member>
-      <member>long_space_0_100</member>
+      <member>long_space_0_30</member>
       <member>change_dot_period</member>
-      <member>word_size_0_1000</member>
+      <member>word_size_0_100</member>
       <member>full_random</member>
       <member>testerrno0</member>
       <member>testerrno1</member>
@@ -93,32 +93,32 @@
 -->
 
       <command>vlib common_lib</command>
-      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd</command>
-      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/comparator_pkg.vhd</command>
-      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/complex_comparator_pkg.vhd</command>
-      <command>vcom -work common_lib  -2008 $Path_TB/common_lib/common_ctx.vhd</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/logger_pkg.vhd</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/comparator_pkg.vhd</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/complex_comparator_pkg.vhd</command>
+      <command>vcom +cover -work common_lib  -2008 $Path_TB/common_lib/common_ctx.vhd</command>
 
-      <command>vcom -work project_lib -2008 $Path_TB/project_logger_pkg.vhd</command>
-      <command>vcom -work project_lib -2008 $Path_TB/project_ctx.vhd</command>
+      <command>vcom +cover -work project_lib -2008 $Path_TB/project_logger_pkg.vhd</command>
+      <command>vcom +cover -work project_lib -2008 $Path_TB/project_ctx.vhd</command>
 
       <command>vlib morse</command>
-      <command>vcom -2008 -work morse $Path_DUV/morse_pkg.vhd</command>
-      <command>vcom -2008 -work morse $Path_DUV/morse_burst_emitter_pkg.vhd</command>
+      <command>vcom +cover -2008 -work morse $Path_DUV/morse_pkg.vhd</command>
+      <command>vcom +cover -2008 -work morse $Path_DUV/morse_burst_emitter_pkg.vhd</command>
       <command>vlib work</command>
-      <command>vcom -2008 -work work $Path_DUV/fifo.vhd</command>
-      <command>vcom -2008 -work work $Path_DUV/morse_char_emitter.vhd</command>
-      <command>vcom -2008 -work work $Path_DUV/morse_burst_emitter.vhd</command>
+      <command>vcom +cover -2008 -work work $Path_DUV/fifo.vhd</command>
+      <command>vcom +cover -2008 -work work $Path_DUV/morse_char_emitter.vhd</command>
+      <command>vcom +cover -2008 -work work $Path_DUV/morse_burst_emitter.vhd</command>
 
 
-      <command>vcom -2008 $Path_TB/transactions_pkg.vhd</command>
-      <command>vcom -2008 $Path_TB/input_agent/input_agent_driver.vhd</command>
-      <command>vcom -2008 $Path_TB/input_agent/input_agent_monitor.vhd</command>
-      <command>vcom -2008 $Path_TB/input_agent/input_agent_sequencer.vhd</command>
-      <command>vcom -2008 $Path_TB/input_agent/input_agent.vhd</command>
-      <command>vcom -2008 $Path_TB/output_agent/output_agent_monitor.vhd</command>
-      <command>vcom -2008 $Path_TB/output_agent/output_agent.vhd</command>
-      <command>vcom -2008 $Path_TB/scoreboard.vhd</command>
-      <command>vcom -2008 $Path_TB/morse_burst_emitter_tb.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/transactions_pkg.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/input_agent/input_agent_driver.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/input_agent/input_agent_monitor.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/input_agent/input_agent_sequencer.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/input_agent/input_agent.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/output_agent/output_agent_monitor.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/output_agent/output_agent.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/scoreboard.vhd</command>
+      <command>vcom +cover -2008 $Path_TB/morse_burst_emitter_tb.vhd</command>
 
       <command>vsim -coverage -t 10ps -GFIFOSIZE=(%FIFOSIZE%) -GTESTCASE=(%TESTCASE%) -GERRNO=(%ERRNO%) work.morse_burst_emitter_tb</command>
       <command>set StdArithNoWarnings 1</command>
@@ -194,7 +194,7 @@
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
-  <runnable name="1000_char_burst_fifo_nfull" type="task">
+  <runnable name="100_char_burst_fifo_nfull" type="task">
     <parameters>
       <parameter name="TESTCASE">10</parameter>
       <parameter name="FIFOSIZE">8</parameter>
@@ -208,7 +208,7 @@
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
-  <runnable name="long_space_0_100" type="task">
+  <runnable name="long_space_0_30" type="task">
     <parameters>
       <parameter name="TESTCASE">12</parameter>
       <parameter name="FIFOSIZE">8</parameter>
@@ -222,7 +222,7 @@
       <parameter name="ERRNO">0</parameter>
     </parameters>
   </runnable>
-  <runnable name="word_size_0_1000" type="task">
+  <runnable name="word_size_0_100" type="task">
     <parameters>
       <parameter name="TESTCASE">14</parameter>
       <parameter name="FIFOSIZE">8</parameter>
@@ -231,7 +231,7 @@
   </runnable>
   <runnable name="full_random" type="task">
     <parameters>
-      <parameter name="TESTCASE">16</parameter>
+      <parameter name="TESTCASE">15</parameter>
       <parameter name="FIFOSIZE">8</parameter>
       <parameter name="ERRNO">0</parameter>
     </parameters>

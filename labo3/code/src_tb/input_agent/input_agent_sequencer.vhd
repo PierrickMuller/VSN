@@ -25,6 +25,7 @@
 -- Modifications :
 -- Ver   Date        Person     Comments
 -- 0.1   31.03.2021  YTA        Initial version
+-- 0.2   14.04.2021  PM         Add testcase for labo 3
 --------------------------------------------------------------------------------
 
 library ieee;
@@ -50,6 +51,9 @@ end input_agent_sequencer;
 architecture testbench of input_agent_sequencer is
 
 
+    -- This procedure is used to simplify the send of a transaction to
+    -- the driver. It is not a procedure that start a transaction, it put
+    -- the transaction on the fifo.
     procedure sendTransaction(
             valid            : boolean;
             charValue        : integer;
@@ -71,13 +75,13 @@ architecture testbench of input_agent_sequencer is
 
 
     -- HELLO WORLD (No burst)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each character of the sentence "hello world". Each character are 
+    -- put in the fifo and immediatly send.
     procedure testcase1 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-        
         counter := 0;
 
         -- H  
@@ -124,49 +128,55 @@ architecture testbench of input_agent_sequencer is
 
     end testcase1;
 
-    -- Alphabet test (No burst)
+    -- ALPHABET TEST (No burst)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each character of the alphabet lower/upper case. Each character are 
+    -- put in the fifo and immediatly send.
     procedure testcase2 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-        
         counter := 0;
+        -- All character (a/A to z/Z)
         for i in 0 to 25 loop 
+            -- Send upper case 
             sendTransaction(true,(65 + i),0,add_char,5,counter);
             sendTransaction(true,0,0,send,5,counter);
+            -- Send lower case
             sendTransaction(true,(97 + i),0,add_char,5,counter);
             sendTransaction(true,0,0,send,5,counter);
         end loop;
     end testcase2;
 
     -- numbers 0-9 test (No burst)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each number o to 9. Each number are 
+    -- put in the fifo and immediatly send.
     procedure testcase3 is
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-
         counter := 0;
 
-        -- Sending all numbers from 0 to 9
+        -- All numbers (0 to 9)
         for i in 0 to 9 loop
+            -- Send number
             sendTransaction(true,(48 + i),0,add_char,5,counter);
             sendTransaction(true,0,0,send,5,counter);
         end loop;
     end testcase3;
 
     -- HELLO WORLD (burst and fifo FULL)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each character of the sentence "hello world". Each character are 
+    -- put in the fifo and the send command is send only want all the character have been
+    -- put in the fifo. If FIFOSIZE is not big enough to store all character, an error 
+    -- is generated
     procedure testcase4 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
         if (FIFOSIZE >= 11) then
-            transaction.valid      := true;
-            transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-            
             counter := 0;
 
             -- H  
@@ -206,20 +216,26 @@ architecture testbench of input_agent_sequencer is
         end if;
     end testcase4;
 
-    -- Alphabet test (burst and fifo FULL)
+    -- ALPHABET TEST (burst and fifo FULL)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each character of the alphabet lower/upper case. Each character are 
+    -- put in the fifo and the send command is send only want all the character have been
+    -- put in the fifo. If FIFOSIZE is not big enough to store all character, an error 
+    -- is generated
     procedure testcase5 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
         if (FIFOSIZE >= 52) then
-            transaction.valid      := true;
-            transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-            
             counter := 0;
+            -- All character (a/A to z/Z)
             for i in 0 to 25 loop 
+                -- Upper case
                 sendTransaction(true,(65 + i),0,add_char,5,counter);
+                -- Lower case
                 sendTransaction(true,(97 + i),0,add_char,5,counter);
             end loop;
+            -- Send command send
             sendTransaction(true,0,0,send,5,counter);
         else 
             logger.error("Testcase 5 : Fifo size must be equal or bigger than 26");
@@ -227,19 +243,22 @@ architecture testbench of input_agent_sequencer is
     end testcase5;
 
     -- numbers 0-9 test (burst and fifo FULL)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each number o to 9. Each number are 
+    -- put in the fifo and the send command is send only want all the character have been
+    -- put in the fifo. If FIFOSIZE is not big enough to store all number, an error 
+    -- is generated
     procedure testcase6 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
         if (FIFOSIZE >= 10) then
-            transaction.valid      := true;
-            transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-            
             counter := 0;
-            -- Sending all numbers from 0 to 9
+            -- All numbers (0 to 9)
             for i in 0 to 9 loop
                 sendTransaction(true,(48 + i),0,add_char,5,counter);
             end loop;
+            -- send command send
             sendTransaction(true,0,0,send,5,counter);
         else 
             logger.error("Testcase 6 : Fifo size must be equal or bigger than 10");
@@ -247,13 +266,14 @@ architecture testbench of input_agent_sequencer is
     end testcase6;
 
     -- HELLO WORLD (burst and fifo filled during transfert)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each character of the sentence "hello world". Once the first 
+    -- character is put in the fifo, the send command is send. After that, all the characters
+    -- are put in the fifo during the system transmission.
     procedure testcase7 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-        
         counter := 0;
 
         -- H  
@@ -292,55 +312,66 @@ architecture testbench of input_agent_sequencer is
 
     end testcase7;
     
-    -- Alphabet test (burst and fifo filled during transfert)
+    -- ALPHABET TEST (burst and fifo filled during transfert)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each character of the alphabet lower/upper case. Once the first 
+    -- character is put in the fifo, the send command is send. After that, all the characters
+    -- are put in the fifo during the system transmission.
     procedure testcase8 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-        
         counter := 0;
+        -- All character (A/a to Z/z)
         for i in 0 to 25 loop 
+            -- Upper case
             sendTransaction(true,(65 + i),0,add_char,5,counter);
-            sendTransaction(true,(97 + i),0,add_char,5,counter);
+            -- If first character, send command send
             if i = 0 then
                 sendTransaction(true,0,0,send,5,counter);
             end if;
+            -- Lower case
+            sendTransaction(true,(97 + i),0,add_char,5,counter);
         end loop;
     end testcase8;
 
     -- numbers 0-9 test (burst and fifo filled during transfert)
+    -- Author : Pierrick Muller
+    --
+    -- This testcase send each number o to 9. Once the first 
+    -- number is put in the fifo, the send command is send. After that, all the number
+    -- are put in the fifo during the system transmission.
     procedure testcase9 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-        
         counter := 0;
         -- Sending all numbers from 0 to 9
         for i in 0 to 9 loop
             sendTransaction(true,(48 + i),0,add_char,5,counter);
+            -- If first number, send command send
             if i = 0 then
                 sendTransaction(true,0,0,send,5,counter);
             end if;
         end loop;
     end testcase9;
 
-    -- Test 1000 char
+    -- TEST 100 RANDOM CHAR
+    -- Author : Pierrick Muller
+    -- 
+    -- This testcase will generate 100 random character and send them with 
+    -- without space beetween. The dot_period will be 5. The full testcase 
+    -- use a "burst and fifo not full" style flow,
+    -- meaning the send transaction command is sent after the load 
+    -- of the first char and that the other char are filled into the fifo after.
     procedure testcase10 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;  
         variable seed1_v, seed2_v : positive;
         variable rand_v: real;
         variable int_rand_v: integer;  
     begin 
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
 
         counter := 0;
-        for i in 0 to 999 loop
+        for i in 0 to 99 loop
             -- Random number beetween 0 and 25
             UNIFORM(seed1_v,seed2_v,rand_v);
             int_rand_v := INTEGER(TRUNC(rand_v*real(25)));
@@ -351,14 +382,23 @@ architecture testbench of input_agent_sequencer is
         end loop;
     end testcase10;
 
-    -- Test not valid char (Don't work)
+    -- TEST NOT VALID CHAR (Don't work as expected)
+    -- Author : Pierrick Muller
+    -- 
+    -- Due to my system implementation, this testcase does not work as intended.
+    -- The idea of this testcase was to be sure that no char were send trough
+    -- the system if the character in question was not correct. The idea was to check on 
+    -- the output manager if there was a result or not in the output. Unfortunately, the only 
+    -- way to test this as a "good case" and not as an error one was to only get the result 
+    -- of the ouptut on the scoreboard if a transaction is valid, other was the scoreboard
+    -- would be blocked trying to get transaction from the output manager that doesn't exist.
+    -- I let it here and it's used in the 0 testcase because it does not harm, but my system
+    -- would have to be modified to have this testcase working as expected. 
     procedure testcase11 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
     begin 
-        transaction.valid      := FALSE;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-        
+
+        -- we send transactions that are not valid.
         counter := 0;
         for i in 0 to 9 loop
             sendTransaction(false,(1 + i),0,add_char,5,counter);
@@ -368,41 +408,59 @@ architecture testbench of input_agent_sequencer is
         end loop;
     end testcase11;
     
-    -- Test longer space
+    -- TEST LONGER SPACE 
+    -- Author : Pierrick Muller
+    -- 
+    -- This testcase let us test the fact that if the space time is bigger
+    -- than 7 dot_period, we should take that as a space anyway.
+    -- This testcase send the character 65 with a space after with random 
+    -- waiting time 100 time. Waiting time can't be too long because
+    -- the testbench will consider that there is no hearbeat at some time.
+    -- we set the waiting time randomly each iteration between 0 and 30 clock
+    -- cycle. The full testcase use a "burst and fifo not full" style flow,
+    -- meaning the send transaction command is sent after the load 
+    -- of the first char and that the other char are filled into the fifo after.
     procedure testcase12 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;
         variable seed1_v, seed2_v : positive;
         variable rand_v: real;
         variable int_rand_v: integer;  
     begin
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-
         counter := 0;
         for i in 0 to 99 loop
-            -- Random number beetween 0 and 3
+            -- Random number beetween 0 and 30 for waiting time
             UNIFORM(seed1_v,seed2_v,rand_v);
             int_rand_v := INTEGER(TRUNC(rand_v*real(30)));
+            -- send char 65
             sendTransaction(true,65,0,add_char,5,counter);
             if i = 0 then
+                -- Send command for burst
                 sendTransaction(true,0,0,send,5,counter);
             end if;
+            -- Send space with random waiting time.
             sendTransaction(true,32,int_rand_v,add_char,5,counter);
         end loop;
     end testcase12;
 
-    -- Test modification dot period
+    -- TEST MODIFICATION DOT PERIOD
+    -- Author : Pierrick Muller
+    --
+    -- This testcase test that the system does not change the dot 
+    -- value period during an on-going send. The base dot_period is
+    -- set to 5, then we send the first transaction (random char are
+    -- used) with this dot_period. Then, we execute 99 other transaction with 
+    -- a dot_period between 1 to 100. If the dot period is modified by the system,
+    -- the output manager will not be able to reconstitute the transaction.
+    -- the full testcase use a "burst and fifo not full" style flow,
+    -- meaning the send transaction command is sent after the load 
+    -- of the first char and that the other char are filled into the fifo after.
     procedure testcase13 is
-        variable transaction : input_transaction_t;
         variable counter     : integer;  
         variable seed1_v, seed2_v : positive;
         variable rand_v: real;
         variable int_rand_v: integer;  
         variable dot_period_v : integer;
     begin 
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
         dot_period_v := 5;
         counter := 0;
         for i in 0 to 99 loop
@@ -415,58 +473,57 @@ architecture testbench of input_agent_sequencer is
             end if;
             dot_period_v := i+1;
         end loop;
-
-
     end testcase13;
 
-    -- Test word size 
+    -- TEST WORD SIZE
+    -- Author : Pierrick Muller
+    -- 
+    -- This testcase test that the system allow us to write words with 
+    -- a size beetween 1 to 100, with one space between. the dot period 
+    -- is fixed to 5, the space beetween words have no waiting time, 
+    -- the full testcase use a "burst and fifo not full" style flow,
+    -- meaning the send transaction command is sent after the load 
+    -- of the first char and that the other char are filled into the fifo after.
     procedure testcase14 is 
-        variable transaction : input_transaction_t;
         variable counter     : integer;  
         variable seed1_v, seed2_v : positive;
         variable rand_v: real;
         variable int_rand_v: integer;  
     begin 
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
 
         counter := 0;
-        for i in 0 to 1000 loop
+        -- loop for the words
+        for i in 0 to 99 loop
+            -- loop for number of character
             for y in 0 to i loop
-                -- Random number beetween 0 and 25
+                -- We generate a random character, and send the transaction
                 UNIFORM(seed1_v,seed2_v,rand_v);
                 int_rand_v := INTEGER(TRUNC(rand_v*real(25)));
                 sendTransaction(true,(65 + int_rand_v),0,add_char,5,counter);
+
+                -- If it's the first character, we use the send command
                 if i = 0 and y = 0 then
                     sendTransaction(true,0,0,send,5,counter);
                 end if;
             end loop;
+            -- We send the space
             sendTransaction(true,32,0,add_char,5,counter);
         end loop;
     end testcase14;
 
-    -- Test Fifo FULL et suppression de caractères (Not working correctly)
-    procedure testcase15 is 
-        variable transaction : input_transaction_t;
-        variable counter     : integer;
-    begin
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
-        
-        counter := 0;
-        for i in 0 to 9 loop
-            
-            if i < FIFOSIZE then
-                sendTransaction(true,(48 + i),0,add_char,5,counter);
-            else 
-                sendTransaction(false,(48 + i),0,add_char,5,counter);
-            end if;
-        end loop;
-        sendTransaction(true,0,0,send,5,counter);
-    end testcase15;
 
-    -- Test random char, dot_period and space waiting time
-    procedure testcase16 is 
-        variable transaction : input_transaction_t;
+    -- TEST RANDOM CHAR, DOT_PERIOD AND SPACE WAITING TIME
+    -- Author : Pierrick Muller
+    --
+    -- This testcase test 1000 words, each with between 1 and 10 random
+    -- characters, with a space between each words with a random waiting
+    -- time between 0 and 100, and each characters sent got a variable 
+    -- dot_period (The first dot period of the first character should be
+    -- the one used by the system for all transactions). This testcase 
+    -- use a "burst and fifo not full" style flow, meaning the send transaction 
+    -- command is sent after the load of the first char and that the 
+    -- other char are filled into the fifo after.
+    procedure testcase15 is 
         variable counter     : integer;  
         variable seed1_v, seed2_v : positive;
         variable rand_v: real;
@@ -474,14 +531,11 @@ architecture testbench of input_agent_sequencer is
         variable rand_char_v : integer;
         variable dot_period_v : integer;
     begin 
-        transaction.valid      := true;
-        transaction.dot_period := std_logic_vector(to_unsigned(5, 28));
+   
         dot_period_v := 0;
-
-
         counter := 0;
-        for i in 0 to 9999 loop
-            -- Get number of char between 1 and 10 ( 0 and 9 but with the loop it's between 1 and 5) 
+        for i in 0 to 999 loop
+            -- Get number of char between 1 and 10 ( 0 and 9 but with the loop it's between 1 and 10) 
             UNIFORM(seed1_v,seed2_v,rand_v);
             int_rand_v := INTEGER(TRUNC(rand_v*real(9)));
             for y in 0 to int_rand_v loop
@@ -501,13 +555,14 @@ architecture testbench of input_agent_sequencer is
                 end if;
             end loop;
         
-            -- Get random waiting time for space between 0 and 1000
+            -- Get random waiting time for space between 0 and 100
             UNIFORM(seed1_v,seed2_v,rand_v);
             int_rand_v := INTEGER(TRUNC(rand_v*real(100)));
-
+            
+            -- Send space
             sendTransaction(true,32,int_rand_v,add_char,dot_period_v,counter);
         end loop;
-    end testcase16;
+    end testcase15;
 
 
 begin
@@ -523,6 +578,10 @@ begin
 
         case TESTCASE is
             when 0 =>
+                -- When launching all testcase, we have sometime 
+                -- to send a space between testcase in function
+                -- of the testcase architecture. Sometime it just
+                -- need the command send. Sometime it need nothing.
                 testcase1;
                 sendTransaction(true,32,0,add_char,5,counter);
                 sendTransaction(true,0,0,send,5,counter);
@@ -554,8 +613,6 @@ begin
                 sendTransaction(true,32,0,add_char,5,counter);
                 sendTransaction(true,0,0,send,5,counter);
                 testcase11;
-                --sendTransaction(true,32,0,add_char,5,counter);
-                --sendTransaction(true,0,0,send,5,counter);
                 testcase12;
                 sendTransaction(true,0,0,send,5,counter);
                 testcase13;
@@ -564,10 +621,6 @@ begin
                 testcase14;
                 sendTransaction(true,0,0,send,5,counter);
                 testcase15;
-                sendTransaction(true,32,0,add_char,5,counter);
-                sendTransaction(true,0,0,send,5,counter);
-                testcase16;
-
             when 1 =>
                 testcase1;
             when 2 =>
@@ -598,8 +651,6 @@ begin
                 testcase14;
             when 15 => 
                 testcase15;
-            when 16 => 
-                testcase16;
             when others =>
                 logger.error("Sequencer : Unsupported testcase");
         end case;
