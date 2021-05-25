@@ -162,7 +162,7 @@ module avalon_generator #(
       waitrequest = 1;
 
       ##1;
-
+      
       readdata=0;
       readdatavalid = 0;
 
