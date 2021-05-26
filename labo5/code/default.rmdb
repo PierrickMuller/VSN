@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<rmdb version="1.0" toprunnables="directed">
+  <!-- ============== -->
+  <!-- DIRECTED TESTS -->
+  <!-- ============== -->
+  <runnable name="directed" type="group">
+    <parameters>
+      <parameter name="ucdbfile">../(%INSTANCE%).ucdb</parameter>
+      <parameter name="mergefile">(%DATADIR%)/merge.ucdb</parameter>
+      <parameter name="tplanfile">(%RMDBDIR%)/morse_receiver.xml</parameter>
+      <parameter name="tplanoptions">-format Excel</parameter>
+    </parameters>
+    <members>
+      <member>testerrno0</member>
+      <member>testerrno0_2</member>
+      <member>testerrno0_3</member>
+      <member>testerrno1</member>
+      <member>testerrno2</member>
+      <member>testerrno3</member>
+      <member>testerrno4</member>
+      <member>testerrno5</member>
+      <member>testerrno6</member>
+      <member>testerrno7</member>
+      <member>testerrno8</member>
+      <member>testerrno9</member>
+      <member>testerrno10</member>
+    </members>
+
+    <execScript>
+      <command>file delete -force work</command>
+      <command>set Path_DUV "(%RMDBDIR%)/src"</command>
+      <command>set Path_TB  "(%RMDBDIR%)/src_tb"</command>
+      <command>global Path_DUV</command>
+      <command>global Path_TB</command>
+
+
+      <command>vlib morse</command>
+      <command>vcom -mixedsvvh -2008 -work morse $Path_DUV/morse_pkg.vhd</command>
+      <command>vlib work</command>
+      <command>vcom -mixedsvvh -2008 $Path_DUV/morse_pkg.vhd</command>
+      <command>vcom +cover -mixedsvvh -2008 $Path_DUV/morse_char_receiver.vhdp</command>
+      <command>vlog +cover -mixedsvvh -sv $Path_TB/morse_char_receiver_tb.sv</command>
+      <command>vsim -coverage -t 1ns -GLOG_RELATIVE_MARGIN=(%LOG_RELATIVE_MARGIN%) -GTESTCASE=(%TESTCASE%) -GERRNO=(%ERRNO%) work.morse_char_receiver_tb</command>
+      <command>set StdArithNoWarnings 1</command>
+      <command>set NumericStdNoWarnings 1</command>
+      <command>run 2 ns</command>
+      <command>set StdArithNoWarnings 0</command>
+      <command>set NumericStdNoWarnings 0</command>
+      <command>run -all</command>
+      <command>coverage attribute -name TESTNAME -value (%INSTANCE%)</command>
+      <command>coverage save (%ucdbfile%)</command>
+    </execScript>
+  </runnable>
+  <runnable name="testerrno0" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno0_2" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">2</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno0_3" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">3</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno1" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">2</parameter>
+      <parameter name="ERRNO">1</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno2" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">2</parameter>
+      <parameter name="ERRNO">2</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno3" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">3</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno4" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">4</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno5" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">5</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno6" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">6</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno7" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">7</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno8" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">8</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno9" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">9</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testerrno10" type="task">
+    <parameters>
+      <parameter name="TESTCASE">0</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">10</parameter>
+    </parameters>
+  </runnable>
+</rmdb>
