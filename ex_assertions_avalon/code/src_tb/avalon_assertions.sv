@@ -6,7 +6,10 @@ Simple Wait request (sect. 3.5.1)
 
 Attente Fixe (sect. 3.5.2)
 
-
+- Quand le signal read est à 1 et durant toute la période fixée pour l'attente
+ , les données/contrôles envoyés par le maitre doivent rester stable
+- Quand le signal write est à 1 et durant toute la période fixée pour l'attente
+, les données/contrôles envoyés par le maitre doivent rester stable 
 
 Pipeline (sect. 3.5.3)
 variable : 
@@ -23,7 +26,14 @@ fixed :
 de read - le nombre de cycles ou waitrequest est actif.
 
 Burst (sect 3.5.4)
-
+read : 
+- Le nombre de cycle ou readdatavalid est à 1 doit toujours être inférieur a l'addition des différents burscount valide 
+durant le fonctionnement du système
+- Le nombre de bursttransfer observé durant un read doit être égal au nombre de changement d'adresses durant un 
+read (Spéculation ?)
+- Lorsque read est actif et que waitrequest l'est aussi, toutes les données d'adresse/controle à l'exception de 
+beginbursttransfer doivent rester stable pour un cycle suplémentaire 
+- 
 */
 
 module avalon_assertions #(
@@ -55,18 +65,33 @@ module avalon_assertions #(
    default clocking cb @(posedge clk);
    endclocking
 
-   //Permet de tester l'assertion 3
+   //Permet de tester les assertions
    int nb_cycle_read = 0;
    int nb_rdatavalid = 0;
+   int total_burst_count = 0;
 
+   // Gestion nb cycle read pour pipeline
    always @(posedge clk)
       begin
          if(read)
             if(!waitrequest)
                nb_cycle_read = nb_cycle_read + 1;
+      end
+
+   // Gestion nb readdatavalid pour pipeline et burst
+   always @(posedge clk)
+      begin
          if(readdatavalid)
             nb_rdatavalid = nb_rdatavalid + 1;
       end
+
+   always @(posedge clk)
+      begin
+         if((read) && (beginbursttransfer))
+               total_burst_count = total_burst_count + burstcount;
+      end
+   //Gestion burst count pour burst
+
 
    property adress_stable_pipeline;
       ( waitrequest and ($past(waitrequest)) |-> $stable(address));
@@ -138,7 +163,22 @@ module avalon_assertions #(
 
       if (AVALONMODE == 4)
         begin : assert_burst
-           assert1: assert property (!(read & write));
+           assert_rd_waitr_stable : assert property 
+              (read and waitrequest |=> $stable(address) and $stable(byteenable)
+                                          and $stable(read) and $stable(write));
+            
+            assert_nb_rdatavalid : assert property 
+               (
+                  @(posedge clk)
+                  (nb_rdatavalid <= total_burst_count)
+                  );
+            
+            //This does not work as intended i think, even if for this case it works
+            assert_nb_burst_when_adress_change_during_read : assert property 
+               ((read) and !($stable(address)) |-> beginbursttransfer within read);
+
+            
+               
         end
 
    endgenerate

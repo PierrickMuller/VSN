@@ -58,7 +58,9 @@ proc sim_start {AVALONMODE TESTCASE} {
     }
     4 {
         # Add corresponding assertions
-
+        add wave /avalon_assertions_wrapper/duv/binded/assert_burst/assert_rd_waitr_stable
+        add wave /avalon_assertions_wrapper/duv/binded/assert_burst/assert_nb_rdatavalid
+        add wave /avalon_assertions_wrapper/duv/binded/assert_burst/assert_nb_burst_when_adress_change_during_read
     }
   }
   run -all
