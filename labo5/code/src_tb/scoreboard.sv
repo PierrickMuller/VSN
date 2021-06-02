@@ -53,6 +53,7 @@ class Scoreboard;
             // Get a transaction from the output monitor
             monitor_to_scoreboard_fifo.get(out_trans);
 
+            //$display("%s",morse_trans.morse.char);
             // TODO : Handle every needed verification here, and also be sure it is
             //        a good idea to get transactions from both FIFOs everytime... Or not
         end

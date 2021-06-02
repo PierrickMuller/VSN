@@ -55,7 +55,45 @@ class Driver;
         int dot_period = 10;
         
         vif.dot_period_i <= 10;
-        vif.morse_i <= 1'b1;
+
+        foreach(trans.morse.value[i]) begin
+            $display("Value %b",trans.morse.value[i]);
+            case (trans.morse.value[i])
+            0:
+            begin
+                $display("It's a 0");
+                vif.morse_i <= 1'b1;
+                for (int d = 0; d < 1 * dot_period; d++) begin
+                    @(posedge vif.clk_i);
+                end
+            end
+            1:
+            begin
+                $display("It's a 1");
+                vif.morse_i <= 1'b1;
+                for (int d = 0; d < 3 * dot_period; d++) begin
+                    @(posedge vif.clk_i);
+                end
+            end
+            1'bz:
+            begin
+                $display("It's a Z");
+            end 
+            1'bx:
+            begin 
+                $display("It's a X");
+                break;
+            end 
+            default: $display("Something else");
+            endcase
+
+            vif.morse_i <= 1'b0;
+            for (int d = 0; d < 1 * dot_period; d++) begin
+                @(posedge vif.clk_i);
+            end
+        end
+
+        /*vif.morse_i <= 1'b1;
         for (int d = 0; d < 1 * dot_period; d++) begin
             @(posedge vif.clk_i);
         end
@@ -68,7 +106,7 @@ class Driver;
         vif.morse_i <= 1'b1;
         for (int d = 0; d < 3 * dot_period; d++) begin
             @(posedge vif.clk_i);
-        end
+        end*/
 
         vif.morse_i <= 1'b0;
         for (int d = 0; d < 3 * dot_period; d++) begin

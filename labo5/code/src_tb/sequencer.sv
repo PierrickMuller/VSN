@@ -55,8 +55,13 @@ class Sequencer;
             void'(packet.randomize() with{ascii == 65 + i; });
             sequencer_to_driver_fifo.put(packet);
             sequencer_to_scoreboard_fifo.put(packet);
-            // $display("Sequencer: I sent a letter : %s!!!!", ascii_to_string(packet.ascii));
+            $display("Sequencer: I sent a letter : %s!!!!", ascii_to_string(packet.ascii));
         end
+        //send space 
+        packet = new;
+        void'(packet.randomize() with{ascii == 32; });
+        sequencer_to_driver_fifo.put(packet);
+        sequencer_to_scoreboard_fifo.put(packet);
 
     endtask : testcase_letters
 
