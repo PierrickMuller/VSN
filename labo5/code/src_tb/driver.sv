@@ -32,7 +32,6 @@ Ver   Date        Person     Comments
 `ifndef DRIVER_SV
 `define DRIVER_SV
 
-
 class Driver;
 
     // The testcase currently running. Could be useful
@@ -48,70 +47,88 @@ class Driver;
     // it uses the previous send_dot_period instead of loading a new one.
     logic[27:0] send_dot_period;
 
+    int old_dot_period;
+    MorseTransaction old_trans;
+    int first_char = 1;
     // This task drives a Morse character
     task drive_trans(MorseTransaction trans);
 
         // TODO : Modify the driver. Here we only send the "A" character
-        int dot_period = 10;
-        
-        vif.dot_period_i <= 10;
-
-        foreach(trans.morse.value[i]) begin
-            $display("Value %b",trans.morse.value[i]);
-            case (trans.morse.value[i])
-            0:
-            begin
-                $display("It's a 0");
-                vif.morse_i <= 1'b1;
-                for (int d = 0; d < 1 * dot_period; d++) begin
-                    @(posedge vif.clk_i);
-                end
-            end
-            1:
-            begin
-                $display("It's a 1");
-                vif.morse_i <= 1'b1;
+        //int dot_period = trans.dot_period;
+        int dot_period = trans.dot_period;
+        vif.dot_period_i <= dot_period;
+        $display("----------------------------------------------- %d --> %d --> valid = %d",trans.ascii,trans.dot_period,trans.valid);
+        // If it's a letter
+        if(trans.morse.value !== 5'bZZZZZ) begin
+            
+            if(!first_char && old_trans.morse.value !== 5'bzzzzz) begin 
+                vif.morse_i <= 1'b0;
                 for (int d = 0; d < 3 * dot_period; d++) begin
                     @(posedge vif.clk_i);
                 end
             end
-            1'bz:
-            begin
-                $display("It's a Z");
-            end 
-            1'bx:
-            begin 
-                $display("It's a X");
-                break;
-            end 
-            default: $display("Something else");
-            endcase
+            
+            
+            foreach(trans.morse.value[i]) begin
+            $display("Value %b",trans.morse.value[i]);
+                case (trans.morse.value[i])
+                0:
+                begin
+                    $display("It's a 0");
+                    vif.morse_i <= 1'b1;
+                    for (int d = 0; d < 1 * dot_period; d++) begin
+                        @(posedge vif.clk_i);
+                    end
+                end
+                1:
+                begin
+                    $display("It's a 1");
+                    vif.morse_i <= 1'b1;
+                    for (int d = 0; d < 3 * dot_period; d++) begin
+                        @(posedge vif.clk_i);
+                    end
+                end
+                1'bZ:
+                begin
+                    $display("It's a Z : ERROR");
+                end 
+                1'bX:
+                begin 
+                    $display("It's a X");
+                    break;
+                end 
+                default: $display("Something else");
+                endcase
 
-            vif.morse_i <= 1'b0;
-            for (int d = 0; d < 1 * dot_period; d++) begin
-                @(posedge vif.clk_i);
+                
+                if ( i < (trans.morse.size - 1)) begin 
+                    vif.morse_i <= 1'b0;
+                    for (int d = 0; d < 1 * dot_period; d++) begin
+                        @(posedge vif.clk_i);
+                    end
+                end
+
             end
+            /*vif.morse_i <= 1'b0;
+            for (int d = 0; d < 2 * dot_period; d++) begin
+                @(posedge vif.clk_i);
+            end*/
+        // If it's a space OR a cariage return 
+        end else begin 
+            vif.morse_i <= 1'b0;
+            for (int d = 0; d < 7 * trans.dot_period; d++) begin
+                    @(posedge vif.clk_i);
+            end
+            if(trans.ascii == 13) begin 
+                for(int d = 0; d < )
+                @(posedge vif.clk_i);
+                @(posedge vif.clk_i);
+                @(posedge vif.clk_i);
+            end 
         end
+        old_trans = trans;
+        first_char = 0;
 
-        /*vif.morse_i <= 1'b1;
-        for (int d = 0; d < 1 * dot_period; d++) begin
-            @(posedge vif.clk_i);
-        end
-
-        vif.morse_i <= 1'b0;
-        for (int d = 0; d < 1 * dot_period; d++) begin
-            @(posedge vif.clk_i);
-        end
-
-        vif.morse_i <= 1'b1;
-        for (int d = 0; d < 3 * dot_period; d++) begin
-            @(posedge vif.clk_i);
-        end*/
-
-        vif.morse_i <= 1'b0;
-        for (int d = 0; d < 3 * dot_period; d++) begin
-            @(posedge vif.clk_i);
-        end
 
     endtask
 
@@ -141,7 +158,7 @@ class Driver;
         // DUV and an error should be detected.
         while (1) begin
             if (sequencer_to_driver_fifo.try_get(trans)) begin
-                // display_trans(trans);
+                //display_trans(trans);
                 drive_trans(trans);
             end
             else begin
@@ -162,6 +179,7 @@ class Driver;
         $display("Drive size : %d", trans.morse.size);
         $display("Drive Morse : %s", morse_char_to_string(trans.morse));
         $display("Drive Morse : %s", ascii_to_string(trans.ascii));
+        $display("Drive ascii : %d", trans.ascii);
     endtask : display_trans
 
 

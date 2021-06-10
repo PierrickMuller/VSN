@@ -1,0 +1,201 @@
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_0 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_0 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_0 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_sv/shiftregister.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_3 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_3 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_3 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_5
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_6 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_6 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_6 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_8
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_9 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_9 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_9 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_11
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_12 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_12 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_12 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_14
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_16 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_16 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_16 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_17
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_18 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_18 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_18 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_19
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_20 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_20 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_20 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_22
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vcom ../src_sv/shiftregister.vhd
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_23 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_23 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_23 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_25
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/share/modeltech/bin/vlog -sv ../src_sv/shiftregister.sv
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .elab.log  -cli -internal -cmd elab -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .createnl.log  -cli -internal -cmd create_netlist -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26 -tool propcheck -d shiftregister_wrapper -work work -G DATASIZE=2
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+/opt/mentor/questaformal/linux_x86_64/bin/qverifyek  -l .csl.log  -cli -internal -cmd csl -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26 -d shiftregister_wrapper -G DATASIZE=2 -work work
+
+# /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do : 13
+ -tool prove -j 4     -hd .qverify -import_db ./propcheck.db/formal_compile.db -zdb /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_28

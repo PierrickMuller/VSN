@@ -1,0 +1,36 @@
+20210610T132914 begin 37319@reds2021 /home/reds/vsn21_student/labo5/code/default.rmdb /home/reds/vsn21_student/labo5/code/VRMDATA
+20210610T133004 done directed/deleteScript skipped {} {} {} {}
+20210610T132959 done directed/postScript empty {} {} {} {}
+20210610T132914 done directed/preScript empty {} {} {} {}
+20210610T133004 done directed/testerrno0/deleteScript skipped {} {} {} {}
+20210610T132924 done directed/testerrno0/execScript passed/ok reds2021 directed/testerrno0.ucdb ok 0 32.12 {} 9
+20210610T132926 done directed/testerrno0/tplanScript passed reds2021 merge_morse_receiver.ucdb {} {} 0.00 {} {}
+20210610T132932 done directed/testerrno0_2/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno0_2/execScript passed/ok reds2021 directed/testerrno0_2.ucdb ok 0 32.12 {} 9
+20210610T132932 done directed/testerrno0_3/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno0_3/execScript passed/ok reds2021 directed/testerrno0_3.ucdb ok 0 32.12 {} 9
+20210610T132932 done directed/testerrno1/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno1/execScript passed/ok reds2021 directed/testerrno1.ucdb ok 0 32.12 {} 9
+20210610T133004 done directed/testerrno10/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno10/execScript passed/ok reds2021 directed/testerrno10.ucdb ok 0 30.17 {} 9
+20210610T132932 done directed/testerrno2/deleteScript skipped {} {} {} {}
+20210610T132924 done directed/testerrno2/execScript passed/ok reds2021 directed/testerrno2.ucdb ok 0 32.12 {} 9
+20210610T132927 done directed/testerrno2/mergeScript passed reds2021 merge.ucdb {} {} 32.12 {} {}
+20210610T132930 done directed/testerrno3/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno3/execScript failed/error reds2021 directed/testerrno3.ucdb error 0 24.44 {} {}
+20210610T132930 done directed/testerrno4/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno4/execScript failed/error reds2021 directed/testerrno4.ucdb error 0 24.44 {} {}
+20210610T132930 done directed/testerrno5/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno5/execScript failed/error reds2021 directed/testerrno5.ucdb error 0 33.95 {} {}
+20210610T132930 done directed/testerrno6/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno6/execScript failed/error reds2021 directed/testerrno6.ucdb error 0 32.81 {} {}
+20210610T132930 done directed/testerrno7/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno7/execScript failed/error reds2021 directed/testerrno7.ucdb error 0 26.71 {} {}
+20210610T132932 done directed/testerrno8/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno8/execScript passed/ok reds2021 directed/testerrno8.ucdb ok 0 32.12 {} 8
+20210610T093814 done directed/testerrno8/mergeScript passed reds2021 merge.ucdb {} {} 33.81 {} {}
+20210610T133004 done directed/testerrno9/deleteScript skipped {} {} {} {}
+20210610T132925 done directed/testerrno9/execScript passed/ok reds2021 directed/testerrno9.ucdb ok 0 32.12 {} 7
+20210610T132958 done directed/testerrno9/mergeScript passed reds2021 merge.ucdb {} {} 33.84 18.18 {}
+20210610T093814 done directed/testerrno9/tplanScript passed reds2021 merge_morse_receiver.ucdb {} {} 0.00 {} {}
+20210610T133006 end

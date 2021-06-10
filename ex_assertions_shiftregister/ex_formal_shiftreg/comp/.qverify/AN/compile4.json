@@ -1,0 +1,3 @@
+[
+{"recid":1, "Severity":"Error", "Message":"(vlog-13069) near \"[\": syntax error, unexpected '[', expecting ',' or '}'.", "Backref":"../src_tb/shiftregister_assertions.sv,59"}
+]

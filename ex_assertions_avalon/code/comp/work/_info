@@ -10,86 +10,106 @@ z2
 cModel Technology
 Z0 d/home/reds/vsn21_student/ex_assertions_avalon/code/comp
 T_opt
-Z1 !s110 1621775621
-V=J=lC:1OgODbBON7@@A@T3
-04 25 4 work avalon_assertions_wrapper fast 0
-=1-000ae431a4f1-60aa5505-b9dec-1c35
-o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G AVALONMODE=0 +acc=a
+!s110 1621966640
+V]`[Z`[;MJNNjS011ZCF0S2
+Z1 04 25 4 work avalon_assertions_wrapper fast 0
+=1-000ae431a4f1-60ad3f30-302b5-231b
+o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G AVALONMODE=3 +acc=a
 Z2 tCvgOpt 0
 n@_opt
-OL;O;2020.1_1;71
+Z3 OL;O;2020.1_1;71
+T_opt1
+!s110 1621966551
+V^^4NQ:8jSBXVJDRD`IM;Z2
+R1
+=1-000ae431a4f1-60ad3ed7-98f07-228d
+o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G AVALONMODE=2 +acc=a
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1621790470
+V_j=bI8b6mlkH<dTZ5kLL^1
+R1
+=1-000ae431a4f1-60aa8f06-8252a-2355
+o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G AVALONMODE=1 +acc=a
+R2
+n@_opt2
+R3
+R0
 vavalon_assertions
-Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z4 !s110 1621775620
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1621966639
 !i10b 1
-!s100 @56z;G]@ACVAILZO:^K]S3
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IVTidM6jgZb?iX;_kzlo<N1
-Z6 VDg1SIo80bB@j0V0VzS_@n1
+!s100 XTiBd9MCS]1jF@gfi8FSZ0
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6`gn41QoNLb1ol?abBdEP1
+Z7 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1621775618
+w1621966635
 8../src_tb/avalon_assertions.sv
 F../src_tb/avalon_assertions.sv
-!i122 4
-L0 18 60
-Z7 OL;L;2020.1_1;71
+!i122 423
+L0 29 117
+Z8 OL;L;2020.1_1;71
 r1
 !s85 0
 31
-Z8 !s108 1621775620.000000
+Z9 !s108 1621966639.000000
 !s107 ../src_tb/avalon_assertions.sv|
 !s90 -reportprogress|300|../src_tb/avalon_assertions.sv|
 !i113 0
-Z9 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 R2
 vavalon_assertions_wrapper
-R3
-R1
+R4
+R5
 !i10b 1
 !s100 ACzj?n;Zg_;U_e]A]j0Ni2
-R5
-I?=FCT_?Zil?;5oCV@6<jK0
 R6
+I?=FCT_?Zil?;5oCV@6<jK0
+R7
 S1
 R0
-Z10 w1621505547
+w1621776195
 8../src_tb/avalon_assertions_wrapper.sv
 F../src_tb/avalon_assertions_wrapper.sv
-!i122 5
+!i122 424
 L0 31 37
-R7
+R8
 r1
 !s85 0
 31
-R8
+R9
 !s107 ../src_tb/avalon_assertions_wrapper.sv|
 !s90 -reportprogress|300|../src_tb/avalon_assertions_wrapper.sv|
 !i113 0
-R9
+R10
 R2
 vavalon_generator
-R3
 R4
+R5
 !i10b 1
 !s100 P`R<FH7cz[ha4ZCPG:^6l1
-R5
-Ia<g5zlC2Ri`LVV028;1ZS1
 R6
+Ia<g5zlC2Ri`LVV028;1ZS1
+R7
 S1
 R0
-R10
+w1621960212
 8../src/avalon_generator.sv
 F../src/avalon_generator.sv
-!i122 3
+!i122 422
 L0 5 23
-R7
+R8
 r1
 !s85 0
 31
-R8
+R9
 !s107 ../src/avalon_generator.sv|
 !s90 -reportprogress|300|../src/avalon_generator.sv|
 !i113 0
-R9
+R10
 R2

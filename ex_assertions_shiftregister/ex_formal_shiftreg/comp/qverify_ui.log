@@ -1,0 +1,277 @@
+# 
+# Copyright 1995-2020 Mentor Graphics Corporation.
+# All Rights Reserved.
+# 
+# THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION 
+# WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# 
+# THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION
+# 552.  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE
+# UNDER THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# 
+# do ../scripts/check.do
+# QuestaSim-64 vlog 2020.2_1 Compiler 2020.05 May 21 2020
+# Start time: 13:57:25 on May 30,2021
+# vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv 
+# -- Compiling module shiftregister_assertions
+# -- Compiling module shiftregister_wrapper
+# 
+# Top level modules:
+# 	shiftregister_wrapper
+# End time: 13:57:25 on May 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.2_1 Compiler 2020.05 May 21 2020
+# Start time: 13:57:25 on May 30,2021
+# vlog -sv ../src_sv/shiftregister.sv 
+# -- Compiling module shiftregister
+# ** Warning: ../src_sv/shiftregister.sv(33): (vlog-13233) Design unit "shiftregister" already exists and will be overwritten. Overwriting a VHDL Entity at ../src_sv/shiftregister.vhd(22) with a Verilog module.
+# 
+# Top level modules:
+# 	shiftregister
+# End time: 13:57:25 on May 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+# 
+# log created Sun May 30 13:57:25 2021 by reds on reds2021
+# 
+# 
+# Command: netlist elaborate
+# Command arguments:
+#     -zdb
+#       /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26
+#     -tool propcheck
+#     -d shiftregister_wrapper
+#     -work work
+#     -G DATASIZE=2
+# 
+# 
+## Elaborating Design...
+# Reading MTI mapping for library mapping
+# Writing all MTI mappings to vmap output ...
+# 
+# Top level modules:
+# 	shiftregister_wrapper
+# 
+# Analyzing design...
+# -- Loading module z0in_work.shiftregister_wrapper
+# -- Loading module z0in_work.shiftregister
+# -- Loading module z0in_work.shiftregister_assertions
+# Incremental compilation check found 1 design-unit (out of 3) may be reused.
+# Optimizing 2 design-units (inlining 0/3 module instances):
+# -- Optimizing module z0in_work.shiftregister(fast)
+# -- Restoring module work.shiftregister_assertions(fast)
+# -- Optimizing module z0in_work.shiftregister_wrapper(fast)
+# Optimized design name is zi_opt_csl_994544325_1
+# End of log Sun May 30 13:57:26 2021
+# 
+# 
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+# 
+# log created Sun May 30 13:57:26 2021 by reds on reds2021
+# 
+# 
+# Command: netlist create
+# Command arguments:
+#     -zdb
+#       /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26
+#     -tool propcheck
+#     -d shiftregister_wrapper
+#     -work work
+#     -G DATASIZE=2
+# 
+# 
+## Synthesizing netlist...
+# Processing module 'shiftregister_assertions'
+# Restoring module 'shiftregister_assertions'.
+# Processing module 'shiftregister'
+# Elaborating module 'shiftregister'.
+# Processing module 'shiftregister_wrapper'
+# Info    : Cached netlist database is out of date.  Cached netlist for module 'shiftregister_wrapper'.  [netlist-9]
+#         : Will ignore cached netlist database.
+# Elaborating module 'shiftregister_wrapper'.
+# 
+##Time Taken (Synthesis) = 1327047.000000 ticks = 1.327047 secs
+# 
+# End of log Sun May 30 13:57:27 2021
+# 
+# 
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+# 
+# log created Sun May 30 13:57:27 2021 by reds on reds2021
+# 
+# 
+# Command: formal compile
+# Command arguments:
+#     -zdb
+#       /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26
+#     -d shiftregister_wrapper
+#     -G DATASIZE=2
+#     -work work
+# 
+# 
+## Processing Formal Logic...
+# Processing module 'shiftregister_assertions'
+# Restoring module 'shiftregister_assertions'.
+# Processing module 'shiftregister'
+# Restoring module 'shiftregister'.
+# Processing module 'shiftregister_wrapper'
+# Restoring module 'shiftregister_wrapper'.
+# Flattening design 'shiftregister_assertions'.
+# Flattening design 'shiftregister'.
+# Flattening design 'shiftregister_wrapper'.
+# Info    : Detected clock.  Clock: clk_i, polarity: posedge.  [netlist-11]
+# Design is processed for formal verification.  Design 'shiftregister_wrapper'.
+# sh: 1: gtar: not found
+# Info    : Detected asynchronous reset.  Signal: rst_i, active high.  [netlist-106]
+# 
+# Clocks
+# ------------------------------------------------------------------------------
+# Port                                   Period         Waveform    Edges
+# ------------------------------------------------------------------------------
+# clk_i                    [inferred]       100             0 50    PE   
+# ------------------------------------------------------------------------------
+# 
+# Blackboxes
+# ------------------------------------------------------------------------------
+# Module name                                                Reason
+# ------------------------------------------------------------------------------
+# <no blackboxed modules>
+# ------------------------------------------------------------------------------
+# 
+# Inferred directives
+# ------------------------------------------------------------------------------
+# netlist clock clk_i -period 100 -waveform 0 50
+# ------------------------------------------------------------------------------
+# 
+# Design is linked for formal analysis.  Design 'shiftregister_wrapper'.
+# Formal model has been created.
+# 
+# Property Summary
+# -------------------------------------------------------------------------------
+# Total  Directives :4
+# Assert Directives :4
+# Assume Directives :0
+# Cover  Directives :0
+# 
+# SVA Summary
+# -------------------------------------------------------------------------------
+# SVA Directive Type        Directives           Checkers
+# -------------------------------------------------------------------------------
+# Assert                         4                   4
+# Assume                         0                   0
+# Cover                          0                   0
+# -------------------------------------------------------------------------------
+# 
+# To see results in the GUI run:
+# qverify /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db
+# 
+# 
+# Message Summary
+# ---------------------------------------------------------------------------
+# Count  Type     Message ID         Summary
+# ---------------------------------------------------------------------------
+#     1  Info     netlist-106        Detected asynchronous reset.
+#     1  Info     netlist-11         Detected clock.
+#     1  Info     netlist-9          Cached netlist database is out of date.
+# 
+# Final Process Statistics: Max memory 497MB, CPU time 1s, Total time 3s
+# End of log Sun May 30 13:57:28 2021
+# 
+# 
+# Viewing ./propcheck.db/formal_compile.db in Visualizer
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+# 
+# 
+# Command-line arguments:
+# 	-jobs 4 
+# 
+# Info    : Automatically constraining reset signal to de-assert after initialization sequence (use -auto_constraint_off option to disable).  Signal 'rst_i', Value '0'.  [formal-285]
+# Info    : Using automatically created initialization sequence to initialize design state.  Description in 'formal_verify.rpt' file.  [formal-208]
+# Applying synthesis semantics to design: shiftregister_wrapper
+# [00:00:00] Target Status: Done 0/4, Update 0/4, Proof radius min=0, avg=0.0
+# [00:00:00] Check Status: Vacuity 0/4
+# [00:00:00] Process Status: Engine Processes 0/0, Mem=0GB
+# Info    : Established connection with engine process.  Hostname 'reds2021', pid 6155, id 2, time [00:00:00].  [formal-385]
+# Info    : Established connection with engine process.  Hostname 'reds2021', pid 6158, id 3, time [00:00:00].  [formal-385]
+# Info    : Established connection with engine process.  Hostname 'reds2021', pid 6156, id 1, time [00:00:00].  [formal-385]
+# Info    : Established connection with engine process.  Hostname 'reds2021', pid 6159, id 4, time [00:00:00].  [formal-385]
+# [00:00:00] Vacuity Check Passed: duv.binded.assert_load2 (engine:10, radius:1)
+# [00:00:00] Fired: duv.binded.assert_load2 (engine:10, radius:2)
+# [00:00:00] Proven: duv.binded.assert_maintain (engine:0, vacuity check:inconclusive)
+# [00:00:00] Vacuity Check Passed: duv.binded.assert_shift_right (engine:10, radius:1)
+# [00:00:00] Vacuity Check Passed: duv.binded.assert_maintain (engine:10, radius:1)
+# [00:00:00] Fired: duv.binded.assert_shift_right (engine:7, radius:2)
+# [00:00:00] Vacuity Check Passed: duv.binded.assert_shift_left (engine:10, radius:1)
+# [00:00:00] Fired: duv.binded.assert_shift_left (engine:7, radius:2)
+# [00:00:00] Target Status: Done 4/4, Update 4/4, Proof radius min=N/A, avg=N/A
+# [00:00:00] Check Status: Vacuity 4/4
+# [00:00:00] Process Status: Engine Processes 0/4, Mem=1GB
+# 
+# 
+# --------- Process Statistics ----------
+# Elapsed Time                       0 s
+# Total CPU Time                     0 s
+# Total Peak Memory                0.6 GB
+# ---------- Engine Processes -----------
+# Average CPU Time                   0 s
+# Minimum CPU Utilization          0.0 %
+# Average Peak Memory              0.2 GB
+# Maximum Peak Memory              0.1 GB
+# Peak Cores                         4
+# Distinct Machines                  1
+# Launch Failures                    0
+# Unexpected Process Terminations    0
+# Successful Re-connections          0
+# ---------------------------------------
+# 
+# 
+# ---------------------------------------
+# Property Summary                  Count
+# ---------------------------------------
+# Assumed                               0
+# Proven                                1
+# Inconclusive                          0
+# Fired                                 3
+# ---------------------------------------
+# Total                                 4
+# ---------------------------------------
+# 
+# Message Summary
+# ---------------------------------------------------------------------------
+# Count  Type     Message ID         Summary
+# ---------------------------------------------------------------------------
+#     1  Info     formal-208         Using automatically created initialization sequence to initialize design state.
+#     1  Info     formal-285         Automatically constraining reset signal to de-assert after initialization sequence (use -auto_constraint_off option to disable).
+#     4  Info     formal-385         Established connection with engine process.
+# 
+# Final Process Statistics: Peak Memory 0.21GB, Cumulative CPU Time 0s, Elapsed Time 0s
+# 
+# To see results in the GUI run:
+# qverify /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db
+# 
+# 
+# 
+# Copyright 1995-2020 Mentor Graphics Corporation.
+# All Rights Reserved.
+# 
+# THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION 
+# WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# 
+# THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION
+# 552.  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE
+# UNDER THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# 

@@ -1,0 +1,87 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp
+vshiftregister
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1622375845
+!i10b 1
+!s100 kZBl>Ond`O3Vb6;d0=lS@2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IK5^2YWELRYKfM>65L@oGR3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1621776195
+8../src_sv/shiftregister.sv
+F../src_sv/shiftregister.sv
+!i122 26
+L0 33 32
+Z6 OL;L;2020.2_1;71
+r1
+!s85 0
+31
+Z7 !s108 1622375845.000000
+!s107 ../src_sv/shiftregister.sv|
+!s90 -sv|../src_sv/shiftregister.sv|
+!i113 0
+Z8 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+vshiftregister_assertions
+R1
+R2
+!i10b 1
+!s100 HDj=;GDWGObfk^?2GU_?z0
+R3
+IKYOaMI5TN=TX[<eIGBHY=2
+R4
+S1
+R0
+w1622375794
+8../src_tb/shiftregister_assertions.sv
+F../src_tb/shiftregister_assertions.sv
+!i122 25
+L0 33 39
+R6
+r1
+!s85 0
+31
+R7
+Z10 !s107 ../src_tb/shiftregister_wrapper.sv|../src_tb/shiftregister_assertions.sv|
+Z11 !s90 -sv|../src_tb/shiftregister_assertions.sv|../src_tb/shiftregister_wrapper.sv|
+!i113 0
+R8
+R9
+vshiftregister_wrapper
+R1
+R2
+!i10b 1
+!s100 ]ES4<5=PeWe=UIb4R_zR`3
+R3
+ITda`lgedfLl4S<[?3FoHB0
+R4
+S1
+R0
+R5
+8../src_tb/shiftregister_wrapper.sv
+F../src_tb/shiftregister_wrapper.sv
+!i122 25
+L0 30 17
+R6
+r1
+!s85 0
+31
+R7
+R10
+R11
+!i113 0
+R8
+R9

@@ -1,0 +1,72 @@
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+
+
+Command-line arguments:
+	-jobs 4 
+
+Info    : Automatically constraining reset signal to de-assert after initialization sequence (use -auto_constraint_off option to disable).  Signal 'rst_i', Value '0'.  [formal-285]
+Info    : Using automatically created initialization sequence to initialize design state.  Description in 'formal_verify.rpt' file.  [formal-208]
+Applying synthesis semantics to design: shiftregister_wrapper
+[00:00:00] Target Status: Done 0/4, Update 0/4, Proof radius min=0, avg=0.0
+[00:00:00] Check Status: Vacuity 0/4
+[00:00:00] Process Status: Engine Processes 0/0, Mem=0GB
+Info    : Established connection with engine process.  Hostname 'reds2021', pid 6155, id 2, time [00:00:00].  [formal-385]
+Info    : Established connection with engine process.  Hostname 'reds2021', pid 6158, id 3, time [00:00:00].  [formal-385]
+Info    : Established connection with engine process.  Hostname 'reds2021', pid 6156, id 1, time [00:00:00].  [formal-385]
+Info    : Established connection with engine process.  Hostname 'reds2021', pid 6159, id 4, time [00:00:00].  [formal-385]
+[00:00:00] Vacuity Check Passed: duv.binded.assert_load2 (engine:10, radius:1)
+[00:00:00] Fired: duv.binded.assert_load2 (engine:10, radius:2)
+[00:00:00] Proven: duv.binded.assert_maintain (engine:0, vacuity check:inconclusive)
+[00:00:00] Vacuity Check Passed: duv.binded.assert_shift_right (engine:10, radius:1)
+[00:00:00] Vacuity Check Passed: duv.binded.assert_maintain (engine:10, radius:1)
+[00:00:00] Fired: duv.binded.assert_shift_right (engine:7, radius:2)
+[00:00:00] Vacuity Check Passed: duv.binded.assert_shift_left (engine:10, radius:1)
+[00:00:00] Fired: duv.binded.assert_shift_left (engine:7, radius:2)
+[00:00:00] Target Status: Done 4/4, Update 4/4, Proof radius min=N/A, avg=N/A
+[00:00:00] Check Status: Vacuity 4/4
+[00:00:00] Process Status: Engine Processes 0/4, Mem=1GB
+
+
+--------- Process Statistics ----------
+Elapsed Time                       0 s
+Total CPU Time                     0 s
+Total Peak Memory                0.6 GB
+---------- Engine Processes -----------
+Average CPU Time                   0 s
+Minimum CPU Utilization          0.0 %
+Average Peak Memory              0.2 GB
+Maximum Peak Memory              0.1 GB
+Peak Cores                         4
+Distinct Machines                  1
+Launch Failures                    0
+Unexpected Process Terminations    0
+Successful Re-connections          0
+---------------------------------------
+
+
+---------------------------------------
+Property Summary                  Count
+---------------------------------------
+Assumed                               0
+Proven                                1
+Inconclusive                          0
+Fired                                 3
+---------------------------------------
+Total                                 4
+---------------------------------------
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+    1  Info     formal-208         Using automatically created initialization sequence to initialize design state.
+    1  Info     formal-285         Automatically constraining reset signal to de-assert after initialization sequence (use -auto_constraint_off option to disable).
+    4  Info     formal-385         Established connection with engine process.
+
+Final Process Statistics: Peak Memory 0.21GB, Cumulative CPU Time 0s, Elapsed Time 0s
+
+To see results in the GUI run:
+qverify /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db
+

@@ -1,0 +1,8 @@
+library ieee, verilog;
+use ieee.std_logic_1164.all;
+use verilog.vl_types.all;
+package morse_sv_pkg__vhdl is
+    attribute mgc_pack_signature : string;
+    attribute mgc_pack_signature of morse_sv_pkg__vhdl:package is "to_be_added";
+    attribute mgc_type_signature : string;
+end package ;

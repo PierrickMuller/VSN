@@ -12,103 +12,2712 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-ls
-# transcript
-do ../scripts/sim.do
+do ../scripts/sim.do 2 
 # ../src
 # ../src_tb
 # QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 15:11:17 on May 23,2021
+# Start time: 18:27:12 on May 25,2021
 # vlog -reportprogress 300 ../src/avalon_generator.sv 
 # -- Compiling module avalon_generator
 # -- Compiling program TestSuite
 # 
 # Top level modules:
 # 	avalon_generator
-# End time: 15:11:17 on May 23,2021, Elapsed time: 0:00:00
+# End time: 18:27:13 on May 25,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 15:11:17 on May 23,2021
+# Start time: 18:27:13 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(83): near "1": syntax error, unexpected INTEGER NUMBER, expecting ']'.
+# End time: 18:27:13 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 0"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:27:16 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:27:17 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:27:17 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(83): near "1": syntax error, unexpected INTEGER NUMBER, expecting ']'.
+# End time: 18:27:17 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:28:05 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:28:05 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:28:05 on May 25,2021
 # vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
 # -- Compiling module avalon_assertions
 # 
 # Top level modules:
 # 	avalon_assertions
-# End time: 15:11:18 on May 23,2021, Elapsed time: 0:00:01
+# End time: 18:28:05 on May 25,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 15:11:18 on May 23,2021
+# Start time: 18:28:05 on May 25,2021
 # vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
 # -- Compiling module avalon_assertions_wrapper
 # 
 # Top level modules:
 # 	avalon_assertions_wrapper
-# End time: 15:11:18 on May 23,2021, Elapsed time: 0:00:00
+# End time: 18:28:05 on May 25,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=0 
-# Start time: 15:11:18 on May 23,2021
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 18:28:05 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading sv_std.std
 # Loading work.avalon_assertions_wrapper(fast)
-# ** Error: Assertion error.
-#    Time: 15 ns Started: 15 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_waitrequest.assert_waitreq1 File: ../src_tb/avalon_assertions.sv Line: 51 Expr: $stable(address)
-# ** Error: Assertion error.
-#    Time: 55 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_waitrequest.assert_waitreq1 File: ../src_tb/avalon_assertions.sv Line: 51 Expr: $stable(address)
 # done!
 # ** Note: $stop    : ../src/avalon_generator.sv(423)
-#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
 # Break at ../src/avalon_generator.sv line 423
-do ../scripts/sim.do
+do ../scripts/sim.do 2 0
 # ../src
 # ../src_tb
 # QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 15:13:40 on May 23,2021
+# Start time: 18:29:15 on May 25,2021
 # vlog -reportprogress 300 ../src/avalon_generator.sv 
 # -- Compiling module avalon_generator
 # -- Compiling program TestSuite
 # 
 # Top level modules:
 # 	avalon_generator
-# End time: 15:13:40 on May 23,2021, Elapsed time: 0:00:00
+# End time: 18:29:15 on May 25,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 15:13:40 on May 23,2021
+# Start time: 18:29:15 on May 25,2021
 # vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
 # -- Compiling module avalon_assertions
 # 
 # Top level modules:
 # 	avalon_assertions
-# End time: 15:13:40 on May 23,2021, Elapsed time: 0:00:00
+# End time: 18:29:15 on May 25,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 15:13:40 on May 23,2021
+# Start time: 18:29:15 on May 25,2021
 # vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
 # -- Compiling module avalon_assertions_wrapper
 # 
 # Top level modules:
 # 	avalon_assertions_wrapper
-# End time: 15:13:41 on May 23,2021, Elapsed time: 0:00:01
+# End time: 18:29:15 on May 25,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 15:13:41 on May 23,2021, Elapsed time: 0:02:23
-# Errors: 2, Warnings: 0
-# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=0 
-# Start time: 15:13:41 on May 23,2021
+# End time: 18:29:21 on May 25,2021, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 18:29:21 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(424)
+#    Time: 215 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 424
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:38:53 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:38:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:38:53 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 18:38:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:38:53 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 18:38:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:38:55 on May 25,2021, Elapsed time: 0:09:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 18:38:55 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:46:51 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:46:51 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:46:51 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(86): near "and": syntax error, unexpected and.
+# End time: 18:46:51 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:47:10 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:47:10 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:47:10 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(86): near "and": syntax error, unexpected and.
+# End time: 18:47:10 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+
+
+
+
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:47:38 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:47:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:47:38 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(86): near "and": syntax error, unexpected and.
+# End time: 18:47:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:48:37 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:48:37 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:48:37 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(87): near "and": syntax error, unexpected and.
+# End time: 18:48:37 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:49:03 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:49:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:49:03 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(87): near "and": syntax error, unexpected and.
+# End time: 18:49:03 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:50:53 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:50:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:50:53 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 18:50:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:50:53 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 18:50:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:50:53 on May 25,2021, Elapsed time: 0:11:58
+# Errors: 5, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 18:50:53 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:51:39 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:51:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:51:39 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 18:51:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:51:39 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 18:51:39 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:51:39 on May 25,2021, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 18:51:39 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# nb_cycle_read           0
+# nb_cycle_read           1
+# nb_cycle_read           2
+# nb_cycle_read           2
+# nb_cycle_read           2
+# nb_cycle_read           3
+# nb_cycle_read           4
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# nb_cycle_read           5
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:58:11 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:58:11 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:58:11 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(96): near "@": syntax error, unexpected '@', expecting '('.
+# End time: 18:58:11 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 96
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:58:43 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:58:43 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:58:43 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 18:58:43 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:58:43 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 18:58:43 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:58:43 on May 25,2021, Elapsed time: 0:07:04
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 18:58:43 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** UI-Msg: (vish-4014) No objects found matching '/avalon_assertions_wrapper/duv/binded/assert_pipeline_variable/asser_rdatavalid_after_waitrequest'.
+# Error in macro ./../scripts/sim.do line 96
+# ** UI-Msg: (vish-4014) No objects found matching '/avalon_assertions_wrapper/duv/binded/assert_pipeline_variable/asser_rdatavalid_after_waitrequest'.
+#     while executing
+# "add wave /avalon_assertions_wrapper/duv/binded/assert_pipeline_variable/asser_rdatavalid_after_waitrequest"
+#     (procedure "sim_start" line 24)
+#     invoked from within
+# "sim_start $AVALONMODE $TESTCASE"
+#     (procedure "do_all" line 4)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:59:46 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 18:59:46 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:59:46 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 18:59:46 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:59:46 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 18:59:46 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:59:46 on May 25,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 18:59:46 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** UI-Msg: (vish-4014) No objects found matching '/avalon_assertions_wrapper/duv/binded/assert_pipeline_variable/asser_rdatavalid_after_waitrequest'.
+# Error in macro ./../scripts/sim.do line 96
+# ** UI-Msg: (vish-4014) No objects found matching '/avalon_assertions_wrapper/duv/binded/assert_pipeline_variable/asser_rdatavalid_after_waitrequest'.
+#     while executing
+# "add wave /avalon_assertions_wrapper/duv/binded/assert_pipeline_variable/asser_rdatavalid_after_waitrequest"
+#     (procedure "sim_start" line 24)
+#     invoked from within
+# "sim_start $AVALONMODE $TESTCASE"
+#     (procedure "do_all" line 4)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:00:35 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:00:35 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:00:35 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:00:35 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:00:35 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:00:36 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:00:36 on May 25,2021, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 19:00:36 on May 25,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:01:00 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:01:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:01:00 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(98): near "=>": syntax error, unexpected =>.
+# End time: 19:01:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 95
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:01:24 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:01:24 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:01:24 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:01:24 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:01:24 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:01:25 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:01:25 on May 25,2021, Elapsed time: 0:00:49
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 19:01:25 on May 25,2021
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading sv_std.std
 # Loading work.avalon_assertions_wrapper(fast)
 # ** Error: Assertion error.
-#    Time: 15 ns Started: 15 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_waitrequest.assert_waitreq1 File: ../src_tb/avalon_assertions.sv Line: 51 Expr: $stable(address)
+#    Time: 25 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_variable.assert_nb_rdatavalid File: ../src_tb/avalon_assertions.sv Line: 95 Expr: nb_rdatavalid>=nb_cycle_read
 # ** Error: Assertion error.
-#    Time: 55 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_waitrequest.assert_waitreq1 File: ../src_tb/avalon_assertions.sv Line: 51 Expr: $stable(address)
+#    Time: 35 ns Started: 35 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_variable.assert_nb_rdatavalid File: ../src_tb/avalon_assertions.sv Line: 95 Expr: nb_rdatavalid>=nb_cycle_read
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_variable.assert_nb_rdatavalid File: ../src_tb/avalon_assertions.sv Line: 95 Expr: nb_rdatavalid>=nb_cycle_read
+# ** Error: Assertion error.
+#    Time: 75 ns Started: 75 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_variable.assert_nb_rdatavalid File: ../src_tb/avalon_assertions.sv Line: 95 Expr: nb_rdatavalid>=nb_cycle_read
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_variable.assert_nb_rdatavalid File: ../src_tb/avalon_assertions.sv Line: 95 Expr: nb_rdatavalid>=nb_cycle_read
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_variable.assert_nb_rdatavalid File: ../src_tb/avalon_assertions.sv Line: 95 Expr: nb_rdatavalid>=nb_cycle_read
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 105 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_variable.assert_nb_rdatavalid File: ../src_tb/avalon_assertions.sv Line: 95 Expr: nb_rdatavalid>=nb_cycle_read
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+# Can't move the Now cursor.
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:08:25 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:08:25 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:08:25 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:08:25 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:08:25 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:08:25 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:08:26 on May 25,2021, Elapsed time: 0:07:01
+# Errors: 7, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 19:08:26 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 1 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:08:52 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:08:52 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:08:53 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:08:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:08:53 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:08:53 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:08:53 on May 25,2021, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=1 
+# Start time: 19:08:53 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 175 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 0 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:09:17 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:09:17 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:09:17 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:09:17 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:09:17 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:09:17 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:09:17 on May 25,2021, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=0 
+# Start time: 19:09:17 on May 25,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
 # done!
 # ** Note: $stop    : ../src/avalon_generator.sv(423)
 #    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
 # Break at ../src/avalon_generator.sv line 423
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# Break key hit
-# End time: 15:14:47 on May 23,2021, Elapsed time: 0:01:06
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:19:31 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:19:31 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:19:31 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:19:31 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:19:31 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:19:31 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:19:32 on May 25,2021, Elapsed time: 0:10:15
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:19:32 on May 25,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:22:38 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:22:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:22:38 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:22:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:22:38 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:22:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:22:38 on May 25,2021, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:22:38 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 5 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 35 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 75 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:24:57 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:24:57 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:24:57 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:24:57 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:24:57 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:24:57 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:24:57 on May 25,2021, Elapsed time: 0:02:19
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:24:57 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 5 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 75 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:41:28 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:41:28 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:41:28 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(112): near "disable": syntax error, unexpected disable, expecting '('.
+# End time: 19:41:28 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:41:38 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:41:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:41:38 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:41:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:41:38 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:41:38 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:41:38 on May 25,2021, Elapsed time: 0:16:41
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:41:38 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 5 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 75 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+# Can't move the Now cursor.
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:42:56 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:42:56 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:42:56 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:42:56 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:42:56 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:42:56 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:42:57 on May 25,2021, Elapsed time: 0:01:19
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:42:57 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:44:15 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:44:15 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:44:15 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(114): near "$": syntax error, unexpected '$'.
+# End time: 19:44:15 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:44:25 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:44:25 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:44:25 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(115): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 19:44:25 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:44:49 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:44:49 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:44:49 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:44:49 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:44:49 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:44:49 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:44:49 on May 25,2021, Elapsed time: 0:01:52
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:44:49 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 75 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:45:27 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:45:27 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:45:27 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:45:27 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:45:27 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:45:27 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:45:27 on May 25,2021, Elapsed time: 0:00:38
+# Errors: 1, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:45:27 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:47:18 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:47:18 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:47:18 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:47:19 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:47:19 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:47:19 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:47:19 on May 25,2021, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:47:19 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:47:44 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:47:44 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:47:44 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:47:44 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:47:44 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:47:44 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:47:44 on May 25,2021, Elapsed time: 0:00:25
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:47:44 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:48:11 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:48:12 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:48:12 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:48:12 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:48:12 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:48:12 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:48:12 on May 25,2021, Elapsed time: 0:00:28
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:48:12 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 15 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:49:24 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:49:24 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:49:24 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(115): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 19:49:24 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:49:35 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:49:35 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:49:35 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:49:35 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:49:35 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:49:35 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:49:35 on May 25,2021, Elapsed time: 0:01:23
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:49:35 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:25 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:50:26 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:26 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:50:26 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:50:26 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:50:26 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:50:26 on May 25,2021, Elapsed time: 0:00:51
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:50:26 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:51:55 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:51:55 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:51:55 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:51:55 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:51:55 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:51:55 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:51:55 on May 25,2021, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:51:55 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 5 ns Started: 5 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 15 ns Started: 15 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: ~read
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: ~read
+# ** Error: Assertion error.
+#    Time: 45 ns Started: 45 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: ~read
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 65 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: ~read
+# ** Error: Assertion error.
+#    Time: 85 ns Started: 85 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 95 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 105 ns Started: 105 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 115 ns Started: 115 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 125 ns Started: 125 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 135 ns Started: 135 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 145 ns Started: 145 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 155 ns Started: 155 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 165 ns Started: 165 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# ** Error: Assertion error.
+#    Time: 175 ns Started: 175 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $past(read)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:52:20 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:52:20 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:52:20 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:52:20 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:52:20 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:52:20 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:52:20 on May 25,2021, Elapsed time: 0:00:25
+# Errors: 16, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:52:20 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 35 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 75 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:52:50 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:52:50 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:52:50 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:52:50 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:52:50 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:52:50 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:52:50 on May 25,2021, Elapsed time: 0:00:30
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:52:50 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:53:27 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:53:27 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:53:27 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: (vlog-13069) ../src_tb/avalon_assertions.sv(115): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 19:53:27 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:53:41 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:53:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:53:41 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: ../src_tb/avalon_assertions.sv(114): (vlog-2730) Undefined variable: 'readdatvalid'.
+# End time: 19:53:41 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:54:02 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:54:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:54:02 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: ../src_tb/avalon_assertions.sv(114): (vlog-2730) Undefined variable: 'readdatvalid'.
+# End time: 19:54:02 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:54:40 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:54:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:54:40 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: ../src_tb/avalon_assertions.sv(114): (vlog-2730) Undefined variable: 'readdatvalid'.
+# End time: 19:54:40 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:55:18 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:55:18 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:55:18 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: ../src_tb/avalon_assertions.sv(114): (vlog-2730) Undefined variable: 'readdatvalid'.
+# End time: 19:55:18 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:56:01 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:56:01 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:56:01 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: ../src_tb/avalon_assertions.sv(114): (vlog-2730) Undefined variable: 'readdatvalid'.
+# End time: 19:56:01 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:56:21 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:56:21 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:56:21 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:56:21 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:56:21 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:56:21 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:56:21 on May 25,2021, Elapsed time: 0:03:31
+# Errors: 8, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:56:21 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:56:59 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:57:00 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:57:00 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:57:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:57:00 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:57:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:57:00 on May 25,2021, Elapsed time: 0:00:39
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:57:00 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 55 ns Started: 35 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# ** Error: Assertion error.
+#    Time: 95 ns Started: 75 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:58:36 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 19:58:36 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:58:36 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 19:58:37 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 19:58:37 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 19:58:37 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:58:37 on May 25,2021, Elapsed time: 0:01:37
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 19:58:37 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: $rose(readdatavalid)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+# Causality operation skipped due to absence of debug database file
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:12 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:00:12 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:12 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:00:13 on May 25,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:13 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:00:13 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:00:13 on May 25,2021, Elapsed time: 0:01:36
+# Errors: 2, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 20:00:13 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 25 ns Started: 15 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 25 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# ** Error: Assertion error.
+#    Time: 65 ns Started: 55 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:30 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:00:30 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:30 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:00:30 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:30 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:00:30 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:00:30 on May 25,2021, Elapsed time: 0:00:17
+# Errors: 3, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 20:00:30 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# ** Error: Assertion error.
+#    Time: 35 ns Started: 15 ns  Scope: avalon_assertions_wrapper.duv.binded.assert_pipeline_fixed.assert_fixed_delay File: ../src_tb/avalon_assertions.sv Line: 111 Expr: readdatavalid
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:57 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:00:57 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:57 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:00:57 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:00:57 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:00:57 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:00:58 on May 25,2021, Elapsed time: 0:00:28
+# Errors: 1, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 20:00:58 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:01:45 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:01:45 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:01:45 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:01:45 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:01:45 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:01:45 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:01:45 on May 25,2021, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 20:01:45 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:10:51 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:10:51 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:10:51 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# ** Error: ../src_tb/avalon_assertions.sv(72): (vlog-2730) Undefined variable: 'clk_i'.
+# ** Error: ../src_tb/avalon_assertions.sv(77): (vlog-2730) Undefined variable: 'clk_i'.
+# End time: 20:10:51 on May 25,2021, Elapsed time: 0:00:00
 # Errors: 2, Warnings: 0
+# ** Error: /opt/mentor/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 98
+# /opt/mentor/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog $Path_TB/avalon_assertions.sv"
+#     (procedure "compile_tb" line 6)
+#     invoked from within
+# "compile_tb"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all $1 $2"
+#     invoked from within
+# "if {$argc>0} {
+#   if {$argc>1} {
+#     do_all $1 $2
+#   } else {
+#     do_all $1 0
+#   }
+# } else {
+#   do_all 0 0
+# }"
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:11:29 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:11:29 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:11:29 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:11:29 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:11:29 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:11:29 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:11:29 on May 25,2021, Elapsed time: 0:09:44
+# Errors: 1, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 20:11:29 on May 25,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:14:17 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:14:17 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:14:17 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:14:17 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:14:17 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:14:17 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:14:17 on May 25,2021, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 20:14:17 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:15:07 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:15:07 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:15:07 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:15:07 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:15:07 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:15:07 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:15:07 on May 25,2021, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 20:15:07 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 2 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:15:51 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:15:51 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:15:51 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:15:51 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:15:51 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:15:51 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:15:51 on May 25,2021, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=2 
+# Start time: 20:15:51 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 205 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:16:00 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:16:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:16:00 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:16:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:16:00 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:16:00 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:16:01 on May 25,2021, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 20:16:01 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13361) ../src_tb/avalon_assertions_wrapper.sv(61): No trigger event inferred in disable expression.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+do ../scripts/sim.do 3 0
+# ../src
+# ../src_tb
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:17:19 on May 25,2021
+# vlog -reportprogress 300 ../src/avalon_generator.sv 
+# -- Compiling module avalon_generator
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	avalon_generator
+# End time: 20:17:19 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:17:19 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions.sv 
+# -- Compiling module avalon_assertions
+# 
+# Top level modules:
+# 	avalon_assertions
+# End time: 20:17:19 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 20:17:19 on May 25,2021
+# vlog -reportprogress 300 ../src_tb/avalon_assertions_wrapper.sv 
+# -- Compiling module avalon_assertions_wrapper
+# 
+# Top level modules:
+# 	avalon_assertions_wrapper
+# End time: 20:17:19 on May 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:17:20 on May 25,2021, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc=a" -assertdebug work.avalon_assertions_wrapper -GTESTCASE=0 -GAVALONMODE=3 
+# Start time: 20:17:20 on May 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.avalon_assertions_wrapper(fast)
+# done!
+# ** Note: $stop    : ../src/avalon_generator.sv(423)
+#    Time: 185 ns  Iteration: 1  Instance: /avalon_assertions_wrapper/duv/TestSuite
+# Break at ../src/avalon_generator.sv line 423
+# End time: 20:27:50 on May 25,2021, Elapsed time: 0:10:30
+# Errors: 0, Warnings: 0

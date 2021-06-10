@@ -1,0 +1,517 @@
+<?xml version="1.0" ?>
+<drill>
+  <sample type="vrm" version="3.0" timestamp="2021-06-10 23:36:37">
+    <table name="summary">
+      <row>
+        <logfile>/home/reds/vsn21_student/labo5/code/VRMDATA/logs/210610_233637.rmev</logfile>
+        <starttime>2021-06-10 23:36:37</starttime>
+        <endtime>2021-06-10 23:37:12</endtime>
+        <rmdb>/home/reds/vsn21_student/labo5/code/default.rmdb</rmdb>
+        <vrmdata>/home/reds/vsn21_student/labo5/code/VRMDATA</vrmdata>
+        <actions>16</actions>
+        <options>-eventlog /home/reds/vsn21_student/labo5/code/VRMDATA/logs/210610_233637.rmev -mseed 0 -rmdb /home/reds/vsn21_student/labo5/code/default.rmdb -vrmdata /home/reds/vsn21_student/labo5/code/VRMDATA</options>
+        <passed>0</passed>
+        <failed>14</failed>
+        <notrun>0</notrun>
+      </row>
+    </table>
+    <table name="details">
+      <row>
+        <action>directed/preScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-10 23:36:37</datetime>
+        <elapsed></elapsed>
+        <event>20210610T233637 done directed/preScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-10 23:36:37</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>6.33</cputime>
+        <datetime>2021-06-10 23:37:04</datetime>
+        <elapsed>23</elapsed>
+        <event>20210610T233704 done directed/testerrno0/execScript failed/error reds2021 directed/testerrno0.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno0.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:04</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:41</starttime>
+        <testname>testerrno0</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0_2/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>6.64</cputime>
+        <datetime>2021-06-10 23:37:05</datetime>
+        <elapsed>24</elapsed>
+        <event>20210610T233705 done directed/testerrno0_2/execScript failed/error reds2021 directed/testerrno0_2.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno0_2.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:05</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:41</starttime>
+        <testname>testerrno0_2</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0_3/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>7.20</cputime>
+        <datetime>2021-06-10 23:37:06</datetime>
+        <elapsed>25</elapsed>
+        <event>20210610T233706 done directed/testerrno0_3/execScript failed/error reds2021 directed/testerrno0_3.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno0_3.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:06</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:41</starttime>
+        <testname>testerrno0_3</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno2/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>6.70</cputime>
+        <datetime>2021-06-10 23:37:05</datetime>
+        <elapsed>24</elapsed>
+        <event>20210610T233705 done directed/testerrno2/execScript failed/error reds2021 directed/testerrno2.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno2.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:05</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:41</starttime>
+        <testname>testerrno2</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno1/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>6.32</cputime>
+        <datetime>2021-06-10 23:37:03</datetime>
+        <elapsed>22</elapsed>
+        <event>20210610T233703 done directed/testerrno1/execScript failed/error reds2021 directed/testerrno1.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno1.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:03</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:41</starttime>
+        <testname>testerrno1</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno3/execScript</action>
+        <coverage>23.54</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-06-10 23:36:48</datetime>
+        <elapsed>6</elapsed>
+        <event>20210610T233648 done directed/testerrno3/execScript failed/error reds2021 directed/testerrno3.ucdb error 0 23.54 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>There are          10 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>7075.00</simtime>
+        <tplancov></tplancov>
+        <tstime>7075.00</tstime>
+        <ucdbfile>directed/testerrno3.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:36:48</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:42</starttime>
+        <testname>testerrno3</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno4/execScript</action>
+        <coverage>23.54</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-06-10 23:36:48</datetime>
+        <elapsed>6</elapsed>
+        <event>20210610T233648 done directed/testerrno4/execScript failed/error reds2021 directed/testerrno4.ucdb error 0 23.54 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>There are          10 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>7075.00</simtime>
+        <tplancov></tplancov>
+        <tstime>7075.00</tstime>
+        <ucdbfile>directed/testerrno4.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:36:48</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:42</starttime>
+        <testname>testerrno4</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno5/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>6.26</cputime>
+        <datetime>2021-06-10 23:37:02</datetime>
+        <elapsed>21</elapsed>
+        <event>20210610T233702 done directed/testerrno5/execScript failed/error reds2021 directed/testerrno5.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>2245.00</tstime>
+        <ucdbfile>directed/testerrno5.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:02</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:41</starttime>
+        <testname>testerrno5</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno6/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>6.40</cputime>
+        <datetime>2021-06-10 23:37:03</datetime>
+        <elapsed>22</elapsed>
+        <event>20210610T233703 done directed/testerrno6/execScript failed/error reds2021 directed/testerrno6.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>445.00</tstime>
+        <ucdbfile>directed/testerrno6.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:03</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:41</starttime>
+        <testname>testerrno6</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno7/execScript</action>
+        <coverage>25.81</coverage>
+        <cputime>0.01</cputime>
+        <datetime>2021-06-10 23:36:48</datetime>
+        <elapsed>6</elapsed>
+        <event>20210610T233648 done directed/testerrno7/execScript failed/error reds2021 directed/testerrno7.ucdb error 0 25.81 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>There are          10 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>7075.00</simtime>
+        <tplancov></tplancov>
+        <tstime>7075.00</tstime>
+        <ucdbfile>directed/testerrno7.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:36:48</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:42</starttime>
+        <testname>testerrno7</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno8/execScript</action>
+        <coverage>61.60</coverage>
+        <cputime>6.67</cputime>
+        <datetime>2021-06-10 23:37:05</datetime>
+        <elapsed>23</elapsed>
+        <event>20210610T233705 done directed/testerrno8/execScript failed/error reds2021 directed/testerrno8.ucdb error 0 61.60 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19117945.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno8.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:05</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:42</starttime>
+        <testname>testerrno8</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno9/execScript</action>
+        <coverage>39.64</coverage>
+        <cputime>0.47</cputime>
+        <datetime>2021-06-10 23:36:49</datetime>
+        <elapsed>7</elapsed>
+        <event>20210610T233649 done directed/testerrno9/execScript failed/error reds2021 directed/testerrno9.ucdb error 0 39.64 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>1374265.00</simtime>
+        <tplancov></tplancov>
+        <tstime>263465.00</tstime>
+        <ucdbfile>directed/testerrno9.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:36:49</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:42</starttime>
+        <testname>testerrno9</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno10/execScript</action>
+        <coverage>63.50</coverage>
+        <cputime>6.50</cputime>
+        <datetime>2021-06-10 23:37:05</datetime>
+        <elapsed>23</elapsed>
+        <event>20210610T233705 done directed/testerrno10/execScript failed/error reds2021 directed/testerrno10.ucdb error 0 63.50 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno10.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:05</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:42</starttime>
+        <testname>testerrno10</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno11/execScript</action>
+        <coverage>63.41</coverage>
+        <cputime>6.44</cputime>
+        <datetime>2021-06-10 23:37:05</datetime>
+        <elapsed>23</elapsed>
+        <event>20210610T233705 done directed/testerrno11/execScript failed/error reds2021 directed/testerrno11.ucdb error 0 63.41 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>19119765.00</simtime>
+        <tplancov></tplancov>
+        <tstime>254585.00</tstime>
+        <ucdbfile>directed/testerrno11.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-10 23:37:05</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-10 23:36:37</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-10 23:36:42</starttime>
+        <testname>testerrno11</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/postScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-10 23:37:06</datetime>
+        <elapsed></elapsed>
+        <event>20210610T233706 done directed/postScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-10 23:37:06</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+    </table>
+  </sample>
+</drill>

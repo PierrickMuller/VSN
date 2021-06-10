@@ -1,0 +1,16 @@
+<LayoutInfo CurrentRTLLayout="Default" version="1">
+ <Layout Name="Default" Type="RTL">
+  <dockareas bottom="156" top="0" left="300" right="168"/>
+  <taborder bottom="transcript+zinformalproperties+" left="zindutview+"/>
+  <activetab bottom="zinformalproperties" left="zindutview" activewindow="zinformalproperties"/>
+  <window visible="1" x="0" undocked="0" dock_location="bottom" y="0" type="transcript"/>
+  <window visible="1" x="0" undocked="0" dock_location="bottom" y="0" type="zinformalproperties" title="Properties"/>
+  <window visible="1" x="0" undocked="0" dock_location="left" y="0" type="zindutview" title="Design - shiftregister_wrapper"/>
+  <window visible="1" x="503" width="1200" undocked="0" y="27" type="rtl" height="800"/>
+  <window visible="1" x="0" width="1920" undocked="1" dock_location="bottom" y="27" type="wave" title="Wave (duv.binded.assert_shift_right)" height="897"/>
+  <window visible="1" x="0" undocked="0" dock_location="center" y="0" type="source"/>
+  <window visible="1" x="0" undocked="0" dock_location="center" y="0" type="source" id="1"/>
+  <window visible="0" x="0" undocked="0" y="0" type="zinformalpropertysummary" title="Property Summary"/>
+  <window visible="1" x="0" undocked="0" dock_location="right" y="0" type="zinformalcontrolpointsnew" title="Control Points"/>
+ </Layout>
+</LayoutInfo>

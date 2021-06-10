@@ -1,0 +1,11 @@
+QuestaSim-64 vlog 2020.2_1 Compiler 2020.05 May 21 2020
+Start time: 13:50:39 on May 30,2021
+vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv 
+-- Compiling module shiftregister_assertions
+-- Compiling module shiftregister_wrapper
+
+Top level modules:
+	shiftregister_wrapper
+End time: 13:50:39 on May 30,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+

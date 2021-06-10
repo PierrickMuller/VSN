@@ -1,0 +1,490 @@
+m255
+K4
+z2
+!s11f vlog 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/vsn21_student/ex_assertions_avalon/code/comp
+T_opt
+!s110 1621965705
+V:>=TiWQ>mKGJTK@3?hgh>2
+Z1 04 25 4 work avalon_assertions_wrapper fast 0
+=1-000ae431a4f1-60ad3b89-d80e4-1f11
+o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G AVALONMODE=3 +acc=a
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.1_1;71
+R0
+T_opt1
+Z4 !s110 1621966551
+V^^4NQ:8jSBXVJDRD`IM;Z2
+R1
+=1-000ae431a4f1-60ad3ed7-98f07-228d
+o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G AVALONMODE=2 +acc=a
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1621790470
+V_j=bI8b6mlkH<dTZ5kLL^1
+R1
+=1-000ae431a4f1-60aa8f06-8252a-2355
+o-quiet -auto_acc_if_foreign -work work -G TESTCASE=0 -G AVALONMODE=1 +acc=a
+R2
+n@_opt2
+R3
+R0
+vavalon_assertions
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R4
+!i10b 1
+!s100 IVhz[iOI8g;4hEodPFc4e1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHU;ZUH84F=Ejjg=3XELb[2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1621966545
+8../src_tb/avalon_assertions.sv
+F../src_tb/avalon_assertions.sv
+!i122 417
+L0 29 120
+Z8 OL;L;2020.1_1;71
+r1
+!s85 0
+31
+Z9 !s108 1621966551.000000
+!s107 ../src_tb/avalon_assertions.sv|
+!s90 -reportprogress|300|../src_tb/avalon_assertions.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+R2
+vavalon_assertions_wrapper
+R5
+R4
+!i10b 1
+!s100 ACzj?n;Zg_;U_e]A]j0Ni2
+R6
+I?=FCT_?Zil?;5oCV@6<jK0
+R7
+S1
+R0
+w1621776195
+8../src_tb/avalon_assertions_wrapper.sv
+F../src_tb/avalon_assertions_wrapper.sv
+!i122 418
+L0 31 37
+R8
+r1
+!s85 0
+31
+R9
+!s107 ../src_tb/avalon_assertions_wrapper.sv|
+!s90 -reportprogress|300|../src_tb/avalon_assertions_wrapper.sv|
+!i113 0
+R10
+R2
+vavalon_generator
+R5
+R4
+!i10b 1
+!s100 P`R<FH7cz[ha4ZCPG:^6l1
+R6
+Ia<g5zlC2Ri`LVV028;1ZS1
+R7
+S1
+R0
+w1621960212
+8../src/avalon_generator.sv
+F../src/avalon_generator.sv
+!i122 416
+L0 5 23
+R8
+r1
+!s85 0
+31
+R9
+!s107 ../src/avalon_generator.sv|
+!s90 -reportprogress|300|../src/avalon_generator.sv|
+!i113 0
+R10
+R2
+m255
+K4
+z2
+!s8c locked
+!s11f vlog 2020.1_1 2020.03, Mar  4 2020
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/bata/rhino/buildsites/2020.p/builds/linux/modeltech
+XMTI_CSTDLIB
+Z0 DXx4 work 3 STD 0 22 C5P`]aF5g@jYQiTVH86>n3
+Z1 !s110 1583382161
+V2B]QM]?FN1P9NZGF>TCVV0
+r1
+!s85 0
+Z2 OL;L;2020.1_1;71
+!i10b 1
+!s100 icQCI_Oj3>0h:SB`A4JWn0
+I2B]QM]?FN1P9NZGF>TCVV0
+S1
+!s86 1
+Z3 d$MODEL_TECH/..
+Z4 w1583382084
+Z5 8verilog_src/dpi_cpack/dpi_cpackages.sv
+Z6 Fverilog_src/dpi_cpack/dpi_cpackages.sv
+!i122 3
+Z7 L0 17 0
+Z8 OE;L;2020.1_1;71
+31
+Z9 !s108 1583382161.000000
+Z10 !s107 verilog_src/dpi_cpack/dpi_cpackages.sv|
+Z11 !s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z12 o-suppress 12110 -debuglib -u -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+n@m@t@i_@c@s@t@d@l@i@b
+Xmti_cstdlib
+Z14 DXx4 work 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+V7YQT9N??5=d:Wzg^n=:fZ2
+r1
+!s85 0
+R2
+!i10b 1
+!s100 OW0mb1CF=jV3nlik?oMRV0
+I7YQT9N??5=d:Wzg^n=:fZ2
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R7
+R8
+31
+R9
+R10
+Z15 !s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z16 o-suppress 12110 -debuglib -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R13
+XMTI_CSTRING
+R0
+R1
+VLecfHDQ26AMY35bfFmmT_3
+r1
+!s85 0
+R2
+!i10b 1
+!s100 kDlQo?nkDBVoK<AS]3QjD1
+ILecfHDQ26AMY35bfFmmT_3
+S1
+!s86 1
+R3
+R4
+R5
+R6
+!i122 3
+Z17 L0 28 0
+R8
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@t@i_@c@s@t@r@i@n@g
+Xmti_cstring
+R14
+R1
+V]IJ]dNQG`4CJEj@oIV4_Y1
+r1
+!s85 0
+R2
+!i10b 1
+!s100 KaVS423PbHN8BiZUD@GGL2
+I]IJ]dNQG`4CJEj@oIV4_Y1
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R17
+R8
+31
+R9
+R10
+R15
+!i113 1
+R16
+R13
+XMTI_DEBUG
+R0
+R1
+VLT0iZ><B;KMlBmS_S<>bW2
+r1
+!s85 0
+R2
+!i10b 1
+!s100 TB]^ezUTiRTalgCgbO]<l3
+ILT0iZ><B;KMlBmS_S<>bW2
+S1
+!s86 1
+R3
+R4
+R5
+R6
+!i122 3
+Z18 L0 47 0
+R8
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@t@i_@d@e@b@u@g
+Xmti_debug
+R14
+R1
+VMhYD3DEHh;3nkFMn>d<UC3
+r1
+!s85 0
+R2
+!i10b 1
+!s100 ^b=Bi@Q2JjgYiFl;:40Sc1
+IMhYD3DEHh;3nkFMn>d<UC3
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R18
+R8
+31
+R9
+R10
+R15
+!i113 1
+R16
+R13
+XMTI_FCOVER
+R0
+R1
+V0OQnzn:_bU33b7^0l3Zfk1
+r1
+!s85 0
+R2
+!i10b 1
+!s100 fK:8]FFZh3P`7Fl@:5aC70
+I0OQnzn:_bU33b7^0l3Zfk1
+S1
+!s86 1
+R3
+R4
+Z19 8verilog_src/mti_sv/fcover.sv
+Z20 Fverilog_src/mti_sv/fcover.sv
+!i122 7
+Z21 L0 5 0
+R8
+31
+R9
+Z22 !s107 verilog_src/mti_sv/fcover.sv|
+!s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R12
+R13
+n@m@t@i_@f@c@o@v@e@r
+Xmti_fcover
+R14
+R1
+VIh9jDXlg9:E34a:]f_gAg1
+r1
+!s85 0
+R2
+!i10b 1
+!s100 efa[11Ul`>0g6:zg_Xi1E0
+IIh9jDXlg9:E34a:]f_gAg1
+S1
+R3
+R4
+R19
+R20
+!i122 6
+R21
+R8
+31
+R9
+R22
+!s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R16
+R13
+XMTI_FLI
+R0
+R1
+V>zPK83f9c>_UScHVSd;CN2
+r1
+!s85 0
+R2
+!i10b 1
+!s100 n_2PQUlSo15MDNG48]QWl2
+I>zPK83f9c>_UScHVSd;CN2
+S1
+!s86 1
+R3
+R4
+R5
+R6
+!i122 3
+Z23 L0 4 0
+R8
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@m@t@i_@f@l@i
+Xmti_fli
+R14
+R1
+VB85Hkm<ANkM<`JN1dFJde3
+r1
+!s85 0
+R2
+!i10b 1
+!s100 kSbeP86I0@SfQi;i57@W00
+IB85Hkm<ANkM<`JN1dFJde3
+S1
+R3
+R4
+R5
+R6
+!i122 2
+R23
+R8
+31
+R9
+R10
+R15
+!i113 1
+R16
+R13
+XMTI_SCDPI
+R0
+R1
+V5fToGUlJlG5K2mk3MRG<21
+r1
+!s85 0
+R2
+!i10b 1
+!s100 L3B:Y?;k0V0PDi<?0ec=93
+I5fToGUlJlG5K2mk3MRG<21
+S1
+!s86 1
+R3
+R4
+Z24 8verilog_src/dpi_cpack/scdpi.sv
+Z25 Fverilog_src/dpi_cpack/scdpi.sv
+!i122 5
+Z26 L0 1 0
+R8
+31
+R9
+Z27 !s107 verilog_src/dpi_cpack/scdpi.sv|
+!s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R12
+R13
+n@m@t@i_@s@c@d@p@i
+Xmti_scdpi
+R14
+R1
+VOjFKWz`5YeLO>M8M6l4Q:3
+r1
+!s85 0
+R2
+!i10b 1
+!s100 Y]PX:=_5`zJ63fMJVe^_M3
+IOjFKWz`5YeLO>M8M6l4Q:3
+S1
+R3
+R4
+R24
+R25
+!i122 4
+R26
+R8
+31
+R9
+R27
+!s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R16
+R13
+XSTD
+R1
+VC5P`]aF5g@jYQiTVH86>n3
+r1
+!s85 0
+R2
+!i10b 1
+!s100 EKK>A5XKXXLOz9iKzP2G81
+IC5P`]aF5g@jYQiTVH86>n3
+S1
+!s86 1
+R3
+R4
+Z28 8verilog_src/std/std.sv
+Z29 Fverilog_src/std/std.sv
+!i122 1
+Z30 L0 6 0
+R8
+31
+R9
+Z31 !s107 verilog_src/std/std.sv|
+!s90 -debuglib|-suppress|12110|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R12
+R13
+n@s@t@d
+Xstd
+R1
+V9oUSJO;AeEaW`l:M@^WG92
+r1
+!s85 0
+R2
+!i10b 1
+!s100 ]i[_JOYIoOMc`AEjL2EkC0
+I9oUSJO;AeEaW`l:M@^WG92
+S1
+R3
+R4
+R28
+R29
+!i122 0
+R30
+R8
+31
+R9
+R31
+!s90 -debuglib|-suppress|12110|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R16
+R13

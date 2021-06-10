@@ -1,0 +1,1711 @@
+>1
+>2
+13
+0:15:zi_dff_o1_10*i1
+1:6:zi_dff
+2:1:Q
+3:1:D
+4:3:CLK
+5:2:EN
+6:3:SET
+7:3:RST
+8:2:AL
+9:2:AD
+10:3:AOE
+11:2:OE
+12:4:SRST
+<2
+>3
+1
+0:2:0 
+<3
+>4
+e1;
+<4
+>5
+b0<5
+>6
+b11@2d1t0;
+@3t0;
+@4t0;
+@5t0;
+@6t0;
+@7t0;
+@8t0;
+@9t0;
+@10t0;
+@11t0;
+@12t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+13
+0:25:zi_dff_o2_i2_5*i1_i2_3*i1
+1:6:zi_dff
+2:1:Q
+3:1:D
+4:3:CLK
+5:2:EN
+6:3:SET
+7:3:RST
+8:2:AL
+9:2:AD
+10:3:AOE
+11:2:OE
+12:4:SRST
+<2
+>3
+2
+0:5:1 1 0
+1:2:0 
+<3
+>4
+#1e1;
+<4
+>5
+b0<5
+>6
+b11@2d1t0;
+@3t0;
+@4t1;
+@5t1;
+@6t1;
+@7t1;
+@8t1;
+@9t0;
+@10t1;
+@11t1;
+@12t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_25_o1_2*i1
+1:10:zi_oper_25
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#2e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_64_o1_2*i1
+1:10:zi_oper_64
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#3e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_1'b1_o1
+1:13:zi_const_1'b1
+2:1:O
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#4e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:15:zi_assign_o1_i1
+1:9:zi_assign
+2:1:O
+3:1:I
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#5e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:16:zi_oper_24_o1_i1
+1:10:zi_oper_24
+2:1:O
+3:2:I1
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#6e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_1'b0_o1
+1:13:zi_const_1'b0
+2:1:O
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#7e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_14_o1_2*i1
+1:10:zi_oper_14
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#8e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'b0_o2
+1:13:zi_const_2'b0
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#9e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'h3_o2
+1:13:zi_const_2'h3
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#10e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_14_o1_2*i2
+1:10:zi_oper_14
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#11e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+80
+0:55:zi_property_logic_assert_load2_shiftregister_assertions
+1:106:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv
+2:21:\$past(load_value_i) 
+3:5:clk_i
+4:12:load_value_i
+5:6:mode_i
+6:5:rst_i
+7:7:value_o
+8:10:zi_rtld_44
+9:10:zi_rtld_55
+10:10:zi_rtld_n7
+11:10:zi_rtld_n8
+12:10:zi_rtld_n9
+13:11:zi_rtld_n10
+14:11:zi_rtld_n11
+15:11:zi_rtld_n14
+16:11:zi_rtld_n15
+17:11:zi_rtld_n16
+18:11:zi_rtld_n17
+19:11:zi_rtld_n18
+20:11:zi_rtld_n19
+21:11:zi_rtld_n20
+22:11:zi_rtld_n21
+23:11:zi_rtld_n22
+24:11:zi_rtld_n23
+25:11:zi_rtld_n24
+26:11:zi_rtld_n25
+27:11:zi_rtld_n26
+28:11:zi_rtld_n27
+29:11:zi_rtld_n28
+30:11:zi_rtld_n29
+31:11:zi_rtld_n30
+32:11:zi_rtld_n31
+33:11:zi_rtld_n32
+34:11:zi_rtld_n33
+35:11:zi_rtld_n34
+36:11:zi_rtld_n35
+37:11:zi_rtld_n36
+38:11:zi_rtld_n37
+39:12:zi_rtld_n128
+40:12:zi_rtld_n129
+41:12:zi_rtld_n130
+42:27:assert_load2.__aim_pv_fire4
+43:26:assert_load2.__aim_pv_fsm3
+44:25:assert_load2.__aim_pv_nv8
+45:26:assert_load2.__aim_pv_nvs5
+46:12:zi_rtld_i7_1
+47:12:zi_rtld_i8_1
+48:13:zi_rtld_i8_16
+49:10:zi_rtld_i9
+50:14:zi_rtld_i10_15
+51:14:zi_rtld_i11_17
+52:14:zi_rtld_i13_18
+53:14:zi_rtld_i14_15
+54:14:zi_rtld_i15_19
+55:13:zi_rtld_i16_3
+56:14:zi_rtld_i16_20
+57:11:zi_rtld_i17
+58:14:zi_rtld_i18_19
+59:14:zi_rtld_i19_18
+60:13:zi_rtld_i21_2
+61:14:zi_rtld_i22_18
+62:14:zi_rtld_i23_19
+63:14:zi_rtld_i24_19
+64:14:zi_rtld_i25_18
+65:14:zi_rtld_i27_19
+66:14:zi_rtld_i28_19
+67:14:zi_rtld_i29_18
+68:13:zi_rtld_i31_1
+69:11:zi_rtld_i32
+70:11:zi_rtld_i33
+71:14:zi_rtld_i34_15
+72:14:zi_rtld_i35_19
+73:14:zi_rtld_i36_18
+74:14:zi_rtld_i37_19
+75:14:zi_rtld_i38_18
+76:12:zi_rtld_i136
+77:14:zi_rtld_i137_1
+78:14:zi_rtld_i138_4
+79:14:zi_rtld_i139_2
+<2
+>3
+4
+0:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:2:0 
+3:5:1 1 0
+<3
+>4
+#12;
+<4
+>5
+b40@2l47f1t0;
+@3l34f1knmit1;
+@4l37f1knmit0;
+@5l36f1knmit0;
+@6l35f1knmit1;
+@7l40f1knmit0;
+@8t2;
+@9t3;
+@10t2;
+@11t2;
+@12t2;
+@13t2;
+@14t2;
+@15t2;
+@16t2;
+@17t2;
+@18t2;
+@19t2;
+@20t2;
+@21t2;
+@22t2;
+@23t2;
+@24t2;
+@25t2;
+@26t2;
+@27t2;
+@28t2;
+@29t2;
+@30t2;
+@31t2;
+@32t2;
+@33t2;
+@34t2;
+@35t2;
+@36t2;
+@37t2;
+@38t2;
+@39t2;
+@40t3;
+@41t2;
+<5
+>6
+b5@5x4t3;
+@6x5t2;
+@7x6t3;
+@3x2t2;
+@4x3t3;
+<6
+>7
+c38
+@42i48l47f1x9 19 0 0 26 0 2 0 0 28;
+@43i50l47f1x9 19 17 0 21 0 2 0 0 28;
+@44i46l47f1x9 19 0 0 37 0 2 0 0 28;
+@45i47l47f1x9 19 0 0 29 0 2 0 0 28;
+#4@46i78x2 4 9;
+#4@47i65x2 4 7;
+#8@48i66x4 8 11 5 7;
+#5@49i67l47f1h1x3 6 10 11;
+#6@50i69x3 6 12 10;
+#11@51i76x4 8 13 6 1;
+#3@52i73x4 8 14 13 9;
+#6@53i64x3 6 15 14;
+#2@54i75x4 8 16 12 15;
+#10@55i71x2 4 8;
+#11@56i72x4 8 19 4 8;
+#5@57i83l47f1h1x3 6 18 19;
+#2@58i82x4 8 20 18 12;
+#3@59i81x4 8 21 20 9;
+#7@60i63x2 4 22;
+#3@61i62x4 8 23 12 9;
+#2@62i79x4 8 24 17 23;
+#2@63i80x4 8 25 16 24;
+#3@64i74x4 8 26 25 9;
+#2@65i51x4 8 27 12 14;
+#2@66i52x4 8 28 27 24;
+#3@67i53x4 8 29 28 9;
+#4@68i54x2 4 30;
+#5@69i57l47f1h1x3 6 31 19;
+#5@70i55l47f1h1x3 6 32 11;
+#6@71i56x3 6 33 32;
+#2@72i58x4 8 34 31 33;
+#3@73i59x4 8 35 34 30;
+#2@74i60x4 8 36 35 33;
+#3@75i61x4 8 37 36 30;
+#1@76i49l47f1x7 15 1 0 3 6 0 28;
+#4@77i68x2 4 38;
+#9@78i70x2 4 39;
+#7@79i77x2 4 40;
+<7
+<1
+>1
+>2
+79
+0:58:zi_property_logic_assert_maintain_shiftregister_assertions
+1:106:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv
+2:16:\$past(value_o) 
+3:5:clk_i
+4:6:mode_i
+5:5:rst_i
+6:7:value_o
+7:11:zi_rtld_132
+8:11:zi_rtld_163
+9:10:zi_rtld_n9
+10:11:zi_rtld_n38
+11:11:zi_rtld_n39
+12:11:zi_rtld_n40
+13:11:zi_rtld_n43
+14:11:zi_rtld_n44
+15:11:zi_rtld_n45
+16:11:zi_rtld_n46
+17:11:zi_rtld_n47
+18:11:zi_rtld_n48
+19:11:zi_rtld_n49
+20:11:zi_rtld_n50
+21:11:zi_rtld_n51
+22:11:zi_rtld_n52
+23:11:zi_rtld_n53
+24:11:zi_rtld_n54
+25:11:zi_rtld_n55
+26:11:zi_rtld_n56
+27:11:zi_rtld_n57
+28:11:zi_rtld_n58
+29:11:zi_rtld_n59
+30:11:zi_rtld_n60
+31:11:zi_rtld_n61
+32:11:zi_rtld_n62
+33:11:zi_rtld_n63
+34:11:zi_rtld_n64
+35:11:zi_rtld_n65
+36:11:zi_rtld_n66
+37:11:zi_rtld_n67
+38:12:zi_rtld_n128
+39:12:zi_rtld_n129
+40:12:zi_rtld_n130
+41:30:assert_maintain.__aim_pv_fire4
+42:29:assert_maintain.__aim_pv_fsm3
+43:28:assert_maintain.__aim_pv_nv8
+44:29:assert_maintain.__aim_pv_nvs5
+45:12:zi_rtld_i8_1
+46:13:zi_rtld_i8_16
+47:13:zi_rtld_i40_1
+48:11:zi_rtld_i41
+49:14:zi_rtld_i42_15
+50:14:zi_rtld_i43_17
+51:14:zi_rtld_i45_18
+52:14:zi_rtld_i46_15
+53:14:zi_rtld_i47_19
+54:13:zi_rtld_i48_4
+55:14:zi_rtld_i48_21
+56:11:zi_rtld_i49
+57:14:zi_rtld_i50_19
+58:14:zi_rtld_i51_18
+59:13:zi_rtld_i53_2
+60:14:zi_rtld_i54_18
+61:14:zi_rtld_i55_19
+62:14:zi_rtld_i56_19
+63:14:zi_rtld_i57_18
+64:14:zi_rtld_i59_19
+65:14:zi_rtld_i60_19
+66:14:zi_rtld_i61_18
+67:13:zi_rtld_i63_1
+68:11:zi_rtld_i64
+69:11:zi_rtld_i65
+70:14:zi_rtld_i66_15
+71:14:zi_rtld_i67_19
+72:14:zi_rtld_i68_18
+73:14:zi_rtld_i69_19
+74:14:zi_rtld_i70_18
+75:14:zi_rtld_i137_1
+76:14:zi_rtld_i138_4
+77:14:zi_rtld_i139_2
+78:12:zi_rtld_i140
+<2
+>3
+4
+0:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:5:1 1 0
+3:2:0 
+<3
+>4
+#13;
+<4
+>5
+b39@2l53f1t0;
+@3l34f1knmit1;
+@4l36f1knmit0;
+@5l35f1knmit1;
+@6l40f1knmit0;
+@7t2;
+@8t3;
+@9t3;
+@10t3;
+@11t3;
+@12t3;
+@13t3;
+@14t3;
+@15t3;
+@16t3;
+@17t3;
+@18t3;
+@19t3;
+@20t3;
+@21t3;
+@22t3;
+@23t3;
+@24t3;
+@25t3;
+@26t3;
+@27t3;
+@28t3;
+@29t3;
+@30t3;
+@31t3;
+@32t3;
+@33t3;
+@34t3;
+@35t3;
+@36t3;
+@37t3;
+@38t3;
+@39t2;
+@40t3;
+<5
+>6
+b4@4x3t2;
+@3x2t3;
+@6x5t2;
+@5x4t3;
+<6
+>7
+c38
+@41i48l53f1x9 19 0 0 25 0 2 0 0 28;
+@42i45l53f1x9 19 16 0 20 0 2 0 0 28;
+@43i46l53f1x9 19 0 0 36 0 2 0 0 28;
+@44i44l53f1x9 19 0 0 28 0 2 0 0 28;
+#4@45i72x2 4 7;
+#8@46i73x4 8 8 4 7;
+#4@47i63x2 4 9;
+#5@48i75l53f1h1x3 6 10 8;
+#6@49i78x3 6 11 10;
+#11@50i68x4 8 12 5 1;
+#3@51i69x4 8 13 12 9;
+#6@52i70x3 6 14 13;
+#2@53i79x4 8 15 11 14;
+#9@54i61x2 4 6;
+#11@55i62x4 8 18 3 6;
+#5@56i74l53f1h1x3 6 17 18;
+#2@57i76x4 8 19 17 11;
+#3@58i66x4 8 20 19 9;
+#7@59i64x2 4 21;
+#3@60i59x4 8 22 11 9;
+#2@61i60x4 8 23 16 22;
+#2@62i80x4 8 24 15 23;
+#3@63i81x4 8 25 24 9;
+#2@64i49x4 8 26 11 13;
+#2@65i50x4 8 27 26 23;
+#3@66i51x4 8 28 27 9;
+#4@67i52x2 4 29;
+#5@68i55l53f1h1x3 6 30 18;
+#5@69i53l53f1h1x3 6 31 8;
+#6@70i54x3 6 32 31;
+#2@71i56x4 8 33 30 32;
+#3@72i57x4 8 34 33 29;
+#2@73i58x4 8 35 34 32;
+#3@74i71x4 8 36 35 29;
+#4@75i77x2 4 37;
+#9@76i67x2 4 38;
+#7@77i65x2 4 39;
+#1@78i47l53f1x9 19 1 0 5 0 2 0 0 28;
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'h2_o2
+1:13:zi_const_2'h2
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#14e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_32_o2_2*i1
+1:10:zi_oper_32
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+2
+0:5:1 1 0
+1:2:0 
+<3
+>4
+#15e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+4
+0:16:zi_oper_38_o1_i2
+1:10:zi_oper_38
+2:1:O
+3:1:I
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#16e1;
+<4
+>5
+b0<5
+>6
+b2@2d1t0;
+@3t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+86
+0:61:zi_property_logic_assert_shift_right_shiftregister_assertions
+1:106:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv
+2:21:\$past(ser_in_msb_i) 
+3:16:\$past(value_o) 
+4:5:clk_i
+5:6:mode_i
+6:5:rst_i
+7:12:ser_in_msb_i
+8:7:value_o
+9:11:zi_rtld_219
+10:11:zi_rtld_249
+11:11:zi_rtld_250
+12:11:zi_rtld_261
+13:10:zi_rtld_n9
+14:11:zi_rtld_n68
+15:11:zi_rtld_n69
+16:11:zi_rtld_n70
+17:11:zi_rtld_n73
+18:11:zi_rtld_n74
+19:11:zi_rtld_n75
+20:11:zi_rtld_n76
+21:11:zi_rtld_n77
+22:11:zi_rtld_n78
+23:11:zi_rtld_n79
+24:11:zi_rtld_n80
+25:11:zi_rtld_n81
+26:11:zi_rtld_n82
+27:11:zi_rtld_n83
+28:11:zi_rtld_n84
+29:11:zi_rtld_n85
+30:11:zi_rtld_n86
+31:11:zi_rtld_n87
+32:11:zi_rtld_n88
+33:11:zi_rtld_n89
+34:11:zi_rtld_n90
+35:11:zi_rtld_n91
+36:11:zi_rtld_n92
+37:11:zi_rtld_n93
+38:11:zi_rtld_n94
+39:11:zi_rtld_n95
+40:11:zi_rtld_n96
+41:11:zi_rtld_n97
+42:12:zi_rtld_n128
+43:12:zi_rtld_n129
+44:12:zi_rtld_n130
+45:33:assert_shift_right.__aim_pv_fire4
+46:32:assert_shift_right.__aim_pv_fsm3
+47:31:assert_shift_right.__aim_pv_nv8
+48:32:assert_shift_right.__aim_pv_nvs5
+49:13:zi_rip_0_s1_1
+50:12:zi_rtld_i8_1
+51:13:zi_rtld_i8_16
+52:13:zi_rtld_i72_1
+53:11:zi_rtld_i73
+54:14:zi_rtld_i74_15
+55:14:zi_rtld_i75_22
+56:14:zi_rtld_i75_28
+57:14:zi_rtld_i77_18
+58:14:zi_rtld_i78_15
+59:14:zi_rtld_i79_19
+60:13:zi_rtld_i80_6
+61:14:zi_rtld_i80_23
+62:11:zi_rtld_i81
+63:14:zi_rtld_i82_19
+64:14:zi_rtld_i83_18
+65:13:zi_rtld_i85_2
+66:14:zi_rtld_i86_18
+67:14:zi_rtld_i87_19
+68:14:zi_rtld_i88_19
+69:14:zi_rtld_i89_18
+70:14:zi_rtld_i91_19
+71:14:zi_rtld_i92_19
+72:14:zi_rtld_i93_18
+73:13:zi_rtld_i95_1
+74:11:zi_rtld_i96
+75:11:zi_rtld_i97
+76:14:zi_rtld_i98_15
+77:14:zi_rtld_i99_19
+78:15:zi_rtld_i100_18
+79:15:zi_rtld_i101_19
+80:15:zi_rtld_i102_18
+81:14:zi_rtld_i137_1
+82:14:zi_rtld_i138_4
+83:14:zi_rtld_i139_2
+84:12:zi_rtld_i140
+85:12:zi_rtld_i141
+<2
+>3
+4
+0:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:5:1 1 0
+3:2:0 
+<3
+>4
+#17;
+<4
+>5
+b43@2l61f1t0;
+@3l53f1t1;
+@4l34f1knmit0;
+@5l36f1knmit1;
+@6l35f1knmit0;
+@7l38f1knmit0;
+@8l40f1knmit1;
+@9t2;
+@10t3;
+@11t2;
+@12t3;
+@13t3;
+@14t3;
+@15t3;
+@16t3;
+@17t3;
+@18t3;
+@19t3;
+@20t3;
+@21t3;
+@22t3;
+@23t3;
+@24t3;
+@25t3;
+@26t3;
+@27t3;
+@28t3;
+@29t3;
+@30t3;
+@31t3;
+@32t3;
+@33t3;
+@34t3;
+@35t3;
+@36t3;
+@37t3;
+@38t3;
+@39t3;
+@40t3;
+@41t3;
+@42t3;
+@43t2;
+@44t3;
+<5
+>6
+b5@5x4t2;
+@4x3t3;
+@7x6t3;
+@8x7t2;
+@6x5t3;
+<6
+>7
+c41
+@45i54l61f1x9 19 0 0 29 0 3 0 0 28;
+@46i50l61f1x9 19 20 0 24 0 3 0 0 28;
+@47i49l61f1x9 19 0 0 40 0 3 0 0 28;
+@48i53l61f1x9 19 0 0 32 0 3 0 0 28;
+#16@49i89x3 6 9 2;
+#4@50i81x2 4 11;
+#8@51i82x4 8 12 5 11;
+#4@52i72x2 4 13;
+#5@53i83l61f1h1x3 6 14 12;
+#6@54i84x3 6 15 14;
+#11@55i78x4 8 16 7 10;
+#15@56i77x4 8 10 1 9;
+#3@57i88x4 8 17 16 13;
+#6@58i79x3 6 18 17;
+#2@59i85x4 8 19 15 18;
+#14@60i66x2 4 8;
+#11@61i67x4 8 22 4 8;
+#5@62i68l61f1h1x3 6 21 22;
+#2@63i76x4 8 23 21 15;
+#3@64i69x4 8 24 23 13;
+#7@65i65x2 4 25;
+#3@66i64x4 8 26 15 13;
+#2@67i70x4 8 27 20 26;
+#2@68i86x4 8 28 19 27;
+#3@69i87x4 8 29 28 13;
+#2@70i55x4 8 30 15 17;
+#2@71i56x4 8 31 30 27;
+#3@72i57x4 8 32 31 13;
+#4@73i58x2 4 33;
+#5@74i61l61f1h1x3 6 34 22;
+#5@75i59l61f1h1x3 6 35 12;
+#6@76i60x3 6 36 35;
+#2@77i62x4 8 37 34 36;
+#3@78i63x4 8 38 37 33;
+#2@79i80x4 8 39 38 36;
+#3@80i71x4 8 40 39 33;
+#4@81i75x2 4 41;
+#9@82i73x2 4 42;
+#7@83i74x2 4 43;
+#1@84i52l53f1x9 19 2 0 7 0 3 0 0 28;
+@85i51l61f1x9 19 1 0 6 0 3 0 0 28;
+<7
+<1
+>1
+>2
+3
+0:16:zi_const_2'b1_o2
+1:13:zi_const_2'b1
+2:1:O
+<2
+>3
+1
+0:5:1 1 0
+<3
+>4
+#18e1;
+<4
+>5
+b0<5
+>6
+b1@2d1t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+86
+0:60:zi_property_logic_assert_shift_left_shiftregister_assertions
+1:106:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv
+2:21:\$past(ser_in_lsb_i) 
+3:16:\$past(value_o) 
+4:5:clk_i
+5:6:mode_i
+6:5:rst_i
+7:12:ser_in_lsb_i
+8:7:value_o
+9:11:zi_rtld_321
+10:11:zi_rtld_349
+11:11:zi_rtld_350
+12:11:zi_rtld_361
+13:10:zi_rtld_n9
+14:11:zi_rtld_n98
+15:11:zi_rtld_n99
+16:12:zi_rtld_n100
+17:12:zi_rtld_n103
+18:12:zi_rtld_n104
+19:12:zi_rtld_n105
+20:12:zi_rtld_n106
+21:12:zi_rtld_n107
+22:12:zi_rtld_n108
+23:12:zi_rtld_n109
+24:12:zi_rtld_n110
+25:12:zi_rtld_n111
+26:12:zi_rtld_n112
+27:12:zi_rtld_n113
+28:12:zi_rtld_n114
+29:12:zi_rtld_n115
+30:12:zi_rtld_n116
+31:12:zi_rtld_n117
+32:12:zi_rtld_n118
+33:12:zi_rtld_n119
+34:12:zi_rtld_n120
+35:12:zi_rtld_n121
+36:12:zi_rtld_n122
+37:12:zi_rtld_n123
+38:12:zi_rtld_n124
+39:12:zi_rtld_n125
+40:12:zi_rtld_n126
+41:12:zi_rtld_n127
+42:12:zi_rtld_n128
+43:12:zi_rtld_n129
+44:12:zi_rtld_n130
+45:32:assert_shift_left.__aim_pv_fire4
+46:31:assert_shift_left.__aim_pv_fsm3
+47:30:assert_shift_left.__aim_pv_nv8
+48:31:assert_shift_left.__aim_pv_nvs5
+49:13:zi_rip_1_s0_0
+50:12:zi_rtld_i8_1
+51:13:zi_rtld_i8_16
+52:14:zi_rtld_i104_1
+53:12:zi_rtld_i105
+54:15:zi_rtld_i106_15
+55:15:zi_rtld_i107_24
+56:15:zi_rtld_i107_29
+57:15:zi_rtld_i109_18
+58:15:zi_rtld_i110_15
+59:15:zi_rtld_i111_19
+60:14:zi_rtld_i112_8
+61:15:zi_rtld_i112_25
+62:12:zi_rtld_i113
+63:15:zi_rtld_i114_19
+64:15:zi_rtld_i115_18
+65:14:zi_rtld_i117_2
+66:15:zi_rtld_i118_18
+67:15:zi_rtld_i119_19
+68:15:zi_rtld_i120_19
+69:15:zi_rtld_i121_18
+70:15:zi_rtld_i123_19
+71:15:zi_rtld_i124_19
+72:15:zi_rtld_i125_18
+73:14:zi_rtld_i127_1
+74:12:zi_rtld_i128
+75:12:zi_rtld_i129
+76:15:zi_rtld_i130_15
+77:15:zi_rtld_i131_19
+78:15:zi_rtld_i132_18
+79:15:zi_rtld_i133_19
+80:15:zi_rtld_i134_18
+81:14:zi_rtld_i137_1
+82:14:zi_rtld_i138_4
+83:14:zi_rtld_i139_2
+84:12:zi_rtld_i140
+85:12:zi_rtld_i142
+<2
+>3
+4
+0:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+1:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:5:1 1 0
+3:2:0 
+<3
+>4
+#19;
+<4
+>5
+b43@2l69f1t0;
+@3l53f1t1;
+@4l34f1knmit0;
+@5l36f1knmit1;
+@6l35f1knmit0;
+@7l39f1knmit0;
+@8l40f1knmit1;
+@9t2;
+@10t3;
+@11t2;
+@12t3;
+@13t3;
+@14t3;
+@15t3;
+@16t3;
+@17t3;
+@18t3;
+@19t3;
+@20t3;
+@21t3;
+@22t3;
+@23t3;
+@24t3;
+@25t3;
+@26t3;
+@27t3;
+@28t3;
+@29t3;
+@30t3;
+@31t3;
+@32t3;
+@33t3;
+@34t3;
+@35t3;
+@36t3;
+@37t3;
+@38t3;
+@39t3;
+@40t3;
+@41t3;
+@42t3;
+@43t2;
+@44t3;
+<5
+>6
+b5@5x4t2;
+@7x6t3;
+@4x3t3;
+@8x7t2;
+@6x5t3;
+<6
+>7
+c41
+@45i54l69f1x9 19 0 0 29 0 3 0 0 28;
+@46i51l69f1x9 19 20 0 24 0 3 0 0 28;
+@47i49l69f1x9 19 0 0 40 0 3 0 0 28;
+@48i50l69f1x9 19 0 0 32 0 3 0 0 28;
+#16@49i89x3 6 9 2;
+#4@50i82x2 4 11;
+#8@51i83x4 8 12 5 11;
+#4@52i73x2 4 13;
+#5@53i88l69f1h1x3 6 14 12;
+#6@54i84x3 6 15 14;
+#11@55i79x4 8 16 7 10;
+#15@56i78x4 8 10 9 1;
+#3@57i80x4 8 17 16 13;
+#6@58i81x3 6 18 17;
+#2@59i85x4 8 19 15 18;
+#18@60i67x2 4 8;
+#11@61i68x4 8 22 4 8;
+#5@62i69l69f1h1x3 6 21 22;
+#2@63i70x4 8 23 21 15;
+#3@64i71x4 8 24 23 13;
+#7@65i66x2 4 25;
+#3@66i65x4 8 26 15 13;
+#2@67i72x4 8 27 20 26;
+#2@68i86x4 8 28 19 27;
+#3@69i87x4 8 29 28 13;
+#2@70i55x4 8 30 15 17;
+#2@71i56x4 8 31 30 27;
+#3@72i57x4 8 32 31 13;
+#4@73i74x2 4 33;
+#5@74i59l69f1h1x3 6 34 22;
+#5@75i58l69f1h1x3 6 35 12;
+#6@76i64x3 6 36 35;
+#2@77i60x4 8 37 34 36;
+#3@78i61x4 8 38 37 33;
+#2@79i62x4 8 39 38 36;
+#3@80i63x4 8 40 39 33;
+#4@81i77x2 4 41;
+#9@82i76x2 4 42;
+#7@83i75x2 4 43;
+#1@84i53l53f1x9 19 2 0 7 0 3 0 0 28;
+@85i52l69f1x9 19 1 0 6 0 3 0 0 28;
+<7
+<1
+>1
+>2
+7
+0:63:zi_property_assert_load2_shiftregister_assertions_i1_2*i2_i1_i2
+1:49:zi_property_assert_load2_shiftregister_assertions
+2:2:I0
+3:2:I1
+4:2:I2
+5:2:I3
+6:2:I4
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#20e1;
+<4
+>5
+b0<5
+>6
+b5@2t0;
+@3t1;
+@4t1;
+@5t0;
+@6t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+6
+0:64:zi_property_assert_maintain_shiftregister_assertions_i1_i2_i1_i2
+1:52:zi_property_assert_maintain_shiftregister_assertions
+2:2:I0
+3:2:I1
+4:2:I2
+5:2:I3
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#21e1;
+<4
+>5
+b0<5
+>6
+b4@2t0;
+@3t1;
+@4t0;
+@5t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+7
+0:69:zi_property_assert_shift_right_shiftregister_assertions_i1_i2_2*i1_i2
+1:55:zi_property_assert_shift_right_shiftregister_assertions
+2:2:I0
+3:2:I1
+4:2:I2
+5:2:I3
+6:2:I4
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#22e1;
+<4
+>5
+b0<5
+>6
+b5@2t0;
+@3t1;
+@4t0;
+@5t0;
+@6t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+7
+0:68:zi_property_assert_shift_left_shiftregister_assertions_i1_i2_2*i1_i2
+1:54:zi_property_assert_shift_left_shiftregister_assertions
+2:2:I0
+3:2:I1
+4:2:I2
+5:2:I3
+6:2:I4
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#23e1;
+<4
+>5
+b0<5
+>6
+b5@2t0;
+@3t1;
+@4t0;
+@5t0;
+@6t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+33
+0:34:shiftregister_assertions_579400822
+1:24:shiftregister_assertions
+2:4:work
+3:106:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv
+4:8:DATASIZE
+5:5:32'h2
+6:21:\$past(load_value_i) 
+7:21:\$past(ser_in_lsb_i) 
+8:21:\$past(ser_in_msb_i) 
+9:16:\$past(value_o) 
+10:5:clk_i
+11:12:load_value_i
+12:6:mode_i
+13:5:rst_i
+14:12:ser_in_lsb_i
+15:12:ser_in_msb_i
+16:7:value_o
+17:10:zi_rtld_n9
+18:11:zi_rtld_n13
+19:11:zi_rtld_n19
+20:11:zi_rtld_n43
+21:11:zi_rtld_n49
+22:11:zi_rtld_n73
+23:11:zi_rtld_n79
+24:12:zi_rtld_n103
+25:12:zi_rtld_n109
+26:12:zi_rtld_n128
+27:12:zi_rtld_n129
+28:12:zi_rtld_n130
+29:12:assert_load2
+30:15:assert_maintain
+31:17:assert_shift_left
+32:18:assert_shift_right
+<2
+>3
+5
+0:55:7 "int" "<zin_internal>" 0 10 32 -2147483648 2147483647
+1:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:2:0 
+4:5:1 1 0
+<3
+>4
+#24e1b2f3l33.71t0c1p4v5F0L34T0U0;
+<4
+>5
+b23@6l47t1;
+@7l69t2;
+@8l61t2;
+@9l53t1;
+@10l34knmit2;
+@11l37knmit1;
+@12l36knmit1;
+@13l35knmit2;
+@14l39knmit2;
+@15l38knmit2;
+@16l40knmit1;
+@17t3;
+@18t3;
+@19t3;
+@20t3;
+@21t3;
+@22t3;
+@23t3;
+@24t3;
+@25t3;
+@26t3;
+@27t4;
+@28t3;
+<5
+>6
+b7@10l34x5t2;
+@13l35x8t2;
+@12l36x7t1;
+@11l37x6t1;
+@15l38x10t2;
+@14l39x9t2;
+@16l40x11t1;
+<6
+>7
+c4
+#20@29i31l47h4x6 12 8 11 6 5 7;
+#21@30i32l53h4x5 10 8 11 5 7;
+#23@31i34l69h4x6 12 8 11 5 9 7;
+#22@32i33l61h4x6 12 8 11 10 5 7;
+<7
+<1
+>1
+>2
+6
+0:17:zi_mux_o2_i1_2*i2
+1:6:zi_mux
+2:1:O
+3:1:S
+4:2:D1
+5:2:D0
+<2
+>3
+2
+0:5:1 1 0
+1:2:0 
+<3
+>4
+#25e1;
+<4
+>5
+b0<5
+>6
+b4@2d1t0;
+@3t1;
+@4t0;
+@5t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_16_o1_2*i2
+1:10:zi_oper_16
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+2
+0:2:0 
+1:5:1 1 0
+<3
+>4
+#26e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t1;
+@4t1;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_29_o1_2*i1
+1:10:zi_oper_29
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#27e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+5
+0:18:zi_oper_16_o1_2*i1
+1:10:zi_oper_16
+2:1:O
+3:2:I1
+4:2:I2
+<2
+>3
+1
+0:2:0 
+<3
+>4
+#28e1;
+<4
+>5
+b0<5
+>6
+b3@2d1t0;
+@3t0;
+@4t0;
+<6
+>7
+c0
+<7
+<1
+>1
+>2
+52
+0:24:shiftregister_2057690821
+1:13:shiftregister
+2:4:work
+3:95:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_sv/shiftregister.sv
+4:8:DATASIZE
+5:5:32'h2
+6:103:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_wrapper.sv
+7:5:clk_i
+8:12:load_value_i
+9:6:mode_i
+10:5:reg_s
+11:5:rst_i
+12:12:ser_in_lsb_i
+13:12:ser_in_msb_i
+14:7:value_o
+15:11:zi_rtld_380
+16:11:zi_rtld_384
+17:11:zi_rtld_389
+18:11:zi_rtld_394
+19:11:zi_rtld_400
+20:11:zi_rtld_401
+21:11:zi_rtld_402
+22:11:zi_rtld_406
+23:10:zi_rtld_n8
+24:10:zi_rtld_n9
+25:11:zi_rtld_n10
+26:11:zi_rtld_n11
+27:11:zi_rtld_n12
+28:11:zi_rtld_n13
+29:11:zi_rtld_n14
+30:11:zi_rtld_n15
+31:11:zi_rtld_n16
+32:11:zi_rtld_n17
+33:6:binded
+34:13:zi_rip_2_s1_1
+35:13:zi_rip_3_s0_0
+36:10:zi_rtld_i8
+37:10:zi_rtld_i9
+38:13:zi_rtld_i10_3
+39:14:zi_rtld_i10_14
+40:11:zi_rtld_i11
+41:13:zi_rtld_i12_4
+42:14:zi_rtld_i12_15
+43:14:zi_rtld_i13_22
+44:14:zi_rtld_i14_23
+45:13:zi_rtld_i15_7
+46:14:zi_rtld_i15_16
+47:14:zi_rtld_i15_17
+48:14:zi_rtld_i15_18
+49:13:zi_rtld_i17_1
+50:14:zi_rtld_i17_19
+51:11:zi_rtld_i19
+<2
+>3
+6
+0:55:7 "int" "<zin_internal>" 0 10 32 -2147483648 2147483647
+1:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:121:10 "logic[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+4:5:1 1 0
+5:2:0 
+<3
+>4
+#29e1b2f3l33.64t0c1p4v5F0L33T0U0;
+<4
+>5
+b26@7l34knmiR2F0F6r2X47X-3T2s@sxt1;
+@8l37knmiR2F0F6r2X53X-9T2sNsxt2;
+@9l36knmiR4F0F0F0F6r4X52X2X2X-12T4sisisisxt2;
+@10l44krd4X49X4X2X2S4sNsNsNsNr2X55X2T2sNsNt3;
+@11l35knmiR3F0F0F6r3X47X1X-4T3s@sisxt1;
+@12l39knmiR2F0F6r2X55X-11T2sNsxt1;
+@13l38knmiR2F0F6r2X57X-13T2sNsxt1;
+@14l40knmod1X62S1saR1F6r1X44T1sxt3;
+@15t4;
+@16t4;
+@17t5;
+@18t5;
+@19t4;
+@20t5;
+@21t5;
+@22t5;
+@23t5;
+@24t5;
+@25t4;
+@26t4;
+@27t4;
+@28t4;
+@29t5;
+@30t4;
+@31t5;
+@32t5;
+<5
+>6
+b7@7l34x1t1;
+@11l35x5t1;
+@9l36x3t2;
+@8l37x2t2;
+@13l38x7t1;
+@12l39x6t1;
+@14l40d1x8t3;
+<6
+>7
+c19
+#24@33i34l44f6x8 16 1 5 3 2 7 6 8;
+#16@34i51x3 6 12 4;
+#16@35i52x3 6 11 4;
+#1@36i35l44x12 24 4 22 1 23 0 25 0 0 0 0 0;
+#25@37i37x5 10 22 17 2 21;
+#10@38i38x2 4 9;
+#26@39i39x4 8 17 3 9;
+#25@40i40x5 10 21 18 19 20;
+#18@41i41x2 4 10;
+#26@42i42x4 8 18 3 10;
+#15@43i43x4 8 19 11 6;
+#15@44i44x4 8 20 7 12;
+#14@45i45x2 4 13;
+#26@46i46x4 8 14 3 13;
+#27@47i47x4 8 15 18 14;
+#27@48i48x4 8 23 17 15;
+#4@49i49x2 4 16;
+#28@50i50x4 8 25 5 16;
+#9@51i36l62h1x2 4 8;
+<7
+<1
+>1
+>2
+16
+0:21:shiftregister_wrapper
+1:4:work
+2:103:/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_wrapper.sv
+3:8:DATASIZE
+4:5:32'h2
+5:14:<zin_internal>
+6:15:\$global_clock 
+7:5:clk_i
+8:12:load_value_i
+9:6:mode_i
+10:15:qft_cycle_index
+11:5:rst_i
+12:12:ser_in_lsb_i
+13:12:ser_in_msb_i
+14:7:value_o
+15:3:duv
+<2
+>3
+5
+0:55:7 "int" "<zin_internal>" 0 10 32 -2147483648 2147483647
+1:37:7 "scalar" "<zin_internal>" 0 0 1 0 0
+2:123:10 "scalar[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+3:126:10 "scalar[31:0]" "<zin_internal>" 0 4 1 7 "integer[31:0]" "<zin_internal>" 0 10 32 31 0 7 "scalar" "<zin_internal>" 0 0 1 0 0
+4:121:10 "logic[1:0]" "<zin_internal>" 0 4 1 7 "integer[1:0]" "<zin_internal>" 0 10 32 1 0 7 "logic" "<zin_internal>" 0 0 1 0 0
+<3
+>4
+#30b1f2l30.46t0c1p3v4F0L30T0U0;
+<4
+>5
+b9@6f5t1;
+@7l31knmir1X41T1sxt1;
+@8l34knmir1X41T1sxt2;
+@9l33knmir1X41T1sxt2;
+@10f5knt3;
+@11l32knmir1X41T1sxt1;
+@12l36knmir1X41T1sxt1;
+@13l35knmir1X41T1sxt1;
+@14l37knmod1X41S1syt4;
+<5
+>6
+b7@7l31x2t1;
+@11l32x6t1;
+@9l33x4t2;
+@8l34x3t2;
+@13l35x8t1;
+@12l36x7t1;
+@14l37d1x9t4;
+<6
+>7
+c1
+#29@15i17l41x8 16 2 6 4 3 8 7 9;
+<7
+<1

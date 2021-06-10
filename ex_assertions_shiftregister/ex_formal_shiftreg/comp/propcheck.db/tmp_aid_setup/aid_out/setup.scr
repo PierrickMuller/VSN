@@ -1,0 +1,5 @@
+set -e
+cd /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp
+MODELSIM=/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/tmp_aid_setup/aid_out/tmp_modelsim.ini \
+chmod +x /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/tmp_aid_setup/aid_out/questa_compile.scr
+source /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/tmp_aid_setup/aid_out/questa_compile.scr 

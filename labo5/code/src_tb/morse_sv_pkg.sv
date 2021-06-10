@@ -90,7 +90,7 @@ import morse_pkg::*;
         logic[7:0] value_v ;
         morse_char_or_unknown_t result;
         value_v = ascii;
-        if (value_v == 32) begin
+        if (value_v == 32 || value_v == 13) begin
             // This is a space, and will be interpreted as such
            // result = {0, {0, 5'bZZZZZ}};
             result.unknown = 0;

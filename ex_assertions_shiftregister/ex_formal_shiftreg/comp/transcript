@@ -1,0 +1,41 @@
+# Reading /opt/mentor/questaformal/linux_x86_64/share/rtld/tcl/zinpref.tcl
+# 
+# Copyright 1995-2020 Mentor Graphics Corporation.
+# All Rights Reserved.
+# 
+# THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION 
+# WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# 
+# THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION
+# 552.  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE
+# UNDER THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# 
+# do ../scripts/check.do
+# QuestaSim-64 vlog 2020.2_1 Compiler 2020.05 May 21 2020
+# Start time: 13:26:00 on May 30,2021
+# vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv 
+# -- Compiling module shiftregister_assertions
+# ** Error: (vlog-13069) ../src_tb/shiftregister_assertions.sv(46): near ")": syntax error, unexpected ')'.
+# ** Error: (vlog-13069) ../src_tb/shiftregister_assertions.sv(51): near ")": syntax error, unexpected ')'.
+# ** Error: (vlog-13069) ../src_tb/shiftregister_assertions.sv(57): near "endproperty": syntax error, unexpected "SystemVerilog keyword 'endproperty'".
+# ** Error: (vlog-13069) ../src_tb/shiftregister_assertions.sv(64): near "endproperty": syntax error, unexpected "SystemVerilog keyword 'endproperty'".
+# -- Compiling module shiftregister_wrapper
+# End time: 13:26:00 on May 30,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# Error   : Error encountered executing Tcl command.  Command: vlog, File: /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do, Line: 13.  [cli-7]
+#  Error   : Error encountered executing Tcl command.  Command: vlog, File: /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/../scripts/check.do, Line: 13.  [cli-7]
+#     while executing
+# "zin_vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel #0 zin_vlog $args"
+#     (procedure "vlog" line 2)
+#     invoked from within
+# "vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv"
+#     (procedure "check_sva" line 3)
+#     invoked from within
+# "check_sva"
+# 

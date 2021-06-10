@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Property Report
+-------------------------------------------------------------------------------
+Questa Formal Version 2020.2_1 linux_x86_64 27 May 2020
+-------------------------------------------------------------------------------
+Report Generated               : Sun May 30 13:57:28 2021
+-------------------------------------------------------------------------------
+
+Property Summary
+-------------------------------------------------------------------------------
+Total    Directives :4
+Assert   Directives :4
+Assume   Directives :0
+Cover    Directives :0
+
+
+SVA Summary
+-------------------------------------------------------------------------------
+SVA Directive Type        Directives           Checkers
+-------------------------------------------------------------------------------
+Assert                         4                   4
+Assume                         0                   0
+Cover                          0                   0
+-------------------------------------------------------------------------------
+
+
+Compiled Properties:
+-------------------------------------------------------------------------------
+Assertions:
+    duv.binded.assert_load2
+    duv.binded.assert_maintain
+    duv.binded.assert_shift_left
+    duv.binded.assert_shift_right
+
+
+===============================================================================
+Module: shiftregister_assertions
+===============================================================================
+Parameters: 
+    parameter  DATASIZE = 2
+Summary
+-------------------------------------------------------------------------------
+Assertions   : 4 
+Assumptions  : 0 
+Covers       : 0 
+-------------------------------------------------------------------------------
+assert assert_load2 (sva)
+  Instance: duv.binded.assert_load2
+  Location: File /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv, Line 47
+  Severity: error
+  Stats:   depth=2 gates=12 flops=1
+
+assert assert_maintain (sva)
+  Instance: duv.binded.assert_maintain
+  Location: File /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv, Line 53
+  Severity: error
+  Stats:   depth=2 gates=12 flops=1
+
+assert assert_shift_right (sva)
+  Instance: duv.binded.assert_shift_right
+  Location: File /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv, Line 61
+  Severity: error
+  Stats:   depth=2 gates=12 flops=1
+
+assert assert_shift_left (sva)
+  Instance: duv.binded.assert_shift_left
+  Location: File /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv, Line 69
+  Severity: error
+  Stats:   depth=2 gates=12 flops=1
+

@@ -1,0 +1,70 @@
+m255
+K4
+z2
+!s11f vlog 2020.2_1 2020.05, May 21 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp
+Tzi_opt_csl_994544325_1
+!s110 1622375846
+VDCJEM_NBWdA:9e8fEb8893
+09 21 4 z0in_work shiftregister_wrapper fast 0
+!s96 mlvalmap
+o-suppress 143 -nologo -noclknetalias -nolock -noOptProcessWaits -noinstaliasopt -pslallowseverity -suppress 153 -suppress 3053 -suppress 8884 -suppress 1491 -suppress 8885 -suppress 1127 -suppress 7033 -suppress 3838 -suppress 12003 -suppress 3054 -suppress 2734 +acc=a -0in_elab -mlvalmap -opt=-optStmt -opt=-optExpr -noStaticExprOpt +designfile+propcheck.db/VISUALIZER/design.bin +convertvhdlgenbracket -G DATASIZE=2 -work work -mixedansiports
+Z1 tCvgOpt 0
+nzi_opt_csl_994544325_1
+OL;O;2020.2_1;71
+vzzbind_to_vhdl_implicitzz_0in_shiftregister95wrapper_44_8_0
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1622375802
+!i10b 1
+!s100 kBl600J_hfGYAS`n@f`SG3
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHLomdoKUmghMA8mF33deZ0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z6 w1621776195
+Z7 8../src_tb/shiftregister_wrapper.sv
+Z8 F../src_tb/shiftregister_wrapper.sv
+!i122 7
+Z9 L0 44 3
+Z10 OL;L;2020.2_1;71
+r1
+!s85 0
+31
+Z11 !s108 1622375802.000000
+Z12 !s107 /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/AN/zin_vopt_work/_temp/zzbind_to_vhdl_implicitzz_0in_bind_6MTKHo0AJ7FiFi4mBzON1.sv|
+Z13 !s90 -sv|-vopt|-quiet|-work|work|-nolock|/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/AN/zin_vopt_work/_temp/zzbind_to_vhdl_implicitzz_0in_bind_6MTKHo0AJ7FiFi4mBzON1.sv|-L|z0in_work|
+!i113 0
+Z14 o-quiet -sv -work work -nolock -L z0in_work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vzzbind_to_vhdl_implicitzz_0in_shiftregister95wrapper_44_8_0_bind
+R2
+R3
+!i10b 1
+!s100 [E;43ADLUigB]bIP@PZ`80
+R4
+IcDcgW8nRg:jNP?<jE4Y>70
+R5
+S1
+R0
+R6
+R7
+R8
+!i122 7
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1

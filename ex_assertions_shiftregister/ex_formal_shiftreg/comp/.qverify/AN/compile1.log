@@ -1,0 +1,11 @@
+QuestaSim-64 vlog 2020.2_1 Compiler 2020.05 May 21 2020
+Start time: 13:57:25 on May 30,2021
+vlog -sv ../src_sv/shiftregister.sv 
+-- Compiling module shiftregister
+** Warning: ../src_sv/shiftregister.sv(33): (vlog-13233) Design unit "shiftregister" already exists and will be overwritten. Overwriting a VHDL Entity at ../src_sv/shiftregister.vhd(22) with a Verilog module.
+
+Top level modules:
+	shiftregister
+End time: 13:57:25 on May 30,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+

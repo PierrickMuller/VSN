@@ -1,0 +1,3 @@
+[
+{"recid":1, "Severity":"Warning", "Message":"(vlog-13233) Design unit \"shiftregister\" already exists and will be overwritten. Overwriting a VHDL Entity at ../src_sv/shiftregister.vhd(22) with a Verilog module.", "Backref":"../src_sv/shiftregister.sv,33"}
+]

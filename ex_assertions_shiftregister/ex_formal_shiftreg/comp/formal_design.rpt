@@ -1,0 +1,103 @@
+
+Questa Version 2020.2_1 linux_x86_64 27 May 2020
+
+-------------------------------------------------------------------------------
+Design Report
+Created Sun May 30 13:57:28 2021
+-------------------------------------------------------------------------------
+
+
+Design 'shiftregister_wrapper'
+===============================================================================
+
+
+---------------------------------------
+Design Summary                    Count
+---------------------------------------
+Clocks                                1
+  User-specified                      0
+  Inferred                            1
+Resets                                1
+  User-specified                      0
+  Inferred                            1
+Control Point Bits                    8
+  DUT Input Bits                      8
+  Cut Point Bits                      0
+  Black Box Output Bits               0
+  Undriven Wire Bits                  0
+  Unresolved RHS Bits                 0
+State Bits                            2
+  Design Register Bits                2
+  Design Latch Bits                   0
+Storage Structures           
+  Counters                            0
+  RAMs                                0
+Black Boxes                           0
+User-specified Constant Bits          0
+---------------------------------------
+
+Detailed Design Information
+===============================================================================
+
+
+Clocks
+------------------------------------------------------------------------------
+Port                                   Period         Waveform    Edges
+------------------------------------------------------------------------------
+clk_i                    [inferred]       100             0 50    PE   
+------------------------------------------------------------------------------
+
+Resets
+-------
+  rst_i [inferred] (Active High)
+
+Constants
+------------------
+  <none>
+
+Cut Points
+----------
+  <none>
+
+Black Box Outputs
+-----------------
+  <none>
+
+Undriven Wires
+--------------
+  <none>
+
+Unresolved RHS Bits
+-------------------
+  <none>
+
+Latches
+-------
+  <none>
+
+Counters
+--------
+  <none>
+
+RAMs
+----
+  <none>
+
+Black Boxes (User-specified)
+----------------------------
+  <none>
+
+Black Boxes (Inferred)
+----------------------
+  <none>
+
+
+Instance Usage
+===============================================================================
+Count  Module          Location
+-------------------------------------------------------------------------------
+   1   shiftregister   /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_sv/shiftregister.sv (Line 33)
+   1   shiftregister_assertions /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/src_tb/shiftregister_assertions.sv (Line 33)
+
+
+

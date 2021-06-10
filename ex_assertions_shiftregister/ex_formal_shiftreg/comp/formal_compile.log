@@ -1,0 +1,153 @@
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+
+log created Sun May 30 13:57:25 2021 by reds on reds2021
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb
+      /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26
+    -tool propcheck
+    -d shiftregister_wrapper
+    -work work
+    -G DATASIZE=2
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	shiftregister_wrapper
+
+Analyzing design...
+-- Loading module z0in_work.shiftregister_wrapper
+-- Loading module z0in_work.shiftregister
+-- Loading module z0in_work.shiftregister_assertions
+Incremental compilation check found 1 design-unit (out of 3) may be reused.
+Optimizing 2 design-units (inlining 0/3 module instances):
+-- Optimizing module z0in_work.shiftregister(fast)
+-- Restoring module work.shiftregister_assertions(fast)
+-- Optimizing module z0in_work.shiftregister_wrapper(fast)
+Optimized design name is zi_opt_csl_994544325_1
+End of log Sun May 30 13:57:26 2021
+
+
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+
+log created Sun May 30 13:57:26 2021 by reds on reds2021
+
+
+Command: netlist create
+Command arguments:
+    -zdb
+      /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26
+    -tool propcheck
+    -d shiftregister_wrapper
+    -work work
+    -G DATASIZE=2
+
+
+## Synthesizing netlist...
+Processing module 'shiftregister_assertions'
+Restoring module 'shiftregister_assertions'.
+Processing module 'shiftregister'
+Elaborating module 'shiftregister'.
+Processing module 'shiftregister_wrapper'
+Info    : Cached netlist database is out of date.  Cached netlist for module 'shiftregister_wrapper'.  [netlist-9]
+        : Will ignore cached netlist database.
+Elaborating module 'shiftregister_wrapper'.
+
+##Time Taken (Synthesis) = 1327047.000000 ticks = 1.327047 secs
+
+End of log Sun May 30 13:57:27 2021
+
+
+# 
+# Questa Static Verification System
+# Version 2020.2_1 linux_x86_64 27 May 2020
+
+log created Sun May 30 13:57:27 2021 by reds on reds2021
+
+
+Command: formal compile
+Command arguments:
+    -zdb
+      /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/DB/zdb_26
+    -d shiftregister_wrapper
+    -G DATASIZE=2
+    -work work
+
+
+## Processing Formal Logic...
+Processing module 'shiftregister_assertions'
+Restoring module 'shiftregister_assertions'.
+Processing module 'shiftregister'
+Restoring module 'shiftregister'.
+Processing module 'shiftregister_wrapper'
+Restoring module 'shiftregister_wrapper'.
+Flattening design 'shiftregister_assertions'.
+Flattening design 'shiftregister'.
+Flattening design 'shiftregister_wrapper'.
+Info    : Detected clock.  Clock: clk_i, polarity: posedge.  [netlist-11]
+Design is processed for formal verification.  Design 'shiftregister_wrapper'.
+Info    : Detected asynchronous reset.  Signal: rst_i, active high.  [netlist-106]
+
+Clocks
+------------------------------------------------------------------------------
+Port                                   Period         Waveform    Edges
+------------------------------------------------------------------------------
+clk_i                    [inferred]       100             0 50    PE   
+------------------------------------------------------------------------------
+
+Blackboxes
+------------------------------------------------------------------------------
+Module name                                                Reason
+------------------------------------------------------------------------------
+<no blackboxed modules>
+------------------------------------------------------------------------------
+
+Inferred directives
+------------------------------------------------------------------------------
+netlist clock clk_i -period 100 -waveform 0 50
+------------------------------------------------------------------------------
+
+Design is linked for formal analysis.  Design 'shiftregister_wrapper'.
+Formal model has been created.
+
+Property Summary
+-------------------------------------------------------------------------------
+Total  Directives :4
+Assert Directives :4
+Assume Directives :0
+Cover  Directives :0
+
+SVA Summary
+-------------------------------------------------------------------------------
+SVA Directive Type        Directives           Checkers
+-------------------------------------------------------------------------------
+Assert                         4                   4
+Assume                         0                   0
+Cover                          0                   0
+-------------------------------------------------------------------------------
+
+To see results in the GUI run:
+qverify /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db
+
+
+Message Summary
+---------------------------------------------------------------------------
+Count  Type     Message ID         Summary
+---------------------------------------------------------------------------
+    1  Info     netlist-106        Detected asynchronous reset.
+    1  Info     netlist-11         Detected clock.
+    1  Info     netlist-9          Cached netlist database is out of date.
+
+Final Process Statistics: Max memory 497MB, CPU time 1s, Total time 3s
+End of log Sun May 30 13:57:28 2021
+
+

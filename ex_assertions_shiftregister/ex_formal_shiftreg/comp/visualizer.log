@@ -1,0 +1,22 @@
+VISUALIZERROOT = '/opt/mentor/questaformal/linux_x86_64/share/modeltech/linux_x86_64/Visualizer'
+USER = 'reds'
+# Mentor Graphics software version 2020.2_1
+# Copyright(C) 1999 - 2020 by Mentor Graphics All rights reserved.
+
+# visualizer +designfile+/home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/propcheck.db/VISUALIZER/design.bin +show_pi_drvr_rcvr +max_drv_rec_cnt=10000 +external_client +visformal
+Opening log file /tmp/visscratch.ZicaWk/hdloffice.log
+
+13:57:35: Loading design data...
+13:57:35: Loaded  design units
+13:57:35: Loaded  design hierarchy
+
+Design Data Summary:
+  3          instances of 3     modules
+  1          instances of 1     packages
+13:57:35: Loading waveform header...
+13:57:35: Loaded  waveform header
+Window layout 'Default' saved in file: ./.visualizer/layout.xml
+Start  : Sun May 30 13:57:31 2021
+End    : Sun May 30 13:57:44 2021
+VMSize : 1165780 kB
+VMPeak : 1234148 kB

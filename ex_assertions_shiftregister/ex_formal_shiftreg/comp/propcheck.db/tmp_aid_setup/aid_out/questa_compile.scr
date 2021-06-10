@@ -1,0 +1,17 @@
+set -e
+
+#######################################################################################
+#                           Library mapping: VLIB Entries                             #
+#######################################################################################
+
+vlib /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp/work
+
+#######################################################################################
+#                            Commands: VLOG/VCOM                                      #
+#######################################################################################
+
+cd /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp
+vlog -sv ../src_tb/shiftregister_assertions.sv ../src_tb/shiftregister_wrapper.sv 
+cd /home/reds/vsn21_student/ex_assertions_shiftregister/ex_formal_shiftreg/comp
+vlog -sv ../src_sv/shiftregister.sv 
+

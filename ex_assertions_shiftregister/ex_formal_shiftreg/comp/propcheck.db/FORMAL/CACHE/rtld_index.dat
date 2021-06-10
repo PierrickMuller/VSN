@@ -1,0 +1,36 @@
+>8
+v366
+t30
+c31
+#30 p21472 @shiftregister_wrapper
+#29 p18944 @shiftregister_2057690821
+#28 p18797 @zi_oper_16_o1_2*i1
+#27 p18650 @zi_oper_29_o1_2*i1
+#26 p18493 @zi_oper_16_o1_2*i2
+#25 p18330 @zi_mux_o2_i1_2*i2
+#24 p16827 @shiftregister_assertions_579400822
+#23 p16551 @zi_property_assert_shift_left_shiftregister_assertions_i1_i2_2*i1_i2
+#22 p16273 @zi_property_assert_shift_right_shiftregister_assertions_i1_i2_2*i1_i2
+#9 p1466 @zi_const_2'b0_o2
+#8 p1320 @zi_oper_14_o1_2*i1
+#7 p1199 @zi_const_1'b0_o1
+#6 p1068 @zi_oper_24_o1_i1
+#5 p941 @zi_assign_o1_i1
+#4 p820 @zi_const_1'b1_o1
+#0 p0 @zi_dff_o1_10*i1
+#1 p253 @zi_dff_o2_i2_5*i1_i2_3*i1
+#2 p528 @zi_oper_25_o1_2*i1
+#3 p674 @zi_oper_64_o1_2*i1
+#10 p1590 @zi_const_2'h3_o2
+#11 p1715 @zi_oper_14_o1_2*i2
+#12 p1872 @zi_property_logic_assert_load2_shiftregister_assertions
+#13 p5063 @zi_property_logic_assert_maintain_shiftregister_assertions
+#14 p8227 @zi_const_2'h2_o2
+#15 p8352 @zi_oper_32_o2_2*i1
+#16 p8509 @zi_oper_38_o1_i2
+#17 p8650 @zi_property_logic_assert_shift_right_shiftregister_assertions
+#18 p12114 @zi_const_2'b1_o2
+#19 p12239 @zi_property_logic_assert_shift_left_shiftregister_assertions
+#20 p15750 @zi_property_assert_load2_shiftregister_assertions_i1_2*i2_i1_i2
+#21 p16016 @zi_property_assert_maintain_shiftregister_assertions_i1_i2_i1_i2
+<8

@@ -43,17 +43,20 @@ module shiftregister_assertions
     // load operation
     assert_load2: assert property (@(posedge clk_i) disable iff (rst_i==1)
     // Fill here
+    (mode_i == 2'b11 |=> value_o == $past(load_value_i))
     );
 
     // maintain operation
     assert_maintain: assert property (@(posedge clk_i) disable iff (rst_i==1)
     // Fill here
+    (mode_i == 2'b00 |=> value_o == $past(value_o))
     );
 
     // shift right operation
     property prop_shift_right;
         @(posedge clk_i) disable iff (rst_i==1)
         // Fill here
+        (mode_i == 2'b10 |=> value_o == {$past(ser_in_msb_i), {$past(value_o)}[DATASIZE-1 : 1]} )
     endproperty
     assert_shift_right: assert property (prop_shift_right);
 
@@ -61,6 +64,7 @@ module shiftregister_assertions
     property prop_shift_left;
         @(posedge clk_i) disable iff (rst_i==1)
         // Fill here
+        (mode_i == 2'b01 |=> value_o == {{$past(value_o)}[DATASIZE-2:0] , $past(ser_in_lsb_i)})
     endproperty
     assert_shift_left: assert property (prop_shift_left);
 

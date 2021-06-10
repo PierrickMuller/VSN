@@ -1,0 +1,17 @@
+# set mergefile /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# set cmd [list vcover merge  -out $mergefile]
+# vcover merge -out /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# if {[file readable $mergefile]} {lappend cmd $mergefile}
+# eval $cmd -inputs /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno2/mergeScript.files
+# QuestaSim-64 vcover 2020.1_1 Coverage Utility 2020.03 Mar  4 2020
+# Start time: 23:38:47 on Jun 10,2021
+# vcover merge -out /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb -inputs /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno2/mergeScript.files 
+# QuestaSim-64 vcover 2020.1_1 Coverage Utility 2020.03 Mar  4 2020
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno2.ucdb
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno11.ucdb
+# Writing merged result to /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# 
+# End time: 23:38:47 on Jun 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# quit -f
