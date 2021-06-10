@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ythoma/docs/heig-vd/vsn/exercices/drills/code/solution/sv_coverage
+vcoverage_test
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+DXx4 work 21 coverage_test_sv_unit 0 22 0[>=nLFNll][bnK3HcME51
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 [mXH2J`3jnk1S@4e@3[LN1
+IdnAFMW_b:`0WRUo[CO>ff0
+!s105 coverage_test_sv_unit
+S1
+R0
+Z2 w1465911455
+Z3 8coverage_test.sv
+Z4 Fcoverage_test.sv
+L0 45
+Z5 OL;L;10.4c;61
+Z6 !s108 1465911735.000000
+Z7 !s107 coverage_test.sv|
+Z8 !s90 coverage_test.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Xcoverage_test_sv_unit
+R1
+V0[>=nLFNll][bnK3HcME51
+r1
+!s85 0
+31
+!i10b 1
+!s100 JRY=RCSM<?`]5][ZQhSfb3
+I0[>=nLFNll][bnK3HcME51
+!i103 1
+S1
+R0
+R2
+R3
+R4
+L0 2
+R5
+R6
+R7
+R8
+!i113 0
+R9
