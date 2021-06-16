@@ -22,7 +22,7 @@ vlib work
 # Compilation
 vcom -2008 ../src_vhd/assertions_test.vhd
 
-vsim -novopt work.assertions_test
+vsim work.assertions_test
 add wave *
 # Testbench automatique. Il doit se terminer automatiquement
 run -all

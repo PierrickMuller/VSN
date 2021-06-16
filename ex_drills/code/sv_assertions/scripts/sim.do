@@ -23,7 +23,7 @@ vlib work
 vlog -sv ../src_sv/assertions_test.sv
 
 # Exécution avec seed aléatoire
-vsim -novopt work.assertions_test
+vsim work.assertions_test
 # Testbench automatique. Il doit se terminer automatiquement
 run -all
 

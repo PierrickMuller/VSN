@@ -23,7 +23,7 @@ vlib work
 vlog -sv ../src_sv/constraints_test.sv
 
 # Exécution
-vsim -novopt work.constraints_test
+vsim work.constraints_test
 # Testbench automatique. Il doit se terminer automatiquement
 run -all
 

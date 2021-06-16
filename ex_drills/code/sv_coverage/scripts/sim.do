@@ -23,7 +23,7 @@ vlib work
 vlog -sv ../src_sv/coverage_test.sv
 
 # Exécution
-vsim -novopt work.coverage_test
+vsim work.coverage_test
 # Testbench automatique. Il doit se terminer automatiquement
 run -all
 
