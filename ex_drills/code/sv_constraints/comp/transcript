@@ -1,0 +1,142 @@
+# do ../scripts/sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 22:35:00 on Jun 19,2021
+# vlog -sv ../src_sv/constraints_test.sv 
+# -- Compiling package constraints_test_sv_unit
+# -- Compiling module constraints_test
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	constraints_test
+# End time: 22:35:00 on Jun 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.constraints_test 
+# Start time: 22:35:00 on Jun 19,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.constraints_test_sv_unit(fast)
+# Loading work.constraints_test(fast)
+# Let's start test 1
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 142, data = 2158226539, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 0, address =   7, data = 1450775108, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 3, address = 177, data = 1038409431, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 222, data = 1352165764, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 1, address = 103, data = 1902010843, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 2, address = 163, data =  381191815, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 161, data = 1693511899, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 3, address =  37, data =  333665270, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 189, data = 2716006873, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 3, address = 126, data =   94434105, parity = 1
+# cs = 0, wr = 1, rd = 0, typee = 0, address =   0, data = 3177218271, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 219, data = 4113538549, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 3, address = 114, data = 3822194694, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 2, address = 155, data = 2142971480, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 1, address =  78, data = 1245153921, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 1, address =  17, data =  425671239, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 1, address =  76, data = 3495696311, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 1, address =  61, data = 3292505865, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 3, address =  73, data = 3152957655, parity = 1
+# cs = 0, wr = 0, rd = 0, typee = 0, address =   0, data =  828700983, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 137, data = 2612139217, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 1, address =  44, data = 2185434953, parity = 0
+# cs = 0, wr = 0, rd = 1, typee = 0, address =   0, data = 1898774952, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 1, address =  90, data = 4056698923, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 3, address =  47, data = 3909598973, parity = 0
+# cs = 0, wr = 0, rd = 0, typee = 3, address =   0, data = 4200835035, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 1, address =  77, data =  469597826, parity = 0
+# cs = 0, wr = 0, rd = 1, typee = 3, address =   0, data = 1298984202, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 3, address = 124, data =  660328890, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 141, data = 3055490174, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 2, address = 170, data = 3048534364, parity = 1
+# cs = 0, wr = 0, rd = 0, typee = 3, address =   0, data = 1573636372, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 1, address =  96, data = 2477274611, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 3, address = 139, data = 2530272194, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 3, address = 189, data = 2913056187, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 2, address = 216, data = 1269950945, parity = 0
+# cs = 0, wr = 0, rd = 0, typee = 0, address =   0, data = 1043340370, parity = 0
+# cs = 0, wr = 1, rd = 0, typee = 0, address =   0, data = 1652634384, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 2, address = 129, data = 3191815886, parity = 1
+# cs = 0, wr = 1, rd = 0, typee = 0, address =   0, data = 1823278032, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 1, address = 114, data = 1984245739, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 239, data = 2337203774, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 0, address =  11, data =  803293928, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 234, data = 1097997447, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 146, data = 3559675083, parity = 0
+# cs = 0, wr = 0, rd = 0, typee = 0, address =   0, data = 2303155647, parity = 0
+# cs = 0, wr = 1, rd = 0, typee = 0, address =   0, data =  347862306, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 3, address = 230, data = 4050176842, parity = 1
+# cs = 0, wr = 1, rd = 0, typee = 3, address =   0, data = 2540225802, parity = 1
+# cs = 0, wr = 0, rd = 1, typee = 0, address =   0, data =  256100933, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 255, data = 2724448476, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 1, address =  68, data = 2932440672, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 3, address =  90, data = 1370749637, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 0, address =   6, data = 3311363653, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 3, address = 156, data = 2399778202, parity = 0
+# cs = 0, wr = 1, rd = 0, typee = 0, address =   0, data =  174384984, parity = 1
+# cs = 0, wr = 1, rd = 0, typee = 3, address =   0, data = 3946205394, parity = 1
+# cs = 0, wr = 0, rd = 0, typee = 0, address =   0, data =   43190500, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 0, address =   1, data = 2975122840, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 3, address = 245, data = 3957968397, parity = 0
+# cs = 0, wr = 1, rd = 0, typee = 0, address =   0, data = 2976795981, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 153, data = 2497397669, parity = 1
+# cs = 0, wr = 0, rd = 0, typee = 3, address =   0, data = 1928003074, parity = 0
+# cs = 0, wr = 0, rd = 1, typee = 0, address =   0, data = 3044412920, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 3, address =  51, data = 3135342926, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 2, address = 168, data =  581727585, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 3, address = 206, data =  581356643, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 1, address = 117, data = 1061429024, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 3, address = 213, data = 1495331545, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 1, address = 105, data = 3309184834, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 3, address =  25, data = 2791660027, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 172, data = 2814750631, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 1, address = 111, data =  509467208, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 0, address =  13, data = 1965626915, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 1, address =  79, data =  642852738, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 3, address = 209, data = 3165892263, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 2, address = 212, data = 2396684993, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 1, address =  40, data = 1840418244, parity = 0
+# cs = 0, wr = 1, rd = 0, typee = 3, address =   0, data = 1867867050, parity = 0
+# cs = 0, wr = 0, rd = 1, typee = 3, address =   0, data =  301806260, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 1, address =  22, data =  250637691, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 3, address =  32, data =  435598133, parity = 1
+# cs = 1, wr = 1, rd = 0, typee = 0, address =  14, data = 2379572345, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 1, address = 101, data = 1126676345, parity = 1
+# cs = 1, wr = 0, rd = 1, typee = 3, address = 251, data = 4034875082, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 3, address =  83, data = 1962922016, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 0, address =   8, data = 1158056537, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 1, address = 118, data = 2936022959, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 252, data =  364718639, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 3, address = 234, data = 4025535328, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 175, data = 1329877885, parity = 0
+# cs = 0, wr = 0, rd = 1, typee = 3, address =   0, data = 1737548872, parity = 0
+# cs = 0, wr = 0, rd = 0, typee = 3, address =   0, data = 1226069096, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 3, address = 148, data =  149398179, parity = 1
+# cs = 0, wr = 0, rd = 1, typee = 3, address =   0, data = 1543391119, parity = 0
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 144, data = 1231909765, parity = 1
+# cs = 1, wr = 0, rd = 0, typee = 2, address = 240, data = 3749946413, parity = 0
+# cs = 1, wr = 1, rd = 0, typee = 3, address = 243, data = 3160705882, parity = 0
+# cs = 1, wr = 0, rd = 1, typee = 1, address = 116, data = 1161759669, parity = 0
+# cs = 0, wr = 1, rd = 0, typee = 3, address =   0, data = 2630577314, parity = 0
+# End of test 1
+# done!
+# ** Note: $stop    : ../src_sv/constraints_test.sv(52)
+#    Time: 0 ns  Iteration: 0  Instance: /constraints_test/TestSuite
+# Break at ../src_sv/constraints_test.sv line 52
+# Stopped at ../src_sv/constraints_test.sv line 52
+# End time: 22:47:07 on Jun 19,2021, Elapsed time: 0:12:07
+# Errors: 0, Warnings: 0

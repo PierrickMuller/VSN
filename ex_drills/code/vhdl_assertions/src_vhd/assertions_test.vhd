@@ -38,7 +38,9 @@ begin
 
     -- assertion 1
 
+
     -- assertion 2
+    assert (a2 /= b2) report "A == B and should not" severity ERROR;
 
     -- assertion 3
 
@@ -76,10 +78,10 @@ begin
         begin
             wait for 10 ns;
             a2 <= '1';
-            b2 <= '1';
+            b2 <= '0';
             wait for 10 ns;
             a2 <= '0';
-            b2 <= '0';
+            b2 <= '1';
             wait for 10 ns;
         end testcase_assertion2_true;
 
@@ -135,15 +137,15 @@ begin
         end testcase_assertion4_false;
 
     begin
-        testcase_assertion1_true;
-        --testcase_assertion2_true;
-        testcase_assertion3_true;
-        testcase_assertion4_true;
+        --testcase_assertion1_true;
+        testcase_assertion2_true;
+        --testcase_assertion3_true;
+        --testcase_assertion4_true;
         wait for 10000 ns;
-        testcase_assertion1_false;
-        testcase_assertion2_false;
-        testcase_assertion3_false;
-        testcase_assertion4_false;
+        --testcase_assertion1_false;
+        --testcase_assertion2_false;
+        --testcase_assertion3_false;
+        --testcase_assertion4_false;
         stop <= true;
         wait;
     end process;

@@ -7,6 +7,20 @@ class constraints_class;
     rand logic[31:0] data;
     rand logic parity;
 
+    constraint t{
+        (cs == 0) -> address <= 0;
+        
+        (wr == 1) -> rd <= 0;
+        (rd == 1) -> wr <= 0;
+
+        (typee == 0) -> address inside {[0:15]};
+        (typee == 1) -> address inside {[16:127]};
+        (typee == 2) -> address inside {[128:(2**8-1)]};
+
+        (($countones(data) % 2) == 0) -> parity <= 1;
+        (($countones(data) % 2) != 0) -> parity <= 0;
+    }
+
 endclass : constraints_class
 
 

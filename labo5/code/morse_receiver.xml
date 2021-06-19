@@ -15,8 +15,8 @@
   <RemovePersonalInformation/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>12225</WindowHeight>
-  <WindowWidth>28800</WindowWidth>
+  <WindowHeight>7980</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -235,10 +235,10 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="com_store_velux">
-  <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="27" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="24" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="37.5"/>
-   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:StyleID="s62" ss:Width="123"/>
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="261"/>
    <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="146.25"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="63.75"/>
@@ -266,7 +266,7 @@
    <Row ss:AutoFitHeight="0" ss:StyleID="s65">
     <Cell ss:StyleID="s75"><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">Standard features</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">TBD</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Standard usage of the system</Data></Cell>
     <Cell ss:StyleID="s77"/>
     <Cell ss:StyleID="s78"/>
     <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
@@ -274,81 +274,48 @@
     <Cell ss:StyleID="s79"/>
     <Cell ss:StyleID="s79"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
+   <Row ss:Height="45" ss:StyleID="s65">
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">1.1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Letters tests</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Vérifie que l'envoi de transactions de toutes les lettres fonctionne comme définie par le système. La valeur de dot_period est de 5. </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">testcase_letters</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PM</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">1.2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Number tests</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Vérifie que l'envoi de transactions de tous les nombres fonctionne comme définie par le système. La valeur de dot_period est de 5. </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">testcase_numbers</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PM</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
+   <Row ss:Height="120" ss:StyleID="s65">
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">1.3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Random Valid Ascii</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Ce scénario utilise la randomisation et le coverage pour envoyer un certain nombre de caractères parmis les caractères valide (Caractères minuscule/majuscule, espace, CR) avec un dot_period variable. Chaque caractère valide doit être observé 250 fois pour que le coverage soit complet. Les caractères sont générés de manières aléatoire et le dot_period aussi, c'est une valeur entre 1 et 100.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">testcase_valid_ascii</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PM</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
+   <Row ss:Height="135" ss:StyleID="s65">
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">1.4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Random Valid Dot Period</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Ce scénario utilise la randomisation et le coverage pour envoyer un certain nombre de caractères parmis les caractères valide (Caractères minuscule/majuscule, espace, CR) avec un dot_period variable. La valeur de dot_period est entre 1 et 2^14 afin d'éviter des temps d'attente trop long. Pour que le coverage soit complet, une valeur de chaque &quot;box&quot; de 2^14 (correspondant à 2^^11 * [0:7]) doit être observée.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">testcase_valid_dot_period</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
-    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PM</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s87">
@@ -377,19 +344,19 @@
     <Cell ss:StyleID="s65"/>
     <Cell ss:StyleID="s65"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s65">
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s80"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
+   <Row ss:Height="105" ss:StyleID="s65">
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">2.1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Wrong Ascii check </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Ce testcase envoie 22 suite de dot/dash ne correspondant à aucun caractères. Cela permet de tester que les caractères non valides sont bien reconnus en sortie du système. Un paramètre de la classe permet d'informer le scoreboard qu'il s'agit d'une transaction erroné et de traiter le résultat en fonction de cette information.</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">testcase_wrong_char_only</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">Test</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">PM</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s87">
-    <Cell ss:StyleID="s75"><Data ss:Type="String" x:Ticked="1">5</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String" x:Ticked="1">3</Data></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">ERRNO testing</Data></Cell>
     <Cell ss:StyleID="s77"><Data ss:Type="String">Test with various ERRNO</Data></Cell>
     <Cell ss:StyleID="s77"/>
@@ -415,7 +382,7 @@
     <Cell ss:StyleID="s65"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.1</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 0</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should be allright</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno0</Data></Cell>
@@ -426,7 +393,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.2</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 0. MARGIN 2</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should be allright. LOG_RELATIVE_MARGIN = 2</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno0_2</Data></Cell>
@@ -437,7 +404,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.3</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 0. MARGIN 3</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should be allright. LOG_RELATIVE_MARGIN = 3</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno0_3</Data></Cell>
@@ -448,7 +415,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.4</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.4</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 1</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno1</Data></Cell>
@@ -459,7 +426,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.5</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.5</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 2</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno2</Data></Cell>
@@ -470,7 +437,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.6</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.6</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 3</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno3</Data></Cell>
@@ -481,7 +448,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.7</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.7</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 4</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno4</Data></Cell>
@@ -492,7 +459,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.8</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.8</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 5</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno5</Data></Cell>
@@ -503,7 +470,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.9</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.9</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 6</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno6</Data></Cell>
@@ -514,7 +481,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.10</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.10</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 7</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno7</Data></Cell>
@@ -525,7 +492,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.11</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.11</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 8</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno8</Data></Cell>
@@ -536,7 +503,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.12</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.12</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 9</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno9</Data></Cell>
@@ -547,7 +514,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.13</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.13</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 10</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno10</Data></Cell>
@@ -558,7 +525,7 @@
     <Cell ss:StyleID="s83"><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">5.14</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">3.14</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">ERRNO = 11</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">Should get an error</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">testerrno11</Data></Cell>
@@ -589,7 +556,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>2</SplitHorizontal>
-   <TopRowBottomPane>11</TopRowBottomPane>
+   <TopRowBottomPane>2</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -607,7 +574,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>29</ActiveRow>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -1,0 +1,517 @@
+<?xml version="1.0" ?>
+<drill>
+  <sample type="vrm" version="3.0" timestamp="2021-06-11 17:02:27">
+    <table name="summary">
+      <row>
+        <logfile>/home/reds/vsn21_student/labo5/code/VRMDATA/logs/210611_170227.rmev</logfile>
+        <starttime>2021-06-11 17:02:27</starttime>
+        <endtime>2021-06-11 17:08:05</endtime>
+        <rmdb>/home/reds/vsn21_student/labo5/code/default.rmdb</rmdb>
+        <vrmdata>/home/reds/vsn21_student/labo5/code/VRMDATA</vrmdata>
+        <actions>16</actions>
+        <options>-eventlog /home/reds/vsn21_student/labo5/code/VRMDATA/logs/210611_170227.rmev -mseed 0 -rmdb /home/reds/vsn21_student/labo5/code/default.rmdb -vrmdata /home/reds/vsn21_student/labo5/code/VRMDATA</options>
+        <passed>0</passed>
+        <failed>14</failed>
+        <notrun>0</notrun>
+      </row>
+    </table>
+    <table name="details">
+      <row>
+        <action>directed/preScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:02:27</datetime>
+        <elapsed></elapsed>
+        <event>20210611T170227 done directed/preScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:02:27</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:33</datetime>
+        <elapsed>302</elapsed>
+        <event>20210611T170733 done directed/testerrno0/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:33</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:31</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0_2/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:33</datetime>
+        <elapsed>302</elapsed>
+        <event>20210611T170733 done directed/testerrno0_2/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:33</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:31</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0_3/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:33</datetime>
+        <elapsed>302</elapsed>
+        <event>20210611T170733 done directed/testerrno0_3/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:33</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:31</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno2/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:35</datetime>
+        <elapsed>304</elapsed>
+        <event>20210611T170735 done directed/testerrno2/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:35</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:31</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno1/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:02:35</datetime>
+        <elapsed>4</elapsed>
+        <event>20210611T170235 done directed/testerrno1/execScript failed/script reds2021 directed/testerrno1.ucdb {} {} {} {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/script</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile>directed/testerrno1.ucdb</ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:02:35</donetime>
+        <extstatus>script</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-11 17:02:31</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno3/execScript</action>
+        <coverage>33.14</coverage>
+        <cputime>0.11</cputime>
+        <datetime>2021-06-11 17:02:38</datetime>
+        <elapsed>7</elapsed>
+        <event>20210611T170238 done directed/testerrno3/execScript failed/error reds2021 directed/testerrno3.ucdb error 0 33.14 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>There are         100 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>378275.00</simtime>
+        <tplancov></tplancov>
+        <tstime>378275.00</tstime>
+        <ucdbfile>directed/testerrno3.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-11 17:02:38</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-11 17:02:31</starttime>
+        <testname>testerrno3</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno4/execScript</action>
+        <coverage>33.14</coverage>
+        <cputime>0.12</cputime>
+        <datetime>2021-06-11 17:02:38</datetime>
+        <elapsed>6</elapsed>
+        <event>20210611T170238 done directed/testerrno4/execScript failed/error reds2021 directed/testerrno4.ucdb error 0 33.14 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>There are         100 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>378275.00</simtime>
+        <tplancov></tplancov>
+        <tstime>378275.00</tstime>
+        <ucdbfile>directed/testerrno4.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-11 17:02:38</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-11 17:02:32</starttime>
+        <testname>testerrno4</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno5/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:33</datetime>
+        <elapsed>301</elapsed>
+        <event>20210611T170733 done directed/testerrno5/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:33</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:32</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno6/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:35</datetime>
+        <elapsed>303</elapsed>
+        <event>20210611T170735 done directed/testerrno6/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:35</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:32</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno7/execScript</action>
+        <coverage>35.86</coverage>
+        <cputime>0.13</cputime>
+        <datetime>2021-06-11 17:02:38</datetime>
+        <elapsed>7</elapsed>
+        <event>20210611T170238 done directed/testerrno7/execScript failed/error reds2021 directed/testerrno7.ucdb error 0 35.86 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>There are         100 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>378275.00</simtime>
+        <tplancov></tplancov>
+        <tstime>378275.00</tstime>
+        <ucdbfile>directed/testerrno7.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-11 17:02:38</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-11 17:02:31</starttime>
+        <testname>testerrno7</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno8/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:35</datetime>
+        <elapsed>302</elapsed>
+        <event>20210611T170735 done directed/testerrno8/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:35</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:33</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno9/execScript</action>
+        <coverage>39.58</coverage>
+        <cputime>12.58</cputime>
+        <datetime>2021-06-11 17:03:12</datetime>
+        <elapsed>40</elapsed>
+        <event>20210611T170312 done directed/testerrno9/execScript failed/error reds2021 directed/testerrno9.ucdb error 0 39.58 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>34914275.00</simtime>
+        <tplancov></tplancov>
+        <tstime>251535.00</tstime>
+        <ucdbfile>directed/testerrno9.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-11 17:03:12</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-11 17:02:27</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-11 17:02:32</starttime>
+        <testname>testerrno9</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno10/execScript</action>
+        <coverage>39.58</coverage>
+        <cputime>16.02</cputime>
+        <datetime>2021-06-11 17:03:21</datetime>
+        <elapsed>49</elapsed>
+        <event>20210611T170321 done directed/testerrno10/execScript failed/error reds2021 directed/testerrno10.ucdb error 0 39.58 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>4</queued>
+        <status>failed/error</status>
+        <reason>RESULTS ARE NOT THE SAME</reason>
+        <seed>0</seed>
+        <simtime>42560915.00</simtime>
+        <tplancov></tplancov>
+        <tstime>171995.00</tstime>
+        <ucdbfile>directed/testerrno10.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-11 17:03:21</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-11 17:02:28</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-11 17:02:32</starttime>
+        <testname>testerrno10</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno11/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:35</datetime>
+        <elapsed>302</elapsed>
+        <event>20210611T170735 done directed/testerrno11/execScript timeout/executing</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>timeout/executing</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:35</donetime>
+        <extstatus>executing</extstatus>
+        <launchtime>2021-06-11 17:02:28</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>timeout</runstatus>
+        <starttime>2021-06-11 17:02:33</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/postScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-11 17:07:35</datetime>
+        <elapsed></elapsed>
+        <event>20210611T170735 done directed/postScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-11 17:07:35</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+    </table>
+  </sample>
+</drill>

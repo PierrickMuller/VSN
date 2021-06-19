@@ -1,0 +1,24 @@
+# set mergefile /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# set cmd [list vcover merge  -out $mergefile]
+# vcover merge -out /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# if {[file readable $mergefile]} {lappend cmd $mergefile}
+# vcover merge -out /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# eval $cmd -inputs /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testcase_valid_ascii/mergeScript.files
+# QuestaSim-64 vcover 2020.1_1 Coverage Utility 2020.03 Mar  4 2020
+# Start time: 17:12:21 on Jun 14,2021
+# vcover merge -out /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb -inputs /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testcase_valid_ascii/mergeScript.files 
+# QuestaSim-64 vcover 2020.1_1 Coverage Utility 2020.03 Mar  4 2020
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testcase_valid_ascii.ucdb
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno0.ucdb
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno0_2.ucdb
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno2.ucdb
+# Merging file /home/reds/vsn21_student/labo5/code/VRMDATA/directed/testerrno0_3.ucdb
+# Writing merged result to /home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb
+# 
+# Applying tag commands ...
+# All tags are applied successfully.
+# End time: 17:12:21 on Jun 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# quit -f

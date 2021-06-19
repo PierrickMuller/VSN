@@ -70,63 +70,72 @@ class Sequencer;
         5'b11101
     };
 
-    // Sends the 26 letters, in alphabetical order, with no space
+    // Sends the 26 letters, in alphabetical order, with no space and dot_period = 5
     task testcase_letters;
         automatic MorseTransaction packet;
         $display("Sequencer : start testcase_letters");
-        packet = new;
+
 
         for(int i = 0; i < 26; i++) begin
             packet = new;
             // This constraint on ascii defines exactly the character
             void'(packet.randomize() with{ascii == 65 + i; dot_period == 5; });
+            packet.log_relative_margin = log_relative_margin;
+            sequencer_to_driver_fifo.put(packet);
+            sequencer_to_scoreboard_fifo.put(packet);
+            $display("Sequencer: I sent a letter : %s!!!!", ascii_to_string(packet.ascii));
+        end
+    endtask : testcase_letters
+
+    // Send the 10 numbers, from 0 to 9, with no space 
+    task testcase_numbers;
+        automatic MorseTransaction packet;
+        $display("Sequencer : start testcase_letters");
+
+
+        for(int i = 0; i < 10; i++) begin
+            packet = new;
+            // This constraint on ascii defines exactly the character
+            void'(packet.randomize() with{ascii == 48 + i; dot_period == 5; });
+            packet.log_relative_margin = log_relative_margin;
             sequencer_to_driver_fifo.put(packet);
             sequencer_to_scoreboard_fifo.put(packet);
             $display("Sequencer: I sent a letter : %s!!!!", ascii_to_string(packet.ascii));
         end
 
-    endtask : testcase_letters
+    endtask : testcase_numbers
+    
 
-    task testcase_all_ascii;
-        automatic MorseTransaction packet;
-        $display("Sequencer : start testcase_all_ascii");
-        //packet = new;
-
-        for(int i = 0; i < 256; i++) begin
-            packet = new;
-            // This constraint on ascii defines exactly the character
-            void'(packet.randomize() with{ascii == i; });
-            sequencer_to_driver_fifo.put(packet);
-            sequencer_to_scoreboard_fifo.put(packet);
-            $display("Sequencer: I sent a letter : %d!!!!", packet.ascii);
-        end
-
-    endtask : testcase_all_ascii
-       
+    // Use randomization and coverage to send a sequence of caracteres, space and CR
+    // Until the coverage is full. A space or CR can't follow a space or CR.
+    // all caracters have to appear 250 time before the coverage is done. The dot_period value
+    // is a random number between 1 and 100.
     task testcase_valid_ascii;
         automatic MorseTransactionCorrectAscii packet;
         logic[7:0] past_val;
         int i;
         $display("Sequencer : start testcase_all_ascii");
-        packet = new;
+
         i = 0;
         past_val = 32;
-        while(packet.cov_group.get_coverage() < 97) begin 
+        while(packet.cov_group.get_coverage() < 100) begin 
             packet = new;
-            // This constraint on ascii defines exactly the character
             if(past_val == 32 || past_val == 13)
                 void'(packet.randomize() with{ascii != 32; ascii != 13; });
             else
                 void'(packet.randomize());
             past_val = packet.ascii;
+            packet.log_relative_margin = log_relative_margin;
             sequencer_to_driver_fifo.put(packet);
             sequencer_to_scoreboard_fifo.put(packet);
             packet.cov_group.sample();
-            $display("Sequencer: I sent a letter : %d -> coverage = %d -> i = %d!!!!", packet.ascii,packet.cov_group.get_coverage(),i);
+            $display("Sequencer: I sent a letter : %s!!!!",ascii_to_string(packet.ascii));
             i = i + 1;
         end
     endtask : testcase_valid_ascii
 
+    // Send the 22 "wrong" caracters with no space. The champ "Is a fake trans" is set
+    // To one so that the scoreboard can check that the result is not valid in the output
     task testcase_wrong_char_only;
         automatic MorseTransaction packet;
         $display("Sequencer : start testcase_wrong_char_only");
@@ -138,15 +147,45 @@ class Sequencer;
             packet.valid = 1;
             packet.morse.value = wrong_values[i];
             packet.morse.size = 5; 
+            packet.log_relative_margin = log_relative_margin;
             packet.is_a_fake_trans = 1;
             sequencer_to_driver_fifo.put(packet);
             sequencer_to_scoreboard_fifo.put(packet);
-            $display("Sequencer: I sent a letter : %d!!!!", packet.ascii);
+            $display("Sequencer: I sent a letter : %s!!!!", ascii_to_string(packet.ascii));
         end 
         
     endtask : testcase_wrong_char_only
  
-    
+
+    // Use randomization and coverage to send a sequence of caracteres, space and CR
+    // Until the coverage is full. A space or CR can't follow a space or CR. the dot_period value
+    // is a random number between 1 and 2^14 and the coverage is full once one of the value
+    // of the 8 "box" defined in the transactions are observed.
+    task testcase_valid_dot_period;
+        automatic MorseTransactionDotPeriodSpectrum packet;
+        logic[7:0] past_val;
+        int i;
+        $display("Sequencer : start testcase_valid_dot_period");
+
+        i = 0;
+        past_val = 32;
+        while(packet.cov_group.get_coverage() < 100) begin 
+            packet = new;
+            // This constraint on ascii defines exactly the character
+            if(past_val == 32 || past_val == 13)
+                void'(packet.randomize() with{ascii != 32; ascii != 13; });
+            else
+                void'(packet.randomize());
+            past_val = packet.ascii;
+            packet.log_relative_margin = log_relative_margin;
+            sequencer_to_driver_fifo.put(packet);
+            sequencer_to_scoreboard_fifo.put(packet);
+            packet.cov_group.sample();
+            $display("Sequencer: I sent a letter : %s!!!!",ascii_to_string(packet.ascii));
+            i = i + 1;
+        end
+    endtask : testcase_valid_dot_period
+
 
     // Task executed by the sequencer.
     // Depending on the testcase we run all the tests, or only a specific one
@@ -155,14 +194,16 @@ class Sequencer;
         case (testcase)
         0:begin
             testcase_letters;
-            //testcase_all_ascii;
+            testcase_numbers;
             testcase_valid_ascii;
             testcase_wrong_char_only;
+            testcase_valid_dot_period;
         end
         1: testcase_letters;
-        2: testcase_all_ascii;
+        2: testcase_numbers;
         3: testcase_valid_ascii;
         4: testcase_wrong_char_only;
+        5: testcase_valid_dot_period;
         default: $error("Testcase %d not supported", testcase);
         endcase
 

@@ -1,0 +1,65 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/vsn21_student/ex_drills/code/vhdl_assertions/comp
+T_opt
+Z1 !s110 1624130619
+Vi5`399Wk:DVY>^W`I[<g]2
+04 15 9 work assertions_test testbench 1
+=1-000ae431a4f1-60ce443b-a0be6-e72
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2020.1_1;71
+Eassertions_test
+Z2 w1624130614
+Z3 D^#x4 ieee 16 ieee_std_context 0 22 7m;SE_P[R@HSc<;N29LfO0
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R0
+Z7 8../src_vhd/assertions_test.vhd
+Z8 F../src_vhd/assertions_test.vhd
+l0
+L4 1
+VIjBE7e5i:H6bJQdGg5Q3m2
+!s100 LJeoIZ9EUeHX9I=KU1jn^1
+Z9 OL;C;2020.1_1;71
+33
+R1
+!i10b 1
+Z10 !s108 1624130619.000000
+Z11 !s90 -2008|../src_vhd/assertions_test.vhd|
+Z12 !s107 ../src_vhd/assertions_test.vhd|
+!i113 0
+Z13 o-2008
+Z14 tExplicit 1 CvgOpt 0
+Atestbench
+R3
+R4
+R5
+R6
+DEx4 work 15 assertions_test 0 22 IjBE7e5i:H6bJQdGg5Q3m2
+!i122 5
+l25
+L8 146
+VgDHZ94_1<QHCJMnEQUiA21
+!s100 egLckX2[3F?m7Cn7o6mcU2
+R9
+33
+R1
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

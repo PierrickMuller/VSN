@@ -1,0 +1,688 @@
+<?xml version="1.0" ?>
+<drill>
+  <sample type="vrm" version="3.0" timestamp="2021-06-14 17:10:25">
+    <table name="summary">
+      <row>
+        <logfile>/home/reds/vsn21_student/labo5/code/VRMDATA/logs/210614_171025.rmev</logfile>
+        <starttime>2021-06-14 17:10:25</starttime>
+        <endtime>2021-06-14 17:12:56</endtime>
+        <rmdb>/home/reds/vsn21_student/labo5/code/default.rmdb</rmdb>
+        <vrmdata>/home/reds/vsn21_student/labo5/code/VRMDATA</vrmdata>
+        <actions>26</actions>
+        <options>-eventlog /home/reds/vsn21_student/labo5/code/VRMDATA/logs/210614_171025.rmev -mseed 0 -rmdb /home/reds/vsn21_student/labo5/code/default.rmdb -vrmdata /home/reds/vsn21_student/labo5/code/VRMDATA</options>
+        <passed>15</passed>
+        <failed>9</failed>
+        <notrun>0</notrun>
+        <coverage>67.74</coverage>
+        <tplancov>78.57</tplancov>
+      </row>
+    </table>
+    <table name="details">
+      <row>
+        <action>directed/preScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-14 17:10:25</datetime>
+        <elapsed></elapsed>
+        <event>20210614T171025 done directed/preScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-14 17:10:25</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testcase_letters/execScript</action>
+        <coverage>27.02</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-06-14 17:10:40</datetime>
+        <elapsed>9</elapsed>
+        <event>20210614T171040 done directed/testcase_letters/execScript passed/ok reds2021 directed/testcase_letters.ucdb ok 0 27.02 {} 9</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>passed/ok</status>
+        <reason></reason>
+        <seed>0</seed>
+        <simtime>15275.00</simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile>directed/testcase_letters.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:40</donetime>
+        <extstatus>ok</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:31</starttime>
+        <testname>testcase_letters</testname>
+        <teststatus>ok</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testcase_numbers/execScript</action>
+        <coverage>26.54</coverage>
+        <cputime>0.01</cputime>
+        <datetime>2021-06-14 17:10:40</datetime>
+        <elapsed>10</elapsed>
+        <event>20210614T171040 done directed/testcase_numbers/execScript passed/ok reds2021 directed/testcase_numbers.ucdb ok 0 26.54 {} 10</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>passed/ok</status>
+        <reason></reason>
+        <seed>0</seed>
+        <simtime>9175.00</simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile>directed/testcase_numbers.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:40</donetime>
+        <extstatus>ok</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:30</starttime>
+        <testname>testcase_numbers</testname>
+        <teststatus>ok</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_numbers/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testcase_valid_ascii/execScript</action>
+        <coverage>55.74</coverage>
+        <cputime>37.49</cputime>
+        <datetime>2021-06-14 17:12:07</datetime>
+        <elapsed>97</elapsed>
+        <event>20210614T171207 done directed/testcase_valid_ascii/execScript passed/warning reds2021 directed/testcase_valid_ascii.ucdb warning 0 55.74 {} 97</event>
+        <hostname>reds2021</hostname>
+        <queued>5</queued>
+        <status>passed/warning</status>
+        <reason>** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+   Time: 0 ns  Iteration: 0  Region: /morse_char_receiver_tb_sv_unit::Environment::run
+</reason>
+        <seed>0</seed>
+        <simtime>103039045.00</simtime>
+        <tplancov></tplancov>
+        <tstime>0.00</tstime>
+        <ucdbfile>directed/testcase_valid_ascii.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:07</donetime>
+        <extstatus>warning</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:30</starttime>
+        <testname>testcase_valid_ascii</testname>
+        <teststatus>warning</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_valid_ascii/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testcase_valid_dot_period/execScript</action>
+        <coverage>53.34</coverage>
+        <cputime>9.28</cputime>
+        <datetime>2021-06-14 17:11:04</datetime>
+        <elapsed>33</elapsed>
+        <event>20210614T171104 done directed/testcase_valid_dot_period/execScript passed/warning reds2021 directed/testcase_valid_dot_period.ucdb warning 0 53.34 {} 33</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>passed/warning</status>
+        <reason>** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+   Time: 0 ns  Iteration: 0  Region: /morse_char_receiver_tb_sv_unit::Environment::run
+</reason>
+        <seed>0</seed>
+        <simtime>34978055.00</simtime>
+        <tplancov></tplancov>
+        <tstime>0.00</tstime>
+        <ucdbfile>directed/testcase_valid_dot_period.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:11:04</donetime>
+        <extstatus>warning</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:31</starttime>
+        <testname>testcase_valid_dot_period</testname>
+        <teststatus>warning</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_numbers/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testcase_wrong_char_only/execScript</action>
+        <coverage>22.09</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-06-14 17:10:42</datetime>
+        <elapsed>11</elapsed>
+        <event>20210614T171042 done directed/testcase_wrong_char_only/execScript passed/ok reds2021 directed/testcase_wrong_char_only.ucdb ok 0 22.09 {} 11</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>passed/ok</status>
+        <reason></reason>
+        <seed>0</seed>
+        <simtime>4535.00</simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile>directed/testcase_wrong_char_only.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:42</donetime>
+        <extstatus>ok</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:31</starttime>
+        <testname>testcase_wrong_char_only</testname>
+        <teststatus>ok</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_numbers/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0/execScript</action>
+        <coverage>65.84</coverage>
+        <cputime>40.99</cputime>
+        <datetime>2021-06-14 17:12:17</datetime>
+        <elapsed>106</elapsed>
+        <event>20210614T171217 done directed/testerrno0/execScript passed/warning reds2021 directed/testerrno0.ucdb warning 0 65.84 {} 106</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>passed/warning</status>
+        <reason>** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+   Time: 13945 ns  Iteration: 3  Region: /morse_char_receiver_tb_sv_unit::Environment::run
+</reason>
+        <seed>0</seed>
+        <simtime>113986925.00</simtime>
+        <tplancov></tplancov>
+        <tstime>13945.00</tstime>
+        <ucdbfile>directed/testerrno0.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:17</donetime>
+        <extstatus>warning</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:31</starttime>
+        <testname>testerrno0</testname>
+        <teststatus>warning</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_valid_ascii/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0_2/execScript</action>
+        <coverage>65.84</coverage>
+        <cputime>40.76</cputime>
+        <datetime>2021-06-14 17:12:18</datetime>
+        <elapsed>107</elapsed>
+        <event>20210614T171218 done directed/testerrno0_2/execScript passed/warning reds2021 directed/testerrno0_2.ucdb warning 0 65.84 {} 107</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>passed/warning</status>
+        <reason>** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+   Time: 13915 ns  Iteration: 3  Region: /morse_char_receiver_tb_sv_unit::Environment::run
+</reason>
+        <seed>0</seed>
+        <simtime>114760805.00</simtime>
+        <tplancov></tplancov>
+        <tstime>13915.00</tstime>
+        <ucdbfile>directed/testerrno0_2.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:18</donetime>
+        <extstatus>warning</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:31</starttime>
+        <testname>testerrno0_2</testname>
+        <teststatus>warning</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_valid_ascii/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno0_3/execScript</action>
+        <coverage>65.84</coverage>
+        <cputime>40.86</cputime>
+        <datetime>2021-06-14 17:12:18</datetime>
+        <elapsed>107</elapsed>
+        <event>20210614T171218 done directed/testerrno0_3/execScript passed/warning reds2021 directed/testerrno0_3.ucdb warning 0 65.84 {} 107</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>passed/warning</status>
+        <reason>** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+   Time: 13945 ns  Iteration: 3  Region: /morse_char_receiver_tb_sv_unit::Environment::run
+</reason>
+        <seed>0</seed>
+        <simtime>115147745.00</simtime>
+        <tplancov></tplancov>
+        <tstime>13945.00</tstime>
+        <ucdbfile>directed/testerrno0_3.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:18</donetime>
+        <extstatus>warning</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:31</starttime>
+        <testname>testerrno0_3</testname>
+        <teststatus>warning</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_valid_ascii/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno1/execScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-14 17:10:39</datetime>
+        <elapsed>7</elapsed>
+        <event>20210614T171039 done directed/testerrno1/execScript failed/script reds2021 directed/testerrno1.ucdb {} {} {} {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>7</queued>
+        <status>failed/script</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile>directed/testerrno1.ucdb</ucdbfile>
+        <username></username>
+        <donetime>2021-06-14 17:10:39</donetime>
+        <extstatus>script</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:32</starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno2/execScript</action>
+        <coverage>65.84</coverage>
+        <cputime>40.84</cputime>
+        <datetime>2021-06-14 17:12:18</datetime>
+        <elapsed>106</elapsed>
+        <event>20210614T171218 done directed/testerrno2/execScript passed/warning reds2021 directed/testerrno2.ucdb warning 0 65.84 {} 106</event>
+        <hostname>reds2021</hostname>
+        <queued>7</queued>
+        <status>passed/warning</status>
+        <reason>** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+   Time: 13945 ns  Iteration: 3  Region: /morse_char_receiver_tb_sv_unit::Environment::run
+</reason>
+        <seed>0</seed>
+        <simtime>113986925.00</simtime>
+        <tplancov></tplancov>
+        <tstime>13945.00</tstime>
+        <ucdbfile>directed/testerrno2.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:18</donetime>
+        <extstatus>warning</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:32</starttime>
+        <testname>testerrno2</testname>
+        <teststatus>warning</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testcase_valid_ascii/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno3/execScript</action>
+        <coverage>21.52</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-06-14 17:10:42</datetime>
+        <elapsed>10</elapsed>
+        <event>20210614T171042 done directed/testerrno3/execScript failed/error reds2021 directed/testerrno3.ucdb error 0 21.52 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>7</queued>
+        <status>failed/error</status>
+        <reason>There are          10 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>7075.00</simtime>
+        <tplancov></tplancov>
+        <tstime>7075.00</tstime>
+        <ucdbfile>directed/testerrno3.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:42</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:32</starttime>
+        <testname>testerrno3</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno4/execScript</action>
+        <coverage>21.52</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-06-14 17:10:43</datetime>
+        <elapsed>10</elapsed>
+        <event>20210614T171043 done directed/testerrno4/execScript failed/error reds2021 directed/testerrno4.ucdb error 0 21.52 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>8</queued>
+        <status>failed/error</status>
+        <reason>There are          10 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>7075.00</simtime>
+        <tplancov></tplancov>
+        <tstime>7075.00</tstime>
+        <ucdbfile>directed/testerrno4.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:43</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:33</starttime>
+        <testname>testerrno4</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno5/execScript</action>
+        <coverage>69.05</coverage>
+        <cputime>40.85</cputime>
+        <datetime>2021-06-14 17:12:18</datetime>
+        <elapsed>105</elapsed>
+        <event>20210614T171218 done directed/testerrno5/execScript failed/error reds2021 directed/testerrno5.ucdb error 0 69.05 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>8</queued>
+        <status>failed/error</status>
+        <reason>Results are not the same or input was fake and was not detected</reason>
+        <seed>0</seed>
+        <simtime>113986925.00</simtime>
+        <tplancov></tplancov>
+        <tstime>2245.00</tstime>
+        <ucdbfile>directed/testerrno5.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:18</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:25</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:33</starttime>
+        <testname>testerrno5</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno6/execScript</action>
+        <coverage>69.05</coverage>
+        <cputime>41.56</cputime>
+        <datetime>2021-06-14 17:12:19</datetime>
+        <elapsed>106</elapsed>
+        <event>20210614T171219 done directed/testerrno6/execScript failed/error reds2021 directed/testerrno6.ucdb error 0 69.05 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>7</queued>
+        <status>failed/error</status>
+        <reason>Results are not the same or input was fake and was not detected</reason>
+        <seed>0</seed>
+        <simtime>113986925.00</simtime>
+        <tplancov></tplancov>
+        <tstime>445.00</tstime>
+        <ucdbfile>directed/testerrno6.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:19</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:26</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:33</starttime>
+        <testname>testerrno6</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno7/execScript</action>
+        <coverage>23.79</coverage>
+        <cputime>0.00</cputime>
+        <datetime>2021-06-14 17:10:43</datetime>
+        <elapsed>11</elapsed>
+        <event>20210614T171043 done directed/testerrno7/execScript failed/error reds2021 directed/testerrno7.ucdb error 0 23.79 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>failed/error</status>
+        <reason>There are          10 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>7075.00</simtime>
+        <tplancov></tplancov>
+        <tstime>7075.00</tstime>
+        <ucdbfile>directed/testerrno7.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:43</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:26</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:32</starttime>
+        <testname>testerrno7</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno8/execScript</action>
+        <coverage>58.45</coverage>
+        <cputime>37.67</cputime>
+        <datetime>2021-06-14 17:12:14</datetime>
+        <elapsed>102</elapsed>
+        <event>20210614T171214 done directed/testerrno8/execScript failed/error reds2021 directed/testerrno8.ucdb error 0 58.45 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>6</queued>
+        <status>failed/error</status>
+        <reason>There are          10 input transactions that didn't end up with an output</reason>
+        <seed>0</seed>
+        <simtime>102819345.00</simtime>
+        <tplancov></tplancov>
+        <tstime>102819345.00</tstime>
+        <ucdbfile>directed/testerrno8.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:14</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:26</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:32</starttime>
+        <testname>testerrno8</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno9/execScript</action>
+        <coverage>39.12</coverage>
+        <cputime>1.01</cputime>
+        <datetime>2021-06-14 17:10:46</datetime>
+        <elapsed>12</elapsed>
+        <event>20210614T171046 done directed/testerrno9/execScript failed/error reds2021 directed/testerrno9.ucdb error 0 39.12 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>8</queued>
+        <status>failed/error</status>
+        <reason>Results are not the same or input was fake and was not detected</reason>
+        <seed>0</seed>
+        <simtime>3104995.00</simtime>
+        <tplancov></tplancov>
+        <tstime>263875.00</tstime>
+        <ucdbfile>directed/testerrno9.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:46</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:26</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:34</starttime>
+        <testname>testerrno9</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno10/execScript</action>
+        <coverage>39.12</coverage>
+        <cputime>0.83</cputime>
+        <datetime>2021-06-14 17:10:46</datetime>
+        <elapsed>13</elapsed>
+        <event>20210614T171046 done directed/testerrno10/execScript failed/error reds2021 directed/testerrno10.ucdb error 0 39.12 {} {}</event>
+        <hostname>reds2021</hostname>
+        <queued>7</queued>
+        <status>failed/error</status>
+        <reason>Results are not the same or input was fake and was not detected</reason>
+        <seed>0</seed>
+        <simtime>2495345.00</simtime>
+        <tplancov></tplancov>
+        <tstime>184335.00</tstime>
+        <ucdbfile>directed/testerrno10.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:10:46</donetime>
+        <extstatus>error</extstatus>
+        <launchtime>2021-06-14 17:10:26</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>failed</runstatus>
+        <starttime>2021-06-14 17:10:33</starttime>
+        <testname>testerrno10</testname>
+        <teststatus>error</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+      <row>
+        <action>directed/testerrno11/execScript</action>
+        <coverage>65.84</coverage>
+        <cputime>40.83</cputime>
+        <datetime>2021-06-14 17:12:18</datetime>
+        <elapsed>105</elapsed>
+        <event>20210614T171218 done directed/testerrno11/execScript passed/warning reds2021 directed/testerrno11.ucdb warning 0 65.84 {} 105</event>
+        <hostname>reds2021</hostname>
+        <queued>7</queued>
+        <status>passed/warning</status>
+        <reason>** Warning: (vsim-8519) Covergroup 'get_coverage()' builtin was called improperly. (builtin called with no instances of the covergroup type.)
+   Time: 13945 ns  Iteration: 3  Region: /morse_char_receiver_tb_sv_unit::Environment::run
+</reason>
+        <seed>0</seed>
+        <simtime>113986925.00</simtime>
+        <tplancov></tplancov>
+        <tstime>13945.00</tstime>
+        <ucdbfile>directed/testerrno11.ucdb</ucdbfile>
+        <username>reds</username>
+        <donetime>2021-06-14 17:12:18</donetime>
+        <extstatus>warning</extstatus>
+        <launchtime>2021-06-14 17:10:26</launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Task Runnable</properties>
+        <runid></runid>
+        <runstatus>passed</runstatus>
+        <starttime>2021-06-14 17:10:33</starttime>
+        <testname>testerrno11</testname>
+        <teststatus>warning</teststatus>
+        <timeunit>ns</timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy>directed/testerrno11/mergeScript</ucdbproxy>
+      </row>
+      <row>
+        <action>directed/postScript</action>
+        <coverage></coverage>
+        <cputime></cputime>
+        <datetime>2021-06-14 17:12:51</datetime>
+        <elapsed></elapsed>
+        <event>20210614T171251 done directed/postScript empty</event>
+        <hostname></hostname>
+        <queued></queued>
+        <status>empty</status>
+        <reason></reason>
+        <seed></seed>
+        <simtime></simtime>
+        <tplancov></tplancov>
+        <tstime></tstime>
+        <ucdbfile></ucdbfile>
+        <username></username>
+        <donetime>2021-06-14 17:12:51</donetime>
+        <extstatus></extstatus>
+        <launchtime></launchtime>
+        <mergefile>/home/reds/vsn21_student/labo5/code/VRMDATA/merge.ucdb</mergefile>
+        <properties>Non-sequential Group Runnable</properties>
+        <runid></runid>
+        <runstatus>empty</runstatus>
+        <starttime></starttime>
+        <testname></testname>
+        <teststatus></teststatus>
+        <timeunit></timeunit>
+        <triagefile></triagefile>
+        <ucdbproxy></ucdbproxy>
+      </row>
+    </table>
+  </sample>
+</drill>

@@ -11,10 +11,14 @@
       <parameter name="tplanoptions">-format Excel</parameter>
     </parameters>
     <members>
+      <member>testcase_letters</member>
+      <member>testcase_numbers</member>
+      <member>testcase_valid_ascii</member>
+      <member>testcase_valid_dot_period</member>
+      <member>testcase_wrong_char_only</member>
       <member>testerrno0</member>
       <member>testerrno0_2</member>
       <member>testerrno0_3</member>
-      <member>testerrno2</member>
       <member>testerrno1</member>
       <member>testerrno2</member>
       <member>testerrno3</member>
@@ -53,6 +57,48 @@
       <command>coverage attribute -name TESTNAME -value (%INSTANCE%)</command>
       <command>coverage save (%ucdbfile%)</command>
     </execScript>
+  </runnable>
+
+  <member>testcase_letters</member>
+      <member>testcase_numbers</member>
+      <member>testcase_valid_ascii</member>
+      <member>testcase_valid_dot_period</member>
+      <member>testcase_wrong_char_only</member>
+
+  <runnable name="testcase_letters" type="task">
+    <parameters>
+      <parameter name="TESTCASE">1</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testcase_numbers" type="task">
+    <parameters>
+      <parameter name="TESTCASE">2</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testcase_valid_ascii" type="task">
+    <parameters>
+      <parameter name="TESTCASE">3</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testcase_valid_dot_period" type="task">
+    <parameters>
+      <parameter name="TESTCASE">5</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
+  </runnable>
+  <runnable name="testcase_wrong_char_only" type="task">
+    <parameters>
+      <parameter name="TESTCASE">4</parameter>
+      <parameter name="LOG_RELATIVE_MARGIN">0</parameter>
+      <parameter name="ERRNO">0</parameter>
+    </parameters>
   </runnable>
   <runnable name="testerrno0" type="task">
     <parameters>

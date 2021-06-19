@@ -1,0 +1,71 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/reds/vsn21_student/ex_drills/code/sv_constraints/comp
+T_opt
+!s110 1624134901
+V1i;0UOHR]0Tla9?fja@>13
+04 16 4 work constraints_test fast 0
+=1-000ae431a4f1-60ce54f4-e9f5b-12ac
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.1_1;71
+vconstraints_test
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+DXx4 work 24 constraints_test_sv_unit 0 22 WQ<U6]_5nMGY25]9PaQZT0
+Z3 !s110 1624134900
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 X1lhg_N_6MfT5dYS5`IRf2
+IYTck``G7F[oJkM@jP:ADo0
+!s105 constraints_test_sv_unit
+S1
+R0
+Z4 w1624134898
+Z5 8../src_sv/constraints_test.sv
+Z6 F../src_sv/constraints_test.sv
+!i122 5
+L0 27 9
+Z7 OL;L;2020.1_1;71
+31
+Z8 !s108 1624134900.000000
+Z9 !s107 ../src_sv/constraints_test.sv|
+Z10 !s90 -sv|../src_sv/constraints_test.sv|
+!i113 0
+Z11 o-sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+R1
+Xconstraints_test_sv_unit
+R2
+R3
+VWQ<U6]_5nMGY25]9PaQZT0
+r1
+!s85 0
+!i10b 1
+!s100 3Of;H7cZme@9V>]m7R<nd3
+IWQ<U6]_5nMGY25]9PaQZT0
+!i103 1
+S1
+R0
+R4
+R5
+R6
+!i122 5
+L0 1 0
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

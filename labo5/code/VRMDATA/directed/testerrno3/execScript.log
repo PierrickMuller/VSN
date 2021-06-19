@@ -8,7 +8,7 @@
 # vlib morse
 # vcom -mixedsvvh -2008 -work morse $Path_DUV/morse_pkg.vhd
 # QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 23:37:53 on Jun 10,2021
+# Start time: 17:10:32 on Jun 14,2021
 # vcom -mixedsvvh -2008 -work morse /home/reds/vsn21_student/labo5/code/src/morse_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -17,12 +17,12 @@
 # -- Compiling package morse_pkg
 # -- Compiling package body morse_pkg
 # -- Loading package morse_pkg
-# End time: 23:37:53 on Jun 10,2021, Elapsed time: 0:00:00
+# End time: 17:10:33 on Jun 14,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlib work
 # vcom -mixedsvvh -2008 $Path_DUV/morse_pkg.vhd
 # QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 23:37:54 on Jun 10,2021
+# Start time: 17:10:33 on Jun 14,2021
 # vcom -mixedsvvh -2008 /home/reds/vsn21_student/labo5/code/src/morse_pkg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -31,18 +31,18 @@
 # -- Compiling package morse_pkg
 # -- Compiling package body morse_pkg
 # -- Loading package morse_pkg
-# End time: 23:37:54 on Jun 10,2021, Elapsed time: 0:00:00
+# End time: 17:10:34 on Jun 14,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom +cover -mixedsvvh -2008 $Path_DUV/morse_char_receiver.vhdp
 # QuestaSim-64 vcom 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 23:37:54 on Jun 10,2021
+# Start time: 17:10:34 on Jun 14,2021
 # vcom "+cover" -mixedsvvh -2008 /home/reds/vsn21_student/labo5/code/src/morse_char_receiver.vhdp 
 # -- Loading package STANDARD
-# End time: 23:37:54 on Jun 10,2021, Elapsed time: 0:00:00
+# End time: 17:10:34 on Jun 14,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog +cover -mixedsvvh -sv $Path_TB/morse_char_receiver_tb.sv
 # QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
-# Start time: 23:37:54 on Jun 10,2021
+# Start time: 17:10:34 on Jun 14,2021
 # vlog "+cover" -mixedsvvh -sv /home/reds/vsn21_student/labo5/code/src_tb/morse_char_receiver_tb.sv 
 # -- Compiling package morse_sv_pkg
 # -- Importing package morse_pkg__mti__sv__equiv__implct__pack
@@ -55,11 +55,11 @@
 # 
 # Top level modules:
 # 	morse_char_receiver_tb
-# End time: 23:37:55 on Jun 10,2021, Elapsed time: 0:00:01
+# End time: 17:10:35 on Jun 14,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim -coverage -t 1ns -GLOG_RELATIVE_MARGIN=0 -GTESTCASE=0 -GERRNO=3 work.morse_char_receiver_tb
 # vsim -coverage -t 1ns work.morse_char_receiver_tb -GTESTCASE=0 -GERRNO=3 -GLOG_RELATIVE_MARGIN=0 
-# Start time: 23:37:55 on Jun 10,2021
+# Start time: 17:10:35 on Jun 14,2021
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim-64
 # //  Version 2020.1_1 linux_x86_64 Mar  4 2020
@@ -112,119 +112,7 @@
 # set NumericStdNoWarnings 0
 # 0
 # run -all
-# -----------------------------------------------  65 -->           5 --> valid = 1
-# Value 0
-# It's a 0
 # Sequencer: I sent a letter : K!!!!
-# Value 1
-# It's a 1
-# Value x
-# It's a X
-# -----------------------------------------------  66 -->           5 --> valid = 1
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  67 -->           5 --> valid = 1
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  68 -->           5 --> valid = 1
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  69 -->           5 --> valid = 1
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  70 -->           5 --> valid = 1
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  71 -->           5 --> valid = 1
-# Value 1
-# It's a 1
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  72 -->           5 --> valid = 1
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  73 -->           5 --> valid = 1
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value x
-# It's a X
-# -----------------------------------------------  74 -->           5 --> valid = 1
-# Value 0
-# It's a 0
-# Value 1
-# It's a 1
-# Value 1
-# It's a 1
-# Value 1
-# It's a 1
-# Value x
-# It's a X
-# -----------------------------------------------  75 -->           5 --> valid = 1
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value 1
-# It's a 1
-# Value x
-# It's a X
-# -----------------------------------------------  76 -->           5 --> valid = 1
-# Value 0
-# It's a 0
-# Value 1
-# It's a 1
-# Value 0
-# It's a 0
-# Value 0
-# It's a 0
-# Value x
-# It's a X
 # Driver : end
 # ** Error: There are          10 input transactions that didn't end up with an output
 #    Time: 7075 ns  Scope: morse_char_receiver_tb_sv_unit.Environment.run File: /home/reds/vsn21_student/labo5/code/src_tb/environment.sv Line: 127

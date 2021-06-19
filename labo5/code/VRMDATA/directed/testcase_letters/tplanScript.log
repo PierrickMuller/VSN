@@ -1,0 +1,5 @@
+# xml2ucdb -ucdbfilename /home/reds/vsn21_student/labo5/code/VRMDATA/merge_morse_receiver.ucdb -format Excel /home/reds/vsn21_student/labo5/code/morse_receiver.xml
+# Format 'Excel' read from parameter file.
+# 22 testplan section(s) added.
+# Database '/home/reds/vsn21_student/labo5/code/VRMDATA/merge_morse_receiver.ucdb' written.
+# quit -f

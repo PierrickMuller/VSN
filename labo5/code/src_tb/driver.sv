@@ -53,14 +53,17 @@ class Driver;
     // This task drives a Morse character
     task drive_trans(MorseTransaction trans);
 
-        // TODO : Modify the driver. Here we only send the "A" character
-        //int dot_period = trans.dot_period;
-        int dot_period = trans.dot_period;
+
+        int dot_period = 0;
+
+        dot_period = trans.dot_period;
         vif.dot_period_i <= dot_period;
-        $display("----------------------------------------------- %d --> %d --> valid = %d",trans.ascii,trans.dot_period,trans.valid);
+        
         // If it's a letter
         if(trans.morse.value !== 5'bZZZZZ) begin
             
+            //If it's the note the first char and that the precedent char 
+            // was not a space, we set the input to 0 for 3 dot_period (between words)
             if(!first_char && old_trans.morse.value !== 5'bzzzzz) begin 
                 vif.morse_i <= 1'b0;
                 for (int d = 0; d < 3 * dot_period; d++) begin
@@ -68,13 +71,12 @@ class Driver;
                 end
             end
             
-            
+            //We iterate over all bit of the value of the transaction
+            //and we wait for the correct ammount of time (dot or dash)
             foreach(trans.morse.value[i]) begin
-            $display("Value %b",trans.morse.value[i]);
                 case (trans.morse.value[i])
                 0:
                 begin
-                    $display("It's a 0");
                     vif.morse_i <= 1'b1;
                     for (int d = 0; d < 1 * dot_period; d++) begin
                         @(posedge vif.clk_i);
@@ -82,7 +84,6 @@ class Driver;
                 end
                 1:
                 begin
-                    $display("It's a 1");
                     vif.morse_i <= 1'b1;
                     for (int d = 0; d < 3 * dot_period; d++) begin
                         @(posedge vif.clk_i);
@@ -90,17 +91,17 @@ class Driver;
                 end
                 1'bZ:
                 begin
-                    $display("It's a Z : ERROR");
+                    $error("A wrong bit value was detected : Z");
                 end 
                 1'bX:
                 begin 
-                    $display("It's a X");
                     break;
                 end 
-                default: $display("Something else");
+                default: $error("A wrong bit value was detected : ???");
                 endcase
 
-                
+                // If it's not the last bit of the transaction, we wait 
+                // for one dot_period (between dot/dash)
                 if ( i < (trans.morse.size - 1)) begin 
                     vif.morse_i <= 1'b0;
                     for (int d = 0; d < 1 * dot_period; d++) begin
@@ -109,21 +110,20 @@ class Driver;
                 end
 
             end
-            /*vif.morse_i <= 1'b0;
-            for (int d = 0; d < 2 * dot_period; d++) begin
-                @(posedge vif.clk_i);
-            end*/
         // If it's a space OR a cariage return 
         end else begin 
+            //Set the serial line to 0 for dot_period time
             vif.morse_i <= 1'b0;
             for (int d = 0; d < 7 * trans.dot_period; d++) begin
                     @(posedge vif.clk_i);
             end
+            // If it's a CR, we wait for some more time
             if(trans.ascii == 13) begin 
-                for(int d = 0; d < )
-                @(posedge vif.clk_i);
-                @(posedge vif.clk_i);
-                @(posedge vif.clk_i);
+                for(int d = 0; d <= trans.log_relative_margin * trans.dot_period;d++) begin
+                    @(posedge vif.clk_i);
+                    @(posedge vif.clk_i);
+                    @(posedge vif.clk_i);
+                end
             end 
         end
         old_trans = trans;

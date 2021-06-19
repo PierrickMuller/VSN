@@ -51,6 +51,7 @@ class Monitor;
 
         while (1) begin
             @(posedge vif.clk_i);
+            trans.dot_period_error = vif.dot_period_error_o;
             if (vif.char_valid_o == 1'b1) begin
                 // Retrieve an ASCII code and transmits that to the scoreboard
                 trans.ascii = vif.char_o;
@@ -64,6 +65,8 @@ class Monitor;
                 $display("Monitor : Got a transaction");
                 monitor_to_scoreboard_fifo.put(trans);
             end
+            
+
 
         end
 

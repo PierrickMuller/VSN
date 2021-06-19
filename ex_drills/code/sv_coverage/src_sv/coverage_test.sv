@@ -21,7 +21,7 @@ module coverage_test;
         begin
             counter ++;
             void'(obj.randomize());
-            // obj.cov_group_type.sample();
+            obj.cov_group_type.sample();
         end
         $display("End of test 1 after %d iterations",counter);
 
